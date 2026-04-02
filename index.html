@@ -59,9 +59,10 @@
         }
 
         .nav-brand img {
-            width: 28px;
-            height: 28px;
-            border-radius: 6px;
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: block;
         }
 
         .nav-brand span { color: var(--accent); }
@@ -102,13 +103,34 @@
         }
 
         .hero-avatar {
-            width: 80px;
-            height: 80px;
-            border-radius: 20px;
-            margin-bottom: 24px;
+            width: 100px;
+            height: 100px;
+            border-radius: 24px;
+            margin-bottom: 28px;
             position: relative;
             border: 2px solid var(--border);
-            filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.4));
+            filter: drop-shadow(0 6px 24px rgba(0, 0, 0, 0.5));
+        }
+
+        /* Language Picker */
+        .lang-picker {
+            position: fixed;
+            top: 16px;
+            right: 16px;
+            z-index: 200;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 6px 12px;
+            color: var(--text);
+            font-size: 13px;
+            cursor: pointer;
+            -webkit-appearance: none;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%237c7c84' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            padding-right: 28px;
         }
 
         .hero-badge {
@@ -459,41 +481,55 @@
 </head>
 <body>
 
+    <!-- Language Picker -->
+    <select class="lang-picker" id="langPicker" onchange="setLanguage(this.value)">
+        <option value="en">🇬🇧 English</option>
+        <option value="es">🇪🇸 Español</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="de">🇩🇪 Deutsch</option>
+        <option value="pt">🇧🇷 Português</option>
+        <option value="it">🇮🇹 Italiano</option>
+        <option value="ja">🇯🇵 日本語</option>
+        <option value="zh">🇨🇳 中文</option>
+        <option value="ko">🇰🇷 한국어</option>
+        <option value="ru">🇷🇺 Русский</option>
+    </select>
+
     <!-- Nav -->
     <nav>
         <a href="/" class="nav-brand"><img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="CorvusDevs">Corvus<span>Devs</span></a>
         <ul class="nav-links">
-            <li><a href="#products">Products</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="mailto:corvusdevs@outlook.com">Contact</a></li>
+            <li><a href="#products" data-i18n="nav_products">Products</a></li>
+            <li><a href="#about" data-i18n="nav_about">About</a></li>
+            <li><a href="mailto:corvusdevs@outlook.com" data-i18n="nav_contact">Contact</a></li>
         </ul>
     </nav>
 
     <!-- Hero -->
     <section class="hero">
         <img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="CorvusDevs" class="hero-avatar">
-        <div class="hero-badge">Indie macOS Software</div>
-        <h1>Software that<br>respects your Mac.</h1>
-        <p class="subtitle">We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.</p>
+        <div class="hero-badge" data-i18n="badge">Indie macOS Software</div>
+        <h1 data-i18n-html="hero_title">Software that<br>respects your Mac.</h1>
+        <p class="subtitle" data-i18n="hero_sub">We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.</p>
         <a href="#products" class="hero-cta">
-            See our products
+            <span data-i18n="hero_cta">See our products</span>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
         </a>
     </section>
 
     <!-- Products -->
     <section class="products" id="products">
-        <div class="section-label">Products</div>
-        <h2 class="section-title">Built for macOS</h2>
+        <div class="section-label" data-i18n="sec_products">Products</div>
+        <h2 class="section-title" data-i18n="sec_products_title">Built for macOS</h2>
 
         <a href="https://corvusdevs.github.io/Ekual/" class="product-card">
             <img src="https://corvusdevs.github.io/Ekual/icon.png" alt="Ekual" class="product-icon">
             <div class="product-info">
-                <div class="product-tag">Available now</div>
+                <div class="product-tag" data-i18n="product_tag">Available now</div>
                 <h3>Ekual</h3>
-                <p>Automatic loudness equalization for macOS. Balances volume across all your apps in real time — the feature Apple forgot to include.</p>
+                <p data-i18n="product_desc">Automatic loudness equalization for macOS. Balances volume across all your apps in real time — the feature Apple forgot to include.</p>
                 <span class="product-link">
-                    Learn more
+                    <span data-i18n="product_link">Learn more</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </div>
@@ -502,39 +538,39 @@
 
     <!-- Values -->
     <section class="values" id="about">
-        <div class="section-label">Our principles</div>
-        <h2 class="section-title">How we build software</h2>
+        <div class="section-label" data-i18n="sec_values">Our principles</div>
+        <h2 class="section-title" data-i18n="sec_values_title">How we build software</h2>
 
         <div class="values-grid">
             <div class="value-card">
                 <div class="value-icon">🔒</div>
-                <h3>Privacy by default</h3>
-                <p>No analytics, no tracking, no accounts. Your data stays on your device. We don't want it and we don't collect it.</p>
+                <h3 data-i18n="v1_t">Privacy by default</h3>
+                <p data-i18n="v1_d">No analytics, no tracking, no accounts. Your data stays on your device. We don't want it and we don't collect it.</p>
             </div>
             <div class="value-card">
                 <div class="value-icon">🍎</div>
-                <h3>Native to macOS</h3>
-                <p>Built with Swift and SwiftUI, optimized for Apple Silicon. Our apps feel like they belong on your Mac because they do.</p>
+                <h3 data-i18n="v2_t">Native to macOS</h3>
+                <p data-i18n="v2_d">Built with Swift and SwiftUI, optimized for Apple Silicon. Our apps feel like they belong on your Mac because they do.</p>
             </div>
             <div class="value-card">
                 <div class="value-icon">🧩</div>
-                <h3>Lightweight by design</h3>
-                <p>Small downloads, no bloated frameworks, no background daemons. Our apps install in seconds and leave no trace when removed.</p>
+                <h3 data-i18n="v3_t">Lightweight by design</h3>
+                <p data-i18n="v3_d">Small downloads, no bloated frameworks, no background daemons. Our apps install in seconds and leave no trace when removed.</p>
             </div>
             <div class="value-card">
                 <div class="value-icon">⚡</div>
-                <h3>Performance first</h3>
-                <p>Every app is engineered for minimal resource usage. We obsess over CPU cycles and memory so your Mac stays fast.</p>
+                <h3 data-i18n="v4_t">Performance first</h3>
+                <p data-i18n="v4_d">Every app is engineered for minimal resource usage. We obsess over CPU cycles and memory so your Mac stays fast.</p>
             </div>
             <div class="value-card">
                 <div class="value-icon">🎯</div>
-                <h3>Focused tools</h3>
-                <p>Each app does one thing exceptionally well. No feature creep, no unnecessary complexity. Just the right tool for the job.</p>
+                <h3 data-i18n="v5_t">Focused tools</h3>
+                <p data-i18n="v5_d">Each app does one thing exceptionally well. No feature creep, no unnecessary complexity. Just the right tool for the job.</p>
             </div>
             <div class="value-card">
                 <div class="value-icon">🤝</div>
-                <h3>Human support</h3>
-                <p>Real responses from real people. Have a question or found a bug? Email us directly and we'll get back to you.</p>
+                <h3 data-i18n="v6_t">Human support</h3>
+                <p data-i18n="v6_d">Real responses from real people. Have a question or found a bug? Email us directly and we'll get back to you.</p>
             </div>
         </div>
     </section>
@@ -542,9 +578,9 @@
     <!-- Coming Soon -->
     <section class="coming-soon">
         <div class="coming-soon-card">
-            <h3>More apps coming soon</h3>
-            <p>We're working on new tools for macOS. Drop us a line if you want to be the first to know.</p>
-            <a href="mailto:corvusdevs@outlook.com?subject=Notify me about new apps" class="notify-link">Get notified</a>
+            <h3 data-i18n="soon_t">More apps coming soon</h3>
+            <p data-i18n="soon_d">We're working on new tools for macOS. Drop us a line if you want to be the first to know.</p>
+            <a href="mailto:corvusdevs@outlook.com?subject=Notify me about new apps" class="notify-link" data-i18n="soon_btn">Get notified</a>
         </div>
     </section>
 
@@ -556,12 +592,12 @@
                 <p>Indie macOS software studio.<br>Building focused, privacy-first tools.</p>
             </div>
             <div class="footer-col">
-                <h4>Legal</h4>
-                <a href="privacy">Privacy Policy</a>
-                <a href="terms">Terms of Service</a>
+                <h4 data-i18n="f_legal">Legal</h4>
+                <a href="privacy" data-i18n="f_privacy">Privacy Policy</a>
+                <a href="terms" data-i18n="f_terms">Terms of Service</a>
             </div>
             <div class="footer-col">
-                <h4>Connect</h4>
+                <h4 data-i18n="f_connect">Connect</h4>
                 <a href="mailto:corvusdevs@outlook.com">corvusdevs@outlook.com</a>
                 <a href="https://github.com/CorvusDevs">GitHub</a>
             </div>
@@ -576,5 +612,171 @@
         </div>
     </footer>
 
+    <script>
+    const T = {
+        en: {
+            nav_products:"Products", nav_about:"About", nav_contact:"Contact",
+            badge:"Indie macOS Software", hero_title:"Software that<br>respects your Mac.", hero_sub:"We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.", hero_cta:"See our products",
+            sec_products:"Products", sec_products_title:"Built for macOS", product_tag:"Available now", product_desc:"Automatic loudness equalization for macOS. Balances volume across all your apps in real time — the feature Apple forgot to include.", product_link:"Learn more",
+            sec_values:"Our principles", sec_values_title:"How we build software",
+            v1_t:"Privacy by default", v1_d:"No analytics, no tracking, no accounts. Your data stays on your device. We don't want it and we don't collect it.",
+            v2_t:"Native to macOS", v2_d:"Built with Swift and SwiftUI, optimized for Apple Silicon. Our apps feel like they belong on your Mac because they do.",
+            v3_t:"Lightweight by design", v3_d:"Small downloads, no bloated frameworks, no background daemons. Our apps install in seconds and leave no trace when removed.",
+            v4_t:"Performance first", v4_d:"Every app is engineered for minimal resource usage. We obsess over CPU cycles and memory so your Mac stays fast.",
+            v5_t:"Focused tools", v5_d:"Each app does one thing exceptionally well. No feature creep, no unnecessary complexity. Just the right tool for the job.",
+            v6_t:"Human support", v6_d:"Real responses from real people. Have a question or found a bug? Email us directly and we'll get back to you.",
+            soon_t:"More apps coming soon", soon_d:"We're working on new tools for macOS. Drop us a line if you want to be the first to know.", soon_btn:"Get notified",
+            f_legal:"Legal", f_privacy:"Privacy Policy", f_terms:"Terms of Service", f_connect:"Connect",
+        },
+        es: {
+            nav_products:"Productos", nav_about:"Nosotros", nav_contact:"Contacto",
+            badge:"Software Indie para macOS", hero_title:"Software que<br>respeta tu Mac.", hero_sub:"Creamos herramientas enfocadas y privadas para macOS. Sin suscripciones, sin telemetría, sin bloat.", hero_cta:"Ver nuestros productos",
+            sec_products:"Productos", sec_products_title:"Hecho para macOS", product_tag:"Disponible ahora", product_desc:"Ecualización automática de volumen para macOS. Equilibra el volumen de todas tus apps en tiempo real — la función que Apple olvidó incluir.", product_link:"Saber más",
+            sec_values:"Nuestros principios", sec_values_title:"Cómo construimos software",
+            v1_t:"Privacidad por defecto", v1_d:"Sin analíticas, sin rastreo, sin cuentas. Tus datos se quedan en tu dispositivo. No los queremos y no los recopilamos.",
+            v2_t:"Nativo de macOS", v2_d:"Construido con Swift y SwiftUI, optimizado para Apple Silicon. Nuestras apps se sienten parte de tu Mac porque lo son.",
+            v3_t:"Ligero por diseño", v3_d:"Descargas pequeñas, sin frameworks pesados, sin demonios en segundo plano. Se instalan en segundos y no dejan rastro al eliminarlas.",
+            v4_t:"Rendimiento primero", v4_d:"Cada app está diseñada para un uso mínimo de recursos. Nos obsesionamos con los ciclos de CPU y la memoria para que tu Mac siga rápido.",
+            v5_t:"Herramientas enfocadas", v5_d:"Cada app hace una cosa excepcionalmente bien. Sin funciones innecesarias, sin complejidad de más. La herramienta justa para el trabajo.",
+            v6_t:"Soporte humano", v6_d:"Respuestas reales de personas reales. ¿Tienes una pregunta o encontraste un bug? Escríbenos directamente y te responderemos.",
+            soon_t:"Más apps próximamente", soon_d:"Estamos trabajando en nuevas herramientas para macOS. Escríbenos si quieres ser el primero en enterarte.", soon_btn:"Notifícame",
+            f_legal:"Legal", f_privacy:"Política de Privacidad", f_terms:"Términos de Servicio", f_connect:"Contacto",
+        },
+        fr: {
+            nav_products:"Produits", nav_about:"À propos", nav_contact:"Contact",
+            badge:"Logiciels Indie pour macOS", hero_title:"Des logiciels qui<br>respectent votre Mac.", hero_sub:"Nous créons des outils ciblés et respectueux de la vie privée pour macOS. Sans abonnement, sans télémétrie, sans superflu.", hero_cta:"Voir nos produits",
+            sec_products:"Produits", sec_products_title:"Conçu pour macOS", product_tag:"Disponible", product_desc:"Égalisation automatique du volume pour macOS. Équilibre le volume de toutes vos apps en temps réel — la fonction qu'Apple a oublié d'inclure.", product_link:"En savoir plus",
+            sec_values:"Nos principes", sec_values_title:"Comment nous construisons nos logiciels",
+            v1_t:"Confidentialité par défaut", v1_d:"Pas d'analytique, pas de suivi, pas de comptes. Vos données restent sur votre appareil. Nous ne les voulons pas et ne les collectons pas.",
+            v2_t:"Natif pour macOS", v2_d:"Construit avec Swift et SwiftUI, optimisé pour Apple Silicon. Nos apps semblent faire partie de votre Mac parce qu'elles le sont.",
+            v3_t:"Léger par conception", v3_d:"Téléchargements légers, pas de frameworks lourds, pas de processus en arrière-plan. Installation en secondes, aucune trace à la suppression.",
+            v4_t:"Performance d'abord", v4_d:"Chaque app est conçue pour une utilisation minimale des ressources. Nous optimisons chaque cycle CPU pour que votre Mac reste rapide.",
+            v5_t:"Outils ciblés", v5_d:"Chaque app fait une chose exceptionnellement bien. Pas de fonctions superflues, pas de complexité inutile. Le bon outil pour le travail.",
+            v6_t:"Support humain", v6_d:"Des réponses réelles de personnes réelles. Une question ou un bug ? Écrivez-nous directement et nous vous répondrons.",
+            soon_t:"D'autres apps bientôt", soon_d:"Nous travaillons sur de nouveaux outils pour macOS. Contactez-nous pour être informé en premier.", soon_btn:"Me notifier",
+            f_legal:"Juridique", f_privacy:"Politique de confidentialité", f_terms:"Conditions d'utilisation", f_connect:"Contact",
+        },
+        de: {
+            nav_products:"Produkte", nav_about:"Über uns", nav_contact:"Kontakt",
+            badge:"Indie macOS Software", hero_title:"Software, die<br>Ihren Mac respektiert.", hero_sub:"Wir bauen fokussierte, datenschutzfreundliche Tools für macOS. Keine Abos, keine Telemetrie, kein Bloat.", hero_cta:"Unsere Produkte",
+            sec_products:"Produkte", sec_products_title:"Für macOS gebaut", product_tag:"Jetzt verfügbar", product_desc:"Automatische Lautstärke-Angleichung für macOS. Gleicht die Lautstärke aller Apps in Echtzeit an — die Funktion, die Apple vergessen hat.", product_link:"Mehr erfahren",
+            sec_values:"Unsere Prinzipien", sec_values_title:"Wie wir Software bauen",
+            v1_t:"Datenschutz als Standard", v1_d:"Keine Analytik, kein Tracking, keine Konten. Ihre Daten bleiben auf Ihrem Gerät. Wir wollen sie nicht und sammeln sie nicht.",
+            v2_t:"Nativ für macOS", v2_d:"Gebaut mit Swift und SwiftUI, optimiert für Apple Silicon. Unsere Apps fühlen sich an, als gehörten sie zu Ihrem Mac — weil sie es tun.",
+            v3_t:"Leichtgewichtig", v3_d:"Kleine Downloads, keine aufgeblähten Frameworks, keine Hintergrund-Daemons. Installation in Sekunden, keine Spuren bei Entfernung.",
+            v4_t:"Performance zuerst", v4_d:"Jede App ist für minimalen Ressourcenverbrauch optimiert. Wir kümmern uns um CPU und Speicher, damit Ihr Mac schnell bleibt.",
+            v5_t:"Fokussierte Tools", v5_d:"Jede App macht eine Sache außergewöhnlich gut. Kein Feature-Creep, keine unnötige Komplexität. Das richtige Werkzeug für die Aufgabe.",
+            v6_t:"Menschlicher Support", v6_d:"Echte Antworten von echten Menschen. Frage oder Bug gefunden? Schreiben Sie uns direkt und wir antworten Ihnen.",
+            soon_t:"Weitere Apps bald", soon_d:"Wir arbeiten an neuen Tools für macOS. Schreiben Sie uns, um als Erster informiert zu werden.", soon_btn:"Benachrichtigen",
+            f_legal:"Rechtliches", f_privacy:"Datenschutz", f_terms:"Nutzungsbedingungen", f_connect:"Kontakt",
+        },
+        pt: {
+            nav_products:"Produtos", nav_about:"Sobre", nav_contact:"Contato",
+            badge:"Software Indie para macOS", hero_title:"Software que<br>respeita o seu Mac.", hero_sub:"Criamos ferramentas focadas e privadas para macOS. Sem assinaturas, sem telemetria, sem bloat.", hero_cta:"Ver nossos produtos",
+            sec_products:"Produtos", sec_products_title:"Feito para macOS", product_tag:"Disponível", product_desc:"Equalização automática de volume para macOS. Equilibra o volume de todos os seus apps em tempo real — o recurso que a Apple esqueceu de incluir.", product_link:"Saiba mais",
+            sec_values:"Nossos princípios", sec_values_title:"Como construímos software",
+            v1_t:"Privacidade por padrão", v1_d:"Sem analytics, sem rastreamento, sem contas. Seus dados ficam no seu dispositivo. Não queremos e não coletamos.",
+            v2_t:"Nativo do macOS", v2_d:"Construído com Swift e SwiftUI, otimizado para Apple Silicon. Nossos apps parecem parte do seu Mac porque são.",
+            v3_t:"Leve por design", v3_d:"Downloads pequenos, sem frameworks pesados, sem daemons em segundo plano. Instalam em segundos e não deixam rastro ao remover.",
+            v4_t:"Performance primeiro", v4_d:"Cada app é projetado para uso mínimo de recursos. Nos preocupamos com cada ciclo de CPU para que seu Mac continue rápido.",
+            v5_t:"Ferramentas focadas", v5_d:"Cada app faz uma coisa excepcionalmente bem. Sem recursos desnecessários, sem complexidade extra. A ferramenta certa para o trabalho.",
+            v6_t:"Suporte humano", v6_d:"Respostas reais de pessoas reais. Tem uma pergunta ou encontrou um bug? Escreva diretamente e responderemos.",
+            soon_t:"Mais apps em breve", soon_d:"Estamos trabalhando em novas ferramentas para macOS. Escreva-nos para ser o primeiro a saber.", soon_btn:"Notifique-me",
+            f_legal:"Legal", f_privacy:"Política de Privacidade", f_terms:"Termos de Serviço", f_connect:"Contato",
+        },
+        it: {
+            nav_products:"Prodotti", nav_about:"Chi siamo", nav_contact:"Contatto",
+            badge:"Software Indie per macOS", hero_title:"Software che<br>rispetta il tuo Mac.", hero_sub:"Creiamo strumenti mirati e rispettosi della privacy per macOS. Nessun abbonamento, nessuna telemetria, nessun bloat.", hero_cta:"Vedi i nostri prodotti",
+            sec_products:"Prodotti", sec_products_title:"Fatto per macOS", product_tag:"Disponibile ora", product_desc:"Equalizzazione automatica del volume per macOS. Bilancia il volume di tutte le tue app in tempo reale — la funzione che Apple ha dimenticato di includere.", product_link:"Scopri di più",
+            sec_values:"I nostri principi", sec_values_title:"Come costruiamo software",
+            v1_t:"Privacy per impostazione predefinita", v1_d:"Nessuna analitica, nessun tracciamento, nessun account. I tuoi dati restano sul tuo dispositivo. Non li vogliamo e non li raccogliamo.",
+            v2_t:"Nativo per macOS", v2_d:"Costruito con Swift e SwiftUI, ottimizzato per Apple Silicon. Le nostre app sembrano parte del tuo Mac perché lo sono.",
+            v3_t:"Leggero per design", v3_d:"Download piccoli, nessun framework pesante, nessun daemon in background. Si installano in secondi e non lasciano tracce alla rimozione.",
+            v4_t:"Performance prima di tutto", v4_d:"Ogni app è progettata per un uso minimo delle risorse. Ci ossessioniamo con i cicli CPU e la memoria perché il tuo Mac resti veloce.",
+            v5_t:"Strumenti mirati", v5_d:"Ogni app fa una cosa in modo eccezionale. Nessuna complessità inutile. Lo strumento giusto per il lavoro.",
+            v6_t:"Supporto umano", v6_d:"Risposte reali da persone reali. Hai una domanda o hai trovato un bug? Scrivici direttamente e ti risponderemo.",
+            soon_t:"Altre app in arrivo", soon_d:"Stiamo lavorando a nuovi strumenti per macOS. Scrivici per essere il primo a saperlo.", soon_btn:"Avvisami",
+            f_legal:"Legale", f_privacy:"Informativa sulla Privacy", f_terms:"Termini di Servizio", f_connect:"Contatto",
+        },
+        ja: {
+            nav_products:"製品", nav_about:"概要", nav_contact:"お問い合わせ",
+            badge:"インディー macOS ソフトウェア", hero_title:"Macを尊重する<br>ソフトウェア。", hero_sub:"macOS向けの集中的でプライバシー重視のツールを開発。サブスクなし、テレメトリなし、無駄なし。", hero_cta:"製品を見る",
+            sec_products:"製品", sec_products_title:"macOSのために", product_tag:"販売中", product_desc:"macOS用の自動ラウドネスイコライゼーション。すべてのアプリの音量をリアルタイムでバランス調整 — Appleが入れ忘れた機能。", product_link:"詳しく見る",
+            sec_values:"私たちの原則", sec_values_title:"ソフトウェアの作り方",
+            v1_t:"デフォルトでプライバシー", v1_d:"アナリティクスなし、トラッキングなし、アカウントなし。データはデバイスに留まります。",
+            v2_t:"macOSネイティブ", v2_d:"SwiftとSwiftUIで構築、Apple Silicon最適化。私たちのアプリはMacの一部のように感じます。",
+            v3_t:"軽量設計", v3_d:"小さなダウンロード、重いフレームワークなし、バックグラウンドデーモンなし。数秒でインストール、削除時に痕跡なし。",
+            v4_t:"パフォーマンス優先", v4_d:"すべてのアプリは最小限のリソース使用に最適化。CPUとメモリを徹底管理し、Macの高速性を維持。",
+            v5_t:"集中したツール", v5_d:"各アプリは一つのことを卓越してこなします。不要な機能なし、不要な複雑さなし。",
+            v6_t:"人間のサポート", v6_d:"本物の人間からの本物の回答。質問やバグがあれば直接メールしてください。",
+            soon_t:"新しいアプリ準備中", soon_d:"macOS向けの新しいツールを開発中。最初に知りたい方はご連絡ください。", soon_btn:"通知を受け取る",
+            f_legal:"法的情報", f_privacy:"プライバシーポリシー", f_terms:"利用規約", f_connect:"お問い合わせ",
+        },
+        zh: {
+            nav_products:"产品", nav_about:"关于", nav_contact:"联系",
+            badge:"独立 macOS 软件", hero_title:"尊重你 Mac 的<br>软件。", hero_sub:"我们为 macOS 打造专注、隐私优先的工具。无订阅，无遥测，无臃肿。", hero_cta:"查看产品",
+            sec_products:"产品", sec_products_title:"为 macOS 打造", product_tag:"现已推出", product_desc:"macOS 自动响度均衡。实时平衡所有应用的音量 — Apple 忘记加入的功能。", product_link:"了解更多",
+            sec_values:"我们的原则", sec_values_title:"我们如何构建软件",
+            v1_t:"默认隐私", v1_d:"无分析、无追踪、无账户。你的数据留在你的设备上。我们不需要也不收集。",
+            v2_t:"macOS 原生", v2_d:"使用 Swift 和 SwiftUI 构建，为 Apple Silicon 优化。我们的应用感觉就像 Mac 的一部分。",
+            v3_t:"轻量设计", v3_d:"小巧下载，无臃肿框架，无后台守护进程。几秒安装，删除无痕。",
+            v4_t:"性能优先", v4_d:"每个应用都为最低资源占用而设计。我们专注于 CPU 和内存，让你的 Mac 保持快速。",
+            v5_t:"专注工具", v5_d:"每个应用只做好一件事。没有功能膨胀，没有不必要的复杂性。",
+            v6_t:"人工支持", v6_d:"真实的人给出真实的回答。有问题或发现 bug？直接给我们发邮件。",
+            soon_t:"更多应用即将推出", soon_d:"我们正在开发新的 macOS 工具。联系我们，第一时间获知。", soon_btn:"通知我",
+            f_legal:"法律", f_privacy:"隐私政策", f_terms:"服务条款", f_connect:"联系我们",
+        },
+        ko: {
+            nav_products:"제품", nav_about:"소개", nav_contact:"문의",
+            badge:"인디 macOS 소프트웨어", hero_title:"Mac을 존중하는<br>소프트웨어.", hero_sub:"macOS를 위한 집중적이고 프라이버시 우선 도구를 만듭니다. 구독 없음, 원격 측정 없음, 불필요함 없음.", hero_cta:"제품 보기",
+            sec_products:"제품", sec_products_title:"macOS를 위해", product_tag:"출시됨", product_desc:"macOS용 자동 음량 이퀄라이제이션. 모든 앱의 음량을 실시간으로 균형 조정 — Apple이 포함하지 않은 기능.", product_link:"자세히 보기",
+            sec_values:"우리의 원칙", sec_values_title:"소프트웨어 개발 방식",
+            v1_t:"기본 프라이버시", v1_d:"분석 없음, 추적 없음, 계정 없음. 데이터는 기기에 남습니다.",
+            v2_t:"macOS 네이티브", v2_d:"Swift와 SwiftUI로 구축, Apple Silicon 최적화. 우리 앱은 Mac의 일부처럼 느껴집니다.",
+            v3_t:"경량 설계", v3_d:"작은 다운로드, 무거운 프레임워크 없음, 백그라운드 데몬 없음. 몇 초 만에 설치, 제거 시 흔적 없음.",
+            v4_t:"성능 우선", v4_d:"모든 앱은 최소한의 리소스 사용을 위해 설계. CPU와 메모리를 관리하여 Mac이 빠르게 유지됩니다.",
+            v5_t:"집중된 도구", v5_d:"각 앱은 한 가지를 탁월하게 수행합니다. 기능 과잉 없음, 불필요한 복잡성 없음.",
+            v6_t:"사람이 하는 지원", v6_d:"실제 사람의 실제 답변. 질문이나 버그가 있으면 직접 이메일하세요.",
+            soon_t:"더 많은 앱 준비 중", soon_d:"macOS용 새로운 도구를 개발 중입니다. 가장 먼저 알고 싶으시면 연락주세요.", soon_btn:"알림 받기",
+            f_legal:"법적 고지", f_privacy:"개인정보 처리방침", f_terms:"이용약관", f_connect:"연락처",
+        },
+        ru: {
+            nav_products:"Продукты", nav_about:"О нас", nav_contact:"Контакты",
+            badge:"Инди ПО для macOS", hero_title:"Софт, который<br>уважает ваш Mac.", hero_sub:"Мы создаём целенаправленные инструменты для macOS с приоритетом конфиденциальности. Без подписок, без телеметрии, без лишнего.", hero_cta:"Смотреть продукты",
+            sec_products:"Продукты", sec_products_title:"Создано для macOS", product_tag:"Доступно", product_desc:"Автоматическое выравнивание громкости для macOS. Балансирует звук всех приложений в реальном времени — функция, которую Apple забыла включить.", product_link:"Подробнее",
+            sec_values:"Наши принципы", sec_values_title:"Как мы создаём ПО",
+            v1_t:"Конфиденциальность по умолчанию", v1_d:"Без аналитики, без отслеживания, без аккаунтов. Ваши данные остаются на вашем устройстве.",
+            v2_t:"Нативно для macOS", v2_d:"Создано на Swift и SwiftUI, оптимизировано для Apple Silicon. Наши приложения ощущаются частью вашего Mac.",
+            v3_t:"Лёгкость по дизайну", v3_d:"Маленькие загрузки, без тяжёлых фреймворков, без фоновых процессов. Установка за секунды, без следов при удалении.",
+            v4_t:"Производительность прежде всего", v4_d:"Каждое приложение создано для минимального потребления ресурсов. Мы следим за CPU и памятью, чтобы ваш Mac оставался быстрым.",
+            v5_t:"Целенаправленные инструменты", v5_d:"Каждое приложение делает одну вещь исключительно хорошо. Без лишних функций, без ненужной сложности.",
+            v6_t:"Живая поддержка", v6_d:"Реальные ответы от реальных людей. Есть вопрос или нашли баг? Напишите нам напрямую.",
+            soon_t:"Скоро новые приложения", soon_d:"Мы работаем над новыми инструментами для macOS. Напишите нам, чтобы узнать первым.", soon_btn:"Уведомить меня",
+            f_legal:"Правовая информация", f_privacy:"Политика конфиденциальности", f_terms:"Условия использования", f_connect:"Связь",
+        },
+    };
+
+    function setLanguage(lang) {
+        const s = T[lang] || T.en;
+        document.querySelectorAll("[data-i18n]").forEach(el => {
+            const k = el.getAttribute("data-i18n");
+            if (s[k]) el.textContent = s[k];
+        });
+        document.querySelectorAll("[data-i18n-html]").forEach(el => {
+            const k = el.getAttribute("data-i18n-html");
+            if (s[k]) el.innerHTML = s[k];
+        });
+        document.documentElement.lang = lang;
+        localStorage.setItem("corvus-lang", lang);
+        document.getElementById("langPicker").value = lang;
+    }
+
+    (function() {
+        const saved = localStorage.getItem("corvus-lang");
+        if (saved && T[saved]) { setLanguage(saved); return; }
+        const bl = (navigator.language || "en").split("-")[0];
+        if (T[bl]) setLanguage(bl);
+    })();
+    </script>
 </body>
 </html>
