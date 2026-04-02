@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CorvusDevs — macOS Software</title>
+    <meta name="description" content="CorvusDevs builds thoughtful software for macOS. Quality tools designed for the platform you love.">
+    <style>
+        :root {
+            --bg: #08080a;
+            --surface: #111114;
+            --surface-2: #19191e;
+            --border: #252530;
+            --text: #e8e8ed;
+            --text-secondary: #7c7c84;
+            --accent: #30d158;
+            --accent-dim: rgba(48, 209, 88, 0.1);
+            --accent-glow: rgba(48, 209, 88, 0.06);
+            --purple: #bf5af2;
+            --purple-dim: rgba(191, 90, 242, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ── Nav ── */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 16px 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(8, 8, 10, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav-brand {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+            letter-spacing: -0.3px;
+        }
+
+        .nav-brand span { color: var(--accent); }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover { color: var(--text); }
+
+        /* ── Hero ── */
+        .hero {
+            text-align: center;
+            padding: 160px 24px 100px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -300px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 6px 16px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            background: var(--surface);
+        }
+
+        .hero h1 {
+            font-size: 64px;
+            font-weight: 800;
+            letter-spacing: -2px;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #ffffff 0%, #7c7c84 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero .subtitle {
+            font-size: 20px;
+            color: var(--text-secondary);
+            max-width: 480px;
+            margin: 0 auto 48px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 32px;
+            background: var(--accent);
+            color: #000;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .hero-cta:hover {
+            filter: brightness(1.1);
+            transform: translateY(-1px);
+            box-shadow: 0 8px 32px rgba(48, 209, 88, 0.25);
+        }
+
+        .hero-cta svg { width: 16px; height: 16px; }
+
+        /* ── Products ── */
+        .products {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 24px 100px;
+        }
+
+        .section-label {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            letter-spacing: -1px;
+            margin-bottom: 56px;
+        }
+
+        .product-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 48px;
+            display: flex;
+            align-items: center;
+            gap: 48px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .product-card:hover {
+            border-color: rgba(48, 209, 88, 0.3);
+            box-shadow: 0 8px 40px rgba(48, 209, 88, 0.06);
+        }
+
+        .product-icon {
+            width: 96px;
+            height: 96px;
+            border-radius: 22px;
+            flex-shrink: 0;
+            filter: drop-shadow(0 4px 20px rgba(48, 209, 88, 0.15));
+        }
+
+        .product-info { flex: 1; }
+
+        .product-info h3 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        .product-tag {
+            display: inline-block;
+            padding: 4px 12px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 6px;
+            margin-bottom: 12px;
+        }
+
+        .product-info p {
+            font-size: 16px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .product-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .product-link:hover { text-decoration: underline; }
+
+        .product-link svg { width: 14px; height: 14px; }
+
+        /* ── Values ── */
+        .values {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 24px 100px;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .value-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+        }
+
+        .value-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin-bottom: 18px;
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+        }
+
+        .value-card h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .value-card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* ── Coming soon ── */
+        .coming-soon {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px 100px;
+        }
+
+        .coming-soon-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 48px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .coming-soon-card::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, var(--purple-dim) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .coming-soon-card h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        .coming-soon-card p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            max-width: 420px;
+            margin: 0 auto 24px;
+            position: relative;
+        }
+
+        .notify-link {
+            display: inline-block;
+            padding: 10px 24px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text);
+            text-decoration: none;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .notify-link:hover {
+            border-color: var(--purple);
+            color: var(--purple);
+        }
+
+        /* ── Footer ── */
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+        }
+
+        .footer-brand .logo {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .footer-brand .logo span { color: var(--accent); }
+
+        .footer-brand p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .footer-col h4 {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+        }
+
+        .footer-col a {
+            display: block;
+            font-size: 14px;
+            color: var(--text);
+            text-decoration: none;
+            margin-bottom: 10px;
+            transition: color 0.2s;
+        }
+
+        .footer-col a:hover { color: var(--accent); }
+
+        .footer-bottom {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-bottom p {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .footer-socials {
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer-socials a {
+            color: var(--text-secondary);
+            transition: color 0.2s;
+        }
+
+        .footer-socials a:hover { color: var(--text); }
+
+        .footer-socials svg { width: 18px; height: 18px; }
+
+        /* ── Responsive ── */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 40px; }
+            .hero .subtitle { font-size: 17px; }
+            .product-card {
+                flex-direction: column;
+                text-align: center;
+                padding: 36px 28px;
+                gap: 24px;
+            }
+            .values-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+            .footer-bottom { flex-direction: column; gap: 12px; }
+            nav { padding: 14px 20px; }
+            .nav-links { gap: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav>
+        <a href="/" class="nav-brand">Corvus<span>Devs</span></a>
+        <ul class="nav-links">
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="mailto:corvusdevs@outlook.com">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-badge">Indie macOS Software</div>
+        <h1>Software that<br>respects your Mac.</h1>
+        <p class="subtitle">We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.</p>
+        <a href="#products" class="hero-cta">
+            See our products
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </a>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products">
+        <div class="section-label">Products</div>
+        <h2 class="section-title">Built for macOS</h2>
+
+        <a href="https://corvusdevs.github.io/Ekual/" class="product-card">
+            <img src="https://corvusdevs.github.io/Ekual/icon.png" alt="Ekual" class="product-icon">
+            <div class="product-info">
+                <div class="product-tag">Available now</div>
+                <h3>Ekual</h3>
+                <p>Automatic loudness equalization for macOS. Balances volume across all your apps in real time — the feature Apple forgot to include.</p>
+                <span class="product-link">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                </span>
+            </div>
+        </a>
+    </section>
+
+    <!-- Values -->
+    <section class="values" id="about">
+        <div class="section-label">Our principles</div>
+        <h2 class="section-title">How we build software</h2>
+
+        <div class="values-grid">
+            <div class="value-card">
+                <div class="value-icon">🔒</div>
+                <h3>Privacy by default</h3>
+                <p>No analytics, no tracking, no accounts. Your data stays on your device. We don't want it and we don't collect it.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">🍎</div>
+                <h3>Native to macOS</h3>
+                <p>Built with Swift and SwiftUI, optimized for Apple Silicon. Our apps feel like they belong on your Mac because they do.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">💰</div>
+                <h3>Pay once, own it</h3>
+                <p>No subscriptions, no recurring fees. Buy once and it's yours forever. We think that's how software should work.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">⚡</div>
+                <h3>Performance first</h3>
+                <p>Every app is engineered for minimal resource usage. We obsess over CPU cycles and memory so your Mac stays fast.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">🎯</div>
+                <h3>Focused tools</h3>
+                <p>Each app does one thing exceptionally well. No feature creep, no unnecessary complexity. Just the right tool for the job.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">🤝</div>
+                <h3>Human support</h3>
+                <p>Real responses from real people. Have a question or found a bug? Email us directly and we'll get back to you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coming Soon -->
+    <section class="coming-soon">
+        <div class="coming-soon-card">
+            <h3>More apps coming soon</h3>
+            <p>We're working on new tools for macOS. Drop us a line if you want to be the first to know.</p>
+            <a href="mailto:corvusdevs@outlook.com?subject=Notify me about new apps" class="notify-link">Get notified</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo">Corvus<span>Devs</span></div>
+                <p>Indie macOS software studio.<br>Building focused, privacy-first tools.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="privacy">Privacy Policy</a>
+                <a href="terms">Terms of Service</a>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <a href="mailto:corvusdevs@outlook.com">corvusdevs@outlook.com</a>
+                <a href="https://github.com/CorvusDevs">GitHub</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CorvusDevs. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/CorvusDevs" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
