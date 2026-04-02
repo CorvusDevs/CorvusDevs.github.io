@@ -106,10 +106,10 @@
             width: 200px;
             height: 200px;
             border-radius: 44px;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             position: relative;
             border: 2px solid var(--border);
-            filter: drop-shadow(0 8px 32px rgba(0, 0, 0, 0.5));
+            box-shadow: 0 0 80px 30px rgba(48, 209, 88, 0.12), 0 0 160px 60px rgba(48, 209, 88, 0.06);
         }
 
         /* Language Picker */
@@ -131,17 +131,6 @@
             background-repeat: no-repeat;
             background-position: right 10px center;
             padding-right: 28px;
-        }
-
-        .hero-badge {
-            display: inline-block;
-            padding: 6px 16px;
-            border: 1px solid var(--border);
-            border-radius: 20px;
-            font-size: 13px;
-            color: var(--text-secondary);
-            margin-bottom: 32px;
-            background: var(--surface);
         }
 
         .hero h1 {
@@ -508,7 +497,6 @@
     <!-- Hero -->
     <section class="hero">
         <img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="CorvusDevs" class="hero-avatar">
-        <div class="hero-badge" data-i18n="badge">Indie macOS Software</div>
         <h1 data-i18n-html="hero_title">Software that<br>respects your Mac.</h1>
         <p class="subtitle" data-i18n="hero_sub">We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.</p>
         <a href="#products" class="hero-cta">
