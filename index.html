@@ -53,6 +53,15 @@
             color: var(--text);
             text-decoration: none;
             letter-spacing: -0.3px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-brand img {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
         }
 
         .nav-brand span { color: var(--accent); }
@@ -90,6 +99,16 @@
             height: 800px;
             background: radial-gradient(circle, var(--accent-glow) 0%, transparent 60%);
             pointer-events: none;
+        }
+
+        .hero-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            margin-bottom: 24px;
+            position: relative;
+            border: 2px solid var(--border);
+            filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.4));
         }
 
         .hero-badge {
@@ -442,7 +461,7 @@
 
     <!-- Nav -->
     <nav>
-        <a href="/" class="nav-brand">Corvus<span>Devs</span></a>
+        <a href="/" class="nav-brand"><img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="CorvusDevs">Corvus<span>Devs</span></a>
         <ul class="nav-links">
             <li><a href="#products">Products</a></li>
             <li><a href="#about">About</a></li>
@@ -452,6 +471,7 @@
 
     <!-- Hero -->
     <section class="hero">
+        <img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="CorvusDevs" class="hero-avatar">
         <div class="hero-badge">Indie macOS Software</div>
         <h1>Software that<br>respects your Mac.</h1>
         <p class="subtitle">We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.</p>
@@ -497,9 +517,9 @@
                 <p>Built with Swift and SwiftUI, optimized for Apple Silicon. Our apps feel like they belong on your Mac because they do.</p>
             </div>
             <div class="value-card">
-                <div class="value-icon">💰</div>
-                <h3>Pay once, own it</h3>
-                <p>No subscriptions, no recurring fees. Buy once and it's yours forever. We think that's how software should work.</p>
+                <div class="value-icon">🧩</div>
+                <h3>Lightweight by design</h3>
+                <p>Small downloads, no bloated frameworks, no background daemons. Our apps install in seconds and leave no trace when removed.</p>
             </div>
             <div class="value-card">
                 <div class="value-icon">⚡</div>
@@ -532,7 +552,7 @@
     <footer>
         <div class="footer-grid">
             <div class="footer-brand">
-                <div class="logo">Corvus<span>Devs</span></div>
+                <div class="logo"><img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="" style="width:22px;height:22px;border-radius:5px;vertical-align:middle;margin-right:6px;">Corvus<span>Devs</span></div>
                 <p>Indie macOS software studio.<br>Building focused, privacy-first tools.</p>
             </div>
             <div class="footer-col">
