@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CorvusDevs — Safari Extensions & macOS Apps</title>
     <meta name="description" content="CorvusDevs builds Safari extensions and macOS apps. RSS reader, Twitch tools, and more — privacy-first software for Apple platforms.">
+    <meta name="keywords" content="Safari extensions, macOS apps, RSS reader, Twitch extension, tab muter, audio equalizer, virtual keyboard, privacy, Apple Silicon, CorvusDevs">
     <link rel="canonical" href="https://corvusdevs.github.io/">
     <link rel="alternate" hreflang="en" href="https://corvusdevs.github.io/">
     <link rel="alternate" hreflang="es" href="https://corvusdevs.github.io/?lang=es">
@@ -177,24 +178,36 @@
         }
 
         .hero-avatar {
-            width: 120px;
-            height: 120px;
-            border-radius: 30px;
-            margin-bottom: 40px;
+            width: 180px;
+            height: 180px;
+            border-radius: 44px;
+            margin-bottom: 32px;
             position: relative;
             border: 2px solid var(--border);
-            box-shadow: 0 0 60px 20px rgba(10, 132, 255, 0.15), 0 0 120px 50px rgba(10, 132, 255, 0.08);
+            box-shadow: 0 0 80px 30px rgba(10, 132, 255, 0.15), 0 0 160px 60px rgba(10, 132, 255, 0.08);
+        }
+
+        .hero-wordmark {
+            font-size: 72px;
+            font-weight: 800;
+            letter-spacing: -3px;
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+
+        .hero-wordmark .devs {
+            background: linear-gradient(135deg, #0a84ff 0%, #5ac8fa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         .hero h1 {
-            font-size: 56px;
-            font-weight: 800;
-            letter-spacing: -2px;
-            line-height: 1.1;
-            margin-bottom: 20px;
-            background: linear-gradient(135deg, #ffffff 0%, #7c7c84 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            font-size: 28px;
+            font-weight: 500;
+            letter-spacing: -0.5px;
+            line-height: 1.3;
+            margin-bottom: 16px;
+            color: var(--text-secondary);
         }
 
         .hero .subtitle {
@@ -253,9 +266,34 @@
             margin-bottom: 56px;
         }
 
+        .featured-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            gap: 36px;
+            text-decoration: none;
+            color: inherit;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            margin-bottom: 16px;
+        }
+
+        .featured-card .product-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
+            flex-shrink: 0;
+        }
+
+        .featured-card .featured-content {
+            text-align: left;
+        }
+
         .products-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 16px;
         }
 
@@ -270,10 +308,8 @@
             text-align: center;
             text-decoration: none;
             color: inherit;
-            transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+            transition: border-color 0.3s, box-shadow 0.3s;
         }
-
-        .product-card:hover {}
 
         .product-icon {
             width: 80px;
@@ -281,6 +317,22 @@
             border-radius: 20px;
             margin-bottom: 20px;
         }
+
+        .store-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            background: #fff;
+            color: #000;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        .store-badge:hover { opacity: 0.85; }
+        .store-badge svg { width: 16px; height: 16px; }
 
         .product-name {
             font-size: 20px;
@@ -326,9 +378,9 @@
         .product-card[data-color="purple"] .product-tagline { color: #bf94ff; }
         .product-card[data-color="purple"] .product-link { color: #bf94ff; }
 
-        .product-card[data-color="orange"]:hover { border-color: rgba(238,128,47,0.4); box-shadow: 0 8px 40px rgba(238,128,47,0.08); }
-        .product-card[data-color="orange"] .product-tagline { color: #ee802f; }
-        .product-card[data-color="orange"] .product-link { color: #ee802f; }
+        .product-card[data-color="orange"]:hover, .featured-card[data-color="orange"]:hover { border-color: rgba(238,128,47,0.4); box-shadow: 0 8px 40px rgba(238,128,47,0.08); }
+        .product-card[data-color="orange"] .product-tagline, .featured-card[data-color="orange"] .product-tagline { color: #ee802f; }
+        .product-card[data-color="orange"] .product-link, .featured-card[data-color="orange"] .product-link { color: #ee802f; }
 
         .product-card[data-color="red"]:hover { border-color: rgba(255,59,48,0.4); box-shadow: 0 8px 40px rgba(255,59,48,0.08); }
         .product-card[data-color="red"] .product-tagline { color: #ff6961; }
@@ -338,19 +390,8 @@
         .product-card[data-color="blue"] .product-tagline { color: #0a84ff; }
         .product-card[data-color="blue"] .product-link { color: #0a84ff; }
 
-        /* Bottom row centering: 2 cards centered under 3 */
-        .products-grid .product-card:nth-child(4) {
-            grid-column: 1 / 2;
-            margin-left: auto;
-            margin-right: 0;
-        }
-        .products-bottom {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 16px;
-            max-width: 666px;
-            margin: 16px auto 0;
-        }
+        .featured-card .store-badge { margin-top: 16px; }
+        .product-card .store-badge { margin-top: auto; padding-top: 4px; }
 
         /* ── Values ── */
         .values {
@@ -545,17 +586,16 @@
         .footer-socials svg { width: 18px; height: 18px; }
 
         /* ── Responsive ── */
-        @media (max-width: 900px) {
-            .products-grid { grid-template-columns: repeat(2, 1fr); }
-            .products-bottom { max-width: 100%; grid-template-columns: 1fr; }
-        }
-
         @media (max-width: 768px) {
-            .hero h1 { font-size: 38px; }
+            .hero-avatar { width: 120px; height: 120px; border-radius: 30px; }
+            .hero-wordmark { font-size: 48px; letter-spacing: -2px; }
+            .hero h1 { font-size: 22px; }
             .hero .subtitle { font-size: 17px; }
             .section-title { font-size: 30px; }
+            .featured-card { flex-direction: column; text-align: center; gap: 20px; padding: 28px; }
+            .featured-card .featured-content { text-align: center; }
+            .featured-card .product-icon { width: 80px; height: 80px; border-radius: 20px; }
             .products-grid { grid-template-columns: 1fr; }
-            .products-bottom { grid-template-columns: 1fr; }
             .values-grid { grid-template-columns: 1fr; }
             .footer-grid { grid-template-columns: 1fr; gap: 28px; }
             .footer-bottom { flex-direction: column; gap: 12px; }
@@ -568,7 +608,7 @@
 
     <!-- Nav -->
     <nav>
-        <a href="/" class="nav-brand"><img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="CorvusDevs">Corvus<span>Devs</span></a>
+        <a href="/" class="nav-brand"><img src="avatar.png" alt="CorvusDevs">Corvus<span>Devs</span></a>
         <div style="display:flex;align-items:center;">
             <ul class="nav-links">
                 <li><a href="#products" data-i18n="nav_products">Products</a></li>
@@ -595,8 +635,9 @@
 
     <!-- Hero -->
     <section class="hero">
-        <img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="CorvusDevs" class="hero-avatar">
-        <h1 data-i18n-html="hero_title">Software that<br>respects your Mac.</h1>
+        <img src="avatar.png" alt="CorvusDevs" class="hero-avatar">
+        <div class="hero-wordmark">Corvus<span class="devs">Devs</span></div>
+        <h1 data-i18n="hero_title">Software that respects your Mac.</h1>
         <p class="subtitle" data-i18n="hero_sub">We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.</p>
         <a href="#products" class="hero-cta">
             <span data-i18n="hero_cta">See our products</span>
@@ -609,9 +650,19 @@
         <div class="section-label reveal" data-i18n="sec_products">Products</div>
         <h2 class="section-title gradient-text reveal" data-i18n="sec_products_title">Safari extensions & macOS apps</h2>
 
+        <a href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/" class="featured-card reveal" data-color="orange">
+            <img src="icons/corvus-rss.png" alt="Corvus RSS Reader" class="product-icon">
+            <div class="featured-content">
+                <div class="product-name">Corvus RSS Reader</div>
+                <div class="product-tagline" data-i18n="p3_tag">Safari RSS Extension</div>
+                <p class="product-desc" data-i18n="p3_desc">Subscribe to feeds, YouTube channels, and blogs — all in one place. Works on macOS, iOS, and iPadOS.</p>
+                <a href="https://apps.apple.com/app/id6761442829" class="store-badge" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
+            </div>
+        </a>
+
         <div class="products-grid">
             <a href="https://corvusdevs.github.io/Ekual/" class="product-card reveal" data-color="green">
-                <img src="https://corvusdevs.github.io/Ekual/icon.png" alt="Ekual" class="product-icon">
+                <img src="icons/ekual.png" alt="Ekual" class="product-icon">
                 <div class="product-name">Ekual</div>
                 <div class="product-tagline" data-i18n="p1_tag">macOS Audio Equalizer</div>
                 <p class="product-desc" data-i18n="p1_desc">Automatic loudness equalization for macOS. Balances volume across all your apps in real time.</p>
@@ -622,49 +673,27 @@
             </a>
 
             <a href="https://corvusdevs.github.io/Purple-Crow-For-Safari/" class="product-card reveal" data-color="purple">
-                <img src="https://corvusdevs.github.io/Purple-Crow-For-Safari/icon.png" alt="Purple Crow for Safari" class="product-icon">
+                <img src="icons/purple-crow.png" alt="Purple Crow for Safari" class="product-icon">
                 <div class="product-name">Purple Crow for Safari</div>
                 <div class="product-tagline" data-i18n="p2_tag">Twitch Extension</div>
                 <p class="product-desc" data-i18n="p2_desc">BTTV, FFZ, and 7TV emotes plus 50+ features. Auto-claim, split chat, PiP, anonymous viewing, and more.</p>
-                <span class="product-link">
-                    <span data-i18n="product_link">Learn more</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-                </span>
+                <a href="https://apps.apple.com/app/id6761481948" class="store-badge" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
             </a>
 
-            <a href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/" class="product-card reveal" data-color="orange">
-                <img src="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/icon.png" alt="Corvus RSS Reader" class="product-icon">
-                <div class="product-name">Corvus RSS Reader</div>
-                <div class="product-tagline" data-i18n="p3_tag">Safari RSS Extension</div>
-                <p class="product-desc" data-i18n="p3_desc">Subscribe to feeds, YouTube channels, and blogs — all in one place. Works on macOS, iOS, and iPadOS.</p>
-                <span class="product-link">
-                    <span data-i18n="product_link">Learn more</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-                </span>
-            </a>
-        </div>
-
-        <div class="products-bottom">
             <a href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/" class="product-card reveal" data-color="red">
-                <img src="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/icon.png" alt="Auto Mute Tab for Safari" class="product-icon">
+                <img src="icons/auto-mute-tab.png" alt="Auto Mute Tab for Safari" class="product-icon">
                 <div class="product-name">Auto Mute Tab for Safari</div>
                 <div class="product-tagline" data-i18n="p4_tag">Safari Tab Muter</div>
                 <p class="product-desc" data-i18n="p4_desc">Automatically mutes all background tabs so only the focused tab plays audio. PiP, keyboard shortcuts, and domain whitelist.</p>
-                <span class="product-link">
-                    <span data-i18n="product_link">Learn more</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-                </span>
+                <a href="https://apps.apple.com/app/id6761746627" class="store-badge" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
             </a>
 
             <a href="https://corvusdevs.github.io/Tekla/" class="product-card reveal" data-color="blue">
-                <img src="https://corvusdevs.github.io/Tekla/icon.png" alt="Tekla" class="product-icon">
+                <img src="icons/tekla.png" alt="Tekla" class="product-icon">
                 <div class="product-name">Tekla</div>
                 <div class="product-tagline" data-i18n="p5_tag">macOS Virtual Keyboard</div>
                 <p class="product-desc" data-i18n="p5_desc">Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout — 100% offline.</p>
-                <span class="product-link">
-                    <span data-i18n="product_link">Learn more</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-                </span>
+                <a href="https://apps.apple.com/app/id6740211838" class="store-badge" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
             </a>
         </div>
     </section>
@@ -721,7 +750,7 @@
     <footer>
         <div class="footer-grid">
             <div class="footer-brand">
-                <div class="logo"><img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="" style="width:22px;height:22px;border-radius:5px;vertical-align:middle;margin-right:6px;">Corvus<span>Devs</span></div>
+                <div class="logo"><img src="avatar.png" alt="" style="width:22px;height:22px;border-radius:5px;vertical-align:middle;margin-right:6px;">Corvus<span>Devs</span></div>
                 <p data-i18n-html="f_brand">Indie macOS software studio.<br>Building focused, privacy-first tools.</p>
             </div>
             <div class="footer-col">
@@ -758,7 +787,7 @@
     const T = {
         en: {
             nav_products:"Products", nav_about:"About", nav_contact:"Contact",
-            hero_title:"Software that<br>respects your Mac.", hero_sub:"We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.", hero_cta:"See our products",
+            hero_title:"Software that respects your Mac.", hero_sub:"We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.", hero_cta:"See our products",
             sec_products:"Products", sec_products_title:"Safari extensions & macOS apps",
             p1_tag:"macOS Audio Equalizer", p1_desc:"Automatic loudness equalization for macOS. Balances volume across all your apps in real time.",
             p2_tag:"Twitch Extension", p2_desc:"BTTV, FFZ, and 7TV emotes plus 50+ features. Auto-claim, split chat, PiP, anonymous viewing, and more.",
@@ -778,7 +807,7 @@
         },
         es: {
             nav_products:"Productos", nav_about:"Nosotros", nav_contact:"Contacto",
-            hero_title:"Software que<br>respeta tu Mac.", hero_sub:"Creamos herramientas enfocadas y privadas para macOS. Sin suscripciones, sin telemetría, sin bloat.", hero_cta:"Ver nuestros productos",
+            hero_title:"Software que respeta tu Mac.", hero_sub:"Creamos herramientas enfocadas y privadas para macOS. Sin suscripciones, sin telemetría, sin bloat.", hero_cta:"Ver nuestros productos",
             sec_products:"Productos", sec_products_title:"Extensiones de Safari y apps para macOS",
             p1_tag:"Ecualizador de Audio", p1_desc:"Ecualización automática de volumen para macOS. Equilibra el sonido de todas tus apps en tiempo real.",
             p2_tag:"Extensión para Twitch", p2_desc:"Emotes de BTTV, FFZ y 7TV más 50+ funciones. Auto-claim, split chat, PiP, modo anónimo y más.",
@@ -798,7 +827,7 @@
         },
         fr: {
             nav_products:"Produits", nav_about:"À propos", nav_contact:"Contact",
-            hero_title:"Des logiciels qui<br>respectent votre Mac.", hero_sub:"Nous créons des outils ciblés et respectueux de la vie privée pour macOS. Sans abonnement, sans télémétrie.", hero_cta:"Voir nos produits",
+            hero_title:"Des logiciels qui respectent votre Mac.", hero_sub:"Nous créons des outils ciblés et respectueux de la vie privée pour macOS. Sans abonnement, sans télémétrie.", hero_cta:"Voir nos produits",
             sec_products:"Produits", sec_products_title:"Extensions Safari et apps macOS",
             p1_tag:"Égaliseur Audio", p1_desc:"Égalisation automatique du volume pour macOS. Équilibre le volume de toutes vos apps en temps réel.",
             p2_tag:"Extension Twitch", p2_desc:"Emotes BTTV, FFZ et 7TV plus 50+ fonctionnalités. Auto-claim, split chat, PiP, mode anonyme.",
@@ -818,7 +847,7 @@
         },
         de: {
             nav_products:"Produkte", nav_about:"Über uns", nav_contact:"Kontakt",
-            hero_title:"Software, die<br>Ihren Mac respektiert.", hero_sub:"Wir bauen fokussierte, datenschutzfreundliche Tools für macOS. Keine Abos, keine Telemetrie.", hero_cta:"Unsere Produkte",
+            hero_title:"Software, die Ihren Mac respektiert.", hero_sub:"Wir bauen fokussierte, datenschutzfreundliche Tools für macOS. Keine Abos, keine Telemetrie.", hero_cta:"Unsere Produkte",
             sec_products:"Produkte", sec_products_title:"Safari-Erweiterungen & macOS-Apps",
             p1_tag:"Audio-Equalizer", p1_desc:"Automatische Lautstärke-Angleichung für macOS. Gleicht die Lautstärke aller Apps in Echtzeit an.",
             p2_tag:"Twitch-Erweiterung", p2_desc:"BTTV-, FFZ- und 7TV-Emotes plus 50+ Funktionen. Auto-Claim, Split Chat, PiP und mehr.",
@@ -838,7 +867,7 @@
         },
         pt: {
             nav_products:"Produtos", nav_about:"Sobre", nav_contact:"Contato",
-            hero_title:"Software que<br>respeita o seu Mac.", hero_sub:"Criamos ferramentas focadas e privadas para macOS. Sem assinaturas, sem telemetria.", hero_cta:"Ver nossos produtos",
+            hero_title:"Software que respeita o seu Mac.", hero_sub:"Criamos ferramentas focadas e privadas para macOS. Sem assinaturas, sem telemetria.", hero_cta:"Ver nossos produtos",
             sec_products:"Produtos", sec_products_title:"Extensões Safari e apps macOS",
             p1_tag:"Equalizador de Áudio", p1_desc:"Equalização automática de volume para macOS. Equilibra o som de todos os seus apps.",
             p2_tag:"Extensão para Twitch", p2_desc:"Emotes BTTV, FFZ e 7TV mais 50+ recursos. Auto-coleta, split chat, PiP e mais.",
@@ -858,7 +887,7 @@
         },
         it: {
             nav_products:"Prodotti", nav_about:"Chi siamo", nav_contact:"Contatto",
-            hero_title:"Software che<br>rispetta il tuo Mac.", hero_sub:"Creiamo strumenti mirati e rispettosi della privacy per macOS. Nessun abbonamento, nessuna telemetria.", hero_cta:"Vedi i nostri prodotti",
+            hero_title:"Software che rispetta il tuo Mac.", hero_sub:"Creiamo strumenti mirati e rispettosi della privacy per macOS. Nessun abbonamento, nessuna telemetria.", hero_cta:"Vedi i nostri prodotti",
             sec_products:"Prodotti", sec_products_title:"Estensioni Safari e app macOS",
             p1_tag:"Equalizzatore Audio", p1_desc:"Equalizzazione automatica del volume per macOS. Bilancia il volume di tutte le tue app.",
             p2_tag:"Estensione Twitch", p2_desc:"Emote BTTV, FFZ e 7TV più 50+ funzioni. Auto-riscatto, split chat, PiP e altro.",
@@ -878,7 +907,7 @@
         },
         ja: {
             nav_products:"製品", nav_about:"概要", nav_contact:"お問い合わせ",
-            hero_title:"Macを尊重する<br>ソフトウェア。", hero_sub:"macOS向けの集中的でプライバシー重視のツール。サブスクなし、テレメトリなし。", hero_cta:"製品を見る",
+            hero_title:"Macを尊重するソフトウェア。", hero_sub:"macOS向けの集中的でプライバシー重視のツール。サブスクなし、テレメトリなし。", hero_cta:"製品を見る",
             sec_products:"製品", sec_products_title:"Safari拡張機能とmacOSアプリ",
             p1_tag:"オーディオイコライザー", p1_desc:"macOS用自動ラウドネスイコライゼーション。すべてのアプリの音量をリアルタイムで調整。",
             p2_tag:"Twitch拡張機能", p2_desc:"BTTV、FFZ、7TVエモート＋50以上の機能。自動収集、スプリットチャット、PiPなど。",
@@ -898,7 +927,7 @@
         },
         zh: {
             nav_products:"产品", nav_about:"关于", nav_contact:"联系",
-            hero_title:"尊重你 Mac 的<br>软件。", hero_sub:"我们为 macOS 打造专注、隐私优先的工具。无订阅，无遥测。", hero_cta:"查看产品",
+            hero_title:"尊重你 Mac 的软件。", hero_sub:"我们为 macOS 打造专注、隐私优先的工具。无订阅，无遥测。", hero_cta:"查看产品",
             sec_products:"产品", sec_products_title:"Safari 扩展和 macOS 应用",
             p1_tag:"音频均衡器", p1_desc:"macOS 自动响度均衡。实时平衡所有应用的音量。",
             p2_tag:"Twitch 扩展", p2_desc:"BTTV、FFZ、7TV 表情加 50+ 功能。自动领取、分屏聊天、画中画等。",
@@ -918,7 +947,7 @@
         },
         ko: {
             nav_products:"제품", nav_about:"소개", nav_contact:"문의",
-            hero_title:"Mac을 존중하는<br>소프트웨어.", hero_sub:"macOS를 위한 집중적이고 프라이버시 우선 도구를 만듭니다.", hero_cta:"제품 보기",
+            hero_title:"Mac을 존중하는 소프트웨어.", hero_sub:"macOS를 위한 집중적이고 프라이버시 우선 도구를 만듭니다.", hero_cta:"제품 보기",
             sec_products:"제품", sec_products_title:"Safari 확장 프로그램 & macOS 앱",
             p1_tag:"오디오 이퀘라이저", p1_desc:"macOS용 자동 음량 이퀘라이제이션. 모든 앱의 음량을 실시간으로 조절.",
             p2_tag:"Twitch 확장", p2_desc:"BTTV, FFZ, 7TV 이모트 + 50개 이상 기능. 자동 수집, 분할 채팅, PiP 등.",
@@ -938,7 +967,7 @@
         },
         ru: {
             nav_products:"Продукты", nav_about:"О нас", nav_contact:"Контакты",
-            hero_title:"Софт, который<br>уважает ваш Mac.", hero_sub:"Мы создаём инструменты для macOS с приоритетом конфиденциальности. Без подписок, без телеметрии.", hero_cta:"Смотреть продукты",
+            hero_title:"Софт, который уважает ваш Mac.", hero_sub:"Мы создаём инструменты для macOS с приоритетом конфиденциальности. Без подписок, без телеметрии.", hero_cta:"Смотреть продукты",
             sec_products:"Продукты", sec_products_title:"Расширения Safari и приложения macOS",
             p1_tag:"Аудио-эквалайзер", p1_desc:"Автоматическое выравнивание громкости для macOS. Балансирует звук всех приложений.",
             p2_tag:"Расширение Twitch", p2_desc:"Эмоуты BTTV, FFZ и 7TV + 50+ функций. Авто-сбор, раздельный чат, PiP и др.",
