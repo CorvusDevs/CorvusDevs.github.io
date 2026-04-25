@@ -78,8 +78,8 @@
             justify-content: space-between;
             align-items: center;
             background: rgba(8, 8, 10, 0.8);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
             border-bottom: 1px solid rgba(37, 37, 48, 0.5);
         }
 
@@ -140,6 +140,22 @@
         }
         .lang-menu button:hover { background: rgba(255,255,255,0.08); }
         .lang-menu button.active { color: var(--accent); }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #0a84ff 0%, #5ac8fa 40%, #fff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.7s cubic-bezier(.16,1,.3,1), transform 0.7s cubic-bezier(.16,1,.3,1);
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: none;
+        }
 
         /* ── Hero ── */
         .hero {
@@ -257,9 +273,7 @@
             transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
         }
 
-        .product-card:hover {
-            transform: translateY(-4px);
-        }
+        .product-card:hover {}
 
         .product-icon {
             width: 80px;
@@ -359,16 +373,25 @@
         }
 
         .value-icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 10px;
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 18px;
             margin-bottom: 16px;
-            background: var(--surface-2);
-            border: 1px solid var(--border);
+            background: var(--accent-dim);
+            box-shadow: 0 0 20px rgba(10, 132, 255, 0.08);
+        }
+
+        .value-icon svg {
+            width: 24px;
+            height: 24px;
+            stroke: var(--accent);
+            fill: none;
+            stroke-width: 1.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
         }
 
         .value-card h3 {
@@ -583,11 +606,11 @@
 
     <!-- Products -->
     <section class="products" id="products">
-        <div class="section-label" data-i18n="sec_products">Products</div>
-        <h2 class="section-title" data-i18n="sec_products_title">Safari extensions & macOS apps</h2>
+        <div class="section-label reveal" data-i18n="sec_products">Products</div>
+        <h2 class="section-title gradient-text reveal" data-i18n="sec_products_title">Safari extensions & macOS apps</h2>
 
         <div class="products-grid">
-            <a href="https://corvusdevs.github.io/Ekual/" class="product-card" data-color="green">
+            <a href="https://corvusdevs.github.io/Ekual/" class="product-card reveal" data-color="green">
                 <img src="https://corvusdevs.github.io/Ekual/icon.png" alt="Ekual" class="product-icon">
                 <div class="product-name">Ekual</div>
                 <div class="product-tagline" data-i18n="p1_tag">macOS Audio Equalizer</div>
@@ -598,7 +621,7 @@
                 </span>
             </a>
 
-            <a href="https://corvusdevs.github.io/Purple-Crow-For-Safari/" class="product-card" data-color="purple">
+            <a href="https://corvusdevs.github.io/Purple-Crow-For-Safari/" class="product-card reveal" data-color="purple">
                 <img src="https://corvusdevs.github.io/Purple-Crow-For-Safari/icon.png" alt="Purple Crow for Safari" class="product-icon">
                 <div class="product-name">Purple Crow for Safari</div>
                 <div class="product-tagline" data-i18n="p2_tag">Twitch Extension</div>
@@ -609,7 +632,7 @@
                 </span>
             </a>
 
-            <a href="https://corvusdevs.github.io/Corvus-For-Safari/" class="product-card" data-color="orange">
+            <a href="https://corvusdevs.github.io/Corvus-For-Safari/" class="product-card reveal" data-color="orange">
                 <img src="https://corvusdevs.github.io/Corvus-For-Safari/icon.png" alt="Corvus RSS Reader" class="product-icon">
                 <div class="product-name">Corvus RSS Reader</div>
                 <div class="product-tagline" data-i18n="p3_tag">Safari RSS Extension</div>
@@ -622,7 +645,7 @@
         </div>
 
         <div class="products-bottom">
-            <a href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/" class="product-card" data-color="red">
+            <a href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/" class="product-card reveal" data-color="red">
                 <img src="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/icon.png" alt="Auto Mute Tab for Safari" class="product-icon">
                 <div class="product-name">Auto Mute Tab for Safari</div>
                 <div class="product-tagline" data-i18n="p4_tag">Safari Tab Muter</div>
@@ -633,7 +656,7 @@
                 </span>
             </a>
 
-            <a href="https://corvusdevs.github.io/Tekla/" class="product-card" data-color="blue">
+            <a href="https://corvusdevs.github.io/Tekla/" class="product-card reveal" data-color="blue">
                 <img src="https://corvusdevs.github.io/Tekla/icon.png" alt="Tekla" class="product-icon">
                 <div class="product-name">Tekla</div>
                 <div class="product-tagline" data-i18n="p5_tag">macOS Virtual Keyboard</div>
@@ -648,37 +671,37 @@
 
     <!-- Values -->
     <section class="values" id="about">
-        <div class="section-label" data-i18n="sec_values">Our principles</div>
-        <h2 class="section-title" data-i18n="sec_values_title">How we build software</h2>
+        <div class="section-label reveal" data-i18n="sec_values">Our principles</div>
+        <h2 class="section-title gradient-text reveal" data-i18n="sec_values_title">How we build software</h2>
 
         <div class="values-grid">
-            <div class="value-card">
-                <div class="value-icon">&#128274;</div>
+            <div class="value-card reveal">
+                <div class="value-icon"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div>
                 <h3 data-i18n="v1_t">Privacy by default</h3>
                 <p data-i18n="v1_d">No analytics, no tracking, no accounts. Your data stays on your device.</p>
             </div>
-            <div class="value-card">
-                <div class="value-icon">&#127822;</div>
+            <div class="value-card reveal">
+                <div class="value-icon"><svg viewBox="0 0 24 24"><path d="M20 16V7a2 2 0 00-2-2H6a2 2 0 00-2 2v9m16 0H4m16 0l1.28 2.55a1 1 0 01-.9 1.45H3.62a1 1 0 01-.9-1.45L4 16"/></svg></div>
                 <h3 data-i18n="v2_t">Native to macOS</h3>
                 <p data-i18n="v2_d">Built with Swift and SwiftUI, optimized for Apple Silicon. Our apps belong on your Mac.</p>
             </div>
-            <div class="value-card">
-                <div class="value-icon">&#129513;</div>
+            <div class="value-card reveal">
+                <div class="value-icon"><svg viewBox="0 0 24 24"><path d="M20.24 12.24a6 6 0 00-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg></div>
                 <h3 data-i18n="v3_t">Lightweight by design</h3>
                 <p data-i18n="v3_d">Small downloads, no bloated frameworks, no background daemons. Install in seconds.</p>
             </div>
-            <div class="value-card">
-                <div class="value-icon">&#9889;</div>
+            <div class="value-card reveal">
+                <div class="value-icon"><svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
                 <h3 data-i18n="v4_t">Performance first</h3>
                 <p data-i18n="v4_d">Engineered for minimal resource usage so your Mac stays fast.</p>
             </div>
-            <div class="value-card">
-                <div class="value-icon">&#127919;</div>
+            <div class="value-card reveal">
+                <div class="value-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
                 <h3 data-i18n="v5_t">Focused tools</h3>
                 <p data-i18n="v5_d">Each app does one thing exceptionally well. No feature creep, no unnecessary complexity.</p>
             </div>
-            <div class="value-card">
-                <div class="value-icon">&#129309;</div>
+            <div class="value-card reveal">
+                <div class="value-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
                 <h3 data-i18n="v6_t">Human support</h3>
                 <p data-i18n="v6_d">Real responses from real people. Have a question? Email us directly.</p>
             </div>
@@ -687,7 +710,7 @@
 
     <!-- Coming Soon -->
     <section class="coming-soon">
-        <div class="coming-soon-card">
+        <div class="coming-soon-card reveal">
             <h3 data-i18n="soon_t">More apps coming soon</h3>
             <p data-i18n="soon_d">We're working on new tools for macOS. Drop us a line if you want to be the first to know.</p>
             <a href="mailto:corvusdevs@outlook.com?subject=Notify me about new apps" class="notify-link" data-i18n="soon_btn">Get notified</a>
@@ -721,6 +744,15 @@
             </div>
         </div>
     </footer>
+
+    <script>
+    (function() {
+        const obs = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("visible"); obs.unobserve(e.target); } });
+        }, { threshold: 0.12 });
+        document.querySelectorAll(".reveal").forEach(el => obs.observe(el));
+    })();
+    </script>
 
     <script>
     const T = {
