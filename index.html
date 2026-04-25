@@ -821,6 +821,15 @@
                 window.location.href = card.dataset.href;
             });
         });
+        var ua = navigator.userAgent;
+        var plat = /iPad/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1) ? "ipad"
+                 : /iPhone|iPod/.test(ua) ? "iphone"
+                 : /Macintosh|Mac OS/.test(ua) ? "mac" : null;
+        if (plat) {
+            document.querySelectorAll('a.store-badge[href*="apps.apple.com"]').forEach(function(a) {
+                a.href = a.href.replace(/(\?.*)?$/, "?platform=" + plat);
+            });
+        }
     })();
     </script>
 
