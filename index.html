@@ -411,9 +411,9 @@
         .product-card[data-color="red"] .product-tagline { color: #ff6961; }
         .product-card[data-color="red"] .product-link { color: #ff6961; }
 
-        .product-card[data-color="blue"]:hover, .featured-card[data-color="blue"]:hover { border-color: rgba(10,132,255,0.4); box-shadow: 0 8px 40px rgba(10,132,255,0.08); }
-        .product-card[data-color="blue"] .product-tagline, .featured-card[data-color="blue"] .product-tagline { color: #0a84ff; }
-        .product-card[data-color="blue"] .product-link, .featured-card[data-color="blue"] .product-link { color: #0a84ff; }
+        .product-card[data-color="blue"]:hover { border-color: rgba(10,132,255,0.4); box-shadow: 0 8px 40px rgba(10,132,255,0.08); }
+        .product-card[data-color="blue"] .product-tagline { color: #0a84ff; }
+        .product-card[data-color="blue"] .product-link { color: #0a84ff; }
 
 
         /* ── Values ── */
@@ -673,19 +673,6 @@
         <div class="section-label reveal" data-i18n="sec_products">Products</div>
         <h2 class="section-title gradient-text reveal" data-i18n="sec_products_title">Safari extensions & macOS apps</h2>
 
-        <div class="featured-card reveal" data-color="blue" data-href="https://corvusdevs.github.io/Corvus-Player/">
-            <img src="icons/corvus-player.png" alt="Corvus Player" class="product-icon">
-            <div class="featured-content">
-                <div class="product-name">Corvus Player</div>
-                <div class="product-tagline" data-i18n="p6_tag">macOS Media Player</div>
-                <p class="product-desc" data-i18n="p6_desc">The most powerful and customizable media player for macOS. Built on mpv with GPU-accelerated playback, real-time GLSL shaders, streaming, and 200+ settings.</p>
-                <div class="card-actions">
-                    <a href="https://corvusdevs.github.io/Corvus-Player/" class="store-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download Free</a>
-                    <a href="https://corvusdevs.github.io/Corvus-Player/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
-                </div>
-            </div>
-        </div>
-
         <div class="featured-card reveal" data-color="orange" data-href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/">
             <img src="icons/corvus-rss.png" alt="Corvus RSS Reader" class="product-icon">
             <div class="featured-content">
@@ -857,7 +844,6 @@
             p3_tag:"Safari RSS Extension", p3_desc:"Subscribe to feeds, YouTube channels, and blogs — all in one place. Works on macOS, iOS, and iPadOS.",
             p4_tag:"Safari Tab Muter", p4_desc:"Automatically mutes all background tabs so only the focused tab plays audio. PiP, keyboard shortcuts, and domain whitelist.",
             p5_tag:"macOS Virtual Keyboard", p5_desc:"Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout — 100% offline.",
-            p6_tag:"macOS Media Player", p6_desc:"The most powerful and customizable media player for macOS. Built on mpv with GPU-accelerated playback, real-time GLSL shaders, streaming, and 200+ settings.",
             product_link:"Learn more", know_more:"Know more",
             sec_values:"Our principles", sec_values_title:"How we build software",
             v1_t:"Privacy by default", v1_d:"No analytics, no tracking, no accounts. Your data stays on your device.",
@@ -878,7 +864,6 @@
             p3_tag:"Extensión RSS para Safari", p3_desc:"Suscríbete a feeds, canales de YouTube y blogs — todo en un solo lugar. Funciona en macOS, iOS e iPadOS.",
             p4_tag:"Silenciador de Pestañas", p4_desc:"Silencia automáticamente todas las pestañas en segundo plano. PiP, atajos de teclado y lista blanca de dominios.",
             p5_tag:"Teclado Virtual para macOS", p5_desc:"Teclado virtual con escritura por deslizamiento. Predicciones inteligentes, 14 idiomas — 100% sin conexión.",
-            p6_tag:"Reproductor Multimedia", p6_desc:"El reproductor multimedia más potente y personalizable para macOS. Basado en mpv con reproducción acelerada por GPU, shaders GLSL en tiempo real, streaming y más de 200 ajustes.",
             product_link:"Saber más", know_more:"Saber más",
             sec_values:"Nuestros principios", sec_values_title:"Cómo construimos software",
             v1_t:"Privacidad por defecto", v1_d:"Sin analíticas, sin rastreo, sin cuentas. Tus datos se quedan en tu dispositivo.",
@@ -899,7 +884,6 @@
             p3_tag:"Extension RSS Safari", p3_desc:"Abonnez-vous à des flux, chaînes YouTube et blogs — tout en un seul endroit.",
             p4_tag:"Silenceur d’Onglets", p4_desc:"Coupe automatiquement le son des onglets en arrière-plan. PiP, raccourcis clavier et liste blanche.",
             p5_tag:"Clavier Virtuel macOS", p5_desc:"Clavier virtuel avec saisie par glissement. Prédictions intelligentes, 14 langues — 100% hors ligne.",
-            p6_tag:"Lecteur Multimédia", p6_desc:"Le lecteur multimédia le plus puissant et personnalisable pour macOS. Basé sur mpv avec lecture accélérée GPU, shaders GLSL en temps réel, streaming et plus de 200 réglages.",
             product_link:"En savoir plus", know_more:"En savoir plus",
             sec_values:"Nos principes", sec_values_title:"Comment nous construisons nos logiciels",
             v1_t:"Confidentialité par défaut", v1_d:"Pas d’analytique, pas de suivi, pas de comptes.",
@@ -920,7 +904,6 @@
             p3_tag:"RSS-Erweiterung für Safari", p3_desc:"Feeds, YouTube-Kanäle und Blogs abonnieren — alles an einem Ort.",
             p4_tag:"Tab-Stummschalter", p4_desc:"Schaltet automatisch alle Hintergrund-Tabs stumm. PiP, Tastaturkürzel und Whitelist.",
             p5_tag:"Virtuelle Tastatur", p5_desc:"Virtuelle Tastatur mit Wisch-Eingabe. 14 Sprachen, vollständiges Layout — 100% offline.",
-            p6_tag:"Mediaplayer für macOS", p6_desc:"Der leistungsstärkste und anpassbarste Mediaplayer für macOS. Basierend auf mpv mit GPU-beschleunigter Wiedergabe, Echtzeit-GLSL-Shadern, Streaming und über 200 Einstellungen.",
             product_link:"Mehr erfahren", know_more:"Mehr erfahren",
             sec_values:"Unsere Prinzipien", sec_values_title:"Wie wir Software bauen",
             v1_t:"Datenschutz als Standard", v1_d:"Keine Analytik, kein Tracking, keine Konten.",
@@ -941,7 +924,6 @@
             p3_tag:"Extensão RSS para Safari", p3_desc:"Assine feeds, canais do YouTube e blogs — tudo em um só lugar.",
             p4_tag:"Silenciador de Abas", p4_desc:"Silencia automaticamente todas as abas em segundo plano. PiP, atalhos e whitelist.",
             p5_tag:"Teclado Virtual macOS", p5_desc:"Teclado virtual com digitação por deslizamento. 14 idiomas — 100% offline.",
-            p6_tag:"Reprodutor Multimídia", p6_desc:"O reprodutor multimídia mais poderoso e personalizável para macOS. Baseado em mpv com reprodução acelerada por GPU, shaders GLSL em tempo real, streaming e mais de 200 configurações.",
             product_link:"Saiba mais", know_more:"Saiba mais",
             sec_values:"Nossos princípios", sec_values_title:"Como construímos software",
             v1_t:"Privacidade por padrão", v1_d:"Sem analytics, sem rastreamento, sem contas.",
@@ -962,7 +944,6 @@
             p3_tag:"Estensione RSS Safari", p3_desc:"Iscriviti a feed, canali YouTube e blog — tutto in un unico posto.",
             p4_tag:"Silenziatore Schede", p4_desc:"Silenzia automaticamente tutte le schede in background. PiP, scorciatoie e whitelist.",
             p5_tag:"Tastiera Virtuale macOS", p5_desc:"Tastiera virtuale con digitazione a scorrimento. 14 lingue — 100% offline.",
-            p6_tag:"Lettore Multimediale", p6_desc:"Il lettore multimediale più potente e personalizzabile per macOS. Basato su mpv con riproduzione accelerata GPU, shader GLSL in tempo reale, streaming e oltre 200 impostazioni.",
             product_link:"Scopri di più", know_more:"Scopri di più",
             sec_values:"I nostri principi", sec_values_title:"Come costruiamo software",
             v1_t:"Privacy per impostazione predefinita", v1_d:"Nessuna analitica, nessun tracciamento, nessun account.",
@@ -983,7 +964,6 @@
             p3_tag:"RSS拡張機能", p3_desc:"フィード、YouTubeチャンネル、ブログを購読。すべて一か所で。",
             p4_tag:"タブミュート", p4_desc:"バックグラウンドタブを自動ミュート。PiP、ショートカット、ホワイトリスト対応。",
             p5_tag:"バーチャルキーボード", p5_desc:"スワイプ入力対応のバーチャルキーボード。14言語 — 100%オフライン。",
-            p6_tag:"メディアプレーヤー", p6_desc:"macOS最強のカスタマイズ可能なメディアプレーヤー。mpvベースでGPU加速再生、リアルタイムGLSLシェーダー、ストリーミング、200以上の設定。",
             product_link:"詳しく見る", know_more:"詳しく見る",
             sec_values:"私たちの原則", sec_values_title:"ソフトウェアの作り方",
             v1_t:"デフォルトでプライバシー", v1_d:"アナリティクスなし、トラッキングなし。",
@@ -1004,7 +984,6 @@
             p3_tag:"RSS 扩展", p3_desc:"订阅 Feed、YouTube 频道和博客 — 一切尽在一处。",
             p4_tag:"标签页静音", p4_desc:"自动静音所有后台标签页。支持PiP、快捷键和白名单。",
             p5_tag:"虚拟键盘", p5_desc:"滑动输入虚拟键盘。14 种语言 — 100% 离线。",
-            p6_tag:"媒体播放器", p6_desc:"macOS 上最强大、最可定制的媒体播放器。基于 mpv，GPU 加速播放、实时 GLSL 着色器、流媒体及 200+ 项设置。",
             product_link:"了解更多", know_more:"了解更多",
             sec_values:"我们的原则", sec_values_title:"我们如何构建软件",
             v1_t:"默认隐私", v1_d:"无分析、无追踪、无账户。",
@@ -1025,7 +1004,6 @@
             p3_tag:"RSS 확장", p3_desc:"피드, YouTube 채널, 블로그를 구독하세요 — 한곳에서 모두.",
             p4_tag:"탭 음소거", p4_desc:"모든 백그라운드 탭을 자동 음소거. PiP, 단축키, 화이트리스트 지원.",
             p5_tag:"가상 키보드", p5_desc:"스와이프 입력 가상 키보드. 14개 언어 — 100% 오프라인.",
-            p6_tag:"미디어 플레이어", p6_desc:"macOS에서 가장 강력하고 맞춤 설정 가능한 미디어 플레이어. mpv 기반 GPU 가속 재생, 실시간 GLSL 셰이더, 스트리밍 및 200개 이상의 설정.",
             product_link:"자세히 보기", know_more:"자세히 보기",
             sec_values:"우리의 원칙", sec_values_title:"소프트웨어 개발 방식",
             v1_t:"기본 프라이버시", v1_d:"분석 없음, 추적 없음, 계정 없음.",
@@ -1046,7 +1024,6 @@
             p3_tag:"RSS-расширение", p3_desc:"Подписывайтесь на ленты, YouTube-каналы и блоги — всё в одном месте.",
             p4_tag:"Глушитель вкладок", p4_desc:"Автоматически отключает звук во всех фоновых вкладках. PiP, горячие клавиши, белый список.",
             p5_tag:"Виртуальная клавиатура", p5_desc:"Виртуальная клавиатура со свайп-вводом. 14 языков — 100% офлайн.",
-            p6_tag:"Медиаплеер для macOS", p6_desc:"Самый мощный и настраиваемый медиаплеер для macOS. На базе mpv с GPU-ускорением, шейдерами GLSL в реальном времени, стримингом и 200+ настройками.",
             product_link:"Подробнее", know_more:"Подробнее",
             sec_values:"Наши принципы", sec_values_title:"Как мы создаём ПО",
             v1_t:"Конфиденциальность по умолчанию", v1_d:"Без аналитики, без отслеживания, без аккаунтов.",
