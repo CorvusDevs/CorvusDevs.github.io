@@ -1,0 +1,21 @@
+# CorvusDevs.github.io — files allowed to be pushed to the PUBLIC GitHub repo.
+# This repo is a pure GitHub Pages site, so everything is public.
+
+.claude/**
+_config.yml
+apple-touch-icon.png
+avatar.png
+favicon-16x16.png
+favicon-32x32.png
+googlef5df0bf94fe3b6d7.html
+icons/**
+index.html
+og-image.png
+privacy.html
+privacy.md
+robots.txt
+sitemap.xml
+terms.html
+terms.md
+.push-allowed
+README.md
