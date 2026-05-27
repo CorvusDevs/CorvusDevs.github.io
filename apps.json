@@ -1,0 +1,111 @@
+{
+  "$schema": "Manifest of CorvusDevs apps. Each project's docs/index.html carousel fetches this and renders all entries except its own (matched on slug). Adding a new app here makes it appear automatically across every project's page on next page load. Keep keys stable — they're consumed by the cross-promo carousel + automated README renderers.",
+  "updated": "2026-05-26",
+  "apps": [
+    {
+      "slug": "Corvus-Player",
+      "name": "Corvus Player",
+      "tagline": "macOS Media Player",
+      "description": "The most powerful and customizable media player for macOS. Built on mpv with GPU-accelerated playback, real-time GLSL shaders, streaming, and 200+ settings.",
+      "icon": "https://corvusdevs.github.io/icons/corvus-player.png",
+      "url": "https://corvusdevs.github.io/Corvus-Player/",
+      "store": {
+        "kind": "download",
+        "label": "Download Free",
+        "url": "https://corvusdevs.github.io/Corvus-Player/"
+      },
+      "accent": "blue",
+      "featured": true
+    },
+    {
+      "slug": "Corvus-RSS-Reader-For-Safari",
+      "name": "Corvus RSS Reader",
+      "tagline": "Safari RSS Extension",
+      "description": "Subscribe to feeds, YouTube channels, and blogs in one place. Works on macOS, iOS, and iPadOS.",
+      "icon": "https://corvusdevs.github.io/icons/corvus-rss.png",
+      "url": "https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6761442829"
+      },
+      "accent": "orange",
+      "featured": true
+    },
+    {
+      "slug": "Ekual",
+      "name": "Ekual",
+      "tagline": "macOS Audio Equalizer",
+      "description": "Automatic loudness equalization for macOS. Balances volume across all your apps in real time. Free 14-day trial.",
+      "icon": "https://corvusdevs.github.io/icons/ekual.png",
+      "url": "https://corvusdevs.github.io/Ekual/",
+      "store": {
+        "kind": "download",
+        "label": "Download Free",
+        "url": "https://corvusdevs.github.io/Ekual/"
+      },
+      "accent": "green",
+      "featured": false
+    },
+    {
+      "slug": "Purple-Crow-For-Safari",
+      "name": "Purple Crow for Safari",
+      "tagline": "Twitch Extension",
+      "description": "BTTV, FFZ, and 7TV emotes plus 50+ features. Auto-claim, split chat, PiP, anonymous viewing, and more.",
+      "icon": "https://corvusdevs.github.io/icons/purple-crow.png",
+      "url": "https://corvusdevs.github.io/Purple-Crow-For-Safari/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6761481948"
+      },
+      "accent": "purple",
+      "featured": false
+    },
+    {
+      "slug": "Auto-Mute-Tab-For-Safari",
+      "name": "Auto Mute Tab for Safari",
+      "tagline": "Safari Tab Muter",
+      "description": "Automatically mutes background tabs so only the focused tab plays audio. PiP, keyboard shortcuts, and domain whitelist.",
+      "icon": "https://corvusdevs.github.io/icons/auto-mute-tab.png",
+      "url": "https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6761746627"
+      },
+      "accent": "red",
+      "featured": false
+    },
+    {
+      "slug": "Red-Crow-For-Safari",
+      "name": "Red Crow for Safari",
+      "tagline": "YouTube Safari Extension",
+      "description": "Speed control, SponsorBlock, video filters, and 40+ features for YouTube. Native Safari extension for iPhone and iPad. macOS coming soon.",
+      "icon": "https://corvusdevs.github.io/icons/red-crow.png",
+      "url": "https://corvusdevs.github.io/Red-Crow-For-Safari/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6766324724"
+      },
+      "accent": "red",
+      "featured": false
+    },
+    {
+      "slug": "Tekla",
+      "name": "Tekla",
+      "tagline": "macOS Virtual Keyboard",
+      "description": "Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout, 100% offline.",
+      "icon": "https://corvusdevs.github.io/icons/tekla.png",
+      "url": "https://corvusdevs.github.io/Tekla/",
+      "store": {
+        "kind": "download",
+        "label": "Get Tekla",
+        "url": "https://corvusdevs.github.io/Tekla/"
+      },
+      "accent": "blue",
+      "featured": false
+    }
+  ]
+}
