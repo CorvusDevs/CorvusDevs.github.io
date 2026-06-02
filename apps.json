@@ -1,7 +1,22 @@
 {
   "$schema": "Manifest of CorvusDevs apps. Each project's docs/index.html carousel fetches this and renders all entries except its own (matched on slug). Adding a new app here makes it appear automatically across every project's page on next page load. Keep keys stable — they're consumed by the cross-promo carousel + automated README renderers.",
-  "updated": "2026-05-26",
+  "updated": "2026-06-02",
   "apps": [
+    {
+      "slug": "Findbar-For-Safari",
+      "name": "Findbar",
+      "tagline": "Safari Address-Bar Shortcuts",
+      "description": "Type a keyword in Safari's address bar and jump anywhere. 30+ built-in shortcuts, edit any of them or add your own. Works on macOS, iOS, and iPadOS.",
+      "icon": "https://corvusdevs.github.io/icons/findbar.png",
+      "url": "https://corvusdevs.github.io/Findbar-For-Safari/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6773464299"
+      },
+      "accent": "purple",
+      "featured": true
+    },
     {
       "slug": "Corvus-Player",
       "name": "Corvus Player",
