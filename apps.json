@@ -1,7 +1,22 @@
 {
-  "$schema": "Manifest of CorvusDevs apps. Each project's docs/index.html carousel fetches this and renders all entries except its own (matched on slug). Adding a new app here makes it appear automatically across every project's page on next page load. Keep keys stable — they're consumed by the cross-promo carousel + automated README renderers.",
-  "updated": "2026-06-02",
+  "$schema": "Manifest of CorvusDevs apps. Each project's docs/index.html carousel fetches this and renders all entries except its own (matched on slug). Adding a new app here makes it appear automatically across every project's page on next page load. Keep keys stable, they're consumed by the cross-promo carousel + automated README renderers.",
+  "updated": "2026-06-04",
   "apps": [
+    {
+      "slug": "Alien-Crow-For-Safari",
+      "name": "Alien Crow",
+      "tagline": "Power Tools for Reddit",
+      "description": "Supercharge old.reddit.com and modern Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, media tools, and keyboard navigation. Works on macOS, iOS, and iPadOS.",
+      "icon": "https://corvusdevs.github.io/icons/alien-crow.png",
+      "url": "https://corvusdevs.github.io/Alien-Crow-For-Safari/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6769216829"
+      },
+      "accent": "orange",
+      "featured": true
+    },
     {
       "slug": "Findbar-For-Safari",
       "name": "Findbar",

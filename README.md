@@ -9,7 +9,7 @@
 
 ---
 
-We build native apps for Apple platforms — fast, private, and thoughtfully designed. No accounts, no tracking, no telemetry. Your data stays on your device.
+We build native apps for Apple platforms, fast, private, and thoughtfully designed. No accounts, no tracking, no telemetry. Your data stays on your device.
 
 ## Apps
 
@@ -17,6 +17,7 @@ We build native apps for Apple platforms — fast, private, and thoughtfully des
 
 | | App | Platforms | Description |
 |---|-----|-----------|-------------|
+| <img src="https://corvusdevs.github.io/icons/alien-crow.png" width="40"> | **[Alien Crow](https://corvusdevs.github.io/Alien-Crow-For-Safari/)** | macOS · iOS · iPadOS | Supercharge old.reddit.com and modern Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. |
 | <img src="https://corvusdevs.github.io/icons/corvus-rss.png" width="40"> | **[Corvus RSS Reader](https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/)** | macOS · iOS · iPadOS | Subscribe to feeds, YouTube channels, and blogs. 600+ curated feeds, 5 view modes, full-text search, tags, smart filters, and OPML support. |
 | <img src="https://corvusdevs.github.io/icons/purple-crow.png" width="40"> | **[Purple Crow](https://corvusdevs.github.io/Purple-Crow-For-Safari/)** | macOS · iOS · iPadOS | BTTV, FFZ & 7TV emotes for Twitch on Safari. Auto-claim, split chat, PiP, anonymous viewing, and 50+ features. |
 | <img src="https://corvusdevs.github.io/icons/auto-mute-tab.png" width="40"> | **[Auto Mute Tab](https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/)** | macOS | Automatically mute background tabs so only the focused tab plays audio. PiP support, keyboard shortcuts, domain whitelist. |
@@ -27,7 +28,7 @@ We build native apps for Apple platforms — fast, private, and thoughtfully des
 | | App | Description |
 |---|-----|-------------|
 | <img src="https://corvusdevs.github.io/icons/ekual.png" width="40"> | **[Ekual](https://corvusdevs.github.io/Ekual/)** | Automatic loudness equalization for macOS. Balances volume across all your apps in real time. Free 14-day trial. |
-| <img src="https://corvusdevs.github.io/icons/tekla.png" width="40"> | **[Tekla](https://corvusdevs.github.io/Tekla/)** | Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout — 100% offline. |
+| <img src="https://corvusdevs.github.io/icons/tekla.png" width="40"> | **[Tekla](https://corvusdevs.github.io/Tekla/)** | Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout, 100% offline. |
 
 ## Download
 
