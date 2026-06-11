@@ -86,7 +86,7 @@ YouTube, upgraded. Speed control, SponsorBlock, video filters, custom themes, an
 
 The most powerful, customizable media player for macOS. Built on mpv with GPU-accelerated playback, real-time GLSL shaders, streaming, and 200+ settings.
 
-![macOS][p-mac] &nbsp; [![Learn more](https://img.shields.io/badge/Learn_more-555555?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Corvus-Player/) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Corvus-Player)
+![macOS][p-mac] &nbsp; [![Free download](https://img.shields.io/badge/Free_download-2EA44F?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Corvus-Player/) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Corvus-Player)
 
 <br clear="left">
 
