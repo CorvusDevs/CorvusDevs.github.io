@@ -24,7 +24,7 @@
 
 Supercharge old.reddit.com and modern Reddit. Dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. 90+ tools in one extension.
 
-<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6769216829) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Alien-Crow-For-Safari)
+<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6769216829) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Alien-Crow-For-Safari)
 
 <br clear="left">
 
@@ -34,7 +34,7 @@ Supercharge old.reddit.com and modern Reddit. Dark mode and 20+ themes, ad and n
 
 Type a keyword in Safari's address bar and jump anywhere. 30+ built-in shortcuts, fully editable, plus your own.
 
-<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6773464299) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Findbar-For-Safari)
+<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6773464299) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Findbar-For-Safari)
 
 <br clear="left">
 
@@ -44,7 +44,7 @@ Type a keyword in Safari's address bar and jump anywhere. 30+ built-in shortcuts
 
 Subscribe to feeds, YouTube channels, and blogs in one place. 600+ curated feeds, 5 view modes, full-text search, tags, smart filters, and OPML support.
 
-<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6761442829) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Corvus-RSS-Reader-For-Safari)
+<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6761442829) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Corvus-RSS-Reader-For-Safari)
 
 <br clear="left">
 
@@ -54,7 +54,7 @@ Subscribe to feeds, YouTube channels, and blogs in one place. 600+ curated feeds
 
 BTTV, FFZ, and 7TV emotes for Twitch. Auto-claim, split chat, picture-in-picture, anonymous viewing, and 50+ features.
 
-<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6761481948) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Purple-Crow-For-Safari)
+<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6761481948) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Purple-Crow-For-Safari)
 
 <br clear="left">
 
@@ -64,7 +64,7 @@ BTTV, FFZ, and 7TV emotes for Twitch. Auto-claim, split chat, picture-in-picture
 
 Automatically mute background tabs so only the focused tab plays audio. Picture-in-picture, keyboard shortcuts, and a domain whitelist.
 
-<kbd>macOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6761746627) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Auto-Mute-Tab-For-Safari)
+<kbd>macOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6761746627) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Auto-Mute-Tab-For-Safari)
 
 <br clear="left">
 
@@ -74,7 +74,7 @@ Automatically mute background tabs so only the focused tab plays audio. Picture-
 
 YouTube, upgraded. Speed control, SponsorBlock, video filters, custom themes, and 40+ features.
 
-<kbd>iOS</kbd> <kbd>iPadOS</kbd> <kbd>macOS soon</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6766324724) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Red-Crow-For-Safari)
+<kbd>iOS</kbd> <kbd>iPadOS</kbd> <kbd>macOS soon</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6766324724) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Red-Crow-For-Safari)
 
 <br clear="left">
 
@@ -86,7 +86,7 @@ YouTube, upgraded. Speed control, SponsorBlock, video filters, custom themes, an
 
 The most powerful, customizable media player for macOS. Built on mpv with GPU-accelerated playback, real-time GLSL shaders, streaming, and 200+ settings.
 
-<kbd>macOS</kbd> &nbsp; [![Learn more](https://img.shields.io/badge/Learn_more-555555?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Corvus-Player/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Corvus-Player)
+<kbd>macOS</kbd> &nbsp; [![Learn more](https://img.shields.io/badge/Learn_more-555555?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Corvus-Player/) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Corvus-Player)
 
 <br clear="left">
 
@@ -96,7 +96,7 @@ The most powerful, customizable media player for macOS. Built on mpv with GPU-ac
 
 Automatic loudness equalization for macOS. Balances volume across all your apps in real time. Free 14-day trial.
 
-<kbd>macOS</kbd> &nbsp; [![Free trial](https://img.shields.io/badge/Free_trial-2EA44F?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Ekual/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Ekual)
+<kbd>macOS</kbd> &nbsp; [![Free trial](https://img.shields.io/badge/Free_trial-2EA44F?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Ekual/) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Ekual)
 
 <br clear="left">
 
@@ -106,7 +106,7 @@ Automatic loudness equalization for macOS. Balances volume across all your apps 
 
 Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout, 100% offline.
 
-<kbd>macOS</kbd> &nbsp; [![Get Tekla](https://img.shields.io/badge/Get_Tekla-555555?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Tekla/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Tekla)
+<kbd>macOS</kbd> &nbsp; [![Get Tekla](https://img.shields.io/badge/Get_Tekla-555555?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Tekla/) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Tekla)
 
 <br clear="left">
 
