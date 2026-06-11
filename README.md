@@ -98,7 +98,7 @@ The most powerful, customizable media player for macOS. Built on mpv with GPU-ac
 
 Automatic loudness equalization for macOS. Balances volume across all your apps in real time. Free 14-day trial.
 
-<picture><img alt="macOS" src="https://img.shields.io/badge/macOS-24292F?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTMgMTloMTgiLz48cmVjdCB4PSI1IiB5PSI2IiB3aWR0aD0iMTQiIGhlaWdodD0iMTAiIHJ4PSIxIi8%2BPC9zdmc%2B&logoColor=white"></picture> &nbsp; [![Free trial](https://img.shields.io/badge/Free_trial-2EA44F?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Ekual/) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Ekual)
+<picture><img alt="macOS" src="https://img.shields.io/badge/macOS-24292F?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTMgMTloMTgiLz48cmVjdCB4PSI1IiB5PSI2IiB3aWR0aD0iMTQiIGhlaWdodD0iMTAiIHJ4PSIxIi8%2BPC9zdmc%2B&logoColor=white"></picture> &nbsp; [![Free download](https://img.shields.io/badge/Free_download-2EA44F?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Ekual/) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Ekual)
 
 <br clear="left">
 
@@ -108,7 +108,7 @@ Automatic loudness equalization for macOS. Balances volume across all your apps 
 
 Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout, 100% offline.
 
-<picture><img alt="macOS" src="https://img.shields.io/badge/macOS-24292F?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTMgMTloMTgiLz48cmVjdCB4PSI1IiB5PSI2IiB3aWR0aD0iMTQiIGhlaWdodD0iMTAiIHJ4PSIxIi8%2BPC9zdmc%2B&logoColor=white"></picture> &nbsp; [![Free trial](https://img.shields.io/badge/Free_trial-2EA44F?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Tekla/) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Tekla)
+<picture><img alt="macOS" src="https://img.shields.io/badge/macOS-24292F?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTMgMTloMTgiLz48cmVjdCB4PSI1IiB5PSI2IiB3aWR0aD0iMTQiIGhlaWdodD0iMTAiIHJ4PSIxIi8%2BPC9zdmc%2B&logoColor=white"></picture> &nbsp; [![Free download](https://img.shields.io/badge/Free_download-2EA44F?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Tekla/) [![Readme](https://img.shields.io/badge/Readme-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CorvusDevs/Tekla)
 
 <br clear="left">
 
