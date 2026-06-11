@@ -1,45 +1,121 @@
 <div align="center">
-  <img src="https://corvusdevs.github.io/avatar.png" width="120" height="120" alt="CorvusDevs">
-  <h1>CorvusDevs</h1>
-  <p><strong>Privacy-first native apps for macOS, iOS &amp; iPadOS</strong></p>
-  <p>
-    <a href="https://corvusdevs.github.io"><img src="https://img.shields.io/badge/Website-corvusdevs.github.io-ff4500?style=flat-square&logo=safari&logoColor=white" alt="Website"></a>
-    <img src="https://img.shields.io/badge/Platforms-macOS_·_iOS_·_iPadOS-0d96f6?style=flat-square&logo=apple&logoColor=white" alt="Platforms">
-    <img src="https://img.shields.io/badge/Apps-7-6e5494?style=flat-square" alt="7 apps">
-    <img src="https://img.shields.io/badge/Tracking-none-2ea44f?style=flat-square" alt="No tracking">
-  </p>
+
+<img src="https://corvusdevs.github.io/avatar.png" width="112" height="112" alt="CorvusDevs">
+
+# CorvusDevs
+
+<em>Privacy-first native apps for macOS, iOS &amp; iPadOS</em>
+
+<a href="https://corvusdevs.github.io"><img alt="Website" src="https://img.shields.io/badge/corvusdevs.github.io-1F6FEB?style=for-the-badge&logo=safari&logoColor=white"></a>
+<img alt="Platforms" src="https://img.shields.io/badge/macOS_·_iOS_·_iPadOS-000000?style=for-the-badge&logo=apple&logoColor=white">
+<img alt="9 apps" src="https://img.shields.io/badge/Apps-9-6E5494?style=for-the-badge">
+
+<sub>No accounts &nbsp;·&nbsp; No tracking &nbsp;·&nbsp; No telemetry &nbsp;·&nbsp; Your data never leaves your device</sub>
+
 </div>
 
----
+<br>
 
-We build native apps for Apple platforms, fast, private, and thoughtfully designed. No accounts, no tracking, no telemetry. Your data stays on your device.
+## Safari Extensions
 
-## Apps
+<img align="left" width="58" height="58" src="https://corvusdevs.github.io/icons/alien-crow.png" alt="Alien Crow">
 
-### Safari Extensions
+### [Alien Crow](https://corvusdevs.github.io/Alien-Crow-For-Safari/)
 
-| | App | Platforms | Description |
-|---|-----|-----------|-------------|
-| <img src="https://corvusdevs.github.io/icons/alien-crow.png" width="42"> | **[Alien Crow](https://corvusdevs.github.io/Alien-Crow-For-Safari/)**<br><sub>[App Store ↗](https://apps.apple.com/app/id6769216829)</sub> | macOS · iOS · iPadOS | Supercharge old.reddit.com and modern Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. |
-| <img src="https://corvusdevs.github.io/icons/corvus-rss.png" width="42"> | **[Corvus RSS Reader](https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/)**<br><sub>[App Store ↗](https://apps.apple.com/app/id6761442829)</sub> | macOS · iOS · iPadOS | Subscribe to feeds, YouTube channels, and blogs. 600+ curated feeds, 5 view modes, full-text search, tags, smart filters, and OPML support. |
-| <img src="https://corvusdevs.github.io/icons/purple-crow.png" width="42"> | **[Purple Crow](https://corvusdevs.github.io/Purple-Crow-For-Safari/)**<br><sub>[App Store ↗](https://apps.apple.com/app/id6761481948)</sub> | macOS · iOS · iPadOS | BTTV, FFZ and 7TV emotes for Twitch on Safari. Auto-claim, split chat, PiP, anonymous viewing, and 50+ features. |
-| <img src="https://corvusdevs.github.io/icons/auto-mute-tab.png" width="42"> | **[Auto Mute Tab](https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/)**<br><sub>[App Store ↗](https://apps.apple.com/app/id6761746627)</sub> | macOS | Automatically mute background tabs so only the focused tab plays audio. PiP support, keyboard shortcuts, domain whitelist. |
-| <img src="https://corvusdevs.github.io/icons/red-crow.png" width="42"> | **[Red Crow](https://corvusdevs.github.io/Red-Crow-For-Safari/)**<br><sub>[App Store ↗](https://apps.apple.com/app/id6766324724)</sub> | iOS · iPadOS <sub>(macOS soon)</sub> | YouTube enhancement for Safari. Speed control, SponsorBlock, video filters, custom themes, and 40+ features. |
+Supercharge old.reddit.com and modern Reddit. Dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. 90+ tools in one extension.
 
-### macOS Apps
+<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6769216829)
 
-| | App | Platforms | Description |
-|---|-----|-----------|-------------|
-| <img src="https://corvusdevs.github.io/icons/ekual.png" width="42"> | **[Ekual](https://corvusdevs.github.io/Ekual/)**<br><sub>[Free trial ↗](https://corvusdevs.github.io/Ekual/)</sub> | macOS | Automatic loudness equalization for macOS. Balances volume across all your apps in real time. Free 14-day trial. |
-| <img src="https://corvusdevs.github.io/icons/tekla.png" width="42"> | **[Tekla](https://corvusdevs.github.io/Tekla/)** | macOS | Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout, 100% offline. |
+<br clear="left">
 
-## Contact
+<img align="left" width="58" height="58" src="https://corvusdevs.github.io/icons/findbar.png" alt="Findbar">
 
-- Website: [corvusdevs.github.io](https://corvusdevs.github.io)
-- Email: corvusdevs@outlook.com
+### [Findbar](https://corvusdevs.github.io/Findbar-For-Safari/)
 
----
+Type a keyword in Safari's address bar and jump anywhere. 30+ built-in shortcuts, fully editable, plus your own.
+
+<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6773464299)
+
+<br clear="left">
+
+<img align="left" width="58" height="58" src="https://corvusdevs.github.io/icons/corvus-rss.png" alt="Corvus RSS Reader">
+
+### [Corvus RSS Reader](https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/)
+
+Subscribe to feeds, YouTube channels, and blogs in one place. 600+ curated feeds, 5 view modes, full-text search, tags, smart filters, and OPML support.
+
+<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6761442829)
+
+<br clear="left">
+
+<img align="left" width="58" height="58" src="https://corvusdevs.github.io/icons/purple-crow.png" alt="Purple Crow">
+
+### [Purple Crow](https://corvusdevs.github.io/Purple-Crow-For-Safari/)
+
+BTTV, FFZ, and 7TV emotes for Twitch. Auto-claim, split chat, picture-in-picture, anonymous viewing, and 50+ features.
+
+<kbd>macOS</kbd> <kbd>iOS</kbd> <kbd>iPadOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6761481948)
+
+<br clear="left">
+
+<img align="left" width="58" height="58" src="https://corvusdevs.github.io/icons/auto-mute-tab.png" alt="Auto Mute Tab">
+
+### [Auto Mute Tab](https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/)
+
+Automatically mute background tabs so only the focused tab plays audio. Picture-in-picture, keyboard shortcuts, and a domain whitelist.
+
+<kbd>macOS</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6761746627)
+
+<br clear="left">
+
+<img align="left" width="58" height="58" src="https://corvusdevs.github.io/icons/red-crow.png" alt="Red Crow">
+
+### [Red Crow](https://corvusdevs.github.io/Red-Crow-For-Safari/)
+
+YouTube, upgraded. Speed control, SponsorBlock, video filters, custom themes, and 40+ features.
+
+<kbd>iOS</kbd> <kbd>iPadOS</kbd> <kbd>macOS soon</kbd> &nbsp; [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=apple&logoColor=white)](https://apps.apple.com/app/id6766324724)
+
+<br clear="left">
+
+## macOS Apps
+
+<img align="left" width="58" height="58" src="https://corvusdevs.github.io/icons/corvus-player.png" alt="Corvus Player">
+
+### [Corvus Player](https://corvusdevs.github.io/Corvus-Player/)
+
+The most powerful, customizable media player for macOS. Built on mpv with GPU-accelerated playback, real-time GLSL shaders, streaming, and 200+ settings.
+
+<kbd>macOS</kbd> &nbsp; [![Learn more](https://img.shields.io/badge/Learn_more-555555?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Corvus-Player/)
+
+<br clear="left">
+
+<img align="left" width="58" height="58" src="https://corvusdevs.github.io/icons/ekual.png" alt="Ekual">
+
+### [Ekual](https://corvusdevs.github.io/Ekual/)
+
+Automatic loudness equalization for macOS. Balances volume across all your apps in real time. Free 14-day trial.
+
+<kbd>macOS</kbd> &nbsp; [![Free trial](https://img.shields.io/badge/Free_trial-2EA44F?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Ekual/)
+
+<br clear="left">
+
+<img align="left" width="58" height="58" src="https://corvusdevs.github.io/icons/tekla.png" alt="Tekla">
+
+### [Tekla](https://corvusdevs.github.io/Tekla/)
+
+Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout, 100% offline.
+
+<kbd>macOS</kbd> &nbsp; [![Get Tekla](https://img.shields.io/badge/Get_Tekla-555555?style=flat-square&logo=apple&logoColor=white)](https://corvusdevs.github.io/Tekla/)
+
+<br clear="left">
 
 <div align="center">
-  <sub>Made with care by CorvusDevs</sub>
+
+<br>
+
+**Every app runs entirely on your device.** No sign-up, no telemetry, no cloud.
+
+<sub>[corvusdevs.github.io](https://corvusdevs.github.io) &nbsp;·&nbsp; [corvusdevs@outlook.com](mailto:corvusdevs@outlook.com)</sub>
+
 </div>
