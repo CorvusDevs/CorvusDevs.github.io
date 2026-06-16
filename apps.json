@@ -65,7 +65,7 @@
     {
       "slug": "Ekual",
       "name": "Ekual",
-      "tagline": "macOS Audio Equalizer",
+      "tagline": "macOS Loudness Equalization",
       "description": "Automatic loudness equalization for macOS. Balances volume across all your apps in real time. Free 14-day trial.",
       "icon": "https://corvusdevs.github.io/icons/ekual.png",
       "url": "https://corvusdevs.github.io/Ekual/",
