@@ -3,6 +3,21 @@
   "updated": "2026-06-04",
   "apps": [
     {
+      "slug": "CorvusDisplay",
+      "name": "Corvus Display",
+      "tagline": "macOS Display Control",
+      "description": "Brightness, color temperature, and resolution control for external and non-Apple displays on Apple Silicon Macs.",
+      "icon": "https://corvusdevs.github.io/icons/corvus-display.png",
+      "url": "https://corvusdevs.github.io/CorvusDisplay/",
+      "store": {
+        "kind": "download",
+        "label": "Free Download",
+        "url": "https://corvusdevs.github.io/CorvusDisplay/"
+      },
+      "accent": "blue",
+      "featured": true
+    },
+    {
       "slug": "Alien-Crow-For-Safari",
       "name": "Alien Crow",
       "tagline": "Power Tools for Reddit",
