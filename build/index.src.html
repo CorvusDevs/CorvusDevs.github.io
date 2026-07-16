@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CorvusDevs: Safari Extensions & macOS Apps</title>
-    <meta name="description" content="CorvusDevs builds Safari extensions and macOS apps. RSS reader, Twitch tools, and more. Privacy-first software for Apple platforms.">
+    <title>CorvusDevs — Safari Extensions & macOS Apps</title>
+    <meta name="description" content="CorvusDevs builds Safari extensions and macOS apps. RSS reader, Twitch tools, and more — privacy-first software for Apple platforms.">
     <meta name="keywords" content="Safari extensions, macOS apps, RSS reader, Twitch extension, YouTube extension, tab muter, audio equalizer, virtual keyboard, privacy, Apple Silicon, CorvusDevs">
     <link rel="canonical" href="https://corvusdevs.github.io/">
     <link rel="alternate" hreflang="en" href="https://corvusdevs.github.io/">
@@ -20,14 +20,14 @@
     <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://corvusdevs.github.io/">
-    <meta property="og:title" content="CorvusDevs: Safari Extensions & macOS Apps">
-    <meta property="og:description" content="Safari extensions and macOS apps. RSS reader, Twitch tools, and more. Privacy-first software for Apple platforms.">
+    <meta property="og:title" content="CorvusDevs — Safari Extensions & macOS Apps">
+    <meta property="og:description" content="Safari extensions and macOS apps. RSS reader, Twitch tools, and more — privacy-first software for Apple platforms.">
     <meta property="og:image" content="https://corvusdevs.github.io/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CorvusDevs: Safari Extensions & macOS Apps">
-    <meta name="twitter:description" content="Safari extensions and macOS apps. RSS reader, Twitch tools, and more. Privacy-first software for Apple platforms.">
+    <meta name="twitter:title" content="CorvusDevs — Safari Extensions & macOS Apps">
+    <meta name="twitter:description" content="Safari extensions and macOS apps. RSS reader, Twitch tools, and more — privacy-first software for Apple platforms.">
     <meta name="twitter:image" content="https://corvusdevs.github.io/og-image.png">
     <meta name="robots" content="index, follow">
     <script type="application/ld+json">
@@ -36,222 +36,686 @@
         "@type": "Organization",
         "name": "CorvusDevs",
         "url": "https://corvusdevs.github.io",
-        "description": "Safari extensions and macOS apps: RSS reader, Twitch tools, and more. Privacy-first software for Apple platforms."
+        "description": "Safari extensions and macOS apps — RSS reader, Twitch tools, and more. Privacy-first software for Apple platforms."
     }
     </script>
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <style>
-:root{
-  --bg:#f2f2f5; --panel:#fff; --raise:#f7f7fa; --line:#e4e4ec; --line-soft:#ededf2;
-  --text:#191a21; --dim:#5a5c6a; --faint:#8b8e9d;
-  --accent:#0a84ff; --accent-2:#00b3c7; --accent-soft:rgba(10,132,255,.10); --on-accent:#fff;
-  --blue:#3d7dff; --orange:#f0862e; --purple:#8a5cff; --green:#12a877; --red:#e5484d;
-  --shadow:0 1px 2px rgba(20,20,40,.05),0 10px 34px rgba(20,20,40,.07);
-}
-@media (prefers-color-scheme:dark){:root{
-  --bg:#0c0d11; --panel:#15161d; --raise:#1b1d26; --line:#262835; --line-soft:#1d1f29;
-  --text:#e8e9ef; --dim:#9a9cab; --faint:#61647a;
-  --accent:#58a6ff; --accent-2:#4fd6e6; --accent-soft:rgba(88,166,255,.16); --on-accent:#0c0d11;
-  --blue:#5aa0ff; --orange:#ff9d5c; --purple:#b18bff; --green:#4fd39a; --red:#ff6b6b;
-  --shadow:0 1px 2px rgba(0,0,0,.4),0 14px 44px rgba(0,0,0,.4);
-}}
-:root[data-theme="light"]{--bg:#f2f2f5;--panel:#fff;--raise:#f7f7fa;--line:#e4e4ec;--line-soft:#ededf2;--text:#191a21;--dim:#5a5c6a;--faint:#8b8e9d;--accent:#0a84ff;--accent-2:#00b3c7;--accent-soft:rgba(10,132,255,.10);--on-accent:#fff;--blue:#3d7dff;--orange:#f0862e;--purple:#8a5cff;--green:#12a877;--red:#e5484d;--shadow:0 1px 2px rgba(20,20,40,.05),0 10px 34px rgba(20,20,40,.07);}
-:root[data-theme="dark"]{--bg:#0c0d11;--panel:#15161d;--raise:#1b1d26;--line:#262835;--line-soft:#1d1f29;--text:#e8e9ef;--dim:#9a9cab;--faint:#61647a;--accent:#58a6ff;--accent-2:#4fd6e6;--accent-soft:rgba(88,166,255,.16);--on-accent:#0c0d11;--blue:#5aa0ff;--orange:#ff9d5c;--purple:#b18bff;--green:#4fd39a;--red:#ff6b6b;--shadow:0 1px 2px rgba(0,0,0,.4),0 14px 44px rgba(0,0,0,.4);}
-[data-color="blue"]{--dot:var(--blue)}[data-color="orange"]{--dot:var(--orange)}[data-color="purple"]{--dot:var(--purple)}[data-color="green"]{--dot:var(--green)}[data-color="red"]{--dot:var(--red)}
+        /* ac-no-horizontal-scroll v1 */
+        html, body {
+            overflow-x: clip;
+            max-width: 100%;
+        }
+        img, video, iframe {
+            max-width: 100%;
+            height: auto;
+        }
+        pre, table {
+            max-width: 100%;
+            overflow-x: auto;
+        }
 
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5;overflow-x:hidden;}
-a{color:inherit;text-decoration:none}
-img{display:block}
-:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
-.reveal{opacity:1}
-html.js .reveal{opacity:0;transform:translateY(12px);transition:opacity .55s ease,transform .55s ease}
-html.js .reveal.visible{opacity:1;transform:none}
-/* whole-card link (stretched) so cards are real keyboard-accessible links without nesting anchors */
-.card,.fcard{position:relative}
-.clink{color:inherit;text-decoration:none;min-width:0}
-.clink::after{content:"";position:absolute;inset:0;z-index:1}
-.fcard .fbuy,.fcard .store,.card .npill,.card .badge{position:relative;z-index:2}
-/* new / updated pill */
-.npill{font-size:9.5px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:2px 6px;border-radius:5px;white-space:nowrap;flex:none}
-.n-new{color:var(--green);background:color-mix(in srgb,var(--green) 16%,transparent)}
-.n-upd{color:var(--accent);background:var(--accent-soft)}
-/* featured name row + price */
-.fmeta{min-width:0}
-.fname{display:flex;align-items:center;gap:8px}
-.fbuy{display:flex;align-items:center;gap:10px}
-.fprice{font-size:13px;font-weight:600;color:var(--dim)}
-/* search + controls */
-.ctrls{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.search{font:inherit;font-size:13px;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px;width:150px;transition:width .15s,border-color .15s}
-.search:focus{outline:none;border-color:var(--accent);width:184px}
-.search::placeholder{color:var(--faint)}
-/* request-an-app line in coming soon */
-.soon-req{margin:14px 0 0;color:var(--faint);font-size:13.5px}
-.soon-req a{color:var(--accent);font-weight:600}
-.soon-req a:hover{text-decoration:underline}
+        :root {
+            --bg: #08080a;
+            --surface: #111114;
+            --surface-2: #19191e;
+            --border: #252530;
+            --text: #e8e8ed;
+            --text-secondary: #7c7c84;
+            --accent: #0A84FF;
+            --accent-dim: rgba(10, 132, 255, 0.1);
+            --accent-glow: rgba(10, 132, 255, 0.06);
+            --purple: #bf5af2;
+            --purple-dim: rgba(191, 90, 242, 0.1);
+        }
 
-/* ---- nav ---- */
-nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;
-  height:60px;padding:0 max(24px,calc((100vw - 1140px)/2));
-  backdrop-filter:saturate(1.5) blur(14px);background:color-mix(in srgb,var(--bg) 80%,transparent);border-bottom:1px solid var(--line-soft);}
-.nav-brand{display:flex;align-items:center;gap:9px;font-weight:600;letter-spacing:-.01em;font-size:16px}
-.nav-brand img{width:26px;height:26px;border-radius:8px}
-.nav-brand span{color:var(--dim)}
-.nav-right{display:flex;align-items:center;gap:22px}
-.nav-links{display:flex;align-items:center;gap:22px;list-style:none;margin:0;padding:0}
-.nav-links a{font-size:14px;color:var(--dim);transition:color .15s}
-.nav-links a:hover{color:var(--text)}
-.nav-toggle{display:none;background:none;border:0;color:var(--text);cursor:pointer;padding:6px}
-.themebtn{width:34px;height:34px;border-radius:9px;border:1px solid var(--line);background:var(--panel);color:var(--dim);cursor:pointer;display:grid;place-items:center;transition:.15s;flex:none}
-.themebtn:hover{color:var(--text);border-color:var(--accent)}
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
-/* language picker */
-.lang-wrap{position:relative;display:flex;align-items:center;gap:6px}
-.lang-glyph{color:var(--dim);display:flex}
-.lang-btn{font:inherit;font-size:14px;color:var(--dim);background:none;border:0;cursor:pointer;padding:4px 2px}
-.lang-btn:hover{color:var(--text)}
-.lang-menu{position:absolute;top:calc(100% + 8px);right:0;background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:6px;display:none;flex-direction:column;max-height:340px;overflow-y:auto;min-width:180px;z-index:200}
-.lang-menu.open{display:flex}
-.lang-menu button{display:flex;align-items:center;gap:9px;font:inherit;font-size:13.5px;color:var(--text);background:none;border:0;cursor:pointer;padding:8px 10px;border-radius:8px;text-align:left;white-space:nowrap}
-.lang-menu button:hover{background:var(--accent-soft);color:var(--accent)}
-.lang-flag{width:18px;height:13px;border-radius:2px;object-fit:cover;flex:none}
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
 
-/* ---- hero ---- */
-.hero{text-align:center;padding:74px 24px 50px;max-width:820px;margin:0 auto}
-.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint)}
-.hero-wordmark{font-size:clamp(44px,8vw,84px);font-weight:800;letter-spacing:-.04em;line-height:.98;margin-top:16px}
-.hero-wordmark .devs{background:linear-gradient(100deg,var(--accent),var(--accent-2),var(--accent));background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 7s ease-in-out infinite}
-@keyframes sheen{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
-.hero h1{font-size:clamp(20px,2.7vw,27px);font-weight:600;letter-spacing:-.01em;margin:20px auto 0;max-width:18ch;text-wrap:balance}
-.hero .subtitle{color:var(--dim);max-width:52ch;margin:14px auto 0;font-size:16px;text-wrap:balance}
-.hero-cta{display:inline-flex;align-items:center;gap:8px;margin-top:26px;padding:11px 20px;border-radius:11px;background:var(--accent);color:var(--on-accent);font-size:14.5px;font-weight:600;transition:.15s}
-.hero-cta:hover{filter:brightness(1.08)}
-.hero-cta svg{width:16px;height:16px}
+        /* ── Nav ── */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 16px 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(8, 8, 10, 0.8);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 1px solid rgba(37, 37, 48, 0.5);
+        }
 
-/* ---- sections ---- */
-.sec{max-width:1140px;margin:0 auto;padding:40px 24px}
-.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:22px;flex-wrap:wrap}
-.sec-title{font-size:22px;font-weight:700;letter-spacing:-.02em}
-.sec-note{color:var(--faint);font-size:13px}
+        .nav-brand {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+            letter-spacing: -0.3px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
-/* featured */
-.feat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
-.fcard{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:12px;overflow:hidden;cursor:pointer;transition:transform .18s,border-color .18s,box-shadow .18s}
-.fcard::before{content:"";position:absolute;inset:0 0 auto 0;height:2px;background:var(--dot);opacity:.9}
-.fcard:hover{transform:translateY(-3px);border-color:color-mix(in srgb,var(--dot) 50%,var(--line));box-shadow:var(--shadow)}
-.ftop{display:flex;gap:14px;align-items:center}
-.ftop img{width:56px;height:56px;border-radius:13px;box-shadow:0 0 0 1px var(--line-soft)}
-.fcard h3{margin:0;font-size:17px;font-weight:650;letter-spacing:-.01em}
-.c-tag{color:var(--dim);font-size:13.5px;margin-top:2px}
-.c-desc{margin:0;color:var(--dim);font-size:14px;line-height:1.55;flex:1}
-.frow{display:flex;align-items:center;justify-content:space-between;gap:10px}
+        .nav-brand img {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: block;
+        }
 
-.plats{display:flex;gap:5px;flex-wrap:wrap}
-.pchip{font-size:10px;color:var(--dim);border:1px solid var(--line);border-radius:6px;padding:2px 5px;background:var(--raise)}
-.store{font-size:12px;font-weight:600;padding:7px 13px;border-radius:9px;display:inline-flex;align-items:center;gap:6px;transition:.15s;white-space:nowrap}
-.store svg{width:14px;height:14px}
-.store.app{background:var(--accent);color:var(--on-accent)}
-.store.app:hover{filter:brightness(1.08)}
-.store.dl{background:transparent;color:var(--text);border:1px solid var(--line)}
-.store.dl:hover{border-color:var(--accent);color:var(--accent)}
+        .nav-brand span { color: var(--accent); }
 
-/* filters + collection */
-.filters{display:inline-flex;gap:4px;padding:4px;background:var(--panel);border:1px solid var(--line);border-radius:12px;flex-wrap:wrap}
-.filters button{font:inherit;font-size:13px;font-weight:550;color:var(--dim);background:none;border:0;cursor:pointer;padding:7px 13px;border-radius:9px;display:inline-flex;align-items:center;gap:6px;transition:.15s}
-.filters button .c{font-size:11px;color:var(--faint)}
-.filters button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent)}
-.filters button[aria-pressed="true"] .c{color:var(--accent)}
-.filters button:hover:not([aria-pressed="true"]){color:var(--text)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(264px,1fr));gap:14px}
-.card{display:flex;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:15px;align-items:flex-start;cursor:pointer;transition:transform .16s,border-color .16s,box-shadow .16s}
-.card:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--dot) 45%,var(--line));box-shadow:var(--shadow)}
-.card>img{width:44px;height:44px;border-radius:11px;box-shadow:0 0 0 1px var(--line-soft);flex:none}
-.cbody{min-width:0;flex:1;display:flex;flex-direction:column;gap:9px}
-.chd{display:flex;align-items:center;gap:8px}
-.dot{width:7px;height:7px;border-radius:50%;background:var(--dot);flex:none}
-.chd .clink{flex:1;min-width:0;display:block}
-.card h4{margin:0;font-size:15px;font-weight:620;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.card .c-tag{margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.grid .plats{flex-wrap:nowrap}
-.badge{font-size:10px;font-weight:600;padding:3px 8px;border-radius:6px;white-space:nowrap;flex:none}
-.store-b{color:var(--accent);background:var(--accent-soft)}
-.free-b{color:var(--green);background:color-mix(in srgb,var(--green) 15%,transparent)}
-.card.chide{display:none}
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
 
-/* ---- values (preserved markup) ---- */
-.values{max-width:1140px;margin:0 auto;padding:44px 24px;border-top:1px solid var(--line-soft)}
-.section-label{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:8px}
-.section-title{font-size:26px;font-weight:750;letter-spacing:-.02em;margin:0 0 26px}
-.section-title.gradient-text{background:linear-gradient(100deg,var(--text),var(--dim));-webkit-background-clip:text;background-clip:text}
-.values-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
-.value-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}
-.value-icon{width:38px;height:38px;border-radius:10px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;margin-bottom:12px}
-.value-icon svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.value-card h3{margin:0 0 6px;font-size:15.5px;font-weight:650;letter-spacing:-.01em}
-.value-card p{margin:0;color:var(--dim);font-size:13.5px;line-height:1.55}
+        .nav-links a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
 
-/* coming soon */
-.coming-soon{max-width:1140px;margin:0 auto;padding:10px 24px 50px}
-.coming-soon-card{background:var(--raise);border:1px solid var(--line-soft);border-radius:16px;padding:34px;text-align:center}
-.coming-soon-card h3{margin:0 0 8px;font-size:19px;font-weight:700;letter-spacing:-.01em}
-.coming-soon-card p{margin:0 auto 18px;color:var(--dim);max-width:46ch}
-.notify-link{display:inline-block;padding:10px 18px;border-radius:10px;border:1px solid var(--line);color:var(--text);font-size:14px;font-weight:600;transition:.15s}
-.notify-link:hover{border-color:var(--accent);color:var(--accent)}
+        .nav-links a:hover { color: var(--text); }
 
-/* footer */
-footer{border-top:1px solid var(--line-soft);background:var(--raise)}
-.footer-grid{max-width:1140px;margin:0 auto;padding:44px 24px 26px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}
-.footer-brand .logo{font-weight:700;font-size:16px;margin-bottom:8px}
-.footer-brand .logo span{color:var(--dim)}
-.footer-brand p{color:var(--dim);font-size:13.5px;line-height:1.6;margin:0}
-.footer-col h4{margin:0 0 12px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
-.footer-col a{display:block;color:var(--dim);font-size:14px;margin-bottom:9px;transition:.15s}
-.footer-col a:hover{color:var(--text)}
-.footer-bottom{max-width:1140px;margin:0 auto;padding:18px 24px 30px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;border-top:1px solid var(--line-soft)}
-.footer-bottom p{margin:0;color:var(--faint);font-size:13px}
-.footer-socials a{color:var(--dim)}
-.footer-socials svg{width:20px;height:20px}
-.footer-socials a:hover{color:var(--text)}
+        /* Language Picker */
+        .lang-wrap { position: relative; margin-left: 16px; flex-shrink: 0; }
+        .lang-btn {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+            padding: 6px 28px 6px 12px; color: var(--text); font-size: 13px; cursor: pointer;
+            white-space: nowrap;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%237c7c84' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: right 10px center;
+        }
+        .lang-menu {
+            display: none; position: absolute; top: calc(100% + 6px); right: 0; z-index: 300;
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+            padding: 6px 0; min-width: 160px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+        .lang-menu.open { display: block; }
+        .lang-menu button {
+            display: block; width: 100%; padding: 8px 16px; background: none; border: none;
+            color: var(--text); font-size: 13px; cursor: pointer; text-align: left; white-space: nowrap;
+        }
+        .lang-menu button:hover { background: rgba(255,255,255,0.08); }
+        .lang-menu button.active { color: var(--accent); }
 
-/* ---- mobile ---- */
-@media (max-width:760px){
-  nav{padding:0 18px}
-  .nav-toggle{display:block;order:3}
-  .nav-links{display:none;position:absolute;top:60px;right:14px;left:14px;flex-direction:column;align-items:stretch;gap:2px;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:8px}
-  body.nav-open .nav-links{display:flex}
-  .nav-links a{padding:10px 12px;border-radius:9px}
-  .nav-links a:hover{background:var(--accent-soft)}
-  .nav-right{gap:12px}
-  .lang-btn{display:none}
-  .hero{padding:52px 20px 40px}
-  .sec{padding:32px 18px}
-  .sec-head{margin-bottom:16px}
-  .feat-grid{grid-template-columns:1fr;gap:12px}
-  .grid{grid-template-columns:1fr;gap:11px}
-  .ctrls{width:100%;flex-direction:column;align-items:stretch;gap:12px}
-  .search{width:auto}
-  .filters{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;flex-wrap:nowrap;justify-content:flex-start}
-  .filters button{flex:none}
-  .values,.coming-soon{padding-left:18px;padding-right:18px}
-  .footer-grid{grid-template-columns:1fr;gap:22px;padding:34px 18px 22px}
-  .footer-bottom{padding:16px 18px 26px}
-}
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+        .gradient-text {
+            background: linear-gradient(135deg, #0a84ff 0%, #5ac8fa 40%, #fff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
 
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.7s cubic-bezier(.16,1,.3,1), transform 0.7s cubic-bezier(.16,1,.3,1);
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: none;
+        }
+
+        /* ── Hero ── */
+        .hero {
+            text-align: center;
+            padding: 160px 24px 100px;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -300px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .hero-avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 44px;
+            margin-bottom: 32px;
+            position: relative;
+            border: 2px solid var(--border);
+            box-shadow: 0 0 80px 30px rgba(10, 132, 255, 0.15), 0 0 160px 60px rgba(10, 132, 255, 0.08);
+        }
+
+        .hero-wordmark {
+            font-size: 72px;
+            font-weight: 800;
+            letter-spacing: -3px;
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+
+        .hero-wordmark .devs {
+            background: linear-gradient(135deg, #0a84ff 0%, #5ac8fa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero h1 {
+            font-size: 28px;
+            font-weight: 500;
+            letter-spacing: -0.5px;
+            line-height: 1.3;
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .hero .subtitle {
+            font-size: 19px;
+            color: var(--text-secondary);
+            max-width: 480px;
+            margin: 0 auto 48px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 32px;
+            background: var(--accent);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .hero-cta:hover {
+            filter: brightness(1.1);
+            transform: translateY(-1px);
+            box-shadow: 0 8px 32px rgba(10, 132, 255, 0.25);
+        }
+
+        .hero-cta svg { width: 16px; height: 16px; }
+
+        /* ── Products ── */
+        .products {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 24px 100px;
+        }
+
+        .section-label {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            letter-spacing: -1px;
+            margin-bottom: 56px;
+        }
+
+        .featured-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            gap: 36px;
+            text-decoration: none;
+            color: inherit;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            margin-bottom: 16px;
+            cursor: pointer;
+        }
+
+        .featured-card .product-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
+            flex-shrink: 0;
+        }
+
+        .featured-card .featured-content {
+            text-align: left;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        .product-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 36px 28px 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .product-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: auto;
+            padding-top: 4px;
+        }
+
+        .store-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            background: #fff;
+            color: #000;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        .store-badge:hover { opacity: 0.85; }
+        .store-badge svg { width: 16px; height: 16px; }
+
+        .know-more {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+        }
+        .know-more:hover { color: var(--text); }
+        .know-more svg { width: 12px; height: 12px; }
+
+        .product-name {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            margin-bottom: 4px;
+        }
+
+        .product-tagline {
+            font-size: 13px;
+            font-weight: 500;
+            margin-bottom: 14px;
+        }
+
+        .product-desc {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.55;
+            margin-bottom: 20px;
+            flex: 1;
+        }
+
+        .product-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: gap 0.2s;
+        }
+
+        .product-card:hover .product-link { gap: 8px; }
+
+        .product-link svg { width: 14px; height: 14px; }
+
+        .featured-card .card-actions { margin-top: 16px; }
+
+        /* Card accent colors on hover */
+        .product-card[data-color="green"]:hover { border-color: rgba(48,209,88,0.4); box-shadow: 0 8px 40px rgba(48,209,88,0.08); }
+        .product-card[data-color="green"] .product-tagline { color: #30d158; }
+        .product-card[data-color="green"] .product-link { color: #30d158; }
+
+        .product-card[data-color="purple"]:hover { border-color: rgba(145,71,255,0.4); box-shadow: 0 8px 40px rgba(145,71,255,0.08); }
+        .product-card[data-color="purple"] .product-tagline { color: #bf94ff; }
+        .product-card[data-color="purple"] .product-link { color: #bf94ff; }
+
+        .product-card[data-color="orange"]:hover, .featured-card[data-color="orange"]:hover { border-color: rgba(238,128,47,0.4); box-shadow: 0 8px 40px rgba(238,128,47,0.08); }
+        .product-card[data-color="orange"] .product-tagline, .featured-card[data-color="orange"] .product-tagline { color: #ee802f; }
+        .product-card[data-color="orange"] .product-link, .featured-card[data-color="orange"] .product-link { color: #ee802f; }
+
+        .product-card[data-color="red"]:hover { border-color: rgba(255,59,48,0.4); box-shadow: 0 8px 40px rgba(255,59,48,0.08); }
+        .product-card[data-color="red"] .product-tagline { color: #ff6961; }
+        .product-card[data-color="red"] .product-link { color: #ff6961; }
+
+        .product-card[data-color="blue"]:hover, .featured-card[data-color="blue"]:hover { border-color: rgba(10,132,255,0.4); box-shadow: 0 8px 40px rgba(10,132,255,0.08); }
+        .product-card[data-color="blue"] .product-tagline, .featured-card[data-color="blue"] .product-tagline { color: #0a84ff; }
+        .product-card[data-color="blue"] .product-link, .featured-card[data-color="blue"] .product-link { color: #0a84ff; }
+
+
+        /* ── Values ── */
+        .values {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 24px 100px;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+
+        .value-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 28px;
+        }
+
+        .value-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            background: var(--accent-dim);
+            box-shadow: 0 0 20px rgba(10, 132, 255, 0.08);
+        }
+
+        .value-icon svg {
+            width: 24px;
+            height: 24px;
+            stroke: var(--accent);
+            fill: none;
+            stroke-width: 1.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .value-card h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .value-card p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* ── Coming soon ── */
+        .coming-soon {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 24px 100px;
+        }
+
+        .coming-soon-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 48px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .coming-soon-card::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, var(--purple-dim) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .coming-soon-card h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        .coming-soon-card p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            max-width: 420px;
+            margin: 0 auto 24px;
+            position: relative;
+        }
+
+        .notify-link {
+            display: inline-block;
+            padding: 10px 24px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text);
+            text-decoration: none;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .notify-link:hover {
+            border-color: var(--purple);
+            color: var(--purple);
+        }
+
+        /* ── Footer ── */
+        footer {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+        }
+
+        .footer-brand .logo {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .footer-brand .logo span { color: var(--accent); }
+
+        .footer-brand p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .footer-col h4 {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+        }
+
+        .footer-col a {
+            display: block;
+            font-size: 14px;
+            color: var(--text);
+            text-decoration: none;
+            margin-bottom: 10px;
+            transition: color 0.2s;
+        }
+
+        .footer-col a:hover { color: var(--accent); }
+
+        .footer-bottom {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-bottom p {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .footer-socials {
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer-socials a {
+            color: var(--text-secondary);
+            transition: color 0.2s;
+        }
+
+        .footer-socials a:hover { color: var(--text); }
+
+        .footer-socials svg { width: 18px; height: 18px; }
+
+        /* ── Responsive ── */
+        @media (max-width: 768px) {
+            .hero-avatar { width: 120px; height: 120px; border-radius: 30px; }
+            .hero-wordmark { font-size: 48px; letter-spacing: -2px; }
+            .hero h1 { font-size: 22px; }
+            .hero .subtitle { font-size: 17px; }
+            .section-title { font-size: 30px; }
+            .featured-card { flex-direction: column; text-align: center; gap: 20px; padding: 28px; }
+            .featured-card .featured-content { text-align: center; }
+            .featured-card .product-icon { width: 80px; height: 80px; border-radius: 20px; }
+            .products-grid { grid-template-columns: 1fr; }
+            .values-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+            .footer-bottom { flex-direction: column; gap: 12px; }
+            nav { padding: 14px 20px; }
+            .nav-links { gap: 16px; }
+        }
+    
+        /* SVG language flags in dropdown — added by inject-i18n-flags.py */
+        .lang-menu button {
+            display: flex; align-items: center; gap: 8px;
+        }
+        .lang-flag {
+            width: 18px; height: 13px; border-radius: 2px;
+            flex-shrink: 0; object-fit: cover; display: inline-block;
+        }
+    
+        /* 文A language glyph (replaces globe) */
+        .lang-glyph {
+            display: inline-flex; align-items: center; justify-content: center;
+            margin-right: 6px; color: var(--text-secondary, #999);
+            vertical-align: middle; pointer-events: none;
+        }
+        .lang-glyph svg { display: block; }
+
+    
+        /* ac-nav-hamburger v1 */
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--border, rgba(255,255,255,0.12));
+            border-radius: 8px;
+            color: var(--text, #e8e8ed);
+            cursor: pointer;
+            padding: 8px;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav-toggle svg { display: block; }
+        .nav-brand { flex-shrink: 0; }
+        @media (max-width: 720px) {
+            .nav-toggle { display: inline-flex; }
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background: var(--bg, rgba(10,10,12,0.95));
+                border-top: 1px solid var(--border, rgba(255,255,255,0.08));
+                border-bottom: 1px solid var(--border, rgba(255,255,255,0.08));
+                padding: 4px 24px 8px;
+                margin: 0;
+                list-style: none;
+                gap: 0;
+                -webkit-backdrop-filter: saturate(180%) blur(20px);
+                backdrop-filter: saturate(180%) blur(20px);
+            }
+            .nav-links li { width: 100%; }
+            .nav-links li a {
+                display: block;
+                padding: 14px 0;
+                border-top: 1px solid var(--border, rgba(255,255,255,0.08));
+            }
+            .nav-links li:first-child a { border-top: 0; }
+            body.nav-open .nav-links { display: flex; }
+            body.nav-open .nav-toggle { background: var(--surface, rgba(255,255,255,0.06)); }
+        }
+
+        /* ac-footer-mobile v1 */
+        @media (max-width: 720px) {
+            body { min-height: 0; }
+            footer { padding-bottom: 24px; padding-top: 24px; }
+        }
 </style>
 </head>
 <body>
-<script>document.documentElement.classList.add('js')</script>
+
     <!-- Nav -->
     <nav>
         <a href="/" class="nav-brand"><img src="avatar.png" alt="CorvusDevs">Corvus<span>Devs</span></a>
-        <div class="nav-right">
-            <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="var o=document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',o);event.stopPropagation();"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button>
-            <ul class="nav-links">
+        <div style="display:flex;align-items:center;">
+            <!-- ac-nav-hamburger v2 --><button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="var o=document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',o);event.stopPropagation();"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button><script>(function(){document.addEventListener("click",function(e){if(!document.body.classList.contains("nav-open"))return;var n=document.querySelector("nav");if(n&&!n.contains(e.target)){document.body.classList.remove("nav-open");var b=document.querySelector(".nav-toggle");if(b)b.setAttribute("aria-expanded","false");}});})();</script><ul class="nav-links">
                 <li><a href="#products" data-i18n="nav_products">Products</a></li>
                 <li><a href="#about" data-i18n="nav_about">About</a></li>
                 <li><a href="mailto:corvusdevs@outlook.com" data-i18n="nav_contact">Contact</a></li>
@@ -259,159 +723,184 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             <div class="lang-wrap" id="langWrap">
                 <span class="lang-glyph" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language" style="vertical-align:middle;"><text x="7" y="17" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', sans-serif" font-size="14" font-weight="600" fill="currentColor" text-anchor="middle">文</text><text x="17" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700" fill="currentColor" text-anchor="middle">A</text></svg></span><button class="lang-btn" id="langBtn">English</button>
                 <div class="lang-menu" id="langMenu">
-                    <button data-lang="en"><img class="lang-flag" src="flags/gb.svg" alt="">English</button>
-                    <button data-lang="es"><img class="lang-flag" src="flags/es.svg" alt="">Espa&ntilde;ol</button>
-                    <button data-lang="fr"><img class="lang-flag" src="flags/fr.svg" alt="">Fran&ccedil;ais</button>
-                    <button data-lang="de"><img class="lang-flag" src="flags/de.svg" alt="">Deutsch</button>
-                    <button data-lang="pt"><img class="lang-flag" src="flags/pt.svg" alt="">Portugu&ecirc;s</button>
-                    <button data-lang="it"><img class="lang-flag" src="flags/it.svg" alt="">Italiano</button>
-                    <button data-lang="ja"><img class="lang-flag" src="flags/jp.svg" alt="">&#26085;&#26412;&#35486;</button>
-                    <button data-lang="zh"><img class="lang-flag" src="flags/cn.svg" alt="">&#20013;&#25991;</button>
-                    <button data-lang="ko"><img class="lang-flag" src="flags/kr.svg" alt="">&#54620;&#44397;&#50612;</button>
-                    <button data-lang="ru"><img class="lang-flag" src="flags/ru.svg" alt="">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</button>
-                    <button data-lang="ar"><img class="lang-flag" src="flags/sa.svg" alt="">العربية</button>
-                    <button data-lang="nl"><img class="lang-flag" src="flags/nl.svg" alt="">Nederlands</button>
-                    <button data-lang="tr"><img class="lang-flag" src="flags/tr.svg" alt="">Türkçe</button>
-                    <button data-lang="pl"><img class="lang-flag" src="flags/pl.svg" alt="">Polski</button>
-                    <button data-lang="sv"><img class="lang-flag" src="flags/se.svg" alt="">Svenska</button>
-                    <button data-lang="hi"><img class="lang-flag" src="flags/in.svg" alt="">हिन्दी</button>
-                    <button data-lang="id"><img class="lang-flag" src="flags/id.svg" alt="">Bahasa Indonesia</button>
-                    <button data-lang="th"><img class="lang-flag" src="flags/th.svg" alt="">ไทย</button>
-                    <button data-lang="vi"><img class="lang-flag" src="flags/vn.svg" alt="">Tiếng Việt</button>
+                    <button data-lang="en"><img class="lang-flag" src="https://flagcdn.com/gb.svg" alt="">English</button>
+                    <button data-lang="es"><img class="lang-flag" src="https://flagcdn.com/es.svg" alt="">Espa&ntilde;ol</button>
+                    <button data-lang="fr"><img class="lang-flag" src="https://flagcdn.com/fr.svg" alt="">Fran&ccedil;ais</button>
+                    <button data-lang="de"><img class="lang-flag" src="https://flagcdn.com/de.svg" alt="">Deutsch</button>
+                    <button data-lang="pt"><img class="lang-flag" src="https://flagcdn.com/pt.svg" alt="">Portugu&ecirc;s</button>
+                    <button data-lang="it"><img class="lang-flag" src="https://flagcdn.com/it.svg" alt="">Italiano</button>
+                    <button data-lang="ja"><img class="lang-flag" src="https://flagcdn.com/jp.svg" alt="">&#26085;&#26412;&#35486;</button>
+                    <button data-lang="zh"><img class="lang-flag" src="https://flagcdn.com/cn.svg" alt="">&#20013;&#25991;</button>
+                    <button data-lang="ko"><img class="lang-flag" src="https://flagcdn.com/kr.svg" alt="">&#54620;&#44397;&#50612;</button>
+                    <button data-lang="ru"><img class="lang-flag" src="https://flagcdn.com/ru.svg" alt="">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</button>
+                    <button data-lang="ar"><img class="lang-flag" src="https://flagcdn.com/sa.svg" alt="">العربية</button>
+                    <button data-lang="nl"><img class="lang-flag" src="https://flagcdn.com/nl.svg" alt="">Nederlands</button>
+                    <button data-lang="tr"><img class="lang-flag" src="https://flagcdn.com/tr.svg" alt="">Türkçe</button>
+                    <button data-lang="pl"><img class="lang-flag" src="https://flagcdn.com/pl.svg" alt="">Polski</button>
+                    <button data-lang="sv"><img class="lang-flag" src="https://flagcdn.com/se.svg" alt="">Svenska</button>
+                    <button data-lang="hi"><img class="lang-flag" src="https://flagcdn.com/in.svg" alt="">हिन्दी</button>
+                    <button data-lang="id"><img class="lang-flag" src="https://flagcdn.com/id.svg" alt="">Bahasa Indonesia</button>
+                    <button data-lang="th"><img class="lang-flag" src="https://flagcdn.com/th.svg" alt="">ไทย</button>
+                    <button data-lang="vi"><img class="lang-flag" src="https://flagcdn.com/vn.svg" alt="">Tiếng Việt</button>
+                    <button data-lang="zh-Hant"><img class="lang-flag" src="https://flagcdn.com/tw.svg" alt="">繁體中文</button>
                 </div>
             </div>
-            <button class="themebtn" id="themeBtn" aria-label="Toggle theme" title="Toggle theme"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg></button>
         </div>
     </nav>
 
     <!-- Hero -->
     <section class="hero">
-        <div class="eyebrow reveal" data-i18n="hero_eyebrow">Independent Mac &amp; Safari studio</div>
-        <div class="hero-wordmark reveal">Corvus<span class="devs">Devs</span></div>
-        <h1 class="reveal" data-i18n="hero_title">Software that respects your Mac.</h1>
-        <p class="subtitle reveal" data-i18n="hero_sub">We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.</p>
-        <a href="#products" class="hero-cta reveal"><span data-i18n="hero_cta">See our products</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg></a>
+        <img src="avatar.png" alt="CorvusDevs" class="hero-avatar">
+        <div class="hero-wordmark">Corvus<span class="devs">Devs</span></div>
+        <h1 data-i18n="hero_title">Software that respects your Mac.</h1>
+        <p class="subtitle" data-i18n="hero_sub">We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.</p>
+        <a href="#products" class="hero-cta">
+            <span data-i18n="hero_cta">See our products</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </a>
     </section>
 
-    <!-- Featured -->
-    <section class="sec">
-        <div class="sec-head reveal">
-            <div class="sec-title" data-i18n="sec_featured">Featured</div>
-            <div class="sec-note" data-i18n="sec_featured_note">Where we'd start</div>
-        </div>
-        <div class="feat-grid">
-      <article class="fcard reveal" data-color="blue">
-        <div class="ftop"><img src="icons/corvus-player.png" alt=""><div class="fmeta"><div class="fname"><a class="clink" href="https://corvusdevs.github.io/Corvus-Player/"><h3>Corvus Player</h3></a></div><div class="c-tag" data-i18n="p6_tag">macOS Media Player</div></div></div>
-        <p class="c-desc" data-i18n="p6_desc">The most powerful and customizable media player for macOS. Built on mpv with GPU-accelerated playback, real-time GLSL shaders, streaming, and 200+ settings.</p>
-        <div class="frow"><div class="plats"><span class="pchip">macOS</span></div><div class="fbuy"><a href="https://corvusdevs.github.io/Corvus-Player/" class="store dl"><span data-i18n="f_free">Free</span></a></div></div>
-      </article>
-      <article class="fcard reveal" data-color="blue">
-        <div class="ftop"><img src="icons/corvus-display.png" alt=""><div class="fmeta"><div class="fname"><a class="clink" href="https://corvusdevs.github.io/CorvusDisplay/"><h3>Corvus Display</h3></a></div><div class="c-tag">macOS Display Control</div></div></div>
-        <p class="c-desc">Brightness, color temperature and resolution for external and non-Apple displays on Apple Silicon.</p>
-        <div class="frow"><div class="plats"><span class="pchip">macOS</span></div><div class="fbuy"><a href="https://corvusdevs.github.io/CorvusDisplay/" class="store dl"><span data-i18n="f_free">Free</span></a></div></div>
-      </article>
-      <article class="fcard reveal" data-color="orange">
-        <div class="ftop"><img src="icons/alien-crow.png" alt=""><div class="fmeta"><div class="fname"><a class="clink" href="https://corvusdevs.github.io/Alien-Crow-For-Safari/"><h3>Alien Crow</h3></a></div><div class="c-tag" data-i18n="p9_tag">Reddit Safari Extension</div></div></div>
-        <p class="c-desc" data-i18n="p9_desc">Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS.</p>
-        <div class="frow"><div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div><div class="fbuy"><span class="fprice">$0.99</span><a href="https://apps.apple.com/app/id6769216829" class="store app"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a></div></div>
-      </article>
-      <article class="fcard reveal" data-color="purple">
-        <div class="ftop"><img src="icons/findbar.png" alt=""><div class="fmeta"><div class="fname"><a class="clink" href="https://corvusdevs.github.io/Findbar-For-Safari/"><h3>Findbar</h3></a></div><div class="c-tag" data-i18n="p8_tag">Safari Address-Bar Shortcuts</div></div></div>
-        <p class="c-desc" data-i18n="p8_desc">Type a keyword in Safari's address bar and jump anywhere. 30+ built-in shortcuts, edit any of them or add your own. Works on macOS, iOS, and iPadOS.</p>
-        <div class="frow"><div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div><div class="fbuy"><span class="fprice">$0.99</span><a href="https://apps.apple.com/app/id6773464299" class="store app"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a></div></div>
-      </article>
-      <article class="fcard reveal" data-color="orange">
-        <div class="ftop"><img src="icons/corvus-rss.png" alt=""><div class="fmeta"><div class="fname"><a class="clink" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/"><h3>Corvus RSS Reader</h3></a></div><div class="c-tag" data-i18n="p3_tag">Safari RSS Extension</div></div></div>
-        <p class="c-desc" data-i18n="p3_desc">Subscribe to feeds, YouTube channels and blogs, all in one place. Works on macOS, iOS, and iPadOS.</p>
-        <div class="frow"><div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div><div class="fbuy"><span class="fprice">$0.99</span><a href="https://apps.apple.com/app/id6761442829" class="store app"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a></div></div>
-      </article>
-      <article class="fcard reveal" data-color="purple">
-        <div class="ftop"><img src="icons/purple-crow.png" alt=""><div class="fmeta"><div class="fname"><a class="clink" href="https://corvusdevs.github.io/Purple-Crow-For-Safari/"><h3>Purple Crow</h3></a><span class="npill n-upd" data-i18n="badge_upd">Updated</span></div><div class="c-tag" data-i18n="p2_tag">Twitch Extension</div></div></div>
-        <p class="c-desc" data-i18n="p2_desc">BTTV, FFZ and 7TV emotes plus 50+ features. Auto-claim, split chat, PiP, anonymous viewing, and more.</p>
-        <div class="frow"><div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div><div class="fbuy"><span class="fprice">$0.99</span><a href="https://apps.apple.com/app/id6761481948" class="store app"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a></div></div>
-      </article>
-        </div>
-    </section>
+    <!-- Products -->
+    <section class="products" id="products">
+        <div class="section-label reveal" data-i18n="sec_products">Products</div>
+        <h2 class="section-title gradient-text reveal" data-i18n="sec_products_title">Safari extensions & macOS apps</h2>
 
-    <!-- Collection -->
-    <section class="sec" id="products">
-        <div class="sec-head reveal">
-            <div class="sec-title" data-i18n="sec_collection">All our apps</div>
-            <div class="ctrls">
-                <input class="search" id="search" type="search" data-i18n-ph="f_search" placeholder="Search apps" aria-label="Search apps">
-                <div class="filters" id="filters" role="group" aria-label="Filter apps">
-                    <button data-f="all" aria-pressed="true"><span data-i18n="f_all">All</span> <span class="c">12</span></button>
-                    <button data-f="safari" aria-pressed="false">Safari <span class="c">7</span></button>
-                    <button data-f="mac" aria-pressed="false">macOS <span class="c">5</span></button>
-                    <button data-f="free" aria-pressed="false"><span data-i18n="f_free">Free</span> <span class="c">5</span></button>
+        <div class="featured-card reveal" data-color="blue" data-href="https://corvusdevs.github.io/Corvus-Player/">
+            <img src="icons/corvus-player.png" alt="Corvus Player" class="product-icon">
+            <div class="featured-content">
+                <div class="product-name">Corvus Player</div>
+                <div class="product-tagline" data-i18n="p6_tag">macOS Media Player</div>
+                <p class="product-desc" data-i18n="p6_desc">The most powerful and customizable media player for macOS. Built on mpv with GPU-accelerated playback, real-time GLSL shaders, streaming, and 200+ settings.</p>
+                <div class="card-actions">
+                    <a href="https://corvusdevs.github.io/Corvus-Player/" class="store-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Free download</a>
+                    <a href="https://corvusdevs.github.io/Corvus-Player/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
                 </div>
             </div>
         </div>
-        <div class="grid" id="grid">
-      <article class="card reveal" data-color="blue" data-cat="mac" data-store="free" data-name="corvus player">
-        <img src="icons/corvus-player.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/Corvus-Player/"><h4>Corvus Player</h4></a><span class="badge free-b" data-i18n="f_free">Free</span></div><div class="c-tag" data-i18n="p6_tag">macOS Media Player</div>
-          <div class="plats"><span class="pchip">macOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="blue" data-cat="mac" data-store="free" data-name="corvus display">
-        <img src="icons/corvus-display.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/CorvusDisplay/"><h4>Corvus Display</h4></a><span class="badge free-b" data-i18n="f_free">Free</span></div><div class="c-tag">macOS Display Control</div>
-          <div class="plats"><span class="pchip">macOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="orange" data-cat="safari" data-store="store" data-name="alien crow">
-        <img src="icons/alien-crow.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/Alien-Crow-For-Safari/"><h4>Alien Crow</h4></a><span class="badge store-b">$0.99</span></div><div class="c-tag" data-i18n="p9_tag">Reddit Safari Extension</div>
-          <div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="purple" data-cat="safari" data-store="store" data-name="findbar">
-        <img src="icons/findbar.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/Findbar-For-Safari/"><h4>Findbar</h4></a><span class="badge store-b">$0.99</span></div><div class="c-tag" data-i18n="p8_tag">Safari Address-Bar Shortcuts</div>
-          <div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="orange" data-cat="safari" data-store="store" data-name="corvus rss reader">
-        <img src="icons/corvus-rss.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/"><h4>Corvus RSS Reader</h4></a><span class="badge store-b">$0.99</span></div><div class="c-tag" data-i18n="p3_tag">Safari RSS Extension</div>
-          <div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="purple" data-cat="mac" data-store="free" data-name="corvus arcade">
-        <img src="icons/corvus-arcade.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/CorvusArcade/"><h4>Corvus Arcade</h4></a><span class="badge free-b" data-i18n="f_free">Free</span></div><div class="c-tag">Windows Games on Mac</div>
-          <div class="plats"><span class="pchip">macOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="purple" data-cat="safari" data-store="store" data-name="night crow">
-        <img src="icons/night-crow.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/Night-Crow-For-Safari/"><h4>Night Crow</h4></a><span class="npill n-new" data-i18n="badge_new">New</span><span class="badge store-b">$0.99</span></div><div class="c-tag">Safari Dark Mode</div>
-          <div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="green" data-cat="mac" data-store="free" data-name="ekual">
-        <img src="icons/ekual.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/Ekual/"><h4>Ekual</h4></a><span class="badge free-b" data-i18n="f_free">Free</span></div><div class="c-tag" data-i18n="p1_tag">macOS Loudness Equalization</div>
-          <div class="plats"><span class="pchip">macOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="purple" data-cat="safari" data-store="store" data-name="purple crow">
-        <img src="icons/purple-crow.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/Purple-Crow-For-Safari/"><h4>Purple Crow</h4></a><span class="npill n-upd" data-i18n="badge_upd">Updated</span><span class="badge store-b">$0.99</span></div><div class="c-tag" data-i18n="p2_tag">Twitch Extension</div>
-          <div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="red" data-cat="safari" data-store="store" data-name="auto mute tab">
-        <img src="icons/auto-mute-tab.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/"><h4>Auto Mute Tab</h4></a><span class="badge store-b">$0.99</span></div><div class="c-tag" data-i18n="p4_tag">Safari Tab Muter</div>
-          <div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="red" data-cat="safari" data-store="store" data-name="red crow">
-        <img src="icons/red-crow.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/Red-Crow-For-Safari/"><h4>Red Crow</h4></a><span class="badge store-b">$0.99</span></div><div class="c-tag" data-i18n="p7_tag">YouTube Safari Extension</div>
-          <div class="plats"><span class="pchip">macOS</span><span class="pchip">iOS</span><span class="pchip">iPadOS</span></div></div>
-      </article>
-      <article class="card reveal" data-color="blue" data-cat="mac" data-store="free" data-name="tekla">
-        <img src="icons/tekla.png" alt="">
-        <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="https://corvusdevs.github.io/Tekla/"><h4>Tekla</h4></a><span class="badge free-b" data-i18n="f_free">Free</span></div><div class="c-tag" data-i18n="p5_tag">macOS Virtual Keyboard</div>
-          <div class="plats"><span class="pchip">macOS</span></div></div>
-      </article>
+
+        <div class="products-grid">
+            <div class="product-card reveal" data-color="blue" data-href="https://corvusdevs.github.io/CorvusDisplay/">
+                <img src="icons/corvus-display.png" alt="Corvus Display" class="product-icon">
+                <div class="product-name">Corvus Display</div>
+                <div class="product-tagline">macOS Display Control</div>
+                <p class="product-desc">Brightness, color temperature, and resolution control for external and non-Apple displays on Apple Silicon Macs. Free 14-day trial.</p>
+                <div class="card-actions">
+                    <a href="https://corvusdevs.github.io/CorvusDisplay/" class="store-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Free download</a>
+                    <a href="https://corvusdevs.github.io/CorvusDisplay/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" data-color="purple" data-href="https://corvusdevs.github.io/CorvusArcade/">
+                <img src="icons/corvus-arcade.png" alt="Corvus Arcade" class="product-icon">
+                <div class="product-name">Corvus Arcade</div>
+                <div class="product-tagline">Windows Games on Mac</div>
+                <p class="product-desc">Run Windows games on Apple Silicon with a bundled Wine and D3DMetal engine. No CrossOver, no Terminal. Early alpha, tested with Overwatch.</p>
+                <div class="card-actions">
+                    <a href="https://corvusdevs.github.io/CorvusArcade/" class="store-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Free download</a>
+                    <a href="https://corvusdevs.github.io/CorvusArcade/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" data-color="orange" data-href="https://corvusdevs.github.io/Alien-Crow-For-Safari/">
+                <img src="icons/alien-crow.png" alt="Alien Crow for Safari" class="product-icon">
+                <div class="product-name">Alien Crow for Safari</div>
+                <div class="product-tagline" data-i18n="p9_tag">Reddit Safari Extension</div>
+                <p class="product-desc" data-i18n="p9_desc">Supercharge old.reddit.com and modern Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS.</p>
+                <div class="card-actions">
+                    <a href="https://apps.apple.com/app/id6769216829" class="store-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
+                    <a href="https://corvusdevs.github.io/Alien-Crow-For-Safari/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" data-color="purple" data-href="https://corvusdevs.github.io/Findbar-For-Safari/">
+                <img src="icons/findbar.png" alt="Findbar" class="product-icon">
+                <div class="product-name">Findbar</div>
+                <div class="product-tagline" data-i18n="p8_tag">Safari Address-Bar Shortcuts</div>
+                <p class="product-desc" data-i18n="p8_desc">Type a keyword in Safari's address bar and jump anywhere. 30+ built-in shortcuts, edit any of them or add your own. Works on macOS, iOS, and iPadOS.</p>
+                <div class="card-actions">
+                    <a href="https://apps.apple.com/app/id6773464299" class="store-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
+                    <a href="https://corvusdevs.github.io/Findbar-For-Safari/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" data-color="purple" data-href="https://corvusdevs.github.io/Night-Crow-For-Safari/">
+                <img src="icons/night-crow.png" alt="Night Crow for Safari" class="product-icon">
+                <div class="product-name">Night Crow for Safari</div>
+                <div class="product-tagline">Safari Dark Mode</div>
+                <p class="product-desc">A smart, native dark mode for every website in Safari. Dynamic color remapping keeps photos true and text readable. Works on macOS, iOS, and iPadOS.</p>
+                <div class="card-actions">
+                    <a href="https://apps.apple.com/app/id6785353496" class="store-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
+                    <a href="https://corvusdevs.github.io/Night-Crow-For-Safari/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" data-color="orange" data-href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/">
+                <img src="icons/corvus-rss.png" alt="Corvus RSS Reader" class="product-icon">
+                <div class="product-name">Corvus RSS Reader</div>
+                <div class="product-tagline" data-i18n="p3_tag">Safari RSS Extension</div>
+                <p class="product-desc" data-i18n="p3_desc">Subscribe to feeds, YouTube channels, and blogs — all in one place. Works on macOS, iOS, and iPadOS.</p>
+                <div class="card-actions">
+                    <a href="https://apps.apple.com/app/id6761442829" class="store-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
+                    <a href="https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" data-color="green" data-href="https://corvusdevs.github.io/Ekual/">
+                <img src="icons/ekual.png" alt="Ekual" class="product-icon">
+                <div class="product-name">Ekual</div>
+                <div class="product-tagline" data-i18n="p1_tag">macOS Loudness Equalization</div>
+                <p class="product-desc" data-i18n="p1_desc">Automatic loudness equalization for macOS. Balances volume across all your apps in real time. Free 14-day trial.</p>
+                <div class="card-actions">
+                    <a href="https://corvusdevs.github.io/Ekual/" class="store-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Free download</a>
+                    <a href="https://corvusdevs.github.io/Ekual/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" data-color="purple" data-href="https://corvusdevs.github.io/Purple-Crow-For-Safari/">
+                <img src="icons/purple-crow.png" alt="Purple Crow for Safari" class="product-icon">
+                <div class="product-name">Purple Crow for Safari</div>
+                <div class="product-tagline" data-i18n="p2_tag">Twitch Extension</div>
+                <p class="product-desc" data-i18n="p2_desc">BTTV, FFZ, and 7TV emotes plus 50+ features. Auto-claim, split chat, PiP, anonymous viewing, and more.</p>
+                <div class="card-actions">
+                    <a href="https://apps.apple.com/app/id6761481948" class="store-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
+                    <a href="https://corvusdevs.github.io/Purple-Crow-For-Safari/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" data-color="red" data-href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/">
+                <img src="icons/auto-mute-tab.png" alt="Auto Mute Tab for Safari" class="product-icon">
+                <div class="product-name">Auto Mute Tab for Safari</div>
+                <div class="product-tagline" data-i18n="p4_tag">Safari Tab Muter</div>
+                <p class="product-desc" data-i18n="p4_desc">Automatically mutes all background tabs so only the focused tab plays audio. PiP, keyboard shortcuts, and domain whitelist.</p>
+                <div class="card-actions">
+                    <a href="https://apps.apple.com/app/id6761746627" class="store-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
+                    <a href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" data-color="red" data-href="https://corvusdevs.github.io/Red-Crow-For-Safari/">
+                <img src="icons/red-crow.png" alt="Red Crow for Safari" class="product-icon">
+                <div class="product-name">Red Crow for Safari</div>
+                <div class="product-tagline" data-i18n="p7_tag">YouTube Safari Extension</div>
+                <p class="product-desc" data-i18n="p7_desc">Speed control, SponsorBlock, video filters, and 40+ features for YouTube. Works on macOS, iOS, and iPadOS.</p>
+                <div class="card-actions">
+                    <a href="https://apps.apple.com/app/id6766324724" class="store-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>App Store</a>
+                    <a href="https://corvusdevs.github.io/Red-Crow-For-Safari/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" data-color="blue" data-href="https://corvusdevs.github.io/Tekla/">
+                <img src="icons/tekla.png" alt="Tekla" class="product-icon">
+                <div class="product-name">Tekla</div>
+                <div class="product-tagline" data-i18n="p5_tag">macOS Virtual Keyboard</div>
+                <p class="product-desc" data-i18n="p5_desc">Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout — 100% offline.</p>
+                <div class="card-actions">
+                    <a href="https://corvusdevs.github.io/Tekla/" class="store-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>Free download</a>
+                    <a href="https://corvusdevs.github.io/Tekla/" class="know-more"><span data-i18n="know_more">Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
         </div>
     </section>
-
 
     <!-- Values -->
     <section class="values" id="about">
@@ -458,7 +947,6 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             <h3 data-i18n="soon_t">More apps coming soon</h3>
             <p data-i18n="soon_d">We're working on new tools for macOS. Drop us a line if you want to be the first to know.</p>
             <a href="mailto:corvusdevs@outlook.com?subject=Notify me about new apps" class="notify-link" data-i18n="soon_btn">Get notified</a>
-            <p class="soon-req"><span data-i18n="soon_req">Have an app idea?</span> <a href="mailto:corvusdevs@outlook.com?subject=App%20request" data-i18n="soon_reqlink">Request an app</a></p>
         </div>
     </section>
 
@@ -489,34 +977,6 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             </div>
         </div>
     </footer>
-
-    <script>
-    (function(){
-      var root=document.documentElement, tb=document.getElementById("themeBtn");
-      var saved=localStorage.getItem("corvus-theme"); if(saved) root.setAttribute("data-theme",saved);
-      tb.addEventListener("click",function(){
-        var cur=root.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
-        var nx=cur==="dark"?"light":"dark"; root.setAttribute("data-theme",nx); localStorage.setItem("corvus-theme",nx);
-      });
-      var fbar=document.getElementById("filters"), grid=document.getElementById("grid"),
-          search=document.getElementById("search"), cards=grid.querySelectorAll(".card"), curF="all";
-      function apply(){
-        var q=(search.value||"").trim().toLowerCase();
-        cards.forEach(function(cd){
-          var catOk = curF==="all" || (curF==="free"? cd.dataset.store==="free" : cd.dataset.cat===curF);
-          var qOk = !q || (cd.dataset.name||"").indexOf(q)>-1;
-          cd.classList.toggle("chide", !(catOk&&qOk));
-        });
-      }
-      fbar.addEventListener("click",function(e){
-        var b=e.target.closest("button"); if(!b) return;
-        fbar.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed", x===b);});
-        curF=b.dataset.f; apply();
-      });
-      search.addEventListener("input", apply);
-    })();
-    </script>
-
 
     <script>
     (function() {
@@ -562,16 +1022,14 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
     <script>
     const T = {
         en: {
-            f_search:"Search apps", badge_new:"New", badge_upd:"Updated", soon_req:"Have an app idea?", soon_reqlink:"Request an app",
-            hero_eyebrow:"Independent Mac & Safari studio", sec_featured:"Featured", sec_featured_note:"Where we'd start", sec_collection:"All our apps", f_all:"All", f_free:"Free",
             nav_products:"Products", nav_about:"About", nav_contact:"Contact",
             hero_title:"Software that respects your Mac.", hero_sub:"We build focused, privacy-first tools for macOS. No subscriptions, no telemetry, no bloat.", hero_cta:"See our products",
             sec_products:"Products", sec_products_title:"Safari extensions & macOS apps",
             p1_tag:"macOS Loudness Equalization", p1_desc:"Automatic loudness equalization for macOS. Balances volume across all your apps in real time. Free 14-day trial.",
             p2_tag:"Twitch Extension", p2_desc:"BTTV, FFZ, and 7TV emotes plus 50+ features. Auto-claim, split chat, PiP, anonymous viewing, and more.",
-            p3_tag:"Safari RSS Extension", p3_desc:"Subscribe to feeds, YouTube channels, and blogs, all in one place. Works on macOS, iOS, and iPadOS.",
+            p3_tag:"Safari RSS Extension", p3_desc:"Subscribe to feeds, YouTube channels, and blogs — all in one place. Works on macOS, iOS, and iPadOS.",
             p4_tag:"Safari Tab Muter", p4_desc:"Automatically mutes all background tabs so only the focused tab plays audio. PiP, keyboard shortcuts, and domain whitelist.",
-            p5_tag:"macOS Virtual Keyboard", p5_desc:"Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout, 100% offline.",
+            p5_tag:"macOS Virtual Keyboard", p5_desc:"Swipe-to-type virtual keyboard for macOS. Smart predictions, 14 languages, full desktop layout — 100% offline.",
             p6_tag:"macOS Media Player", p6_desc:"The most powerful and customizable media player for macOS. Built on mpv with GPU-accelerated playback, real-time GLSL shaders, streaming, and 200+ settings.",
             p7_tag:"YouTube Safari Extension", p7_desc:"Speed control, SponsorBlock, video filters, and 40+ features for YouTube. Works on macOS, iOS, and iPadOS.",
             p8_tag:"Safari Address-Bar Shortcuts", p8_desc:"Type a keyword in Safari's address bar and jump anywhere. 30+ built-in shortcuts, edit any of them or add your own. Works on macOS, iOS, and iPadOS.",
@@ -587,16 +1045,14 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             f_legal:"Legal", f_privacy:"Privacy Policy", f_terms:"Terms of Service", f_connect:"Connect", f_brand:"Indie macOS software studio.<br>Building focused, privacy-first tools.", f_rights:"© 2026 CorvusDevs. All rights reserved.",
         },
         es: {
-            f_search:"Buscar apps", badge_new:"Nuevo", badge_upd:"Actualizado", soon_req:"¿Tienes una idea de app?", soon_reqlink:"Solicitar una app",
-            hero_eyebrow:"Estudio independiente de Mac y Safari", sec_featured:"Destacados", sec_featured_note:"Por dónde empezaríamos", sec_collection:"Todas nuestras apps", f_all:"Todos", f_free:"Gratis",
             nav_products:"Productos", nav_about:"Nosotros", nav_contact:"Contacto",
             hero_title:"Software que respeta tu Mac.", hero_sub:"Creamos herramientas enfocadas y privadas para macOS. Sin suscripciones, sin telemetría, sin bloat.", hero_cta:"Ver nuestros productos",
             sec_products:"Productos", sec_products_title:"Extensiones de Safari y apps para macOS",
             p1_tag:"Ecualización de volumen para macOS", p1_desc:"Ecualización automática de volumen para macOS. Equilibra el sonido de todas tus apps en tiempo real. 14 días de prueba gratis.",
             p2_tag:"Extensión para Twitch", p2_desc:"Emotes de BTTV, FFZ y 7TV más 50+ funciones. Auto-claim, split chat, PiP, modo anónimo y más.",
-            p3_tag:"Extensión RSS para Safari", p3_desc:"Suscríbete a feeds, canales de YouTube y blogs, todo en un solo lugar. Funciona en macOS, iOS e iPadOS.",
+            p3_tag:"Extensión RSS para Safari", p3_desc:"Suscríbete a feeds, canales de YouTube y blogs — todo en un solo lugar. Funciona en macOS, iOS e iPadOS.",
             p4_tag:"Silenciador de Pestañas", p4_desc:"Silencia automáticamente todas las pestañas en segundo plano. PiP, atajos de teclado y lista blanca de dominios.",
-            p5_tag:"Teclado Virtual para macOS", p5_desc:"Teclado virtual con escritura por deslizamiento. Predicciones inteligentes, 14 idiomas, 100% sin conexión.",
+            p5_tag:"Teclado Virtual para macOS", p5_desc:"Teclado virtual con escritura por deslizamiento. Predicciones inteligentes, 14 idiomas — 100% sin conexión.",
             p6_tag:"Reproductor Multimedia", p6_desc:"El reproductor multimedia más potente y personalizable para macOS. Basado en mpv con reproducción acelerada por GPU, shaders GLSL en tiempo real, streaming y más de 200 ajustes.",
             p7_tag:"Extensión de YouTube para Safari", p7_desc:"Control de velocidad, SponsorBlock, filtros de video y más de 40 funciones para YouTube. Extensión nativa de Safari para iPhone y iPad. macOS próximamente.", p8_tag:"Atajos de la barra de direcciones de Safari", p8_desc:"Escriba una palabra clave en la barra de direcciones de Safari para saltar a cualquier lugar, con más de 30 atajos integrados que puede editar o crear, y funcione en macOS, iOS y iPadOS.",
             product_link:"Saber más", know_more:"Saber más",
@@ -611,16 +1067,14 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             f_legal:"Legal", f_privacy:"Política de Privacidad", f_terms:"Términos de Servicio", f_connect:"Contacto", f_brand:"Estudio indie de software para macOS.<br>Herramientas enfocadas y privadas.", f_rights:"© 2026 CorvusDevs. Todos los derechos reservados.",
         },
         fr: {
-            f_search:"Rechercher", badge_new:"Nouveau", badge_upd:"Mis à jour", soon_req:"Une idée d'app ?", soon_reqlink:"Proposer une app",
-            hero_eyebrow:"Studio indépendant Mac et Safari", sec_featured:"En vedette", sec_featured_note:"Par où commencer", sec_collection:"Toutes nos apps", f_all:"Tous", f_free:"Gratuit",
             nav_products:"Produits", nav_about:"À propos", nav_contact:"Contact",
             hero_title:"Des logiciels qui respectent votre Mac.", hero_sub:"Nous créons des outils ciblés et respectueux de la vie privée pour macOS. Sans abonnement, sans télémétrie.", hero_cta:"Voir nos produits",
             sec_products:"Produits", sec_products_title:"Extensions Safari et apps macOS",
             p1_tag:"Égalisation du volume pour macOS", p1_desc:"Égalisation automatique du volume pour macOS. Équilibre le volume de toutes vos apps en temps réel. Essai gratuit de 14 jours.",
             p2_tag:"Extension Twitch", p2_desc:"Emotes BTTV, FFZ et 7TV plus 50+ fonctionnalités. Auto-claim, split chat, PiP, mode anonyme.",
-            p3_tag:"Extension RSS Safari", p3_desc:"Abonnez-vous à des flux, chaînes YouTube et blogs, tout en un seul endroit.",
+            p3_tag:"Extension RSS Safari", p3_desc:"Abonnez-vous à des flux, chaînes YouTube et blogs — tout en un seul endroit.",
             p4_tag:"Silenceur d’Onglets", p4_desc:"Coupe automatiquement le son des onglets en arrière-plan. PiP, raccourcis clavier et liste blanche.",
-            p5_tag:"Clavier Virtuel macOS", p5_desc:"Clavier virtuel avec saisie par glissement. Prédictions intelligentes, 14 langues, 100% hors ligne.",
+            p5_tag:"Clavier Virtuel macOS", p5_desc:"Clavier virtuel avec saisie par glissement. Prédictions intelligentes, 14 langues — 100% hors ligne.",
             p6_tag:"Lecteur Multimédia", p6_desc:"Le lecteur multimédia le plus puissant et personnalisable pour macOS. Basé sur mpv avec lecture accélérée GPU, shaders GLSL en temps réel, streaming et plus de 200 réglages.",
             p7_tag:"Extension YouTube pour Safari", p7_desc:"Contrôle de la vitesse, SponsorBlock, filtres vidéo et plus de 40 fonctions pour YouTube. Extension Safari native pour iPhone et iPad. macOS bientôt disponible.", p8_tag:"Raccourcis de la barre d'adresse Safari", p8_desc:"Tapez un mot-clé dans la barre d'adresse de Safari pour accéder instantanément à n'importe quel site, avec plus de 30 raccourcis intégraux modifiables ou personnalisables, disponible sur macOS, iOS et iPadOS.",
             product_link:"En savoir plus", know_more:"En savoir plus",
@@ -635,16 +1089,14 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             f_legal:"Juridique", f_privacy:"Politique de confidentialité", f_terms:"Conditions d’utilisation", f_connect:"Contact", f_brand:"Studio indie de logiciels pour macOS.<br>Des outils ciblés, respectueux de la vie privée.", f_rights:"© 2026 CorvusDevs. Tous droits réservés.",
         },
         de: {
-            f_search:"Apps suchen", badge_new:"Neu", badge_upd:"Aktualisiert", soon_req:"Eine App-Idee?", soon_reqlink:"App vorschlagen",
-            hero_eyebrow:"Unabhängiges Mac- und Safari-Studio", sec_featured:"Empfohlen", sec_featured_note:"Womit wir anfangen würden", sec_collection:"Alle unsere Apps", f_all:"Alle", f_free:"Kostenlos",
             nav_products:"Produkte", nav_about:"Über uns", nav_contact:"Kontakt",
             hero_title:"Software, die Ihren Mac respektiert.", hero_sub:"Wir bauen fokussierte, datenschutzfreundliche Tools für macOS. Keine Abos, keine Telemetrie.", hero_cta:"Unsere Produkte",
             sec_products:"Produkte", sec_products_title:"Safari-Erweiterungen & macOS-Apps",
             p1_tag:"Lautstärkeangleichung für macOS", p1_desc:"Automatische Lautstärke-Angleichung für macOS. Gleicht die Lautstärke aller Apps in Echtzeit an. 14 Tage kostenlos testen.",
             p2_tag:"Twitch-Erweiterung", p2_desc:"BTTV-, FFZ- und 7TV-Emotes plus 50+ Funktionen. Auto-Claim, Split Chat, PiP und mehr.",
-            p3_tag:"RSS-Erweiterung für Safari", p3_desc:"Feeds, YouTube-Kanäle und Blogs abonnieren, alles an einem Ort.",
+            p3_tag:"RSS-Erweiterung für Safari", p3_desc:"Feeds, YouTube-Kanäle und Blogs abonnieren — alles an einem Ort.",
             p4_tag:"Tab-Stummschalter", p4_desc:"Schaltet automatisch alle Hintergrund-Tabs stumm. PiP, Tastaturkürzel und Whitelist.",
-            p5_tag:"Virtuelle Tastatur", p5_desc:"Virtuelle Tastatur mit Wisch-Eingabe. 14 Sprachen, vollständiges Layout, 100% offline.",
+            p5_tag:"Virtuelle Tastatur", p5_desc:"Virtuelle Tastatur mit Wisch-Eingabe. 14 Sprachen, vollständiges Layout — 100% offline.",
             p6_tag:"Mediaplayer für macOS", p6_desc:"Der leistungsstärkste und anpassbarste Mediaplayer für macOS. Basierend auf mpv mit GPU-beschleunigter Wiedergabe, Echtzeit-GLSL-Shadern, Streaming und über 200 Einstellungen.",
             p7_tag:"YouTube-Erweiterung für Safari", p7_desc:"Geschwindigkeitssteuerung, SponsorBlock, Videofilter und über 40 Funktionen für YouTube. Native Safari-Erweiterung für iPhone und iPad. macOS demnächst.", p8_tag:"Safari-Adressleistenkürzel", p8_desc:"Geben Sie einen Schlüsselwort in die Adressleiste von Safari ein, um sofort an jedem Ort anzukommen, nutzen Sie über 30 integrierte Kurzbefehle, bearbeiten Sie diese oder erstellen Sie Ihre eigenen, und das funktioniert auf macOS, iOS und iPadOS.",
             product_link:"Mehr erfahren", know_more:"Mehr erfahren",
@@ -659,16 +1111,14 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             f_legal:"Rechtliches", f_privacy:"Datenschutz", f_terms:"Nutzungsbedingungen", f_connect:"Kontakt", f_brand:"Indie macOS Softwarestudio.<br>Fokussierte, datenschutzfreundliche Tools.", f_rights:"© 2026 CorvusDevs. Alle Rechte vorbehalten.",
         },
         pt: {
-            f_search:"Buscar apps", badge_new:"Novo", badge_upd:"Atualizado", soon_req:"Tem uma ideia de app?", soon_reqlink:"Solicitar um app",
-            hero_eyebrow:"Estúdio independente de Mac e Safari", sec_featured:"Destaques", sec_featured_note:"Por onde começaríamos", sec_collection:"Todos os nossos apps", f_all:"Todos", f_free:"Grátis",
             nav_products:"Produtos", nav_about:"Sobre", nav_contact:"Contato",
             hero_title:"Software que respeita o seu Mac.", hero_sub:"Criamos ferramentas focadas e privadas para macOS. Sem assinaturas, sem telemetria.", hero_cta:"Ver nossos produtos",
             sec_products:"Produtos", sec_products_title:"Extensões Safari e apps macOS",
             p1_tag:"Equalização de volume do macOS", p1_desc:"Equalização automática de volume para macOS. Equilibra o som de todos os seus apps. 14 dias de teste grátis.",
             p2_tag:"Extensão para Twitch", p2_desc:"Emotes BTTV, FFZ e 7TV mais 50+ recursos. Auto-coleta, split chat, PiP e mais.",
-            p3_tag:"Extensão RSS para Safari", p3_desc:"Assine feeds, canais do YouTube e blogs, tudo em um só lugar.",
+            p3_tag:"Extensão RSS para Safari", p3_desc:"Assine feeds, canais do YouTube e blogs — tudo em um só lugar.",
             p4_tag:"Silenciador de Abas", p4_desc:"Silencia automaticamente todas as abas em segundo plano. PiP, atalhos e whitelist.",
-            p5_tag:"Teclado Virtual macOS", p5_desc:"Teclado virtual com digitação por deslizamento. 14 idiomas, 100% offline.",
+            p5_tag:"Teclado Virtual macOS", p5_desc:"Teclado virtual com digitação por deslizamento. 14 idiomas — 100% offline.",
             p6_tag:"Reprodutor Multimídia", p6_desc:"O reprodutor multimídia mais poderoso e personalizável para macOS. Baseado em mpv com reprodução acelerada por GPU, shaders GLSL em tempo real, streaming e mais de 200 configurações.",
             p7_tag:"Extensão do YouTube para Safari", p7_desc:"Controle de velocidade, SponsorBlock, filtros de vídeo e mais de 40 recursos para o YouTube. Extensão nativa do Safari para iPhone e iPad. macOS em breve.", p8_tag:"Atalhos da Barra de Endereço do Safari", p8_desc:"Digite uma palavra-chave na barra de endereços do Safari e vá para qualquer lugar, com mais de 30 atalhos integrados que você pode editar ou criar os seus próprios, funcionando no macOS, iOS e iPadOS.",
             product_link:"Saiba mais", know_more:"Saiba mais",
@@ -683,16 +1133,14 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             f_legal:"Legal", f_privacy:"Política de Privacidade", f_terms:"Termos de Serviço", f_connect:"Contato", f_brand:"Estúdio indie de software para macOS.<br>Ferramentas focadas e privadas.", f_rights:"© 2026 CorvusDevs. Todos os direitos reservados.",
         },
         it: {
-            f_search:"Cerca app", badge_new:"Nuovo", badge_upd:"Aggiornato", soon_req:"Hai un'idea per un'app?", soon_reqlink:"Richiedi un'app",
-            hero_eyebrow:"Studio indipendente Mac e Safari", sec_featured:"In evidenza", sec_featured_note:"Da dove partiremmo", sec_collection:"Tutte le nostre app", f_all:"Tutti", f_free:"Gratis",
             nav_products:"Prodotti", nav_about:"Chi siamo", nav_contact:"Contatto",
             hero_title:"Software che rispetta il tuo Mac.", hero_sub:"Creiamo strumenti mirati e rispettosi della privacy per macOS. Nessun abbonamento, nessuna telemetria.", hero_cta:"Vedi i nostri prodotti",
             sec_products:"Prodotti", sec_products_title:"Estensioni Safari e app macOS",
             p1_tag:"Equalizzazione del volume per macOS", p1_desc:"Equalizzazione automatica del volume per macOS. Bilancia il volume di tutte le tue app. 14 giorni di prova gratuita.",
             p2_tag:"Estensione Twitch", p2_desc:"Emote BTTV, FFZ e 7TV più 50+ funzioni. Auto-riscatto, split chat, PiP e altro.",
-            p3_tag:"Estensione RSS Safari", p3_desc:"Iscriviti a feed, canali YouTube e blog, tutto in un unico posto.",
+            p3_tag:"Estensione RSS Safari", p3_desc:"Iscriviti a feed, canali YouTube e blog — tutto in un unico posto.",
             p4_tag:"Silenziatore Schede", p4_desc:"Silenzia automaticamente tutte le schede in background. PiP, scorciatoie e whitelist.",
-            p5_tag:"Tastiera Virtuale macOS", p5_desc:"Tastiera virtuale con digitazione a scorrimento. 14 lingue, 100% offline.",
+            p5_tag:"Tastiera Virtuale macOS", p5_desc:"Tastiera virtuale con digitazione a scorrimento. 14 lingue — 100% offline.",
             p6_tag:"Lettore Multimediale", p6_desc:"Il lettore multimediale più potente e personalizzabile per macOS. Basato su mpv con riproduzione accelerata GPU, shader GLSL in tempo reale, streaming e oltre 200 impostazioni.",
             p7_tag:"Estensione YouTube per Safari", p7_desc:"Controllo velocità, SponsorBlock, filtri video e oltre 40 funzioni per YouTube. Estensione Safari nativa per iPhone e iPad. macOS prossimamente.", p8_tag:"Scorciatoie per la barra degli indirizzi di Safari", p8_desc:"Digitare una parola chiave nella barra degli indirizzi di Safari vi porta ovunque, con oltre 30 scorciatoie integrate che potete modificare o creare di vostro gradimento, disponibile su macOS, iOS e iPadOS.",
             product_link:"Scopri di più", know_more:"Scopri di più",
@@ -707,8 +1155,6 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             f_legal:"Legale", f_privacy:"Informativa sulla Privacy", f_terms:"Termini di Servizio", f_connect:"Contatto", f_brand:"Studio indie di software per macOS.<br>Strumenti mirati e rispettosi della privacy.", f_rights:"© 2026 CorvusDevs. Tutti i diritti riservati.",
         },
         ja: {
-            f_search:"アプリを検索", badge_new:"新着", badge_upd:"更新", soon_req:"アプリのアイデアは?", soon_reqlink:"アプリをリクエスト",
-            hero_eyebrow:"Mac と Safari のインディースタジオ", sec_featured:"注目", sec_featured_note:"まずはここから", sec_collection:"すべてのアプリ", f_all:"すべて", f_free:"無料",
             nav_products:"製品", nav_about:"概要", nav_contact:"お問い合わせ",
             hero_title:"Macを尊重するソフトウェア。", hero_sub:"macOS向けの集中的でプライバシー重視のツール。サブスクなし、テレメトリなし。", hero_cta:"製品を見る",
             sec_products:"製品", sec_products_title:"Safari拡張機能とmacOSアプリ",
@@ -716,7 +1162,7 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             p2_tag:"Twitch拡張機能", p2_desc:"BTTV、FFZ、7TVエモート＋50以上の機能。自動収集、スプリットチャット、PiPなど。",
             p3_tag:"RSS拡張機能", p3_desc:"フィード、YouTubeチャンネル、ブログを購読。すべて一か所で。",
             p4_tag:"タブミュート", p4_desc:"バックグラウンドタブを自動ミュート。PiP、ショートカット、ホワイトリスト対応。",
-            p5_tag:"バーチャルキーボード", p5_desc:"スワイプ入力対応のバーチャルキーボード。14言語，100%オフライン。",
+            p5_tag:"バーチャルキーボード", p5_desc:"スワイプ入力対応のバーチャルキーボード。14言語 — 100%オフライン。",
             p6_tag:"メディアプレーヤー", p6_desc:"macOS最強のカスタマイズ可能なメディアプレーヤー。mpvベースでGPU加速再生、リアルタイムGLSLシェーダー、ストリーミング、200以上の設定。",
             p7_tag:"Safari用YouTube拡張機能", p7_desc:"速度制御、SponsorBlock、動画フィルターなど40以上の機能。iPhoneとiPad向けのネイティブSafari拡張機能。macOS版は近日公開。", p8_tag:"Safari アドレスバーのショートカット", p8_desc:"Safari のアドレスバーにキーワードを入力してどこでもジャンプする 30 以上の組み込みショートカットがあり、それを編集したり追加したりできます。macOS、iOS、iPadOS で動作します。",
             product_link:"詳しく見る", know_more:"詳しく見る",
@@ -731,16 +1177,14 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             f_legal:"法的情報", f_privacy:"プライバシーポリシー", f_terms:"利用規約", f_connect:"お問い合わせ", f_brand:"インディー macOS ソフトウェアスタジオ。<br>集中的でプライバシー重視のツール。", f_rights:"© 2026 CorvusDevs. All rights reserved.",
         },
         zh: {
-            f_search:"搜索应用", badge_new:"新", badge_upd:"已更新", soon_req:"有应用点子？", soon_reqlink:"请求一个应用",
-            hero_eyebrow:"独立的 Mac 与 Safari 工作室", sec_featured:"精选", sec_featured_note:"从这里开始", sec_collection:"全部应用", f_all:"全部", f_free:"免费",
             nav_products:"产品", nav_about:"关于", nav_contact:"联系",
             hero_title:"尊重你 Mac 的软件。", hero_sub:"我们为 macOS 打造专注、隐私优先的工具。无订阅，无遥测。", hero_cta:"查看产品",
             sec_products:"产品", sec_products_title:"Safari 扩展和 macOS 应用",
             p1_tag:"macOS 响度均衡", p1_desc:"macOS 自动响度均衡。实时平衡所有应用的音量。14 天免费试用。",
             p2_tag:"Twitch 扩展", p2_desc:"BTTV、FFZ、7TV 表情加 50+ 功能。自动领取、分屏聊天、画中画等。",
-            p3_tag:"RSS 扩展", p3_desc:"订阅 Feed、YouTube 频道和博客，一切尽在一处。",
+            p3_tag:"RSS 扩展", p3_desc:"订阅 Feed、YouTube 频道和博客 — 一切尽在一处。",
             p4_tag:"标签页静音", p4_desc:"自动静音所有后台标签页。支持PiP、快捷键和白名单。",
-            p5_tag:"虚拟键盘", p5_desc:"滑动输入虚拟键盘。14 种语言，100% 离线。",
+            p5_tag:"虚拟键盘", p5_desc:"滑动输入虚拟键盘。14 种语言 — 100% 离线。",
             p6_tag:"媒体播放器", p6_desc:"macOS 上最强大、最可定制的媒体播放器。基于 mpv，GPU 加速播放、实时 GLSL 着色器、流媒体及 200+ 项设置。",
             p7_tag:"Safari 的 YouTube 扩展", p7_desc:"速度控制、SponsorBlock、视频滤镜以及 40 多项 YouTube 功能。iPhone 和 iPad 原生 Safari 扩展。macOS 即将推出。", p8_tag:"Safari 地址栏快捷键", p8_desc:"在 Safari 地址栏输入关键词即可跳转至任意位置，内置 30 多个快捷指令，您可编辑或添加自己的指令，支持 macOS、iOS 和 iPadOS。",
             product_link:"了解更多", know_more:"了解更多",
@@ -755,16 +1199,14 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             f_legal:"法律", f_privacy:"隐私政策", f_terms:"服务条款", f_connect:"联系我们", f_brand:"独立 macOS 软件工作室。<br>打造专注、隐私优先的工具。", f_rights:"© 2026 CorvusDevs. 保留所有权利。",
         },
         ko: {
-            f_search:"앱 검색", badge_new:"신규", badge_upd:"업데이트", soon_req:"앱 아이디어가 있나요?", soon_reqlink:"앱 요청하기",
-            hero_eyebrow:"독립 Mac 및 Safari 스튜디오", sec_featured:"추천", sec_featured_note:"여기서 시작하세요", sec_collection:"모든 앱", f_all:"전체", f_free:"무료",
             nav_products:"제품", nav_about:"소개", nav_contact:"문의",
             hero_title:"Mac을 존중하는 소프트웨어.", hero_sub:"macOS를 위한 집중적이고 프라이버시 우선 도구를 만듭니다.", hero_cta:"제품 보기",
             sec_products:"제품", sec_products_title:"Safari 확장 프로그램 & macOS 앱",
             p1_tag:"macOS 음량 균등화", p1_desc:"macOS용 자동 음량 이퀘라이제이션. 모든 앱의 음량을 실시간으로 조절. 14일 무료 체험.",
             p2_tag:"Twitch 확장", p2_desc:"BTTV, FFZ, 7TV 이모트 + 50개 이상 기능. 자동 수집, 분할 채팅, PiP 등.",
-            p3_tag:"RSS 확장", p3_desc:"피드, YouTube 채널, 블로그를 구독하세요，한곳에서 모두.",
+            p3_tag:"RSS 확장", p3_desc:"피드, YouTube 채널, 블로그를 구독하세요 — 한곳에서 모두.",
             p4_tag:"탭 음소거", p4_desc:"모든 백그라운드 탭을 자동 음소거. PiP, 단축키, 화이트리스트 지원.",
-            p5_tag:"가상 키보드", p5_desc:"스와이프 입력 가상 키보드. 14개 언어，100% 오프라인.",
+            p5_tag:"가상 키보드", p5_desc:"스와이프 입력 가상 키보드. 14개 언어 — 100% 오프라인.",
             p6_tag:"미디어 플레이어", p6_desc:"macOS에서 가장 강력하고 맞춤 설정 가능한 미디어 플레이어. mpv 기반 GPU 가속 재생, 실시간 GLSL 셰이더, 스트리밍 및 200개 이상의 설정.",
             p7_tag:"Safari용 YouTube 확장 프로그램", p7_desc:"속도 제어, SponsorBlock, 동영상 필터 및 40개 이상의 YouTube 기능. iPhone 및 iPad용 네이티브 Safari 확장. macOS 곧 출시.", p8_tag:"Safari 주소 표시줄 단축키", p8_desc:"Safari 주소창에 키워드를 입력하여 원하는 곳으로 이동할 수 있으며, 30 개 이상의 내장 단축키를 편집하거나 직접 추가할 수 있고 macOS, iOS, iPadOS 에서 작동합니다.",
             product_link:"자세히 보기", know_more:"자세히 보기",
@@ -779,16 +1221,14 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             f_legal:"법적 고지", f_privacy:"개인정보 처리방침", f_terms:"이용약관", f_connect:"연락처", f_brand:"인디 macOS 소프트웨어 스튜디오.<br>집중적이고 프라이버시 우선 도구.", f_rights:"© 2026 CorvusDevs. 모든 권리 보유.",
         },
         ru: {
-            f_search:"Поиск приложений", badge_new:"Новое", badge_upd:"Обновлено", soon_req:"Есть идея приложения?", soon_reqlink:"Предложить приложение",
-            hero_eyebrow:"Независимая студия для Mac и Safari", sec_featured:"Избранное", sec_featured_note:"С чего бы мы начали", sec_collection:"Все наши приложения", f_all:"Все", f_free:"Бесплатно",
             nav_products:"Продукты", nav_about:"О нас", nav_contact:"Контакты",
             hero_title:"Софт, который уважает ваш Mac.", hero_sub:"Мы создаём инструменты для macOS с приоритетом конфиденциальности. Без подписок, без телеметрии.", hero_cta:"Смотреть продукты",
             sec_products:"Продукты", sec_products_title:"Расширения Safari и приложения macOS",
             p1_tag:"Выравнивание громкости для macOS", p1_desc:"Автоматическое выравнивание громкости для macOS. Балансирует звук всех приложений. 14 дней бесплатно.",
             p2_tag:"Расширение Twitch", p2_desc:"Эмоуты BTTV, FFZ и 7TV + 50+ функций. Авто-сбор, раздельный чат, PiP и др.",
-            p3_tag:"RSS-расширение", p3_desc:"Подписывайтесь на ленты, YouTube-каналы и блоги, всё в одном месте.",
+            p3_tag:"RSS-расширение", p3_desc:"Подписывайтесь на ленты, YouTube-каналы и блоги — всё в одном месте.",
             p4_tag:"Глушитель вкладок", p4_desc:"Автоматически отключает звук во всех фоновых вкладках. PiP, горячие клавиши, белый список.",
-            p5_tag:"Виртуальная клавиатура", p5_desc:"Виртуальная клавиатура со свайп-вводом. 14 языков, 100% офлайн.",
+            p5_tag:"Виртуальная клавиатура", p5_desc:"Виртуальная клавиатура со свайп-вводом. 14 языков — 100% офлайн.",
             p6_tag:"Медиаплеер для macOS", p6_desc:"Самый мощный и настраиваемый медиаплеер для macOS. На базе mpv с GPU-ускорением, шейдерами GLSL в реальном времени, стримингом и 200+ настройками.",
             p7_tag:"Расширение YouTube для Safari", p7_desc:"Управление скоростью, SponsorBlock, видеофильтры и 40+ функций для YouTube. Нативное расширение Safari для iPhone и iPad. macOS скоро.", p8_tag:"Ярлыки адресной строки Safari", p8_desc:"Введите ключевое слово в адресную строку Safari, чтобы мгновенно перейти на нужный сайт; приложение включает более 30 встроенных быстрых команд, которые можно редактировать или добавлять свои собственные, и работает на macOS, iOS и iPadOS.",
             product_link:"Подробнее", know_more:"Подробнее",
@@ -803,48 +1243,30 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             f_legal:"Правовая информация", f_privacy:"Политика конфиденциальности", f_terms:"Условия использования", f_connect:"Связь", f_brand:"Инди-студия ПО для macOS.<br>Создаём инструменты с приоритетом конфиденциальности.", f_rights:"© 2026 CorvusDevs. Все права защищены.",
         },
         ar: {
-            f_search:"ابحث عن التطبيقات", badge_new:"جديد", badge_upd:"محدّث", soon_req:"لديك فكرة تطبيق؟", soon_reqlink:"اطلب تطبيقًا",
-            hero_eyebrow:"استوديو مستقل لتطبيقات Mac و Safari", sec_featured:"مميّزة", sec_featured_note:"من أين نبدأ", sec_collection:"كل تطبيقاتنا", f_all:"الكل", f_free:"مجاني",
             nav_products:"المنتجات", nav_about:"حول", nav_contact:"اتصل", hero_title:"برمجية تحترم جهازك", hero_sub:"نُقدّم أدوات مركّزة تروّض الخصوصية لنظام macOS، دون اشتراكات أو تتبع أو تعقيد.", hero_cta:"شاهد منتجاتنا", sec_products:"المنتجات", sec_products_title:"إضافات سفاري وتطبيقات macOS", p1_tag:"مساواة مستوى الصوت في macOS", p1_desc:"مساواة الصوت التلقائية لـ macOS؛ توازن الصوت عبر جميع تطبيقاتك في الوقت الفعلي. تجربة مجانية لمدة 14 يومًا.", p2_tag:"إضافة تيوتش", p2_desc:"إيموجي BTTV و FFZ و 7TV بالإضافة إلى أكثر من 50 ميزة، مع خيارات مثل المطالبة التلقائية، تقسيم الدردشة، عرض الصورة فوق الصورة، والمشاهدة المجهولة، وغيرها الكثير.", p3_tag:"توسيط RSS لسفاري", p3_desc:"اشترك في القوائم البريدية وقنوات يوتيوب والمدونات من مكان واحد، مع دعم macOS و iOS و iPadOS.", p4_tag:"مُخَفِّفُ تَبِيعَاتِ سَافاري", p4_desc:"يُخفِّض تلقائيًا صوت جميع علامات التبويب الخلفية ليعمل الصوت فقط من علامة التبويب النشطة، مع دعم وضع الصورة في الصورة، اختصارات لوحة المفاتيح، وقائمة المسموحات حسب النطاق.", p5_tag:"لوحة المفاتيح الافتراضية", p5_desc:"لوحة مفاتيح افتراضية تعمل بسحب الإصبع لكتابة النصوص على macOS، مع تنبؤات ذكية، ودعم 14 لغة، وتخطيط سطح المكتب الكامل، وتعمل بالكامل دون اتصال بالإنترنت.", p6_tag:"مشغل الوسائط", p6_desc:"مشغل الوسائط الأقوى والأكثر تخصيصًا لـ macOS، مبني على mpv مع تشغيل معزز بواسطة GPU، ورسوم GLSL في الوقت الفعلي، والبث المباشر، وأكثر من 200 إعداد.", product_link:"تعرف على المزيد", know_more:"اعرف المزيد", sec_values:"مبادئنا", sec_values_title:"كيف نبني البرمجيات", v1_t:"الخصوصية افتراضياً", v1_d:"لا تحليلات، لا تتبع، لا حسابات؛ تظل بياناتك على جهازك.", v2_t:"مُطوّر أصلي لـ macOS", v2_d:"مُصمَّم بلغة Swift ومكتبة SwiftUI، مُحسَّن لرقائق Apple Silicon. تطبيقاتنا تنتمي إلى ماك الخاص بك.", v3_t:"خفيف الوزن بطبيعته", v3_d:"تحميلات صغيرة، أطر عمل غير مبالغ فيها، وبدون عمليات خلفية. تثبيت في ثوانٍ.", v4_t:"الأداء أولاً", v4_d:"مُصمَّم لاستهلاك موارد محدودة حتى يظل جهازك Mac سريع الاستجابة.", v5_t:"أدوات التركيز", v5_d:"كل تطبيق ينفذ مهمة واحدة بشكل استثنائي، دون إضافة ميزات زائدة أو تعقيد غير ضروري.", v6_t:"الدعم البشري", v6_d:"استجابات حقيقية من أشخاص حقيقيين. هل لديك سؤال؟ اراسلنا مباشرة عبر البريد الإلكتروني.", soon_t:"تطبيقات أكثر قريباً", soon_d:"نعمل على أدوات جديدة لـ macOS. تواصل معنا إذا كنت ترغب في معرفة كل جديد أولاً.", soon_btn:"احصل على إشعار", f_legal:"قانوني", f_privacy:"سياسة الخصوصية", f_terms:"شروط الخدمة", f_connect:"اتصل", f_brand:"استوديو برمجيات macOS المستقل الذي يبني أدوات تركز على الخصوصية أولاً.", f_rights:"© 2026 CorvusDevs. جميع الحقوق محفوظة.", p7_tag:"إضافة Safari لـ YouTube", p7_desc:"تحكم في السرعة، SponsorBlock، فلاتر الفيديو، وأكثر من 40 ميزة لـ YouTube. ملحق Safari الأصلي لـ iPhone و iPad. macOS قريباً.", p8_tag:"اختصارات شريط عنوان Safari", p8_desc:"اكتب كلمة مفتاحية في شريط عناوين Safari للانتقال إلى أي مكان، مع توفر أكثر من 30 اختصارًا مدمجًا يمكنك تعديلها أو إضافة اختصارات خاصة بك، ويعمل على macOS وiOS وiPadOS.",
         },
         nl: {
-            f_search:"Apps zoeken", badge_new:"Nieuw", badge_upd:"Bijgewerkt", soon_req:"Heb je een app-idee?", soon_reqlink:"Vraag een app aan",
-            hero_eyebrow:"Onafhankelijke Mac- en Safari-studio", sec_featured:"Uitgelicht", sec_featured_note:"Waar wij zouden beginnen", sec_collection:"Al onze apps", f_all:"Alle", f_free:"Gratis",
             nav_products:"Producten", nav_about:"Over", nav_contact:"Contact", hero_title:"Software die uw Mac respecteert.", hero_sub:"Wij bouwen gefocuste, privacy-georiënteerde tools voor macOS. Geen abonnementen, geen telemetrie, geen onnodige functionaliteit.", hero_cta:"Bekijk onze producten", sec_products:"Producten", sec_products_title:"Safari-extensies & macOS-apps", p1_tag:"Geluidsegalisatie voor macOS", p1_desc:"Automatische geluidsniveau-egalering voor macOS. Balanseert het volume in real time over al uw apps. 14 dagen gratis proefperiode.", p2_tag:"Twitch-extensie", p2_desc:"BTTV, FFZ en 7TV-emojis plus meer dan 50 functies, waaronder automatisch ophalen, gesplitst chatvenster, afspelen in beeld, anoniem kijken en nog veel meer.", p3_tag:"Safari RSS-extensie", p3_desc:"Abonneer u op feeds, YouTube-kanaalen en blogs, allemaal op één plek. Werkt op macOS, iOS en iPadOS.", p4_tag:"Safari Tab Demper", p4_desc:"Zet automatisch alle achtergrondtabbladen op stil zodat alleen de gefocuste tab audio afspeelt, met ondersteuning voor PiP, snelkoppelingen en een domein-witlijst.", p5_tag:"MacOS Virtueel Toetsenbord", p5_desc:"Een virtueel toetsenbord met swipe-to-type voor macOS, met slimme voorspellingen, ondersteuning voor 14 talen, een volledig desktop-indeling en 100% offline.", p6_tag:"Media Player macOS", p6_desc:"De meest krachtige en aanpasbare mediaspeler voor macOS, gebouwd op mpv met GPU-versnelde afspeling, real-time GLSL-shaders, streaming en meer dan 200 instellingen.", product_link:"Meer informatie", know_more:"Meer weten", sec_values:"Onze principes", sec_values_title:"Hoe we software bouwen", v1_t:"Privacy standaard", v1_d:"Geen analytics, geen tracking, geen accounts. Uw gegevens blijven op uw apparaat.", v2_t:"Ingebouwd voor macOS", v2_d:"Gebouwd met Swift en SwiftUI, geoptimaliseerd voor Apple Silicon. Onze apps horen op uw Mac.", v3_t:"Lichtgewicht door ontwerp", v3_d:"Kleine downloads, geen opgeblazen frameworks, geen achtergrond-daemons. Installeer in seconden.", v4_t:"Performance eerst", v4_d:"Ontworpen voor minimale bronbenutting zodat uw Mac snel blijft.", v5_t:"Geconcentreerde gereedschappen", v5_d:"Elke app doet één ding uitzonderlijk goed. Geen functionele overvloed, geen onnodige complexiteit.", v6_t:"Menselijke ondersteuning", v6_d:"Echte reacties van echte mensen. Heeft u een vraag? Stuur ons dan direct een e-mail.", soon_t:"Binnenkort meer apps", soon_d:"We werken aan nieuwe gereedschappen voor macOS. Stuur ons een bericht als u de eerste wilt weten.", soon_btn:"Krijg meldingen", f_legal:"Juridisch", f_privacy:"Privacybeleid", f_terms:"Servicevoorwaarden", f_connect:"Verbinden", f_brand:"Een indie macOS-studio die zich richt op het ontwikkelen van privacy-gevoelige gereedschappen.", f_rights:"© 2026 CorvusDevs. Alle rechten voorbehouden.", p7_tag:"YouTube Safari-extensie", p7_desc:"Snelheidbeheer, SponsorBlock, videofilters en meer dan 40 functies voor YouTube. Native Safari-extensie voor iPhone en iPad. macOS komt binnenkort.", p8_tag:"Safari-Adresbalk-snelkoppelingen", p8_desc:"Typ een trefwoord in de adresbalk van Safari en spring direct naar de gewenste locatie; de app biedt meer dan 30 ingebouwde snelkoppelingen die u kunt aanpassen of zelf kunt toevoegen en werkt op macOS, iOS en iPadOS.",
         },
         tr: {
-            f_search:"Uygulama ara", badge_new:"Yeni", badge_upd:"Güncellendi", soon_req:"Uygulama fikrin mi var?", soon_reqlink:"Uygulama iste",
-            hero_eyebrow:"Bağımsız Mac ve Safari stüdyosu", sec_featured:"Öne çıkanlar", sec_featured_note:"Nereden başlardık", sec_collection:"Tüm uygulamalarımız", f_all:"Tümü", f_free:"Ücretsiz",
             nav_products:"Ürünler", nav_about:"Hakkında", nav_contact:"İletişim", hero_title:"Mac'inize Saygı Duyan Yazılım", hero_sub:"Makineyi odaklı, gizliliğe öncelik veren araçlar inşa ediyoruz. Abonelik yok, izleme yok, gereksiz yük yok.", hero_cta:"Ürünlerimizi Görün", sec_products:"Ürünler", sec_products_title:"Safari Uzantıları & macOS Uygulamaları", p1_tag:"macOS Ses Düzeyi Eşitleme", p1_desc:"macOS için otomatik ses seviyesi eşitleme; tüm uygulamalarınızda gerçek zamanlı olarak ses seviyesini dengeler ve 14 günlük ücretsiz deneme sunar.", p2_tag:"Twitch Uzantısı", p2_desc:"BTTV, FFZ ve 7TV emojileri ile 50'den fazla özellik; otomatik talep, sohbet bölme, resim içinde resim, anonim izleme ve daha fazlası.", p3_tag:"Safari RSS Uzantısı", p3_desc:"Kanal, YouTube kanalı ve blog beslemelerini tek bir yerde abone olun; macOS, iOS ve iPadOS'ta çalışır.", p4_tag:"Safari Sekmesi Susturma", p4_desc:"Arka plan sekmelerini otomatik olarak susturarak yalnızca odaklanmış sekmede ses çalınmasını sağlar; PiP, klavye kısayolları ve alan whitelist'i destekler.", p5_tag:"macOS Sanal Klavye", p5_desc:"macOS için sürükle-bırak ile yazma sanal klavyesi; akıllı tahminler, 14 dil desteği, tam masaüstü düzeni ve %100 çevrimdışı kullanım.", p6_tag:"macOS Medya Oynatıcı", p6_desc:"macOS için en güçlü ve özelleştirilebilir medya oynatıcı; mpv altyapısı üzerine GPU hızlandırılmış oynatma, gerçek zamanlı GLSL shader'lar, akış ve 200'den fazla ayar sunmaktadır.", product_link:"Daha fazla bilgi", know_more:"Daha Fazla Bilgi", sec_values:"İlkelerimiz", sec_values_title:"Yazılımımız Nasıl Yapılır", v1_t:"Varsayılan Gizlilik", v1_d:"Analiz yok, izleme yok, hesap yok. Verileriniz cihazınızda kalır.", v2_t:"macOS Yerel", v2_d:"Swift ve SwiftUI ile geliştirilmiş, Apple Silicon için optimize edilmiştir; uygulamalarımız Mac'inizde yer etmelidir.", v3_t:"Tasarımda hafif", v3_d:"Küçük indirmeler, şişkin kütüphaneler yok, arka plandaki servisler yok. Saniyeler içinde yükleyin.", v4_t:"Performans Öncelikli", v4_d:"Makinenizin hızlı kalmasını sağlamak için en az kaynak tüketimini hedefleyen bir özellik.", v5_t:"Odaklı Araçlar", v5_d:"Her uygulama sadece bir işi olağanüstü iyi yapar; özellik karmaşası veya gereksiz karmaşıklık yoktur.", v6_t:"İnsan Desteği", v6_d:"Gerçek insanlardan gerçek yanıtlar. Bir sorunuz mu var? Bize doğrudan e-posta gönderin.", soon_t:"Yakında daha fazla uygulama", soon_d:"macOS için yeni araçlar üzerinde çalışıyoruz. İlk bilgilendirilmek isterseniz bize ulaşın.", soon_btn:"Bildirim Al", f_legal:"Yasal", f_privacy:"Gizlilik Politikası", f_terms:"Hizmet Şartları", f_connect:"Bağlan", f_brand:"Bağımsız bir macOS yazılım stüdyosuyuz.<br>Odaklanmış, gizliliğe öncelik veren araçlar geliştiriyoruz.", f_rights:"© 2026 CorvusDevs. Tüm hakları saklıdır.", p7_tag:"YouTube Safari Uzantısı", p7_desc:"Hız kontrolü, SponsorBlock, video filtreleri ve YouTube için 40+ özellik; iPhone ve iPad için yerel Safari uzantısı, macOS yakında geliyor.", p8_tag:"Safari Adres Çubuğu Kısayolları", p8_desc:"Safari'nin adres çubuğunda bir anahtar kelime yazarak hemen her yere ulaşın; 30'dan fazla yerleşik kısayol ile bunları düzenleyin veya kendi kısayollarınızı ekleyin; macOS, iOS ve iPadOS'ta çalışır.",
         },
         pl: {
-            f_search:"Szukaj aplikacji", badge_new:"Nowość", badge_upd:"Zaktualizowano", soon_req:"Masz pomysł na aplikację?", soon_reqlink:"Zaproponuj aplikację",
-            hero_eyebrow:"Niezależne studio Mac i Safari", sec_featured:"Polecane", sec_featured_note:"Od czego byśmy zaczęli", sec_collection:"Wszystkie nasze aplikacje", f_all:"Wszystkie", f_free:"Za darmo",
-            nav_products:"Produkty", nav_about:"O programie", nav_contact:"Kontakt", hero_title:"Oprogramowanie szanujące Twój Mac", hero_sub:"Tworzymy skoncentrowane narzędzia z priorytetem na prywatności dla macOS. Brak subskrypcji, telemetrii ani zbędnych dodatków.", hero_cta:"Zobacz nasze produkty", sec_products:"Produkty", sec_products_title:"Rozszerzenia Safari i aplikacje macOS", p1_tag:"Równoważenie głośności w macOS", p1_desc:"Automatyczna wyrównanie głośności dla macOS, które w czasie rzeczywistym reguluje poziom dźwięku we wszystkich aplikacjach. Dostępny jest bezpłatny 14-dniowy okres próbny.", p2_tag:"Rozszerzenie Twitch", p2_desc:"Emotki BTTV, FFZ i 7TV oraz ponad 50 funkcji, w tym automatyczne odbieranie nagród, dzielenie czatu, odtwarzanie w oknie w oknie, anonimowe oglądanie i wiele innych.", p3_tag:"Rozszerzenie RSS Safari", p3_desc:"Subskrybuj kanały RSS, YouTube oraz blogi w jednym miejscu, aplikacja działa na macOS, iOS i iPadOS.", p4_tag:"Wyciszanie zakładek Safari", p4_desc:"Automatycznie wycisza wszystkie karty w tle, odtwarzając dźwięk tylko w aktywnej karcie, z obsługą trybu PiP, skrótów klawiaturowych i białej listy domen.", p5_tag:"Wirtualna klawiatura macOS", p5_desc:"Wirtualna klawiatura z obsługą gestów do wpisywania na macOS z inteligentnymi przewidywaniami, 14 językami, pełnym układem biurka i 100% działaniem offline.", p6_tag:"Odtwarzacz odtwarzania macOS", p6_desc:"Najpotężniejszy i najbardziej elastyczny odtwarzacz multimedialny dla macOS, oparty na mpv z odtwarzaniem przyspieszonym przez GPU, shaderami GLSL w czasie rzeczywistym, obsługą strumieniową oraz ponad 200 ustawieniami.", product_link:"Dowiedz się więcej", know_more:"Dowiedz się więcej", sec_values:"Nasze zasady", sec_values_title:"Jak budujemy oprogramowanie", v1_t:"Ochrona prywatności domyślnie", v1_d:"Brak analiz, brak śledzenia, brak kont. Twoje dane pozostają na Twoim urządzeniu.", v2_t:"Native do macOS", v2_d:"Zbudowane w Swift i SwiftUI, zoptymalizowane dla Apple Silicon. Nasze aplikacje należą do Twojego Maca.", v3_t:"Lekkie dzięki projektowi", v3_d:"Małe pobieranie, bez rozdmuchanych ram, bez demonów w tle, instalacja w ułamku sekundy.", v4_t:"Priorytet wydajności", v4_d:"Zaprojektowany do minimalnego zużycia zasobów, aby Twój Mac działał szybko.", v5_t:"Narzędzia skupione", v5_d:"Każda aplikacja wykonuje jedną rzecz wyjątkowo dobrze, bez zbędnych funkcji i niepotrzebnej złożoności.", v6_t:"Wsparcie ludzkie", v6_d:"Odpowiedzi od prawdziwych ludzi. Masz pytanie? Napisz nam bezpośrednio na e-mail.", soon_t:"Wkrótce więcej aplikacji", soon_d:"Pracujemy nad nowymi narzędziami dla macOS. Napisz do nas, jeśli chcesz być pierwszym, który o tym dowie się.", soon_btn:"Otrzymuj powiadomienia", f_legal:"Prawne", f_privacy:"Polityka Prywatności", f_terms:"Warunki usługi", f_connect:"Połącz", f_brand:"Indie studio macOS tworzące skoncentrowane narzędzia z naciskiem na prywatność.", f_rights:"© 2026 CorvusDevs. Wszelkie prawa zastrzeżone.", p7_tag:"Rozszerzenie YouTube Safari", p7_desc:"Kontrola prędkości odtwarzania, SponsorBlock, filtry wideo oraz ponad 40 funkcji dla YouTube. Wtyczka Safari dla iPhone'a i iPad-a. macOS wkrótce.", p8_tag:"Skróty paska adresu w Safari", p8_desc:"Wpisz słowo kluczowe w pasku adresu Safari, aby przejść do dowolnego miejsca, korzystając z ponad 30 wbudowanych skrótów, które możesz edytować lub dodawać własne, działa na macOS, iOS i iPadOS.",
+            nav_products:"Produkty", nav_about:"O programie", nav_contact:"Kontakt", hero_title:"Oprogramowanie szanujące Twój Mac", hero_sub:"Tworzymy skoncentrowane narzędzia z priorytetem na prywatności dla macOS. Brak subskrypcji, telemetrii ani zbędnych dodatków.", hero_cta:"Zobacz nasze produkty", sec_products:"Produkty", sec_products_title:"Rozszerzenia Safari i aplikacje macOS", p1_tag:"Równoważenie głośności w macOS", p1_desc:"Automatyczna wyrównanie głośności dla macOS, które w czasie rzeczywistym reguluje poziom dźwięku we wszystkich aplikacjach. Dostępny jest bezpłatny 14-dniowy okres próbny.", p2_tag:"Rozszerzenie Twitch", p2_desc:"Emotki BTTV, FFZ i 7TV oraz ponad 50 funkcji, w tym automatyczne odbieranie nagród, dzielenie czatu, odtwarzanie w oknie w oknie, anonimowe oglądanie i wiele innych.", p3_tag:"Rozszerzenie RSS Safari", p3_desc:"Subskrybuj kanały RSS, YouTube oraz blogi w jednym miejscu – aplikacja działa na macOS, iOS i iPadOS.", p4_tag:"Wyciszanie zakładek Safari", p4_desc:"Automatycznie wycisza wszystkie karty w tle, odtwarzając dźwięk tylko w aktywnej karcie, z obsługą trybu PiP, skrótów klawiaturowych i białej listy domen.", p5_tag:"Wirtualna klawiatura macOS", p5_desc:"Wirtualna klawiatura z obsługą gestów do wpisywania na macOS z inteligentnymi przewidywaniami, 14 językami, pełnym układem biurka i 100% działaniem offline.", p6_tag:"Odtwarzacz odtwarzania macOS", p6_desc:"Najpotężniejszy i najbardziej elastyczny odtwarzacz multimedialny dla macOS, oparty na mpv z odtwarzaniem przyspieszonym przez GPU, shaderami GLSL w czasie rzeczywistym, obsługą strumieniową oraz ponad 200 ustawieniami.", product_link:"Dowiedz się więcej", know_more:"Dowiedz się więcej", sec_values:"Nasze zasady", sec_values_title:"Jak budujemy oprogramowanie", v1_t:"Ochrona prywatności domyślnie", v1_d:"Brak analiz, brak śledzenia, brak kont. Twoje dane pozostają na Twoim urządzeniu.", v2_t:"Native do macOS", v2_d:"Zbudowane w Swift i SwiftUI, zoptymalizowane dla Apple Silicon. Nasze aplikacje należą do Twojego Maca.", v3_t:"Lekkie dzięki projektowi", v3_d:"Małe pobieranie, bez rozdmuchanych ram, bez demonów w tle – instalacja w ułamku sekundy.", v4_t:"Priorytet wydajności", v4_d:"Zaprojektowany do minimalnego zużycia zasobów, aby Twój Mac działał szybko.", v5_t:"Narzędzia skupione", v5_d:"Każda aplikacja wykonuje jedną rzecz wyjątkowo dobrze, bez zbędnych funkcji i niepotrzebnej złożoności.", v6_t:"Wsparcie ludzkie", v6_d:"Odpowiedzi od prawdziwych ludzi. Masz pytanie? Napisz nam bezpośrednio na e-mail.", soon_t:"Wkrótce więcej aplikacji", soon_d:"Pracujemy nad nowymi narzędziami dla macOS. Napisz do nas, jeśli chcesz być pierwszym, który o tym dowie się.", soon_btn:"Otrzymuj powiadomienia", f_legal:"Prawne", f_privacy:"Polityka Prywatności", f_terms:"Warunki usługi", f_connect:"Połącz", f_brand:"Indie studio macOS tworzące skoncentrowane narzędzia z naciskiem na prywatność.", f_rights:"© 2026 CorvusDevs. Wszelkie prawa zastrzeżone.", p7_tag:"Rozszerzenie YouTube Safari", p7_desc:"Kontrola prędkości odtwarzania, SponsorBlock, filtry wideo oraz ponad 40 funkcji dla YouTube. Wtyczka Safari dla iPhone'a i iPad-a. macOS wkrótce.", p8_tag:"Skróty paska adresu w Safari", p8_desc:"Wpisz słowo kluczowe w pasku adresu Safari, aby przejść do dowolnego miejsca, korzystając z ponad 30 wbudowanych skrótów, które możesz edytować lub dodawać własne – działa na macOS, iOS i iPadOS.",
         },
         sv: {
-            f_search:"Sök appar", badge_new:"Nytt", badge_upd:"Uppdaterad", soon_req:"Har du en app-idé?", soon_reqlink:"Föreslå en app",
-            hero_eyebrow:"Oberoende Mac- och Safari-studio", sec_featured:"Utvalda", sec_featured_note:"Här skulle vi börja", sec_collection:"Alla våra appar", f_all:"Alla", f_free:"Gratis",
             nav_products:"Produkter", nav_about:"Om", nav_contact:"Kontakt", hero_title:"Respekterar din Mac", hero_sub:"Vi bygger fokuserade, integritetscentrerade verktyg för macOS. Inga prenumerationer, ingen telemetri, ingen onöda.", hero_cta:"Se våra produkter", sec_products:"Produkter", sec_products_title:"Safari-tillägg & macOS-appar", p1_tag:"Ljudstyrkeutjämning för macOS", p1_desc:"Automatisk ljudjämnning för macOS som balanserar volymen över alla dina appar i realtid med en kostnadsfri 14-dagars provperiod.", p2_tag:"Twitch Tillägg", p2_desc:"BTTV, FFZ och 7TV-ansiktsuttryck plus 50+ funktioner, inklusive automatisk aktivering, uppdelad chatt, bild-i-bild, anonym visning och mycket mer.", p3_tag:"Safari RSS-tillägg", p3_desc:"Prenumerera på flöden, YouTube-kanaler och bloggar, allt på en plats. Fungerar på macOS, iOS och iPadOS.", p4_tag:"Tysta Safari-flik", p4_desc:"Automatisera tystnad för alla bakgrundsflikar så att endast den aktiva fliken spelar ljud, med stöd för bild-i-bild, genvägar och domänvitlistor.", p5_tag:"MacOS Virtuell tangentbord", p5_desc:"En virtuell tangentbord med swipe-funktion för macOS med smarta förutsägelser, 14 språk, komplett skrivbordslayout och 100 % offline.", p6_tag:"macOS Mediaspelare", p6_desc:"Den kraftfullaste och mest anpassningsbara mediaspelaren för macOS, byggd på mpv med GPU-accelererad uppspelning, realtids GLSL-shaders, strömning och över 200 inställningar.", product_link:"Läs mer", know_more:"Läs mer", sec_values:"Våra principer", sec_values_title:"Hur vi bygger mjukvara", v1_t:"Standardprivat", v1_d:"Inga analyser, ingen spårning, inga konton. Dina data kvar på din enhet.", v2_t:"Inbyggd för macOS", v2_d:"Byggd med Swift och SwiftUI, optimerad för Apple Silicon. Våra appar tillhör hemma på din Mac.", v3_t:"Lättvikt av design", v3_d:"Små nedladdningar, inga tunga ramverk, inga bakgrundsprocesser. Installera på sekunder.", v4_t:"Prestanda i första hand", v4_d:"Skapad för minimala resurskrav så att din Mac håller sig snabb.", v5_t:"Fokuserade verktyg", v5_d:"Varje app gör en sak exceptionellt bra, utan funktionstillskott eller onödig komplexitet.", v6_t:"Människostöd", v6_d:"Reella svar från verkliga människor. Har du en fråga? Skicka ett direkt e-post till oss.", soon_t:"Mer appar snart", soon_d:"Vi arbetar på nya verktyg för macOS. Kontakta oss om du vill vara först att veta om dem.", soon_btn:"Mottag notiser", f_legal:"Laglig", f_privacy:"Integritetspolicy", f_terms:"Användarvillkor", f_connect:"Anslut", f_brand:"En oberoende macOS-studio som fokuserar på att bygga verktyg med integritet i centrum.", f_rights:"© 2026 CorvusDevs. Alla rättigheter förbehållna.", p7_tag:"YouTube Safari-tillägg", p7_desc:"Hastighetskontroll, SponsorBlock, videofilter och 40+ funktioner för YouTube. Inbyggd Safari-utökning för iPhone och iPad. Kommer snart till macOS.", p8_tag:"Genvägar för adressfältet i Safari", p8_desc:"Skriv in ett nyckelord i adressfältet i Safari för att hoppa direkt till vilken sida som helst, med över 30 inbyggda genvägar som du kan redigera eller lägga till egna, och som fungerar på macOS, iOS och iPadOS.",
         },
         hi: {
-            f_search:"ऐप्स खोजें", badge_new:"नया", badge_upd:"अपडेट किया गया", soon_req:"कोई ऐप आइडिया है?", soon_reqlink:"ऐप का अनुरोध करें",
-            hero_eyebrow:"स्वतंत्र Mac और Safari स्टूडियो", sec_featured:"विशेष", sec_featured_note:"हम यहाँ से शुरू करेंगे", sec_collection:"हमारे सभी ऐप्स", f_all:"सभी", f_free:"मुफ़्त",
             nav_products:"उत्पाद", nav_about:"के बारे में", nav_contact:"संपर्क करें", hero_title:"मैक के सम्मानजनक सॉफ्टवेयर", hero_sub:"हम macOS के लिए निजीता-प्रधान, केंद्रित उपकरण बनाते हैं। कोई सदस्यता, कोई टेलीमेट्री, कोई अनावश्यक भार नहीं।", hero_cta:"हमारे उत्पाद देखें", sec_products:"उत्पाद", sec_products_title:"सफारी विस्तार और macOS ऐप्स", p1_tag:"macOS पर ध्वनि संतुलन", p1_desc:"macOS के लिए स्वचालित ध्वनि समायोजन। यह आपके सभी ऐप्स में वास्तविक समय में आवाज़ को संतुलित करता है। 14-दिन की मुफ्त परीक्षण अवधि उपलब्ध है।", p2_tag:"Twitch विस्तार", p2_desc:"BTTV, FFZ और 7TV इमोजी प्लस 50+ सुविधाएं। ऑटो-क्लेम, चैट विभाजन, PiP, नि anonymous देखने और अधिक।", p3_tag:"सफारी RSS विस्तार", p3_desc:"फ़ीड्स, YouTube चैनल और ब्लॉग्स सब्सक्राइब करें, सब एक ही जगह; यह macOS, iOS और iPadOS पर काम करता है।", p4_tag:"सफारी टैब म्यूटर", p4_desc:"पृष्ठभूमि में सभी टैब्स को स्वचालित रूप से चुप कर देता है ताकि केवल फोकस वाले टैब से ऑडियो बजता रहे; PiP, कीबोर्ड शॉर्टकट और डोमेन व्हाइटलिस्ट सहित।", p5_tag:"मैकओएस वर्चुअल कीबोर्ड", p5_desc:"macOS के लिए स्वीप-टू-टाइप वर्चुअल कीबोर्ड, जिसमें स्मार्ट भविष्यवाणियां, 14 भाषाएं, पूर्ण डेस्कटॉप लेआउट और 100% ऑफलाइन संचालन शामिल हैं।", p6_tag:"मैकओएस मीडिया प्लेयर", p6_desc:"macOS के लिए सबसे शक्तिशाली और अनुकूलनीय मीडिया प्लेयर, जो mpv पर आधारित है और GPU-त्वरित प्रदर्शन, वास्तविक समय के GLSL शेडर्स, स्ट्रीमिंग और 200+ सेटिंग्स के साथ आता है।", product_link:"और जानें", know_more:"और जानें", sec_values:"हमारे सिद्धांत", sec_values_title:"हम सॉफ्टवेयर कैसे बनाते हैं", v1_t:"निजीता के साथ डिफ़ॉल्ट", v1_d:"कोई विश्लेषण, कोई ट्रैकिंग, कोई खाता नहीं। आपका डेटा आपके डिवाइस पर ही सुरक्षित रहता है।", v2_t:"macOS के लिए मूल", v2_d:"स्विफ्ट और स्विफ्टयूआई के साथ निर्मित और एप्पल सिलिकॉन के लिए अनुकूलित, हमारे ऐप्स आपके मैक पर सबसे उपयुक्त हैं।", v3_t:"डिज़ाइन के हिसाब से हल्का", v3_d:"छोटे डाउनलोड, फूले हुए फ्रेमवर्क्स नहीं, बैकग्राउंड डेमॉन्स नहीं। सेकंडों में इंस्टॉल करें।", v4_t:"प्रदर्शन पहले", v4_d:"इसकी इंजीनियरिंग कम संसाधन उपयोग के लिए की गई है ताकि आपका Mac तेज़ बना रहे।", v5_t:"केंद्रित उपकरण", v5_d:"प्रत्येक ऐप एक कार्य अत्यंत कुशलता से करता है; कोई अनावश्यक सुविधाओं का बढ़ना या जटिलता नहीं।", v6_t:"मानवी सहायता", v6_d:"वास्तविक लोगों से वास्तविक उत्तर। कोई प्रश्न है? सीधे हमें ईमेल करें।", soon_t:"जल्द ही और ऐप्स", soon_d:"हम macOS के लिए नए उपकरणों पर काम कर रहे हैं। यदि आप सबसे पहले जानना चाहते हैं, तो हमसे संपर्क करें।", soon_btn:"सूचना प्राप्त करें", f_legal:"कानूनी", f_privacy:"गोपनीयता नीति", f_terms:"सेवा की शर्तें", f_connect:"संयोजित करें", f_brand:"एक स्वतंत्र macOS सॉफ्टवेयर स्टूडियो जो गोपनीयता पर केंद्रित, सुरक्षा-प्रधान उपकरण विकसित करता है।", f_rights:"© 2026 CorvusDevs. सर्वाधिकार सुरक्षित।", p7_tag:"YouTube Safari विस्तार", p7_desc:"गति नियंत्रण, SponsorBlock, वीडियो फिल्टर और 40+ सुविधाएं YouTube के लिए; iPhone और iPad के लिए नेटिव Safari विस्तार, macOS जल्द ही उपलब्ध होगा।", p8_tag:"Safari पता-बार शॉर्टकट", p8_desc:"Safari की पता पट्टी में कोई शब्द टाइप करें और कहीं भी जाएं, 30+ इनबिल्ट शॉर्टकट्स के साथ, जिनमें से आप किसी भी को संपादित कर सकते हैं या अपने नए जोड़ सकते हैं, जो macOS, iOS, और iPadOS पर काम करता है।",
         },
         id: {
-            f_search:"Cari aplikasi", badge_new:"Baru", badge_upd:"Diperbarui", soon_req:"Punya ide aplikasi?", soon_reqlink:"Minta aplikasi",
-            hero_eyebrow:"Studio Mac & Safari independen", sec_featured:"Unggulan", sec_featured_note:"Dari sini kami mulai", sec_collection:"Semua aplikasi kami", f_all:"Semua", f_free:"Gratis",
             nav_products:"Produk", nav_about:"Tentang", nav_contact:"Kontak", hero_title:"Perangkat Lunak yang Menghargai Mac Anda", hero_sub:"Kami membangun alat yang fokus dan memprioritaskan privasi untuk macOS, tanpa langganan, tanpa telemetri, dan tanpa fitur berlebihan.", hero_cta:"Lihat Produk Kami", sec_products:"Produk", sec_products_title:"Perluasan Safari & Aplikasi macOS", p1_tag:"Pemerataan Volume macOS", p1_desc:"Samaran kebisingan otomatis untuk macOS yang menyeimbangkan volume di semua aplikasi Anda secara real time. Tersedia uji coba gratis selama 14 hari.", p2_tag:"Perluasan Twitch", p2_desc:"Emotikon BTTV, FFZ, dan 7TV plus 50+ fitur. Klaim otomatis, obrolan terbagi, PiP, penayangan anonim, dan lainnya.", p3_tag:"Perpanjangan RSS Safari", p3_desc:"Langganan saluran, saluran YouTube, dan blog dalam satu tempat, tersedia di macOS, iOS, dan iPadOS.", p4_tag:"Tab Safari Matikan", p4_desc:"Secara otomatis menyalakan semua tab latar belakang agar hanya tab yang difokuskan yang memutar audio, dengan dukungan PiP, pintasan keyboard, dan daftar domain putih.", p5_tag:"Keyboard Virtual macOS", p5_desc:"Papan ketik virtual dengan geser untuk mengetik di macOS, dilengkapi prediksi cerdas, 14 bahasa, tata letak desktop lengkap, dan 100% offline.", p6_tag:"Pemutar Media macOS", p6_desc:"Pemutar media paling kuat dan dapat disesuaikan untuk macOS, dibangun di atas mpv dengan pemutaran yang dipercepat GPU, shader GLSL waktu nyata, streaming, dan lebih dari 200 pengaturan.", product_link:"Pelajari lebih lanjut", know_more:"Pelajari lebih lanjut", sec_values:"Prinsip Kami", sec_values_title:"Cara Kami Membangun Perangkat Lunak", v1_t:"Privasi Secara Default", v1_d:"Tanpa analitik, pelacakan, atau akun. Data Anda tetap berada di perangkat Anda.", v2_t:"Native untuk macOS", v2_d:"Dibangun dengan Swift dan SwiftUI, dioptimalkan untuk Apple Silicon. Aplikasi kami dirancang agar menjadi bagian dari Mac Anda.", v3_t:"Ringan secara desain", v3_d:"Unduh kecil, tanpa kerangka kerja yang membebani, tanpa daemon latar belakang. Instal dalam hitungan detik.", v4_t:"Prioritas Kinerja", v4_d:"Dikembangkan agar menggunakan sumber daya seminimal mungkin agar Mac Anda tetap cepat.", v5_t:"Alat Fokus", v5_d:"Setiap aplikasi unggul dalam satu fungsi tertentu, tanpa penambahan fitur yang tidak perlu atau kompleksitas yang berlebihan.", v6_t:"Dukungan Manusia", v6_d:"Respons asli dari orang asli. Punya pertanyaan? Kirim email langsung ke kami.", soon_t:"Aplikasi lain segera hadir", soon_d:"Kami sedang mengembangkan alat baru untuk macOS. Hubungi kami jika Anda ingin menjadi yang pertama mengetahuinya.", soon_btn:"Dapatkan Pemberitahuan", f_legal:"Hukum", f_privacy:"Kebijakan Privasi", f_terms:"Syarat Layanan", f_connect:"Hubungkan", f_brand:"Studio perangkat lunak macOS indie yang membangun alat-alat yang berfokus pada privasi.", f_rights:"© 2026 CorvusDevs. Hak Cipta Dilindungi.", p7_tag:"Perpanjangan Safari YouTube", p7_desc:"Kontrol kecepatan, SponsorBlock, filter video, dan 40+ fitur untuk YouTube. Ekstensi Safari asli untuk iPhone dan iPad. macOS akan segera hadir.", p8_tag:"Pintasan Bar Alamat Safari", p8_desc:"Ketik kata kunci di bar alamat Safari untuk melompat ke mana saja dengan 30+ pintasan bawaan yang dapat Anda edit atau tambahkan sendiri, dan berfungsi di macOS, iOS, dan iPadOS.",
         },
         th: {
-            f_search:"ค้นหาแอป", badge_new:"ใหม่", badge_upd:"อัปเดตแล้ว", soon_req:"มีไอเดียแอปไหม?", soon_reqlink:"ขอแอป",
-            hero_eyebrow:"สตูดิโอ Mac และ Safari อิสระ", sec_featured:"แนะนำ", sec_featured_note:"เริ่มจากตรงนี้", sec_collection:"แอปทั้งหมดของเรา", f_all:"ทั้งหมด", f_free:"ฟรี",
             nav_products:"ผลิตภัณฑ์", nav_about:"เกี่ยวกับ", nav_contact:"ติดต่อ", hero_title:"ซอฟต์แวร์ที่เคารพ Mac ของคุณ", hero_sub:"เราสร้างเครื่องมือที่เน้นความเป็นส่วนตัวสำหรับ macOS โดยไม่มีค่าสมาชิก ไม่มีระบบติดตามข้อมูล และไม่มีฟีเจอร์ที่ไม่จำเป็น", hero_cta:"ดูผลิตภัณฑ์ของเรา", sec_products:"ผลิตภัณฑ์", sec_products_title:"ส่วนขยาย Safari และแอป macOS", p1_tag:"การปรับความดังเสียงให้เท่ากันบน macOS", p1_desc:"การปรับความดังอัตโนมัติสำหรับ macOS เพื่อปรับสมดุลระดับเสียงระหว่างแอปทั้งหมดแบบเรียลไทม์ พร้อมทดลองใช้งานฟรี 14 วัน", p2_tag:"ส่วนขยายของ Twitch", p2_desc:"มีสติ๊กเกอร์ BTTV, FFZ และ 7TV รวมกว่า 50+ คุณสมบัติ เช่น การรับสิทธิ์อัตโนมัติ การแบ่งแชท การแสดงภาพซ้อนแบบ PiP การดูแบบไม่ระบุตัวตน และอื่นๆ อีกมากมาย", p3_tag:"ส่วนขยาย RSS ของ Safari", p3_desc:"สมัครรับฟีด ช่อง YouTube และบล็อกทั้งหมดในที่เดียว รองรับ macOS, iOS และ iPadOS", p4_tag:"แท็บ Safari ปิดเสียง", p4_desc:"ปิดเสียงแท็บพื้นหลังทั้งหมดโดยอัตโนมัติเพื่อให้เสียงจากแท็บที่เลือกแสดงผ่านเท่านั้น รองรับโหมด PiP ลัดลัดคีย์บอร์ด และรายการโดเมนที่อนุญาต", p5_tag:"คีย์บอร์ดเสมือน macOS", p5_desc:"แป้นพิมพ์เสมือนแบบเลื่อนเพื่อพิมพ์สำหรับ macOS พร้อมคำทำนายอัจฉริยะ รองรับ 14 ภาษา การวางตัวแบบเดสก์ท็อปแบบเต็ม และใช้งานได้ 100% แบบออฟไลน์", p6_tag:"สื่อเล่นสื่อ macOS", p6_desc:"ตัวเล่นสื่อที่ทรงพลังและปรับแต่งได้มากที่สุดสำหรับ macOS สร้างจาก mpv พร้อมการแสดงผลที่เร่งด้วย GPU, เอฟเฟกต์ GLSL แบบเรียลไทม์, การสตรีมมิ่ง และตัวเลือกการตั้งค่ามากกว่า 200 รายการ", product_link:"เรียนรู้เพิ่มเติม", know_more:"เรียนรู้เพิ่มเติม", sec_values:"หลักการของเรา", sec_values_title:"วิธีการสร้างซอฟต์แวร์ของเรา", v1_t:"ความเป็นส่วนตัวเป็นค่าเริ่มต้น", v1_d:"ไม่มีระบบวิเคราะห์ข้อมูล ไม่มีการติดตาม และไม่จำเป็นต้องสร้างบัญชี ข้อมูลของคุณจะถูกเก็บไว้ในอุปกรณ์ของคุณเท่านั้น", v2_t:"เป็นของ macOS", v2_d:"สร้างด้วย Swift และ SwiftUI ปรับปรุงประสิทธิภาพสำหรับ Apple Silicon แอปของเราถูกออกแบบมาให้ทำงานบน Mac ของคุณ", v3_t:"ออกแบบมาเพื่อประสิทธิภาพสูง", v3_d:"ดาวน์โหลดขนาดเล็ก ไม่มีเฟรมเวิร์กที่ล้นเกิน ไม่มีดีมอนพื้นหลัง ติดตั้งได้ภายในไม่กี่วินาที", v4_t:"เน้นประสิทธิภาพเป็นอันดับแรก", v4_d:"ออกแบบมาให้ใช้ทรัพยากรน้อยที่สุด เพื่อให้ Mac ของคุณยังคงทำงานได้รวดเร็ว", v5_t:"เครื่องมือที่เน้น", v5_d:"แต่ละแอปทำสิ่งใดสิ่งหนึ่งได้อย่างยอดเยี่ยม โดยไม่มีฟีเจอร์ที่เกินความจำเป็นหรือความซับซ้อนที่ไม่ต้องการ", v6_t:"ความช่วยเหลือจากมนุษย์", v6_d:"คำตอบจากคนจริง ๆ มีคำถาม? ส่งอีเมลหาเราได้เลย", soon_t:"แอปอื่นๆ จะออกเร็วๆ นี้", soon_d:"เรากำลังพัฒนาเครื่องมือใหม่สำหรับ macOS หากต้องการทราบข้อมูลล่าสุด โปรดติดต่อเรา", soon_btn:"รับการแจ้งเตือน", f_legal:"กฎหมาย", f_privacy:"นโยบายความเป็นส่วนตัว", f_terms:"ข้อกำหนดและเงื่อนไข", f_connect:"เชื่อมต่อ", f_brand:"สตูดิโอซอฟต์แวร์ macOS สำหรับผู้พัฒนาอิสระ มุ่งเน้นการสร้างเครื่องมือที่เน้นความเป็นส่วนตัว", f_rights:"© 2026 CorvusDevs สงวนลิขสิทธิ์ทั้งหมด", p7_tag:"ส่วนขยาย YouTube สำหรับ Safari", p7_desc:"ควบคุมความเร็ว, SponsorBlock, กรองวิดีโอ และฟีเจอร์กว่า 40 รายการสำหรับ YouTube พร้อมส่วนขยาย Safari สำหรับ iPhone และ iPad โดยตรง (macOS จะออกเร็วๆ นี้)", p8_tag:"ลัดแถบที่อยู่ของ Safari", p8_desc:"พิมพ์คำหลักในแถบที่อยู่ของ Safari แล้วข้ามไปยังที่ใดก็ได้ พร้อมสคริปต์ที่สร้างไว้ล่วงหน้ามากกว่า 30 รายการที่คุณสามารถแก้ไขหรือเพิ่มสคริปต์ของคุณเองได้ รองรับบน macOS, iOS และ iPadOS",
         },
         vi: {
-            f_search:"Tìm ứng dụng", badge_new:"Mới", badge_upd:"Đã cập nhật", soon_req:"Có ý tưởng ứng dụng?", soon_reqlink:"Yêu cầu ứng dụng",
-            hero_eyebrow:"Studio Mac & Safari độc lập", sec_featured:"Nổi bật", sec_featured_note:"Nơi chúng tôi bắt đầu", sec_collection:"Tất cả ứng dụng của chúng tôi", f_all:"Tất cả", f_free:"Miễn phí",
             nav_products:"Sản phẩm", nav_about:"Giới thiệu", nav_contact:"Liên hệ", hero_title:"Phần mềm tôn trọng Mac của bạn.", hero_sub:"Chúng tôi xây dựng các công cụ tập trung, ưu tiên quyền riêng tư cho macOS, không có phí đăng ký, không thu thập dữ liệu và không chứa phần mềm thừa.", hero_cta:"Xem sản phẩm của chúng tôi", sec_products:"Sản phẩm", sec_products_title:"Mở rộng Safari & ứng dụng macOS", p1_tag:"Cân bằng âm lượng trên macOS", p1_desc:"Tự động cân bằng âm lượng trên macOS, điều chỉnh cường độ âm thanh của tất cả các ứng dụng theo thời gian thực. Thử dùng miễn phí trong 14 ngày.", p2_tag:"Tiện ích Twitch", p2_desc:"Hỗ trợ biểu tượng cảm xúc từ BTTV, FFZ và 7TV cùng hơn 50 tính năng, bao gồm tự động yêu cầu, chia sẻ trò chuyện, hiển thị hình ảnh lồng ghép, xem ẩn danh và nhiều tính năng khác.", p3_tag:"Tiện ích RSS Safari", p3_desc:"Đăng ký theo dõi các nguồn tin, kênh YouTube và blog, tất cả trong một ứng dụng duy nhất, hoạt động trên macOS, iOS và iPadOS.", p4_tag:"Tắt tab trình duyệt", p4_desc:"Tự động tắt âm thanh của các tab nền để chỉ tab đang được chọn phát nhạc, hỗ trợ tính năng hình ảnh nhỏ, phím tắt và danh sách trắng theo miền.", p5_tag:"Bàn phím ảo macOS", p5_desc:"Bàn phím ảo cho macOS cho phép nhập văn bản bằng thao tác vuốt, với tính năng dự đoán thông minh, hỗ trợ 14 ngôn ngữ, bố cục hoàn chỉnh cho máy tính để bàn và hoạt động 100% ngoại tuyến.", p6_tag:"Trình phát macOS", p6_desc:"Bộ phát phương tiện mạnh mẽ và có thể tùy biến nhất cho macOS, được xây dựng trên mpv với khả năng phát có gia tốc GPU, shader GLSL thời gian thực, phát trực tuyến và hơn 200 cài đặt.", product_link:"Tìm hiểu thêm", know_more:"Tìm hiểu thêm", sec_values:"Nguyên tắc của chúng tôi", sec_values_title:"Cách chúng tôi xây dựng phần mềm", v1_t:"Mặc định bảo mật", v1_d:"Không có phân tích, không theo dõi, không tài khoản. Dữ liệu của bạn được lưu giữ trên thiết bị của bạn.", v2_t:"Gốc bản macOS", v2_d:"Được xây dựng bằng Swift và SwiftUI, tối ưu hóa cho Apple Silicon, các ứng dụng của chúng ta thuộc về máy Mac của bạn.", v3_t:"Thiết kế nhẹ", v3_d:"Tải nhỏ, không có bộ khung cồng kềnh, không có daemon chạy nền. Cài đặt chỉ trong vài giây.", v4_t:"Ưu tiên hiệu suất", v4_d:"Được thiết kế để tiêu tốn tài nguyên tối thiểu, giúp Mac của bạn luôn hoạt động nhanh chóng.", v5_t:"Công cụ tập trung", v5_d:"Mỗi ứng dụng thực hiện một chức năng một cách xuất sắc, không có sự phát triển tràn lan tính năng hay độ phức tạp không cần thiết.", v6_t:"Hỗ trợ con người", v6_d:"Phản hồi thực tế từ những người thật. Có thắc mắc? Hãy gửi email trực tiếp cho chúng tôi.", soon_t:"Các ứng dụng khác sớm thôi", soon_d:"Chúng tôi đang phát triển các công cụ mới cho macOS. Hãy liên hệ với chúng tôi nếu muốn là người biết tin đầu tiên.", soon_btn:"Nhận thông báo", f_legal:"Pháp lý", f_privacy:"Chính sách bảo mật", f_terms:"Điều khoản dịch vụ", f_connect:"Kết nối", f_brand:"Phòng thí nghiệm phần mềm macOS độc lập, chuyên xây dựng các công cụ tập trung vào quyền riêng tư.", f_rights:"© 2026 CorvusDevs. Mọi quyền được bảo lưu.", p7_tag:"Kéo dài YouTube cho Safari", p7_desc:"Tốc độ, SponsorBlock, bộ lọc video và hơn 40 tính năng cho YouTube; tiện ích mở rộng Safari bản địa cho iPhone và iPad, macOS sắp ra mắt.", p8_tag:"Phím tắt thanh địa chỉ Safari", p8_desc:"Nhập một từ khóa vào thanh địa chỉ của Safari để truy cập bất kỳ đâu với hơn 30 phím tắt có sẵn, chỉnh sửa hoặc thêm phím tắt tùy chỉnh của riêng bạn, hoạt động trên macOS, iOS và iPadOS.",
         },
         "zh-Hant": {
@@ -864,7 +1286,6 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
             const k = el.getAttribute("data-i18n-html");
             if (s[k]) el.innerHTML = s[k];
         });
-        document.querySelectorAll("[data-i18n-ph]").forEach(el => { const k = el.getAttribute("data-i18n-ph"); if (s[k]) el.placeholder = s[k]; });
         document.documentElement.lang = lang;
         localStorage.setItem("corvus-lang", lang);
         document.getElementById("langBtn").textContent = langLabels[lang] || langLabels.en;
