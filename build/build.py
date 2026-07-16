@@ -79,6 +79,31 @@ EXTRA={
 for lang, keys in EXTRA.items():
     scripts, _n = re.subn(r'(\n        '+lang+r': \{\n)', r'\1            '+keys+'\n', scripts, count=1)
     assert _n==1, "extra inject failed for "+lang
+# two more "How we build software" principles (v7 pay-once, v8 actively-maintained)
+V78={
+ "en":'v7_t:"Pay once, keep it", v7_d:"One-time purchases and free tools. No subscriptions for the essentials.", v8_t:"Actively maintained", v8_d:"Regular updates and quick fixes. We use these apps every day too.",',
+ "es":'v7_t:"Paga una vez, es tuyo", v7_d:"Compras únicas y herramientas gratis. Sin suscripciones para lo esencial.", v8_t:"Mantenimiento activo", v8_d:"Actualizaciones frecuentes y correcciones rápidas. Nosotros también las usamos a diario.",',
+ "fr":'v7_t:"Payez une fois", v7_d:"Achats uniques et outils gratuits. Pas d\'abonnement pour l\'essentiel.", v8_t:"Activement maintenu", v8_d:"Mises à jour régulières et corrections rapides. Nous utilisons ces apps chaque jour.",',
+ "de":'v7_t:"Einmal zahlen", v7_d:"Einmalkäufe und kostenlose Tools. Keine Abos für das Wesentliche.", v8_t:"Aktiv gepflegt", v8_d:"Regelmäßige Updates und schnelle Fixes. Wir nutzen diese Apps täglich selbst.",',
+ "pt":'v7_t:"Pague uma vez", v7_d:"Compras únicas e ferramentas grátis. Sem assinaturas para o essencial.", v8_t:"Manutenção ativa", v8_d:"Atualizações frequentes e correções rápidas. Também usamos esses apps todo dia.",',
+ "it":'v7_t:"Paghi una volta", v7_d:"Acquisti singoli e strumenti gratuiti. Nessun abbonamento per l\'essenziale.", v8_t:"Manutenzione attiva", v8_d:"Aggiornamenti regolari e correzioni rapide. Usiamo queste app ogni giorno anche noi.",',
+ "ja":'v7_t:"買い切り", v7_d:"買い切りと無料ツール。基本機能にサブスクは不要です。", v8_t:"継続的に更新", v8_d:"定期的なアップデートと迅速な修正。私たちも毎日これらのアプリを使っています。",',
+ "zh":'v7_t:"一次买断", v7_d:"一次买断和免费工具。基础功能无需订阅。", v8_t:"持续维护", v8_d:"定期更新和快速修复。我们自己也每天使用这些应用。",',
+ "ko":'v7_t:"한 번만 결제", v7_d:"한 번 결제와 무료 도구. 기본 기능에 구독이 필요 없습니다.", v8_t:"지속적인 관리", v8_d:"정기 업데이트와 빠른 수정. 저희도 매일 이 앱들을 사용합니다.",',
+ "ru":'v7_t:"Одна покупка", v7_d:"Разовые покупки и бесплатные инструменты. Никаких подписок за основное.", v8_t:"Активная поддержка", v8_d:"Регулярные обновления и быстрые исправления. Мы сами пользуемся этими приложениями каждый день.",',
+ "ar":'v7_t:"ادفع مرة واحدة", v7_d:"مشتريات لمرة واحدة وأدوات مجانية. لا اشتراكات للأساسيات.", v8_t:"صيانة مستمرة", v8_d:"تحديثات منتظمة وإصلاحات سريعة. نحن أيضًا نستخدم هذه التطبيقات يوميًا.",',
+ "nl":'v7_t:"Eenmalig betalen", v7_d:"Eenmalige aankopen en gratis tools. Geen abonnementen voor het essentiële.", v8_t:"Actief onderhouden", v8_d:"Regelmatige updates en snelle fixes. Wij gebruiken deze apps zelf ook dagelijks.",',
+ "tr":'v7_t:"Bir kez öde", v7_d:"Tek seferlik satın almalar ve ücretsiz araçlar. Temel özellikler için abonelik yok.", v8_t:"Aktif bakım", v8_d:"Düzenli güncellemeler ve hızlı düzeltmeler. Bu uygulamaları biz de her gün kullanıyoruz.",',
+ "pl":'v7_t:"Płać raz", v7_d:"Jednorazowe zakupy i darmowe narzędzia. Bez subskrypcji za podstawy.", v8_t:"Aktywnie rozwijane", v8_d:"Regularne aktualizacje i szybkie poprawki. Sami też codziennie używamy tych aplikacji.",',
+ "sv":'v7_t:"Betala en gång", v7_d:"Engångsköp och gratis verktyg. Inga prenumerationer för det viktiga.", v8_t:"Aktivt underhållet", v8_d:"Regelbundna uppdateringar och snabba fixar. Vi använder dessa appar varje dag också.",',
+ "hi":'v7_t:"एक बार भुगतान करें", v7_d:"एकमुश्त खरीद और मुफ्त टूल। बुनियादी सुविधाओं के लिए कोई सदस्यता नहीं।", v8_t:"सक्रिय रखरखाव", v8_d:"नियमित अपडेट और त्वरित सुधार। हम भी ये ऐप्स रोज़ इस्तेमाल करते हैं।",',
+ "id":'v7_t:"Bayar sekali", v7_d:"Pembelian sekali dan alat gratis. Tanpa langganan untuk hal penting.", v8_t:"Dipelihara aktif", v8_d:"Pembaruan rutin dan perbaikan cepat. Kami juga memakai aplikasi ini setiap hari.",',
+ "th":'v7_t:"จ่ายครั้งเดียว", v7_d:"ซื้อครั้งเดียวและเครื่องมือฟรี ไม่มีการสมัครสมาชิกสำหรับฟีเจอร์พื้นฐาน", v8_t:"ดูแลอย่างต่อเนื่อง", v8_d:"อัปเดตสม่ำเสมอและแก้ไขรวดเร็ว เราก็ใช้แอปเหล่านี้ทุกวันเช่นกัน",',
+ "vi":'v7_t:"Trả một lần", v7_d:"Mua một lần và công cụ miễn phí. Không đăng ký cho các tính năng cơ bản.", v8_t:"Được duy trì tích cực", v8_d:"Cập nhật thường xuyên và sửa lỗi nhanh. Chúng tôi cũng dùng các ứng dụng này mỗi ngày.",',
+}
+for lang, keys in V78.items():
+    scripts, _n = re.subn(r'(\n        '+lang+r': \{\n)', r'\1            '+keys+'\n', scripts, count=1)
+    assert _n==1, "v78 inject failed for "+lang
 
 # ---- app data (12), featured=5 ; store 'store' -> App Store link, 'free' -> product page ----
 A = [
@@ -129,16 +154,23 @@ def store_link(app):
     if store=="store":
         return f'<a href="https://apps.apple.com/app/id{aid}" class="store app">{APPLE_SVG}App Store</a>'
     return f'<a href="{url}" class="store dl"><span data-i18n="f_free">Free</span></a>'
-def fprice(app):
-    return '<span class="fprice">$0.99</span>' if app[7]=="store" else ''
 NEWB={"night-crow":("new","badge_new","New"),"purple-crow":("upd","badge_upd","Updated")}
 def npill(app):
     v=NEWB.get(app[1])
     if not v: return ''
     return f'<span class="npill {"n-new" if v[0]=="new" else "n-upd"}" data-i18n="{v[1]}">{v[2]}</span>'
 def price_badge(app):
-    if app[7]=="store": return '<span class="badge store-b">$0.99</span>'
+    if app[7]=="store": return '<span class="badge store-b">App Store</span>'
     return '<span class="badge free-b" data-i18n="f_free">Free</span>'
+# extra searchable keywords per app so search matches more than the name (e.g. "twitch" -> Purple Crow)
+KEYWORDS={"purple-crow":"twitch bttv ffz 7tv emotes stream chat","alien-crow":"reddit","findbar":"address bar shortcuts keyword search bang",
+ "corvus-rss":"rss feeds youtube blogs reader","night-crow":"dark mode theme night","auto-mute-tab":"mute audio sound tab volume",
+ "red-crow":"youtube sponsorblock video speed","corvus-player":"media video mpv player music","corvus-display":"display monitor brightness resolution color",
+ "corvus-arcade":"windows games wine gaming d3dmetal","ekual":"audio loudness volume equalizer normalize","tekla":"keyboard virtual typing swipe"}
+def search_terms(app):
+    name,icon,url,color,tk,dk,cat,store,aid,feat=app
+    etag = TAGEN.get(tk,"") if tk else TAG_EN.get(icon,"")
+    return f"{name} {etag} {KEYWORDS.get(icon,'')} {cat}".lower()
 
 # featured cards (whole card links via a stretched name link; store button sits above it)
 feat_cards=""
@@ -148,7 +180,7 @@ for app in [a for a in A if a[9]]:
       <article class="fcard reveal" data-color="{color}">
         <div class="ftop"><img src="icons/{icon}.png" alt=""><div class="fmeta"><div class="fname"><a class="clink" href="{url}"><h3>{name}</h3></a>{npill(app)}</div>{tagline(icon,tk)}</div></div>
         {desc_html(icon,dk)}
-        <div class="frow"><div class="plats">{plats(cat)}</div><div class="fbuy">{fprice(app)}{store_link(app)}</div></div>
+        <div class="frow"><div class="plats">{plats(cat)}</div>{store_link(app)}</div>
       </article>'''
 
 # collection cards
@@ -156,7 +188,7 @@ coll_cards=""
 for app in A:
     name,icon,url,color,tk,dk,cat,store,aid,feat=app
     coll_cards+=f'''
-      <article class="card reveal" data-color="{color}" data-cat="{cat}" data-store="{store}" data-name="{name.lower()}">
+      <article class="card reveal" data-color="{color}" data-cat="{cat}" data-store="{store}" data-search="{search_terms(app)}">
         <img src="icons/{icon}.png" alt="">
         <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="{url}"><h4>{name}</h4></a>{npill(app)}{price_badge(app)}</div>{tagline(icon,tk)}
           <div class="plats">{plats(cat)}</div></div>
@@ -232,7 +264,7 @@ NEW_JS = '''
         var q=(search.value||"").trim().toLowerCase();
         cards.forEach(function(cd){
           var catOk = curF==="all" || (curF==="free"? cd.dataset.store==="free" : cd.dataset.cat===curF);
-          var qOk = !q || (cd.dataset.name||"").indexOf(q)>-1;
+          var qOk = !q || (cd.dataset.search||"").indexOf(q)>-1;
           cd.classList.toggle("chide", !(catOk&&qOk));
         });
       }
@@ -251,12 +283,29 @@ scripts = scripts.replace(
     "el.innerHTML = s[k];\n        });",
     "el.innerHTML = s[k];\n        });\n        document.querySelectorAll(\"[data-i18n-ph]\").forEach(el => { const k = el.getAttribute(\"data-i18n-ph\"); if (s[k]) el.placeholder = s[k]; });",
     1)
-# add a "request an app" line to the coming-soon card
+# inject two more principles (v7 pay-once, v8 actively-maintained) so the grid is a symmetric 4x2
 values_block = values_block.replace(
-    'data-i18n="soon_btn">Get notified</a>',
-    'data-i18n="soon_btn">Get notified</a>\n            <p class="soon-req"><span data-i18n="soon_req">Have an app idea?</span> <a href="mailto:corvusdevs@outlook.com?subject=App%20request" data-i18n="soon_reqlink">Request an app</a></p>',
+    'Email us directly.</p>\n            </div>',
+    'Email us directly.</p>\n            </div>\n'
+    '            <div class="value-card reveal"><div class="value-icon"><svg viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></div><h3 data-i18n="v7_t">Pay once, keep it</h3><p data-i18n="v7_d">One-time purchases and free tools. No subscriptions for the essentials.</p></div>\n'
+    '            <div class="value-card reveal"><div class="value-icon"><svg viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg></div><h3 data-i18n="v8_t">Actively maintained</h3><p data-i18n="v8_d">Regular updates and quick fixes. We use these apps every day too.</p></div>',
     1)
-assert 'flagcdn.com' not in langwrap and 'zh-Hant' not in langwrap and 'soon_reqlink' in values_block, "transform failed"
+# redesign the coming-soon section (glow, placeholder tiles, accent button, request line)
+_cs = values_block.index('<!-- Coming Soon -->')
+_soon_old = values_block[_cs:values_block.index('</section>', _cs)+len('</section>')]
+_soon_new = '''<!-- Coming Soon -->
+    <section class="coming-soon">
+        <div class="coming-soon-card reveal">
+            <div class="soon-glow" aria-hidden="true"></div>
+            <div class="soon-tiles" aria-hidden="true"><span>+</span><span>+</span><span>+</span></div>
+            <h3 data-i18n="soon_t">More apps coming soon</h3>
+            <p data-i18n="soon_d">We're working on new tools for macOS. Drop us a line if you want to be the first to know.</p>
+            <a href="mailto:corvusdevs@outlook.com?subject=Notify me about new apps" class="notify-link" data-i18n="soon_btn">Get notified</a>
+            <p class="soon-req"><span data-i18n="soon_req">Have an app idea?</span> <a href="mailto:corvusdevs@outlook.com?subject=App%20request" data-i18n="soon_reqlink">Request an app</a></p>
+        </div>
+    </section>'''
+values_block = values_block.replace(_soon_old, _soon_new, 1)
+assert 'flagcdn.com' not in langwrap and 'zh-Hant' not in langwrap and 'soon_reqlink' in values_block and 'v7_t' in values_block and 'soon-glow' in values_block, "transform failed"
 
 STYLE = open("build/site_style.css", encoding="utf-8").read()
 
