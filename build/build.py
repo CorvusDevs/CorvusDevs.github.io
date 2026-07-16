@@ -171,13 +171,20 @@ def search_terms(app):
     name,icon,url,color,tk,dk,cat,store,aid,feat=app
     etag = TAGEN.get(tk,"") if tk else TAG_EN.get(icon,"")
     return f"{name} {etag} {KEYWORDS.get(icon,'')} {cat}".lower()
+# apps with a real screenshot in shots/<icon>.jpg get a hover preview + a small hint icon.
+# add another slug here (and drop shots/<slug>.jpg in) to light up the remaining apps later.
+SHOTS={"corvus-player","corvus-display","corvus-arcade","ekual","tekla","corvus-rss","night-crow"}
+def shot_attr(icon): return f' data-shot="shots/{icon}.jpg"' if icon in SHOTS else ''
+def shot_hint(icon):
+    if icon not in SHOTS: return ''
+    return '<span class="shot-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="1.6"/><path d="M21 15l-5-5L5 21"/></svg></span>'
 
 # featured cards (whole card links via a stretched name link; store button sits above it)
 feat_cards=""
 for app in [a for a in A if a[9]]:
     name,icon,url,color,tk,dk,cat,store,aid,feat=app
     feat_cards+=f'''
-      <article class="fcard reveal" data-color="{color}">
+      <article class="fcard reveal" data-color="{color}"{shot_attr(icon)}>{shot_hint(icon)}
         <div class="ftop"><img src="icons/{icon}.png" alt=""><div class="fmeta"><div class="fname"><a class="clink" href="{url}"><h3>{name}</h3></a>{npill(app)}</div>{tagline(icon,tk)}</div></div>
         {desc_html(icon,dk)}
         <div class="frow"><div class="plats">{plats(cat)}</div>{store_link(app)}</div>
@@ -188,7 +195,7 @@ coll_cards=""
 for app in A:
     name,icon,url,color,tk,dk,cat,store,aid,feat=app
     coll_cards+=f'''
-      <article class="card reveal" data-color="{color}" data-cat="{cat}" data-store="{store}" data-search="{search_terms(app)}">
+      <article class="card reveal" data-color="{color}" data-cat="{cat}" data-store="{store}" data-search="{search_terms(app)}"{shot_attr(icon)}>
         <img src="icons/{icon}.png" alt="">
         <div class="cbody"><div class="chd"><span class="dot"></span><a class="clink" href="{url}"><h4>{name}</h4></a>{npill(app)}{price_badge(app)}</div>{tagline(icon,tk)}
           <div class="plats">{plats(cat)}</div></div>
@@ -274,6 +281,21 @@ NEW_JS = '''
         curF=b.dataset.f; apply();
       });
       search.addEventListener("input", apply);
+      // screenshot hover preview (pointer devices only)
+      if (matchMedia("(hover:hover)").matches){
+        var pv=document.createElement("div"); pv.id="shotPreview"; pv.innerHTML='<img alt="">'; document.body.appendChild(pv);
+        var pimg=pv.querySelector("img");
+        document.querySelectorAll("[data-shot]").forEach(function(card){
+          card.addEventListener("mouseenter", function(){
+            pimg.src=card.dataset.shot;
+            var r=card.getBoundingClientRect(), pw=340;
+            var x=r.right+14; if(x+pw>innerWidth-10) x=r.left-pw-14; if(x<10) x=Math.max(10,(innerWidth-pw)/2);
+            pv.style.left=x+"px"; pv.style.top=Math.max(10,Math.min(r.top,innerHeight-300))+"px";
+            pv.classList.add("on");
+          });
+          card.addEventListener("mouseleave", function(){ pv.classList.remove("on"); });
+        });
+      }
     })();
     </script>
 '''

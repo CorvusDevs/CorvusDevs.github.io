@@ -182,6 +182,15 @@ footer{border-top:1px solid var(--line-soft);background:var(--raise)}
 .footer-socials svg{width:20px;height:20px}
 .footer-socials a:hover{color:var(--text)}
 
+/* screenshot hover preview */
+#shotPreview{position:fixed;z-index:400;pointer-events:none;opacity:0;transform:translateY(8px);transition:opacity .16s ease,transform .16s ease}
+#shotPreview.on{opacity:1;transform:none}
+#shotPreview img{display:block;width:auto;height:auto;max-width:340px;max-height:min(58vh,430px);border-radius:12px;border:1px solid var(--line);box-shadow:var(--shadow);background:var(--panel)}
+.shot-hint{position:absolute;top:14px;right:14px;z-index:3;pointer-events:none;width:24px;height:24px;border-radius:7px;display:grid;place-items:center;color:var(--dim);background:color-mix(in srgb,var(--panel) 72%,transparent);border:1px solid var(--line-soft);opacity:.6;transition:opacity .15s,color .15s}
+.shot-hint svg{width:13px;height:13px}
+.fcard:hover .shot-hint{opacity:1;color:var(--accent)}
+@media (hover:none){.shot-hint{display:none}#shotPreview{display:none}}
+
 /* ---- mobile ---- */
 @media (max-width:760px){
   nav{padding:0 18px}

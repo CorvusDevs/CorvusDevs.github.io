@@ -55,6 +55,7 @@ def localize_head(h, tr, loc):
     # leave #anchors and href="/" alone so in-page nav still works
     for rel in ('icons/','flags/','avatar.png','favicon-32x32.png','favicon-16x16.png','apple-touch-icon.png','og-image.png'):
         h = h.replace(f'src="{rel}', f'src="{BASE}/{rel}').replace(f'href="{rel}', f'href="{BASE}/{rel}')
+    h = h.replace('data-shot="shots/', f'data-shot="{BASE}/shots/')
     h = h.replace('href="privacy"', f'href="{BASE}/privacy"').replace('href="terms"', f'href="{BASE}/terms"')
     h = HREF_RE.sub(hreflang_block(canon), h, count=1)
     h = re.sub(r'<title>[^<]*</title>', f'<title>{esc(title)}</title>', h, count=1)
