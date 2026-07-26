@@ -1,4 +1,7 @@
 {
+ "_ui": {
+  "cta": "Подробнее"
+ },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
   "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
