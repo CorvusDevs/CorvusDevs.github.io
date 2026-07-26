@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "タブミュート",
+  "description": "バックグラウンドのタブを自動でミュートし、フォーカスされたタブの音声のみ再生します。PiP、キーボードショートカット、ドメインホワイトリストに対応。"
+ },
+ "Corvus-Player": {
+  "tagline": "メディアプレーヤー",
+  "description": "macOS最強のカスタマイズ可能なメディアプレーヤー。mpvベースでGPU加速再生、リアルタイムGLSLシェーダー、ストリーミング、200以上の設定。"
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "RSS拡張機能",
+  "description": "フィード、YouTubeチャンネル、ブログを購読。すべて一か所で。"
+ },
+ "CorvusArcade": {
+  "tagline": "Mac で Windows ゲーム",
+  "description": "Apple シリコンで Windows ゲームを実行する、Wine と D3DMetal エンジンがセットになったアプリです。初期アルファ版で、Overwatch でテスト済みです。"
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS ディスプレイ制御",
+  "description": "Apple Silicon Mac の外部および非 Apple ディスプレイ向けの明るさ、色温度、解像度制御"
+ },
+ "Ekual": {
+  "tagline": "macOS 音量均等化",
+  "description": "macOS 用の自動音量均衡化。すべてのアプリの音量をリアルタイムでバランスさせます。14 日間の無料トライアル。"
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Safari アドレスバーのショートカット",
+  "description": "Safari のアドレスバーにキーワードを入力してどこでもジャンプする 30 以上の組み込みショートカットがあり、それを編集したり追加したりできます。macOS、iOS、iPadOS で動作します。"
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS マウスアクセシビリティ",
+  "description": "スムーズなスクロール、速度と方向の調整、ボタン操作の再割り当て。震え、RSI、または運動能力に制限がある方でもマウスが使いやすくなります。"
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Safari ダークモード",
+  "description": "Safari のすべてのウェブサイトに対応した、スマートなネイティブダークモードです。動的な色変換により、写真の自然な色合いとテキストの可読性を維持します。macOS、iOS、iPadOS で動作します。"
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Twitch拡張機能",
+  "description": "BTTV、FFZ、7TVエモート＋50以上の機能。自動収集、スプリットチャット、PiPなど。"
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "Safari用YouTube拡張機能",
+  "description": "YouTube の再生速度制御、SponsorBlock、動画フィルター、40 以上の機能。iPhone と iPad 用のネイティブ Safari 拡張機能。macOS 版は近日公開予定。"
+ },
+ "Tekla": {
+  "tagline": "バーチャルキーボード",
+  "description": "macOS 向けのスワイプ入力仮想キーボード。スマートな予測変換、14 の言語対応、フルデスクトップレイアウト、100% オフライン。"
+ }
+}

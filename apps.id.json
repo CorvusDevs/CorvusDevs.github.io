@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Tab Safari Matikan",
+  "description": "Menyembunyikan suara pada tab latar belakang agar hanya tab yang aktif yang memutar audio. Mendukung PiP, pintasan keyboard, dan daftar domain yang diizinkan."
+ },
+ "Corvus-Player": {
+  "tagline": "Pemutar Media macOS",
+  "description": "Pemutar media paling kuat dan dapat disesuaikan untuk macOS, dibangun di atas mpv dengan pemutaran yang dipercepat GPU, shader GLSL waktu nyata, streaming, dan lebih dari 200 pengaturan."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Perpanjangan RSS Safari",
+  "description": "Langganan saluran, saluran YouTube, dan blog dalam satu tempat, tersedia di macOS, iOS, dan iPadOS."
+ },
+ "CorvusArcade": {
+  "tagline": "Windows Game untuk Mac",
+  "description": "Jalankan game Windows di Apple Silicon dengan Wine dan mesin D3DMetal yang disertakan. Versi alpha awal, sudah diuji dengan Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "Kontrol Tampilan macOS",
+  "description": "Kontrol kecerahan, suhu warna, dan resolusi untuk layar eksternal dan non-Apple pada Mac dengan Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "Pemerataan Volume macOS",
+  "description": "Ekualisasi kebisingan otomatis untuk macOS. Menyeimbangkan volume di semua aplikasi Anda secara real time. Percobaan gratis selama 14 hari."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Pintasan Bar Alamat Safari",
+  "description": "Ketik kata kunci di bar alamat Safari untuk melompat ke mana saja dengan 30+ pintasan bawaan yang dapat Anda edit atau tambahkan sendiri, dan berfungsi di macOS, iOS, dan iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "Aksesibilitas Mouse macOS",
+  "description": "Scrolling halus, kecepatan dan arah yang dapat disesuaikan, serta pemetaan ulang tombol. Membuat mouse lebih mudah digunakan bagi siapa saja yang mengalami gemetar, RSI, atau keterbatasan kemampuan motorik."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Mode Gelap Safari",
+  "description": "Mode gelap cerdas dan asli untuk setiap situs web di Safari. Penggantian warna dinamis menjaga foto tetap asli dan teks mudah dibaca. Berfungsi di macOS, iOS, dan iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Perluasan Twitch",
+  "description": "Emotikon BTTV, FFZ, dan 7TV plus 50+ fitur. Klaim otomatis, obrolan terbagi, PiP, penayangan anonim, dan lainnya."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "Perpanjangan Safari YouTube",
+  "description": "Kontrol kecepatan, SponsorBlock, filter video, dan 40+ fitur untuk YouTube. Ekstensi Safari asli untuk iPhone dan iPad. macOS segera hadir."
+ },
+ "Tekla": {
+  "tagline": "Keyboard Virtual macOS",
+  "description": "Papan ketik virtual Swipe-to-type untuk macOS. Prediksi cerdas, 14 bahasa, tata letak desktop lengkap, 100% offline."
+ }
+}

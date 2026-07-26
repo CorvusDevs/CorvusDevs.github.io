@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "सफारी टैब म्यूटर",
+  "description": "पृष्ठभूमि में खोले गए टैब्स को अपने आप चुप कराता है ताकि केवल फोकस किए गए टैब में ऑडियो बजता रहे। इसमें पिप, कीबोर्ड शॉर्टकट और डोमेन व्हाइटलिस्ट भी शामिल हैं।"
+ },
+ "Corvus-Player": {
+  "tagline": "मैकओएस मीडिया प्लेयर",
+  "description": "macOS के लिए सबसे शक्तिशाली और अनुकूलनीय मीडिया प्लेयर, जो mpv पर आधारित है और GPU-त्वरित प्रदर्शन, वास्तविक समय के GLSL शेडर्स, स्ट्रीमिंग और 200+ सेटिंग्स के साथ आता है।"
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "सफारी RSS विस्तार",
+  "description": "फ़ीड्स, YouTube चैनल और ब्लॉग्स सब्सक्राइब करें, सब एक ही जगह; यह macOS, iOS और iPadOS पर काम करता है।"
+ },
+ "CorvusArcade": {
+  "tagline": "मैक पर विंडोज़ गेम्स",
+  "description": "Windows गेम्स Apple Silicon पर एक बंदिस्त Wine और D3DMetal इंजन के साथ चलाएं। यह शुरुआती अल्फा संस्करण है, जिसे ओवरवॉच के साथ परीक्षण किया गया है।"
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS प्रदर्शन नियंत्रण",
+  "description": "Apple Silicon Macs के लिए बाहरी और non-Apple डिस्प्ले के लिए चमक, रंग तापमान और रिज़ॉल्यूशन नियंत्रण।"
+ },
+ "Ekual": {
+  "tagline": "macOS पर ध्वनि संतुलन",
+  "description": "macOS के लिए स्वचालित ध्वनि समता। यह आपके सभी ऐप्स में वास्तविक समय में आवाज़ को संतुलित करता है। 14-दिन की मुफ्त परीक्षण अवधि।"
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Safari पता-बार शॉर्टकट",
+  "description": "Safari की पता पट्टी में कोई शब्द टाइप करें और कहीं भी जाएं, 30+ इनबिल्ट शॉर्टकट्स के साथ, जिनमें से आप किसी भी को संपादित कर सकते हैं या अपने नए जोड़ सकते हैं, जो macOS, iOS, और iPadOS पर काम करता है।"
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS माउस सुलभता",
+  "description": "स्मूथ स्क्रॉलिंग, समायोज्य गति और दिशा, तथा बटन पुन: प्रोग्रामिंग। यह किसी भी व्यक्ति के लिए माउस का उपयोग आसान बनाता है जो कंपन, RSI या सीमित दक्षता से प्रभावित हैं।"
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "सफारी डार्क मोड",
+  "description": "Night Crow: Safari के लिए हर वेबसाइट के लिए एक स्मार्ट, नेटिव डार्क मोड। डायनामिक रंग रीमैपिंग फोटो को सटीक और टेक्स्ट को पढ़ने योग्य बनाए रखती है। यह macOS, iOS और iPadOS पर काम करता है।"
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Twitch विस्तार",
+  "description": "BTTV, FFZ और 7TV इमोजी प्लस 50+ सुविधाएं। ऑटो-क्लेम, चैट विभाजन, PiP, नि anonymous देखने और अधिक।"
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "YouTube Safari विस्तार",
+  "description": "Red Crow for Safari: YouTube के लिए स्पीड नियंत्रण, SponsorBlock, वीडियो फ़िल्टर और 40+ सुविधाएं। iPhone और iPad के लिए मूल Safari एक्सटेंशन। macOS जल्द ही उपलब्ध होगा।"
+ },
+ "Tekla": {
+  "tagline": "मैकओएस वर्चुअल कीबोर्ड",
+  "description": "स्वैप-टू-टाइप वर्चुअल कीबोर्ड macOS के लिए। स्मार्ट अनुमान, 14 भाषाएं, पूर्ण डेस्कटॉप लेआउट, 100% ऑफ़लाइन।"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "탭 음소거",
+  "description": "백그라운드 탭을 자동으로 무음 처리하여, 현재 선택된 탭에서만 오디오가 재생됩니다. PiP, 키보드 단축키, 도메인 화이트리스트 기능을 지원합니다."
+ },
+ "Corvus-Player": {
+  "tagline": "미디어 플레이어",
+  "description": "macOS에서 가장 강력하고 맞춤 설정 가능한 미디어 플레이어. mpv 기반 GPU 가속 재생, 실시간 GLSL 셰이더, 스트리밍 및 200개 이상의 설정."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "RSS 확장",
+  "description": "피드, YouTube 채널, 블로그를 구독하세요，한곳에서 모두."
+ },
+ "CorvusArcade": {
+  "tagline": "Mac에서 즐기는 Windows 게임",
+  "description": "Apple 실리콘에서 Wine 과 D3DMetal 엔진이 포함된 패키지로 윈도우 게임을 실행하세요. 초기 알파 버전이며 오버워치에서 테스트되었습니다."
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS 디스플레이 제어",
+  "description": "Apple Silicon Mac 의 외부 및 비 Apple 디스플레이에 대한 밝기, 색온도 및 해상도 제어."
+ },
+ "Ekual": {
+  "tagline": "macOS 음량 균등화",
+  "description": "macOS용 자동 음량 정규화. 모든 앱의 음량을 실시간으로 균등하게 조정합니다. 14 일 무료 체험판."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Safari 주소 표시줄 단축키",
+  "description": "Safari 주소창에 키워드를 입력하여 원하는 곳으로 이동할 수 있으며, 30 개 이상의 내장 단축키를 편집하거나 직접 추가할 수 있고 macOS, iOS, iPadOS 에서 작동합니다."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS 마우스 접근성",
+  "description": "원활한 스크롤, 조절 가능한 속도와 방향, 버튼 재할당 기능을 제공합니다. 떨림, RSI 또는 제한적인 손재주에 어려움을 겪는 모든 사용자가 마우스를 더 쉽게 사용할 수 있도록 도와줍니다."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Safari 다크 모드",
+  "description": "Safari 의 모든 웹사이트에 적용되는 지능형 네이티브 다크 모드입니다. 동적 색상 매핑은 사진의 원래 색상을 유지하고 텍스트 가 읽기 쉽게 만듭니다. macOS, iOS, iPadOS 에서 작동합니다."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Twitch 확장",
+  "description": "BTTV, FFZ, 7TV 이모트 + 50개 이상 기능. 자동 수집, 분할 채팅, PiP 등."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "Safari용 YouTube 확장 프로그램",
+  "description": "Red Crow for Safari 는 YouTube 를 위한 속도 조절, SponsorBlock, 비디오 필터 및 40 개 이상의 기능을 제공합니다. iPhone 과 iPad 에는 네이티브 Safari 확장 프로그램이 있으며, macOS 는 곧 출시됩니다."
+ },
+ "Tekla": {
+  "tagline": "가상 키보드",
+  "description": "macOS용 스와이프 입력 가상 키보드. 스마트 예측, 14 개 언어 지원, 전체 데스크톱 레이아웃, 100% 오프라인 사용 가능."
+ }
+}

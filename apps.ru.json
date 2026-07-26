@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Глушитель вкладок",
+  "description": "Автоматически отключает звук в фоновых вкладках, чтобы воспроизводился только звук активной вкладки. Поддерживает режим PiP, горячие клавиши и белый список доменов."
+ },
+ "Corvus-Player": {
+  "tagline": "Медиаплеер для macOS",
+  "description": "Самый мощный и настраиваемый медиаплеер для macOS. На базе mpv с GPU-ускорением, шейдерами GLSL в реальном времени, стримингом и 200+ настройками."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "RSS-расширение",
+  "description": "Подписывайтесь на ленты, YouTube-каналы и блоги, всё в одном месте."
+ },
+ "CorvusArcade": {
+  "tagline": "Игры Windows на Mac",
+  "description": "Запускайте игры для Windows на Apple Silicon с помощью встроенных Wine и D3DMetal. Ранняя альфа-версия, протестирована на Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS: управление дисплеем",
+  "description": "Яркость, цветная температура и разрешение для внешних и не-Apple дисплеев на Mac с Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "Выравнивание громкости для macOS",
+  "description": "Автоматическая эквализация громкости для macOS. Балансирует громкость во всех ваших приложениях в реальном времени. Бесплатная 14-дневная пробная версия."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Ярлыки адресной строки Safari",
+  "description": "Введите ключевое слово в адресную строку Safari, чтобы мгновенно перейти на нужный сайт; приложение включает более 30 встроенных быстрых команд, которые можно редактировать или добавлять свои собственные, и работает на macOS, iOS и iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS Мышь: доступность",
+  "description": "Плавная прокрутка, регулировка скорости и направления, а также переназначение кнопок. Мышь становится удобнее для людей с тремором, РСР или ограниченной подвижностью."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Safari: темная тема",
+  "description": "Умный, родной ночной режим для каждого веб-сайта в Safari. Динамическая перенастройка цветов сохраняет естественный вид фотографий и обеспечивает читаемость текста. Работает на macOS, iOS и iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Расширение Twitch",
+  "description": "Эмоуты BTTV, FFZ и 7TV + 50+ функций. Авто-сбор, раздельный чат, PiP и др."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "Расширение YouTube для Safari",
+  "description": "Управление скоростью, SponsorBlock, фильтры видео и более 40 функций для YouTube. Нативное расширение Safari для iPhone и iPad. macOS в ближайшее время."
+ },
+ "Tekla": {
+  "tagline": "Виртуальная клавиатура",
+  "description": "Виртуальная клавиатура для ввода текста свайпом на macOS. Умные предсказания, 14 языков, полная раскладка для десктопа, 100% офлайн."
+ }
+}

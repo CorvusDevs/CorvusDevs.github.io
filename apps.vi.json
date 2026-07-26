@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Tắt tab trình duyệt",
+  "description": "Tự động tắt âm thanh các tab nền để chỉ tab đang chọn phát nhạc. Hỗ trợ chếo PiP, phím tắt và danh sách cho phép theo miền."
+ },
+ "Corvus-Player": {
+  "tagline": "Trình phát macOS",
+  "description": "Bộ phát phương tiện mạnh mẽ và có thể tùy biến nhất cho macOS, được xây dựng trên mpv với khả năng phát có gia tốc GPU, shader GLSL thời gian thực, phát trực tuyến và hơn 200 cài đặt."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Tiện ích RSS Safari",
+  "description": "Đăng ký theo dõi các nguồn tin, kênh YouTube và blog, tất cả trong một ứng dụng duy nhất, hoạt động trên macOS, iOS và iPadOS."
+ },
+ "CorvusArcade": {
+  "tagline": "Game Windows trên Mac",
+  "description": "Chạy game Windows trên Apple Silicon với Wine và D3DMetal. Bản alpha sớm, đã kiểm thử với Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS Điều khiển Màn hình",
+  "description": "Corvus Display cung cấp điều khiển độ sáng, nhiệt độ màu và độ phân giải cho các màn hình ngoài và không phải Apple trên Mac Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "Cân bằng âm lượng trên macOS",
+  "description": "Khử âm tự động cho macOS. Cân bằng âm lượng trên tất cả ứng dụng của bạn theo thời gian thực. Thử dùng miễn phí trong 14 ngày."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Phím tắt thanh địa chỉ Safari",
+  "description": "Nhập một từ khóa vào thanh địa chỉ của Safari để truy cập bất kỳ đâu với hơn 30 phím tắt có sẵn, chỉnh sửa hoặc thêm phím tắt tùy chỉnh của riêng bạn, hoạt động trên macOS, iOS và iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS Tính năng truy cập chuột",
+  "description": "Cuộn mượt, tốc độ và hướng điều chỉnh được cùng tùy chỉnh phím. Giúp chuột dễ dùng hơn cho người bị run, RSI hoặc hạn chế vận động."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Chế độ tối Safari",
+  "description": "Chế độ tối thông minh, bản địa dành cho mọi trang web trên Safari. Màu sắc động được ánh xạ lại giúp hình ảnh giữ nguyên và văn bản dễ đọc. Hoạt động trên macOS, iOS và iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Tiện ích Twitch",
+  "description": "Hỗ trợ biểu tượng cảm xúc từ BTTV, FFZ và 7TV cùng hơn 50 tính năng, bao gồm tự động yêu cầu, chia sẻ trò chuyện, hiển thị hình ảnh lồng ghép, xem ẩn danh và nhiều tính năng khác."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "Kéo dài YouTube cho Safari",
+  "description": "Red Crow for Safari cung cấp điều chỉnh tốc độ phát, SponsorBlock, bộ lọc video và hơn 40 tính năng cho YouTube. Tiện ích mở rộng Safari bản địa dành cho iPhone và iPad. macOS sắp ra mắt."
+ },
+ "Tekla": {
+  "tagline": "Bàn phím ảo macOS",
+  "description": "Bàn phím ảo cho macOS cho phép nhập văn bản bằng thao tác vuốt. Có dự đoán thông minh, hỗ trợ 14 ngôn ngữ, bố cục dành riêng cho máy tính để bàn và hoạt động 100% ngoại tuyến."
+ }
+}

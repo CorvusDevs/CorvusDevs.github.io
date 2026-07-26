@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Silenciador de Abas",
+  "description": "Automuta abas de fundo para que apenas a aba focada reproduza áudio. Apresenta PiP, atalhos de teclado e lista branca de domínios."
+ },
+ "Corvus-Player": {
+  "tagline": "Reprodutor Multimídia",
+  "description": "O reprodutor multimídia mais poderoso e personalizável para macOS. Baseado em mpv com reprodução acelerada por GPU, shaders GLSL em tempo real, streaming e mais de 200 configurações."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Extensão RSS para Safari",
+  "description": "Assine feeds, canais do YouTube e blogs, tudo em um só lugar."
+ },
+ "CorvusArcade": {
+  "tagline": "Jogos Windows no Mac",
+  "description": "Execute jogos do Windows no Apple Silicon com um Wine e um motor D3DMetal integrados. Versão alpha inicial, testada com Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "Controle de Exibição para macOS",
+  "description": "Controle de brilho, temperatura de cor e resolução para displays externos e não da Apple em Macs com Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "Equalização de volume do macOS",
+  "description": "Equalização de loudness automática para o macOS. Equilibra o volume de todos os seus aplicativos em tempo real. Teste gratuito de 14 dias."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Atalhos da Barra de Endereço do Safari",
+  "description": "Digite uma palavra-chave na barra de endereços do Safari e vá para qualquer lugar, com mais de 30 atalhos integrados que você pode editar ou criar os seus próprios, funcionando no macOS, iOS e iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS Acessibilidade do Mouse",
+  "description": "Rolagem suave, velocidade e direção ajustáveis, além de remapeamento de botões. Facilita o uso do mouse para quem tem tremor, SRI ou destreza limitada."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Modo Escuro do Safari",
+  "description": "Modo escuro inteligente e nativo para todos os sites no Safari. A remapeação dinâmica de cores mantém as fotos fiéis e o texto legível. Funciona no macOS, iOS e iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Extensão para Twitch",
+  "description": "Emotes BTTV, FFZ e 7TV mais 50+ recursos. Auto-coleta, split chat, PiP e mais."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "Extensão do YouTube para Safari",
+  "description": "Controle de velocidade, SponsorBlock, filtros de vídeo e mais de 40 recursos para o YouTube. Extensão nativa do Safari para iPhone e iPad. O macOS chegará em breve."
+ },
+ "Tekla": {
+  "tagline": "Teclado Virtual macOS",
+  "description": "Teclado virtual com swipe-to-type para o macOS. Previsões inteligentes, 14 idiomas, layout completo de desktop e 100% offline."
+ }
+}

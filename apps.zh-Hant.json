@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "标签页静音",
+  "description": "自動靜音背景分頁，僅播放聚焦分頁的音訊。支援 PiP、鍵盤快捷鍵及網域白名單。"
+ },
+ "Corvus-Player": {
+  "tagline": "媒体播放器",
+  "description": "macOS 上最强大、最可定制的媒体播放器。基于 mpv，GPU 加速播放、实时 GLSL 着色器、流媒体及 200+ 项设置。"
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "RSS 扩展",
+  "description": "订阅 Feed、YouTube 频道和博客，一切尽在一处。"
+ },
+ "CorvusArcade": {
+  "tagline": "Mac 上的 Windows 遊戲",
+  "description": "在 Apple Silicon 上透過內建 Wine 與 D3DMetal 引擎來執行 Windows 遊戲。目前為早期測試版，已透過《鬥陣特攻》測試。"
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS 顯示控制",
+  "description": "為 Apple Silicon Mac 上的外部及非 Apple 顯示器提供亮度、色溫與解析度控制。"
+ },
+ "Ekual": {
+  "tagline": "macOS 响度均衡",
+  "description": "macOS 自動音量均衡。即時平衡所有應用程式的音量。提供 14 天免費試用。"
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Safari 地址栏快捷键",
+  "description": "在 Safari 地址栏输入关键词即可跳转至任意位置，内置 30 多个快捷指令，您可编辑或添加自己的指令，支持 macOS、iOS 和 iPadOS。"
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS 滑鼠輔助功能",
+  "description": "滑順捲動、可調整速度與方向，以及按鈕重新映射。讓有顫抖、RSI 或手部靈活性受限的使用者更容易操作滑鼠。"
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Safari 深色模式",
+  "description": "一款為 Safari 所有網站打造的智慧原生深色模式。動態色彩重新映射可保持照片真實並確保文字易讀。支援 macOS、iOS 和 iPadOS。"
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Twitch 扩展",
+  "description": "BTTV、FFZ、7TV 表情加 50+ 功能。自动领取、分屏聊天、画中画等。"
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "Safari 的 YouTube 扩展",
+  "description": "速度控制、SponsorBlock、影片濾鏡以及 40 項以上 YouTube 功能。原生 Safari 擴增套件適用於 iPhone 和 iPad。macOS 即將推出。"
+ },
+ "Tekla": {
+  "tagline": "虚拟键盘",
+  "description": "滑動輸入虛擬鍵盤，適用於 macOS。具備智慧預測、支援 14 種語言、完整桌面佈局，並完全離線運作，效能達 100%。"
+ }
+}

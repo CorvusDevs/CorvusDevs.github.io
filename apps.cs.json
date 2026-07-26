@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Nástroje pro Reddit",
+  "description": "Supercharger pro staré i moderní Reddit s více než 90 nástroji: tmavý režim a 20+ motivů, blokování reklam a výzr, vylepšení komentářů, nástroje pro média a ovládání klávesnicí. Funguje na macOS, iOS a iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Ztlumení karet v Safari",
+  "description": "Automatické ztlumení pozadí záložek, takže se zvuk přehrává pouze ve zaměřené záložce. Podpora PiP, zkratky na klávesnici a seznam povolených domén."
+ },
+ "Corvus-Player": {
+  "tagline": "Hráč pro macOS",
+  "description": "Nejvýkonnější a nejvíce přizpůsobitelný přehrávač multimédií pro macOS. Postavený na mpv s přehráváním zrychleným GPU, GLSL shaderami v reálném čase, streamováním a více než 200 nastaveními."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Rozšíření RSS pro Safari",
+  "description": "Přihlaste se k kanálům RSS, YouTube a blogům na jednom místě. Aplikace funguje na macOS, iOS a iPadOS."
+ },
+ "CorvusArcade": {
+  "tagline": "Hry pro Windows na Macu",
+  "description": "Spouštějte hry pro Windows na Apple Silicon s baleným Wine a D3DMetal engine. V rané alfa verzi otestováno s Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "Ovládání zobrazení macOS",
+  "description": "Ovládání jasu, teploty barvy a rozlišení pro externí a ne-Apple displeje na Macích s čipy Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "macOS Rovnost hlasitosti",
+  "description": "Automatická automatická equalizace hlasitosti pro macOS. Rovnoměrně upravuje hlasitost ve všech vašich aplikacích v reálném čase. Zkušební verze zdarma na 14 dní."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Zkratky pro řádek adresy v Safari",
+  "description": "Napište klíčové slovo do adresního řádku Safari a okamžitě přejděte na jakoukoliv stránku. Obsahuje více než 30 vstavek, které můžete upravovat nebo přidávat vlastní. Aplikace funguje na macOS, iOS a iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS Přístupnost myši",
+  "description": "Plynulé posouvání, nastavitelná rychlost a směr, přemapování tlačítek. Myš je tak snadnější používat pro každého s třesem, RSI nebo omezenou pohyblivostí."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Safari Tmavý režim",
+  "description": "Chytrý, nativní tmavý režim pro každou webovou stránku ve Safari. Dynamické přemapování barev zachovává správné barvy fotografií a zajišťuje čitelnost textu. Funguje na macOS, iOS a iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Rozšíření pro Twitch",
+  "description": "Purple Crow pro Safari nabízí emodíky z BTTV, FFZ a 7TV spolu s více než 50 funkcemi. Mezi ně patří automatické získávání, rozdělování chatu, přehrávání v okně v okně, anonymní prohlížení a další."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "Rozšíření pro YouTube pro Safari",
+  "description": "Rychlost přehrávání, SponsorBlock, filtry videa a 40+ funkcí pro YouTube. Nativní rozšíření Safari pro iPhone a iPad. macOS brzy."
+ },
+ "Tekla": {
+  "tagline": "Virtuální klávesnice macOS",
+  "description": "Posuvné virtuální klávesnici pro macOS s chytrými predikcemi, 14 jazyky, kompletní desktopovou rozlohou a 100% offline podporou."
+ }
+}

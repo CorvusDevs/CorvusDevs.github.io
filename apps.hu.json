@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Power Tools",
+  "description": "Töltse le az Alien Crow-t, hogy felgyorsítsa a régi és a modern Redditot 90+ eszközzel: sötét mód, 20+ téma, hirdetés- és zaklatásblokkolás, komment-fejlesztések, médiaeszközök és billentyűzetes navigáció. A macOS, iOS és iPadOS támogatja."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Safari fülszórást gátló",
+  "description": "Automatikusan némíti a háttérben lévő füleket, így csak a fókuszált fül adja vissza a hangot. Támogatja a PiP-t, a billentyűzati gyorsparancsokat és a tartományok fehérlistáját."
+ },
+ "Corvus-Player": {
+  "tagline": "macOS lejátszó",
+  "description": "A legerősebb és legtestre szabhatóabb médialejátszó macOS-re. Az mpv alapú, GPU-s gyorsítású lejátszással, valós idejű GLSL árnyékolókkal, közvetlen áramlással és 200+ beállítással."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Safari RSS bővítmény",
+  "description": "Feliratkozhatsz hírcsatornákra, YouTube csatornákra és blogokra egyetlen helyről. A macOS, iOS és iPadOS rendszeren is működik."
+ },
+ "CorvusArcade": {
+  "tagline": "Windows-játékok Mac-en",
+  "description": "A Corvus Arcade Windows-játékok futtatását teszi lehetővé Apple Siliconon egy Wine és D3DMetal motorral. Korai alfa verzió, az Overwatch tesztelésével."
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS kijelzővezérlés",
+  "description": "A Corvus Display fényerő, színhőmérséklet és felbontás szabályozást biztosít külső és nem Apple kijelzőkhez Apple Silicon Mac-eken."
+ },
+ "Ekual": {
+  "tagline": "macOS Hangszintegyenlítés",
+  "description": "Automata hangeregyenlítősítés macOS-re. A hangsúly minden alkalmazásában valós idejűen egyensúlyozza. Ingyenes 14 napos próbaverzió."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Safari címkegomb gyorsbillentyűk",
+  "description": "Keresési kulcsszót írjon a Safari címsorába, és ugorjon bárhova. 30+ beépített gyorsbillentyű, szerkeszthet vagy sajátakat is hozzáadhat. A macOS, iOS és iPadOS rendszeren is működik."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS egér kisegítő lehetőségek",
+  "description": "A sima görgetés, a sebesség és irány beállítása, valamint a gombok átrendezése. Egyszerűbbé teszi az egér használatát azok számára, akik remegésnek, RSI-nek vagy korlátozott ügyességgel küzdenek."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Safari Sötét mód",
+  "description": "Okos, natív sötét mód minden weboldalhoz a Safari-ben. A dinamikus színátrendezés megőrzi a fényképek hitelességét és olvashatóságot a szövegnek. Működik macOS, iOS és iPadOS rendszeren."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Twitch bővítmény",
+  "description": "A Purple Crow for Safari egy chatbővítmény, amely a BTTV, FFZ és 7TV emóciókat, valamint 50+ funkciót kínál. A funkciók közé tartozik a automatikus igénylés, a chat felosztása, a képernyőn belüli képernyő (PiP), az anonim megtekintés és sok más."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "YouTube Safari bővítmény",
+  "description": "A Red Crow for Safari egy YouTube-bővítmény sebességvezérléssel, SponsorBlock-szal, videószűrőkkel és 40+ funkcióval. Natív Safari bővítmény iPhone-ra és iPad-re, macOS hamarosan érhető lesz."
+ },
+ "Tekla": {
+  "tagline": "macOS Virtuális billentyűzet",
+  "description": "A Tekla egy macOS-re szánt, csúszásos gépeléses virtuális billentyűzet. Okos előrejelzésekkel, 14 nyelvet támogat, teljes asztali elrendezéssel és 100%-ban offline működik."
+ }
+}

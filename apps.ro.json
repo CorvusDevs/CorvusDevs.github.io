@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Unelte Power pentru Reddit",
+  "description": "Supercharge old.reddit.com și Reddit-ul modern cu peste 90 de instrumente: modul întunecat și peste 20 de teme, blocarea reclamelor și a mesagilor de îngrijorare, îmbunătățiri pentru comentarii, instrumente pentru media și navigarea prin tastatură. Funcționează pe macOS, iOS și iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Amuțire file Safari",
+  "description": "Automuțează tab-urile de fundal pentru a reda audio doar în tab-ul activ. Include PiP, scurtături la tastatură și listă albă de domenii."
+ },
+ "Corvus-Player": {
+  "tagline": "Redactor Media pentru macOS",
+  "description": "Cel mai puternic și personalizabil player media pentru macOS. Construit pe mpv, oferă redare accelerată de GPU, shaderi GLSL în timp real, streaming și peste 200 de setări."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Extensie RSS pentru Safari",
+  "description": "Abonați la fluxuri, canale YouTube și bloguri într-un singur loc. Funcționează pe macOS, iOS și iPadOS."
+ },
+ "CorvusArcade": {
+  "tagline": "Jocuri Windows pe Mac",
+  "description": "Rulează jocuri Windows pe Apple Silicon cu un Wine și un motor D3DMetal incluse. Alpha incipient, testat cu Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "Control afișaj macOS",
+  "description": "Controlul luminii, temperaturii culorii și rezoluției pentru afișaje externe și non-Apple pe Mac-uri cu Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "macOS Egalizare Loudness",
+  "description": "Ekual oferă ecualizare automată a volumului pentru macOS. Echilibrează volumul în timp real pentru toate aplicațiile. Încearcă gratuit timp de 14 zile."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Scurtături pentru bara de adresă Safari",
+  "description": "Introduceți un cuvânt cheie în bara de adresă Safari și accesați orice locație. Include peste 30 de scurtături integrate, pe care le puteți edita sau crea propriile. Funcționează pe macOS, iOS și iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "Accesibilitatea mouse-ului pe macOS",
+  "description": "Derulare netedă, viteza și direcția ajustabile, precum și reasignarea butoanelor. Face un mouse mai ușor de utilizat pentru oricine are tremurături, RSI sau motricitate limitată."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Modul Întunecat Safari",
+  "description": "Un mod întunecat inteligent și nativ pentru fiecare site web în Safari. Reasemnarea dinamică a culorilor păstrează pozele adevărate și textul lizibil. Funcționează pe macOS, iOS și iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Extensie Twitch",
+  "description": "Purple Crow pentru Safari oferă emojii BTTV, FFZ și 7TV, plus peste 50 de funcții. Include reclamă automată, chat separat, vizualizare în fereastră mică, vizualizare anonimă și multe altele."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "Extensie Safari pentru YouTube",
+  "description": "Red Crow pentru Safari oferă controlul vitezei, SponsorBlock, filtre video și peste 40 de funcții pentru YouTube. Extensia nativă Safari pentru iPhone și iPad; macOS în curând."
+ },
+ "Tekla": {
+  "tagline": "Safari Virtual Keyboard",
+  "description": "Tastatură virtuală cu gesturi de glisare pentru tastare pe macOS. Predicții inteligente, 14 limbi, layout complet pentru desktop, 100% offline."
+ }
+}

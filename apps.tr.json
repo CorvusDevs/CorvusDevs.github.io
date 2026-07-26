@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Safari Sekmesi Susturma",
+  "description": "Arka plan sekmelerini otomatik olarak susturarak yalnızca odaklanan sekmede ses çalmasını sağlar. Ekran içi görüntü, klavye kısayolları ve alan adı beyaz listesi özellikleri içerir."
+ },
+ "Corvus-Player": {
+  "tagline": "macOS Medya Oynatıcı",
+  "description": "macOS için en güçlü ve özelleştirilebilir medya oynatıcı; mpv altyapısı üzerine GPU hızlandırılmış oynatma, gerçek zamanlı GLSL shader'lar, akış ve 200'den fazla ayar sunmaktadır."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Safari RSS Uzantısı",
+  "description": "Kanal, YouTube kanalı ve blog beslemelerini tek bir yerde abone olun; macOS, iOS ve iPadOS'ta çalışır."
+ },
+ "CorvusArcade": {
+  "tagline": "Mac'te Windows oyunları",
+  "description": "Apple Silicon üzerinde Windows oyunları, dahili Wine ve D3DMetal motoru ile çalıştırın. Erken alfa aşamasında, Overwatch ile test edilmiştir."
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS Ekran Kontrolü",
+  "description": "Apple Silicon Mac'ler için dış ve Apple olmayan ekranlarda parlaklık, renk sıcaklığı ve çözünürlük kontrolü."
+ },
+ "Ekual": {
+  "tagline": "macOS Ses Düzeyi Eşitleme",
+  "description": "macOS için otomatik ses seviyesi eşitleme. Tüm uygulamalarınızda ses seviyesini gerçek zamanlı dengeler. 14 günlük ücretsiz deneme sürümü."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Safari Adres Çubuğu Kısayolları",
+  "description": "Safari'nin adres çubuğunda bir anahtar kelime yazarak hemen her yere ulaşın; 30'dan fazla yerleşik kısayol ile bunları düzenleyin veya kendi kısayollarınızı ekleyin; macOS, iOS ve iPadOS'ta çalışır."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS Fare Erişilebilirliği",
+  "description": "Tremor, RSI veya sınırlı hareket kabiliyeti olan herkes için fareyi kullanmayı kolaylaştıran, yumuşak kaydırma, ayarlanabilir hız ve yön ile tuş yeniden atanımı."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Safari Koyu Mod",
+  "description": "Safari'deki her web sitesi için akıllı, yerel bir karanlık mod. Dinamik renk yeniden haritalandırma, fotoğrafların doğal kalmasını ve yazının okunabilir olmasını sağlar. macOS, iOS ve iPadOS'te çalışır."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Twitch Uzantısı",
+  "description": "BTTV, FFZ ve 7TV emojileri ile 50'den fazla özellik; otomatik talep, sohbet bölme, resim içinde resim, anonim izleme ve daha fazlası."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "YouTube Safari Uzantısı",
+  "description": "Red Crow for Safari, YouTube için hız kontrolü, SponsorBlock, video filtreleri ve 40+ özellik sunar. iPhone ve iPad için yerel Safari uzantısı; macOS yakında gelecek."
+ },
+ "Tekla": {
+  "tagline": "macOS Sanal Klavye",
+  "description": "Safari için macOS'e özel, sürükle-bırak ile yazma sanal klavyesi. Akıllı tahminler, 14 dil desteği, tam masaüstü düzeni ve %100 çevrimdışı kullanım."
+ }
+}

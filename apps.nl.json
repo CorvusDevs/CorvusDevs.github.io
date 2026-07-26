@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Safari Tab Demper",
+  "description": "Automatisch de geluiden van achtergrondtabbladen dempen zodat alleen het actieve tabblad audio afspeelt. PiP, snelkoppelingen en een domein-witlijst zijn beschikbaar."
+ },
+ "Corvus-Player": {
+  "tagline": "Media Player macOS",
+  "description": "De meest krachtige en aanpasbare mediaspeler voor macOS, gebouwd op mpv met GPU-versnelde afspeling, real-time GLSL-shaders, streaming en meer dan 200 instellingen."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Safari RSS-extensie",
+  "description": "Abonneer u op feeds, YouTube-kanaalen en blogs, allemaal op één plek. Werkt op macOS, iOS en iPadOS."
+ },
+ "CorvusArcade": {
+  "tagline": "Windows-games op de Mac",
+  "description": "Speel Windows-spellen op Apple Silicon met een ingebouwde Wine- en D3DMetal-engine. Dit is een vroege alpha-versie, getest met Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS Weergavebeheer",
+  "description": "Helderheid, kleurentemperatuur en resolutiebeheer voor externe en niet-Apple-schermen op Apple Silicon Macs."
+ },
+ "Ekual": {
+  "tagline": "Geluidsegalisatie voor macOS",
+  "description": "Automatische luidheidsequalisatie voor macOS. Balanseert het volume in realtime over al uw apps. 14 dagen gratis proefperiode."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Safari-Adresbalk-snelkoppelingen",
+  "description": "Typ een trefwoord in de adresbalk van Safari en spring direct naar de gewenste locatie; de app biedt meer dan 30 ingebouwde snelkoppelingen die u kunt aanpassen of zelf kunt toevoegen en werkt op macOS, iOS en iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS Toegankelijkheid voor muis",
+  "description": "Soepel scrollen, aanpasbare snelheid en richting, en knoppenhermappen. Dit maakt een muis makkelijker te gebruiken voor iedereen met tremor, RSI of beperkte beweeglijkheid."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Safari Donkere Modus",
+  "description": "Een slimme, inheemse donkere modus voor elke website in Safari. Dynamische kleurhermappening houdt foto's authentiek en tekst leesbaar. Werkt op macOS, iOS en iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Twitch-extensie",
+  "description": "BTTV, FFZ en 7TV-emojis plus meer dan 50 functies, waaronder automatisch ophalen, gesplitst chatvenster, afspelen in beeld, anoniem kijken en nog veel meer."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "YouTube Safari-extensie",
+  "description": "Red Crow voor Safari biedt snelheidscontrole, SponsorBlock, videofilters en meer dan 40 functies voor YouTube. De app is een inheemse Safari-extensie voor iPhone en iPad; macOS komt binnenkort."
+ },
+ "Tekla": {
+  "tagline": "MacOS Virtueel Toetsenbord",
+  "description": "Swipe-to-type virtueel toetsenbord voor macOS. Slimme voorspellingen, 14 talen, volledig desktop-ontwerp, 100% offline."
+ }
+}

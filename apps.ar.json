@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "مُخَفِّفُ تَبِيعَاتِ سَافاري",
+  "description": "تقوم بتكتم التتبّعات الخلفية تلقائيًا بحيث يُشعَّر الصوت فقط من التبويب النشط. يدعم وضع صورة في صورة، اختصارات لوحة المفاتيح، وقائمة مسموح بها حسب النطاق."
+ },
+ "Corvus-Player": {
+  "tagline": "مشغل الوسائط",
+  "description": "مشغل الوسائط الأقوى والأكثر تخصيصًا لـ macOS، مبني على mpv مع تشغيل معزز بواسطة GPU، ورسوم GLSL في الوقت الفعلي، والبث المباشر، وأكثر من 200 إعداد."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "توسيط RSS لسفاري",
+  "description": "اشترك في القوائم البريدية وقنوات يوتيوب والمدونات من مكان واحد، مع دعم macOS و iOS و iPadOS."
+ },
+ "CorvusArcade": {
+  "tagline": "ألعاب ويندوز على ماك",
+  "description": "لعبة Corvus Arcade التي تعمل على Apple Silicon لتشغيل ألعاب ويندوز باستخدام محرك Wine و D3DMetal المدمج. في مرحلة ألفا المبكرة، تم اختبارها مع لعبة Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "تحكم عرض macOS",
+  "description": "تحكم في السطوع، درجة حرارة اللون، والدقة للشاشات الخارجية وغير شاشات Apple على أجهزة Mac التي تعمل بمعالجات Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "مساواة مستوى الصوت في macOS",
+  "description": "مساواة الصوت التلقائية لـ macOS. توازن الصوت عبر جميع تطبيقاتك في الوقت الفعلي. تجربة مجانية لمدة 14 يومًا."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "اختصارات شريط عنوان Safari",
+  "description": "اكتب كلمة مفتاحية في شريط عناوين Safari للانتقال إلى أي مكان، مع توفر أكثر من 30 اختصارًا مدمجًا يمكنك تعديلها أو إضافة اختصارات خاصة بك، ويعمل على macOS وiOS وiPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS إمكانية الوصول للفأرة",
+  "description": "التدوير السلس، والسرعة والاتجاه قابلان للتعديل، مع إعادة تعيين الأزرار. يجعل الفأرة أسهل في الاستخدام لأي شخص يعاني من رعشة أو متلازمة النفق الرسغي أو محدودية في المهارات الحركية."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "وضع الظلام في سفاري",
+  "description": "وضع ليلي ذكي أصلي لجميع المواقع في Safari. يعيد تعيين الألوان ديناميكيًا للحفاظ على صحة الصور وقراءة النص. يعمل على macOS و iOS و iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "إضافة تيوتش",
+  "description": "إيموجي BTTV و FFZ و 7TV بالإضافة إلى أكثر من 50 ميزة، مع خيارات مثل المطالبة التلقائية، تقسيم الدردشة، عرض الصورة فوق الصورة، والمشاهدة المجهولة، وغيرها الكثير."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "إضافة Safari لـ YouTube",
+  "description": "تحكم في سرعة التشغيل، SponsorBlock، فلاتر الفيديو، وأكثر من 40 ميزة لـ YouTube. إضافة Safari الأصلية لـ iPhone و iPad. macOS قريبًا."
+ },
+ "Tekla": {
+  "tagline": "لوحة المفاتيح الافتراضية",
+  "description": "لوحة مفاتيح افتراضية لكتابة النص بسحب الإصبع لـ macOS. تنبؤات ذكية، 14 لغة، تخطيط سطح المكتب الكامل، تعمل 100% دون اتصال بالإنترنت."
+ }
+}

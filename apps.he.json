@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "כלים חזקים לרדית",
+  "description": "האצת old.reddit.com ו-Reddit המודרני עם 90+ כלים: מצב חושך ו-20+ ערכות נושא, חסימת פרסומות והתראות, שיפורי תגובות, כלים למדיה וניווט מקלדת. פועל על macOS, iOS ו-iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "מחייב שקט לטאב ב-Safari",
+  "description": "מייטט אוטומטית את כרטיסי המידע ברקע, כך שרק הכרטיס הממוקד משמיע קול. תומך בתצוגה חלונותית, קיצורי מקלדת ורשימת אישור לפי דומיין."
+ },
+ "Corvus-Player": {
+  "tagline": "מחזיק מדיה ל-macOS",
+  "description": "מנגן מדיה חזק ומותאם אישית ביותר למק. בנוי על mpv עם הפעלה המואצת על ידי GPU, שחזורים בזמן אמת של GLSL, הזרמת מדיה ועוד 200+ הגדרות."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "הרחבת RSS של Safari",
+  "description": "הירשמו לזרמי RSS, ערוצי YouTube ובלוגים במקום אחד. פועל על macOS, iOS ו-iPadOS."
+ },
+ "CorvusArcade": {
+  "tagline": "משחקי ווינדוס למק",
+  "description": "הפעל משחקי Windows על חומרת ה-Apple Silicon באמצעות Wine ומוטור D3DMetal המובנים. גרסת אלפא ראשונה, נבדקה עם Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS שליטה במסך",
+  "description": "הגדרת בהירות, טמפרטורת צבע ורזולוציה למסכי חיצוניים שאינם של אפל במחשבי Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "התאמת חוזק קול ל-macOS",
+  "description": "השוואת רעשים אוטומטית ל-macOS. מאזנת את רמת הקול בכל האפליקציות שלך בזמן אמת. ניסיון חינם ל-14 ימים."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "קיצורי דרך בשורת הכתובות של Safari",
+  "description": "הקלד מילת מפתח בשורת הכתובת של Safari ודלג לכל מקום. 30+ קיצורי דרך מובנים, אפשר לערוך כל אחד מהם או להוסיף משלכם. פועל ב-macOS, iOS ו-iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS נגישות עכבר",
+  "description": "גלילה חלקה, מהירות וקצב מתאימים, ושינוי מקשים. מחליק את העכבר לכל מי שסובל מרטט, RSI או מוגבלות בתנועה."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "מצב לילה של Safari",
+  "description": "מצב לילה חכם, מקורי, לכל אתר בדפדפן Safari. חידוד צבעים דינמי שומר על תמונות אותנטיות וטקסט קריא. פועל על macOS, iOS ו-iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "הרחבת Twitch",
+  "description": "Purple Crow for Safari: חסכויות של BTTB, FFZ ו-7TV, ועוד 50+ אפשרויות. אפשרות לביטול אוטומטי, חלוקת צ'אט, תצוגה חלופית, צפייה אנונימית ועוד."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "הרחבת Safari ל-Youtube",
+  "description": "הרחבה מקורית ל-Safari ל-iPhone ול-iPad עם שליטה במהירות, SponsorBlock, סינוני וידאו ועוד 40+ אפשרויות ל-YouTube. הגרסה ל-macOS תגיע בקרוב."
+ },
+ "Tekla": {
+  "tagline": "מקלדת וירטואלית ל-macOS",
+  "description": "מקלדת וירטואלית עם גלילה להקלדה למק. תחזיות חכמות, 14 שפות, תצוגה מלאה לסקרשן, 100% אופליין."
+ }
+}

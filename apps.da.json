@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Powerværktøjer til Reddit",
+  "description": "Supercharge old.reddit.com og moderne Reddit med 90+ værktøjer: mørk tilstand og 20+ temaer, bloker for reklamer og påmindelser, opgraderinger til kommentarer, medie-værktøjer og tastatur-navigation. Virker på macOS, iOS og iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Safari-tab-fortynder",
+  "description": "Automatisk stilning af baggrundsfaneblade, så kun den fokuserede fane afspiller lyd. PiP, tastaturgenveje og domæne-hvidliste."
+ },
+ "Corvus-Player": {
+  "tagline": "macOS-medieafspiller",
+  "description": "Den mest kraftfulde og tilpasselige medieafspiller til macOS. Bygget på mpv med GPU-accelereret afspilning, realtids GLSL-shaders, streaming og over 200 indstillinger."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Safari RSS-udvidelse",
+  "description": "Abonner på feeds, YouTube-kanaler og blogs på ét sted. Appen fungerer på macOS, iOS og iPadOS."
+ },
+ "CorvusArcade": {
+  "tagline": "Windows-spil på Mac",
+  "description": "Kør Windows-spil på Apple Silicon med en indbygget Wine- og D3DMetal-motor. Tidlig alpha, testet med Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS Displaykontrol",
+  "description": "Kontroller lysstyrke, farvetemperatur og opløsning for eksterne og ikke-Apple-skærme på Mac med Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "macOS Lydstyrkejustering",
+  "description": "Automatisk lydstyrkeudligning til macOS. Balancerer volumen for alle dine apps i realtid. 14 dages gratis prøveperiode."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Safari-adresselinje-genveje",
+  "description": "Tast et nøgleord i Safari's adressefelt og spring til ethvert sted. 30+ indbyggede genveje, rediger dem eller tilføj dine egne. Virker på macOS, iOS og iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS Mus tilgængelighed",
+  "description": "Jæv rullefunktion, indstillelig hastighed og retning samt knapomlægning. Gør en mus nemmere at bruge for alle med rystelser, RSI eller begrænset håndskærv."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Safari mørk tilstand",
+  "description": "En smart, indfødte natilignende tilstand til alle hjemmesider i Safari. Dynamisk farveomlægning sikrer, at billeder forbliver korrekte og tekst læsbar. Virker på macOS, iOS og iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Twitch-udvidelse",
+  "description": "Purple Crow til Safari giver BTTB-, FFZ- og 7TV-emotes samt 50+ funktioner. Du kan automatisk hente, dele chat, bruge billed-i-billede, se anonymt og meget mere."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "YouTube Safari-udvidelse",
+  "description": "Red Crow til Safari giver hastighedskontrol, SponsorBlock, videofiltre og 40+ funktioner til YouTube. Det er en indbygget Safari-udvidelse til iPhone og iPad, mens macOS-udvidelsen snart kommer."
+ },
+ "Tekla": {
+  "tagline": "macOS Virtuelt tastatur",
+  "description": "Swipe-to-type-virtuelt tastatur til macOS. Smarte forudsigelser, 14 sprog, komplet skrivebordslayout, 100 % offline."
+ }
+}

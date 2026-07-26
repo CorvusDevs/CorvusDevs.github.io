@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Power Tools",
+  "description": "Alien Crow tehostaa vanhaa ja uutta Redditia yli 90 työkalulla: tumma tila ja 20+ teemaa, mainos- ja häirikköjen poisto, kommenttien parannukset, mediatyökalut ja näppäimistönavigointi. Sovellus toimii macOS-, iOS- ja iPadOS-laitteilla."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Safari-vaikeneja",
+  "description": "Automaattisesti hiljentää taustat, jolloin vain valittu välilehti toistaa ääntä. PiP, näppäimistön oikotiet ja valkolistat."
+ },
+ "Corvus-Player": {
+  "tagline": "macOS -mediapelaaja",
+  "description": "Maksiminopeus ja täysin muokattava mediapelaaja macOS:lle. Rakennettu mpv-pelaajalle, GPU-kiihdytetty toisto, reaaliaikaiset GLSL-varjokuvaimet, suoratoisto ja yli 200 asetusta."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Safari RSS-laajennus",
+  "description": "Tilaa syötteet, YouTube-kanavat ja blogit yhdessä paikassa. Sovellus toimii macOS-, iOS- ja iPadOS-järjestelmissä."
+ },
+ "CorvusArcade": {
+  "tagline": "Windows-pelit Macilla",
+  "description": "Windows-pelejä Apple Silicon -laitteilla Wine- ja D3DMetal-moottorin avulla. Varhainen alfa, testattu Overwatchilla."
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS-näytön hallinta",
+  "description": "Kirkkaus, välämpötila ja resoluutio-ohjaus ulkoisille ja ei-Apple-näyttöille Apple Silicon -Mac-koneissa."
+ },
+ "Ekual": {
+  "tagline": "macOS:n äänenvoimakkuuden tasaus",
+  "description": "Automaattinen äänenvoimakkuuden tasaaminen macOS:lle. Tasaa äänenvoimakkuuden kaikkien sovellusten välillä reaaliajassa. 14 päivän ilmainen kokeilu."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Safari-osoiterivinpainikkeet",
+  "description": "Tee hakusana osoiterivillä Safari:ssa ja siirry mihin tahansa. Sisäänrakennettuja oikotietoja on yli 30; voit muokata niitä tai lisätä omia. Toimii macOS-, iOS- ja iPadOS-järjestelmissä."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS:n hiiren saavutettavuus",
+  "description": "Sileä rullaus, säädettävä nopeus ja suunta sekä painikkeiden uudelleenmäärittely. Hiiri on helpompi käyttää, jos sinulla on vapina, RSI tai rajoittunut liikkuvuus."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Safari tumma tila",
+  "description": "Kälyttävä, alkuperäinen tumma tila kaikille verkkosivuille Safarissa. Dynaaminen värien uudelleenkarttaminen pitää valokuvat luonnollisina ja teksti lueteltavana. Toimii macOS-, iOS- ja iPadOS -laiteilla."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Twitch-laajennus",
+  "description": "Purple Crow for Safari on macOS ja iOS:n sovellus tarjoaa BTTB, FFZ ja 7TV -emootteja sekä yli 50 ominaisuutta, kuten automaattinen tilaaminen, jakamaton chat, PiP, nimettömä katselu ja muut."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "YouTube-safari-laajennus",
+  "description": "Red Crow for Safari on YouTube: toistonopeuden säätäminen, SponsorBlock, videoiden suodattimet ja yli 40 muuta ominaisuutta. Natiivi Safari-laajennus iPhoneille ja iPadille. macOS tulevina päivinä."
+ },
+ "Tekla": {
+  "tagline": "macOS Virtuaali-näppäimistö",
+  "description": "Tekla on macOS:lle tarkoitettu swipe-to-type-virtuaalinäppäimistö, joka tarjoaa älykkäitä ennusteita, tukee 14 kieltä, on täysin työpöytämuotoilussa ja toimii 100 % verkoton."
+ }
+}

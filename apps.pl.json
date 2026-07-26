@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Wyciszanie zakładek Safari",
+  "description": "Automatycznie ucisza karty w tle, aby dźwięk odtwarzał się tylko na aktywnej karcie. Obsługuje PiP, skróty klawiaturowe oraz białą listę domen."
+ },
+ "Corvus-Player": {
+  "tagline": "Odtwarzacz odtwarzania macOS",
+  "description": "Najpotężniejszy i najbardziej elastyczny odtwarzacz multimedialny dla macOS, oparty na mpv z odtwarzaniem przyspieszonym przez GPU, shaderami GLSL w czasie rzeczywistym, obsługą strumieniową oraz ponad 200 ustawieniami."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Rozszerzenie RSS Safari",
+  "description": "Subskrybuj kanały RSS, YouTube oraz blogi w jednym miejscu, aplikacja działa na macOS, iOS i iPadOS."
+ },
+ "CorvusArcade": {
+  "tagline": "Gry Windows na Macu",
+  "description": "Uruchamiaj gry Windows na Apple Silicon dzięki wbudowanemu Wine i silnikowi D3DMetal. Wczesna wersja alfa, przetestowana z Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "macOS Kontrola wyświetlania",
+  "description": "Jasność, temperatura barwowa i rozdzielczość dla zewnętrznych i niesystemowych wyświetlaczy na Macach z procesorem Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "Równoważenie głośności w macOS",
+  "description": "Automatyczna wyrównanie głośności dla macOS. Wyrównuje głośność we wszystkich Twoich aplikacjach w czasie rzeczywistym. Darmowy 14-dniowy okres próbny."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Skróty paska adresu w Safari",
+  "description": "Wpisz słowo kluczowe w pasku adresu Safari, aby przejść do dowolnego miejsca, korzystając z ponad 30 wbudowanych skrótów, które możesz edytować lub dodawać własne, działa na macOS, iOS i iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS Dostępność myszy",
+  "description": "Płynne przewijanie, regulowana prędkość i kierunek, oraz przypisywanie przycisków. Ułatwia obsługę myszy osobom z drżeniem, RSI lub ograniczoną sprawnością rąk."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Tryb ciemny Safari",
+  "description": "Mądra, natywna ciemna tryb dla każdej strony w Safari. Dynamiczne mapowanie kolorów zachowuje prawdziwość zdjęć i czytelność tekstu. Działa na macOS, iOS i iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Rozszerzenie Twitch",
+  "description": "Emotki BTTV, FFZ i 7TV oraz ponad 50 funkcji, w tym automatyczne odbieranie nagród, dzielenie czatu, odtwarzanie w oknie w oknie, anonimowe oglądanie i wiele innych."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "Rozszerzenie YouTube Safari",
+  "description": "Kontrola prędkości, SponsorBlock, filtry wideo i ponad 40 funkcji dla YouTube. Wtyczka Safari dla iPhone'a i iPad-a. macOS wkrótce."
+ },
+ "Tekla": {
+  "tagline": "Wirtualna klawiatura macOS",
+  "description": "Wirtualna klawiatura z przewijaniem do wpisywania dla macOS. Inteligentne przewidywania, 14 języków, pełny układ pulpitu, 100% offline."
+ }
+}

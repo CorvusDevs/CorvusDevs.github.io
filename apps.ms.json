@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Alat Kuasa untuk Reddit",
+  "description": "Alien Crow mempercepatkan old.reddit.com dan Reddit moden dengan 90+ alat: mod gelap dan 20+ tema, penambatan iklan dan notis, peningkatan komen, alat media, dan navigasi papan kekunci. Berfungsi pada macOS, iOS, dan iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "Pembisu Tab Safari",
+  "description": "Auto Mute Tab untuk Safari memadamkan bunyi pada tab latar belakang supaya hanya tab yang aktif yang memulakan audio. Ia menyokong Paparan dalam Paparan, pintasan papan kekunci, dan senarai putih domain."
+ },
+ "Corvus-Player": {
+  "tagline": "Main Media macOS",
+  "description": "Pemutar media paling berkuasa dan boleh disesuaikan untuk macOS. Dibina berasaskan mpv dengan main semula yang dipercepatkan GPU, shader GLSL masa nyata, penyiaran, dan lebih 200 tetapan."
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "Safari Sambungan RSS",
+  "description": "Langgan saluran RSS, YouTube, dan blog dalam satu tempat. Berfungsi pada macOS, iOS, dan iPadOS."
+ },
+ "CorvusArcade": {
+  "tagline": "Permainan Windows pada Mac",
+  "description": "Mainkan permainan Windows pada Apple Silicon dengan enjin Wine dan D3DMetal yang disertakan. Alpha awal, telah diuji dengan Overwatch."
+ },
+ "CorvusDisplay": {
+  "tagline": "Kawalan Paparan macOS",
+  "description": "Kawalan kecerahan, suhu warna, dan resolusi untuk skrin luar dan bukan Apple pada Mac Apple Silicon."
+ },
+ "Ekual": {
+  "tagline": "macOS Penyeimbangan Kekerasan",
+  "description": "Pemerataan keamatan bunyi automatik untuk macOS. Menyeimbangkan kelantangan di semua aplikasi anda secara masa nyata. Percubaan percuma selama 14 hari."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "Pintasan Bar Alamat Safari",
+  "description": "Ketik kata kunci dalam bar alamat Safari untuk melompat ke mana-mana. Terdapat lebih 30 pintasan terbina dalam; anda boleh mengedit mana-mana satu atau menambah pintasan sendiri. Berfungsi pada macOS, iOS, dan iPadOS."
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "Kebolehcapaian Tetikus macOS",
+  "description": "Lilitan yang lancar, kelajuan dan arah boleh diubah, serta butang boleh ditukar. Memudahkan penggunaan tetikus untuk sesiapa yang mengalami getaran, RSI atau keterbatasan kelenturan."
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "Mod Gelap Safari",
+  "description": "Mod gelap asli yang pintar untuk setiap laman web dalam Safari. Pemetaan warna dinamik mengekalkan imej yang tepat dan teks yang boleh dibaca. Berfungsi pada macOS, iOS, dan iPadOS."
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "Tetapan Sambungan Twitch",
+  "description": "Purple Crow untuk Safari ialah aplikasi yang menawarkan 50+ ciri, termasuk emot BTTB, FFZ, dan 7TV. Ia menyokong fungsi seperti tuntutan automatik, percakapan terbahagi, paparan dalam dalam paparan, dan pautan anonim."
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "YouTube Sambungan Safari",
+  "description": "Kawalan kelajuan, SponsorBlock, penapis video, dan 40+ ciri untuk YouTube. Sambungan Safari asli untuk iPhone dan iPad. macOS akan tersedia tidak lama lagi."
+ },
+ "Tekla": {
+  "tagline": "Papan Kekunci Maya macOS",
+  "description": "Papan kekunci maya Swipe-to-type untuk macOS. Ramalan pintar, 14 bahasa, susun atur desktop lengkap, 100% tanpa talian."
+ }
+}

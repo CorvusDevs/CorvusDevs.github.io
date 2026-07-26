@@ -485,5 +485,9 @@
         "zh-Hant"
       ]
     }
-  ]
+  ],
+  "i18n": {
+    "pattern": "apps.{locale}.json",
+    "note": "Per-locale card copy. Fetch only the locale the page needs; fall back to the base language, then to the English fields in this file."
+  }
 }

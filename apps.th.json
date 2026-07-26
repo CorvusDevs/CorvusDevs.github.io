@@ -1,0 +1,54 @@
+{
+ "Alien-Crow-For-Safari": {
+  "tagline": "Reddit Safari Extension",
+  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+ },
+ "Auto-Mute-Tab-For-Safari": {
+  "tagline": "แท็บ Safari ปิดเสียง",
+  "description": "ปิดเสียงแท็บพื้นหลังโดยอัตโนมัติเพื่อให้เฉพาะแท็บที่เลือกเล่นเสียงเท่านั้น รองรับ PiP ทางลัดคีย์บอร์ด และรายการโดเมนที่อนุญาต"
+ },
+ "Corvus-Player": {
+  "tagline": "สื่อเล่นสื่อ macOS",
+  "description": "ตัวเล่นสื่อที่ทรงพลังและปรับแต่งได้มากที่สุดสำหรับ macOS สร้างจาก mpv พร้อมการแสดงผลที่เร่งด้วย GPU, เอฟเฟกต์ GLSL แบบเรียลไทม์, การสตรีมมิ่ง และตัวเลือกการตั้งค่ามากกว่า 200 รายการ"
+ },
+ "Corvus-RSS-Reader-For-Safari": {
+  "tagline": "ส่วนขยาย RSS ของ Safari",
+  "description": "สมัครรับฟีด ช่อง YouTube และบล็อกทั้งหมดในที่เดียว รองรับ macOS, iOS และ iPadOS"
+ },
+ "CorvusArcade": {
+  "tagline": "เกมสำหรับ Windows บน Mac",
+  "description": "Corvus Arcade คือแอปสำหรับเล่นเกม Windows บน Apple Silicon โดยใช้ Wine และ D3DMetal engine (อยู่ในช่วง Alpha เบื้องต้น ทดสอบกับ Overwatch แล้ว)"
+ },
+ "CorvusDisplay": {
+  "tagline": "การควบคุมจอภาพ macOS",
+  "description": "การควบคุมความสว่าง อุณหภูมิสี และความละเอียดสำหรับจอภาพภายนอกที่ไม่ใช่ของ Apple บน Mac ที่ใช้ชิป Apple Silicon"
+ },
+ "Ekual": {
+  "tagline": "การปรับความดังเสียงให้เท่ากันบน macOS",
+  "description": "การปรับความดังอัตโนมัติสำหรับ macOS. ปรับสมดุลระดับเสียงระหว่างแอปทั้งหมดของคุณแบบเรียลไทม์. มีทดลองใช้ฟรี 14 วัน."
+ },
+ "Findbar-For-Safari": {
+  "tagline": "ลัดแถบที่อยู่ของ Safari",
+  "description": "พิมพ์คำหลักในแถบที่อยู่ของ Safari แล้วข้ามไปยังที่ใดก็ได้ พร้อมสคริปต์ที่สร้างไว้ล่วงหน้ามากกว่า 30 รายการที่คุณสามารถแก้ไขหรือเพิ่มสคริปต์ของคุณเองได้ รองรับบน macOS, iOS และ iPadOS"
+ },
+ "Mouse-Scroll-Plus": {
+  "tagline": "macOS การเข้าถึงเมาส์",
+  "description": "การเลื่อนแบบลื่นไหล ปรับความเร็วและทิศทางได้ รวมถึงการกำหนดปุ่มใหม่ ช่วยให้ใช้เมาส์ได้ง่ายขึ้นสำหรับผู้ที่สั่น มีอาการ RSI หรือความสามารถในการเคลื่อนไหวจำกัด"
+ },
+ "Night-Crow-For-Safari": {
+  "tagline": "โหมดมืดของ Safari",
+  "description": "โหมดมืดอัจฉริยะแบบพื้นเมืองสำหรับทุกเว็บไซต์ใน Safari การปรับสีแบบไดนามิกช่วยให้รูปภาพดูเป็นธรรมชาติและข้อความอ่านง่าย รองรับบน macOS, iOS และ iPadOS"
+ },
+ "Purple-Crow-For-Safari": {
+  "tagline": "ส่วนขยายของ Twitch",
+  "description": "มีสติ๊กเกอร์ BTTV, FFZ และ 7TV รวมกว่า 50+ คุณสมบัติ เช่น การรับสิทธิ์อัตโนมัติ การแบ่งแชท การแสดงภาพซ้อนแบบ PiP การดูแบบไม่ระบุตัวตน และอื่นๆ อีกมากมาย"
+ },
+ "Red-Crow-For-Safari": {
+  "tagline": "ส่วนขยาย YouTube สำหรับ Safari",
+  "description": "Red Crow for Safari คือส่วนขยาย Safari สำหรับ iPhone และ iPad ที่รองรับการควบคุมความเร็ว การบล็อกโฆษณาจาก SponsorBlock กรองวิดีโอ และฟีเจอร์กว่า 40 รายการสำหรับ YouTube macOS จะออกเร็วๆ นี้"
+ },
+ "Tekla": {
+  "tagline": "คีย์บอร์ดเสมือน macOS",
+  "description": "แป้นพิมพ์เสมือนแบบเลื่อนเพื่อพิมพ์สำหรับ macOS การทำนายอัจฉริยะ 14 ภาษา การวางแบบเดสก์ท็อปแบบสมบูรณ์ และใช้งานได้ 100% แบบออฟไลน์"
+ }
+}
