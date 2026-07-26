@@ -119,11 +119,14 @@ A = [
  ("Auto Mute Tab","auto-mute-tab","https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/","red","p4_tag","p4_desc","safari","store","6761746627",False),
  ("Red Crow","red-crow","https://corvusdevs.github.io/Red-Crow-For-Safari/","red","p7_tag","p7_desc","safari","store","6766324724",False),
  ("Tekla","tekla","https://corvusdevs.github.io/Tekla/","blue","p5_tag","p5_desc","mac","free",None,False),
+ ("Mouse Scroll Plus","mouse-scroll-plus","https://corvusdevs.github.io/Mouse-Scroll-Plus/","blue",None,None,"mac","store","6790469923",True),
 ]
-TAG_EN = {"corvus-display":"macOS Display Control","corvus-arcade":"Windows Games on Mac","night-crow":"Safari Dark Mode"}
+TAG_EN = {"corvus-display":"macOS Display Control","corvus-arcade":"Windows Games on Mac","night-crow":"Safari Dark Mode",
+ "mouse-scroll-plus":"macOS Mouse Accessibility"}
 DESC_EN = {"corvus-display":"Brightness, color temperature and resolution for external and non-Apple displays on Apple Silicon.",
  "corvus-arcade":"Run Windows games on Apple Silicon with bundled Wine and D3DMetal. No CrossOver, no Terminal.",
- "night-crow":"A smart, native dark mode for every website in Safari. Works on macOS, iOS, and iPadOS."}
+ "night-crow":"A smart, native dark mode for every website in Safari. Works on macOS, iOS, and iPadOS.",
+ "mouse-scroll-plus":"Smooth scrolling, adjustable speed and direction, and button remapping. Makes a mouse easier to use for anyone with tremor, RSI or limited dexterity."}
 APPLE_SVG='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>'
 CHEV='<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>'
 
@@ -166,7 +169,8 @@ def price_badge(app):
 KEYWORDS={"purple-crow":"twitch bttv ffz 7tv emotes stream chat","alien-crow":"reddit","findbar":"address bar shortcuts keyword search bang",
  "corvus-rss":"rss feeds youtube blogs reader","night-crow":"dark mode theme night","auto-mute-tab":"mute audio sound tab volume",
  "red-crow":"youtube sponsorblock video speed","corvus-player":"media video mpv player music","corvus-display":"display monitor brightness resolution color",
- "corvus-arcade":"windows games wine gaming d3dmetal","ekual":"audio loudness volume equalizer normalize","tekla":"keyboard virtual typing swipe"}
+ "corvus-arcade":"windows games wine gaming d3dmetal","ekual":"audio loudness volume equalizer normalize","tekla":"keyboard virtual typing swipe",
+ "mouse-scroll-plus":"mouse scroll wheel smooth scrolling accessibility pointer buttons remap tremor rsi dexterity"}
 def search_terms(app):
     name,icon,url,color,tk,dk,cat,store,aid,feat=app
     etag = TAGEN.get(tk,"") if tk else TAG_EN.get(icon,"")
