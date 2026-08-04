@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Keyboard Virtual macOS",
   "description": "Papan ketik virtual Swipe-to-type untuk macOS. Prediksi cerdas, 14 bahasa, tata letak desktop lengkap, 100% offline."
+ },
+ "Sidestep": {
+  "tagline": "Pustaka web, dari perangkat",
+  "description": "Situs web diam-diam mengambil bagian dirinya dari jaringan pelacak. Sidestep menyimpan bagian itu di perangkat Anda, jadi jaringan itu tak pernah melacak Anda."
  }
 }

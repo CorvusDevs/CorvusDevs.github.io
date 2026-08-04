@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Papan Kekunci Maya macOS",
   "description": "Papan kekunci maya Swipe-to-type untuk macOS. Ramalan pintar, 14 bahasa, susun atur desktop lengkap, 100% tanpa talian."
+ },
+ "Sidestep": {
+  "tagline": "Pustaka web dari peranti",
+  "description": "Tapak web mengambil sebahagian dirinya daripada rangkaian penjejak. Sidestep menyimpan bahagian itu pada peranti anda, jadi rangkaian itu tidak menjejaki anda."
  }
 }

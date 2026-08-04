@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Virtuální klávesnice macOS",
   "description": "Posuvné virtuální klávesnici pro macOS s chytrými predikcemi, 14 jazyky, kompletní desktopovou rozlohou a 100% offline podporou."
+ },
+ "Sidestep": {
+  "tagline": "Webové knihovny lokálně",
+  "description": "Weby si stahují své vlastní části ze sledovacích sítí. Sidestep drží tyto části na tvém zařízení, takže sítě nikdo neosloví a nikdy tě nesledují."
  }
 }

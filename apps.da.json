@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "macOS Virtuelt tastatur",
   "description": "Swipe-to-type-virtuelt tastatur til macOS. Smarte forudsigelser, 14 sprog, komplet skrivebordslayout, 100 % offline."
+ },
+ "Sidestep": {
+  "tagline": "Webbiblioteker, lokalt",
+  "description": "Websteder henter stumper af sig selv hos sporingsnetværk. Sidestep gemmer de stumper på din enhed, så netværkene aldrig bliver kontaktet og aldrig sporer dig."
  }
 }

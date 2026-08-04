@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "macOS Virtuális billentyűzet",
   "description": "A Tekla egy macOS-re szánt, csúszásos gépeléses virtuális billentyűzet. Okos előrejelzésekkel, 14 nyelvet támogat, teljes asztali elrendezéssel és 100%-ban offline működik."
+ },
+ "Sidestep": {
+  "tagline": "Webes könyvtárak helyben",
+  "description": "A webhelyek saját darabjaikat töltik le követő hálózatokról. A Sidestep ezeket a készülékén tartja, így a hálózatok sosem kapnak megkeresést és nem követik Önt."
  }
 }

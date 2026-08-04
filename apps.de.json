@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Virtuelle Tastatur",
   "description": "Schwippen-zu-tippen-Virtuelle-Tastatur für macOS. Intelligente Vorhersagen, 14 Sprachen, vollständiges Desktop-Layout, 100 % offline."
+ },
+ "Sidestep": {
+  "tagline": "Webbibliotheken vom Gerät",
+  "description": "Websites laden Teile von sich von Tracking-Netzwerken. Sidestep hält diese Teile auf Ihrem Gerät, die Netzwerke werden nie kontaktiert und können Sie nicht verfolgen."
  }
 }

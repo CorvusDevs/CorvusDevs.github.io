@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "MacOS Virtuell tangentbord",
   "description": "Svep för att skriva-virtuell tangentbord för macOS. Smarta förutsägelser, 14 språk, komplett skrivbordslayout, 100 % offline."
+ },
+ "Sidestep": {
+  "tagline": "Webbibliotek, lokalt",
+  "description": "Webbplatser hämtar delar av sig själva från spårningsnätverk. Sidestep behåller de delarna på din enhet, så nätverken kontaktas aldrig och spårar dig aldrig."
  }
 }

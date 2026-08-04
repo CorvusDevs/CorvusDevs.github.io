@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Safari Virtual Keyboard",
   "description": "Tastatură virtuală cu gesturi de glisare pentru tastare pe macOS. Predicții inteligente, 14 limbi, layout complet pentru desktop, 100% offline."
+ },
+ "Sidestep": {
+  "tagline": "Biblioteci web, local",
+  "description": "Site-urile își aduc bucăți din ele însele de la rețele de urmărire. Sidestep ține acele bucăți pe dispozitivul tău, așa că rețelele nu te urmăresc niciodată."
  }
 }

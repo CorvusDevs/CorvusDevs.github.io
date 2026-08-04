@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Wirtualna klawiatura macOS",
   "description": "Wirtualna klawiatura z przewijaniem do wpisywania dla macOS. Inteligentne przewidywania, 14 języków, pełny układ pulpitu, 100% offline."
+ },
+ "Sidestep": {
+  "tagline": "Biblioteki www lokalnie",
+  "description": "Strony pobierają swoje własne fragmenty z sieci śledzących. Sidestep trzyma te fragmenty na Twoim urządzeniu, więc te sieci nigdy Cię nie śledzą."
  }
 }

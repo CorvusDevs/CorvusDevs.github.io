@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Virtuell tastatur for macOS",
   "description": "Virtuelt tastatur med sveip-for-skriving for macOS. Smarte forutseinger, 14 språk, fullstendig skrivebordsoppsett, 100 % uten nettverk."
+ },
+ "Sidestep": {
+  "tagline": "Nettbiblioteker, lokalt",
+  "description": "Nettsteder henter biter av seg selv fra sporingsnettverk. Sidestep beholder de bitene på enheten din, så nettverkene aldri blir kontaktet og aldri sporer deg."
  }
 }

@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Bàn phím ảo macOS",
   "description": "Bàn phím ảo cho macOS cho phép nhập văn bản bằng thao tác vuốt. Có dự đoán thông minh, hỗ trợ 14 ngôn ngữ, bố cục dành riêng cho máy tính để bàn và hoạt động 100% ngoại tuyến."
+ },
+ "Sidestep": {
+  "tagline": "Thư viện web ngay trên máy",
+  "description": "Trang web lặng lẽ tải các mảnh của chính nó từ mạng theo dõi. Sidestep giữ những mảnh đó trên thiết bị của bạn, nên các mạng đó không bao giờ theo dõi bạn."
  }
 }

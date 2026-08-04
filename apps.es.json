@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Teclado Virtual para macOS",
   "description": "Teclado virtual virtual con deslizamiento para macOS. Predicciones inteligentes, 14 idiomas, diseño completo de escritorio, 100% sin conexión."
+ },
+ "Sidestep": {
+  "tagline": "Bibliotecas web, en local",
+  "description": "Los sitios web piden partes de sí mismos a redes de rastreo. Sidestep guarda esas partes en tu dispositivo, así que esas redes nunca te rastrean."
  }
 }

@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Clavier Virtuel macOS",
   "description": "Clavier virtuel tactile pour macOS avec saisie par glisser-déplacer. Prédiction intelligente, 14 langues, mise en page complète de bureau, 100 % hors ligne."
+ },
+ "Sidestep": {
+  "tagline": "Bibliothèques web en local",
+  "description": "Les sites web récupèrent des morceaux d'eux-mêmes chez des réseaux de pistage. Sidestep garde ces morceaux sur votre appareil, les réseaux ne vous pistent jamais."
  }
 }

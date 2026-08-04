@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "MacOS Virtueel Toetsenbord",
   "description": "Swipe-to-type virtueel toetsenbord voor macOS. Slimme voorspellingen, 14 talen, volledig desktop-ontwerp, 100% offline."
+ },
+ "Sidestep": {
+  "tagline": "Webbibliotheken, lokaal",
+  "description": "Websites halen stukjes van zichzelf bij trackingnetwerken. Sidestep bewaart die stukjes op uw apparaat, zodat die netwerken nooit worden benaderd en u nooit volgen."
  }
 }

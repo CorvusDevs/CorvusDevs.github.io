@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "macOS Sanal Klavye",
   "description": "Safari için macOS'e özel, sürükle-bırak ile yazma sanal klavyesi. Akıllı tahminler, 14 dil desteği, tam masaüstü düzeni ve %100 çevrimdışı kullanım."
+ },
+ "Sidestep": {
+  "tagline": "Web kitaplıkları cihazınızda",
+  "description": "Web siteleri kendi parçalarını takip ağlarından çeker. Sidestep o parçaları cihazınızda tutar, böylece o ağlara hiç ulaşılmaz ve sizi hiç takip edemezler."
  }
 }

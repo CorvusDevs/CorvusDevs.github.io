@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "macOS Virtuaali-näppäimistö",
   "description": "Tekla on macOS:lle tarkoitettu swipe-to-type-virtuaalinäppäimistö, joka tarjoaa älykkäitä ennusteita, tukee 14 kieltä, on täysin työpöytämuotoilussa ja toimii 100 % verkoton."
+ },
+ "Sidestep": {
+  "tagline": "Verkkokirjastot laitteelta",
+  "description": "Verkkosivustot hakevat osia itsestään seurantaverkoista. Sidestep pitää ne osat laitteellasi, joten verkkoihin ei oteta yhteyttä eivätkä ne seuraa sinua."
  }
 }

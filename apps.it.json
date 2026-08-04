@@ -53,5 +53,9 @@
  "Tekla": {
   "tagline": "Tastiera Virtuale macOS",
   "description": "Tastiera virtuale virtuale da swipe per macOS. Previsioni intelligenti, 14 lingue, layout completo desktop, 100% offline."
+ },
+ "Sidestep": {
+  "tagline": "Librerie web, in locale",
+  "description": "I siti chiedono pezzi di sé stessi a reti di tracciamento. Sidestep tiene quei pezzi sul tuo dispositivo, così quelle reti non vengono contattate e non ti tracciano."
  }
 }
