@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Windows-games op de Mac",
-  "description": "Speel Windows-spellen op Apple Silicon met een ingebouwde Wine- en D3DMetal-engine. Dit is een vroege alpha-versie, getest met Overwatch."
+  "description": "Speel Windows-games op Apple Silicon-Macs met een gratis native launcher die Wine 11, DXMT en D3DMetal bundelt. Geen CrossOver, Homebrew of Terminal."
  },
  "CorvusDisplay": {
   "tagline": "macOS Weergavebeheer",

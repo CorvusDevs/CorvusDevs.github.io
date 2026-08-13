@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Windows-pelit Macilla",
-  "description": "Windows-pelejä Apple Silicon -laitteilla Wine- ja D3DMetal-moottorin avulla. Varhainen alfa, testattu Overwatchilla."
+  "description": "Käytä Windows-pelejä Apple Silicon -pohjaisilla Mac-tietokoneilla ilmaisella natiivisella käynnistysohjelmalla, joka sisältää Wine 11:n, DXMT:n ja D3DMetalin. Ei CrossOveria, Homebrewia tai terminaalia."
  },
  "CorvusDisplay": {
   "tagline": "macOS-näytön hallinta",

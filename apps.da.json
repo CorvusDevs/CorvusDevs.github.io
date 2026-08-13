@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Windows-spil på Mac",
-  "description": "Kør Windows-spil på Apple Silicon med en indbygget Wine- og D3DMetal-motor. Tidlig alpha, testet med Overwatch."
+  "description": "Kør Windows-spil på Apple Silicon-Mac'er med et gratis, indbygget startprogram, der indeholder Wine 11, DXMT og D3DMetal. Ingen CrossOver, Homebrew eller Terminal."
  },
  "CorvusDisplay": {
   "tagline": "macOS Displaykontrol",

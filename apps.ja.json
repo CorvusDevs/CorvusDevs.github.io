@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Mac で Windows ゲーム",
-  "description": "Apple シリコンで Windows ゲームを実行する、Wine と D3DMetal エンジンがセットになったアプリです。初期アルファ版で、Overwatch でテスト済みです。"
+  "description": "Wine 11、DXMT、D3DMetalをバンドルした無料のネイティブランチャーを使用し、Apple Silicon搭載MacでWindowsゲームを実行できます。CrossOver、Homebrew、ターミナルは不要です。"
  },
  "CorvusDisplay": {
   "tagline": "macOS ディスプレイ制御",

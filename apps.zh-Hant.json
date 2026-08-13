@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Mac 上的 Windows 遊戲",
-  "description": "在 Apple Silicon 上透過內建 Wine 與 D3DMetal 引擎來執行 Windows 遊戲。目前為早期測試版，已透過《鬥陣特攻》測試。"
+  "description": "透過這款免費的原生啟動器，在 Apple Silicon Mac 上運行 Windows 遊戲，該啟動器整合了 Wine 11、DXMT 及 D3DMetal。無需 CrossOver、Homebrew 或終端機。"
  },
  "CorvusDisplay": {
   "tagline": "macOS 顯示控制",

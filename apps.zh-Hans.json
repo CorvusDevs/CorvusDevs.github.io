@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Mac 上的 Windows 游戏",
-  "description": "在 Apple Silicon 上运行 Windows 游戏，附带 Wine 和 D3DMetal 引擎。早期测试版，已测试《守望先锋》。"
+  "description": "通过一款集成了 Wine 11、DXMT 和 D3DMetal 的免费原生启动器，在搭载 Apple Silicon 的 Mac 上运行 Windows 游戏。无需 CrossOver、Homebrew 或终端。"
  },
  "CorvusDisplay": {
   "tagline": "macOS 显示控制",

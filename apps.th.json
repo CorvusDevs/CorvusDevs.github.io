@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "เกมสำหรับ Windows บน Mac",
-  "description": "Corvus Arcade คือแอปสำหรับเล่นเกม Windows บน Apple Silicon โดยใช้ Wine และ D3DMetal engine (อยู่ในช่วง Alpha เบื้องต้น ทดสอบกับ Overwatch แล้ว)"
+  "description": "เล่นเกม Windows บน Mac ที่ใช้ Apple Silicon ด้วยโปรแกรมเปิดเกมแบบเนทีฟฟรี ซึ่งรวม Wine 11, DXMT และ D3DMetal ไว้ในตัว ไม่จำเป็นต้องใช้ CrossOver, Homebrew หรือ Terminal"
  },
  "CorvusDisplay": {
   "tagline": "การควบคุมจอภาพ macOS",

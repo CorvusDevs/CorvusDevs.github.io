@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Windows-játékok Mac-en",
-  "description": "A Corvus Arcade Windows-játékok futtatását teszi lehetővé Apple Siliconon egy Wine és D3DMetal motorral. Korai alfa verzió, az Overwatch tesztelésével."
+  "description": "Futtassa a Windows-játékokat Apple Silicon-alapú Mac-eken egy ingyenes, natív indítóprogrammal, amely a Wine 11, a DXMT és a D3DMetal szoftvereket tartalmazza. Nincs szükség CrossOver-re, Homebrew-ra vagy terminálra."
  },
  "CorvusDisplay": {
   "tagline": "macOS kijelzővezérlés",

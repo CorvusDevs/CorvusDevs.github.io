@@ -391,7 +391,7 @@
    "slug": "CorvusArcade",
    "name": "Corvus Arcade",
    "tagline": "Windows Games on Mac",
-   "description": "Run Windows games on Apple Silicon with a bundled Wine and D3DMetal engine. Early alpha, tested with Overwatch.",
+   "description": "Run Windows games on Apple Silicon Macs with a free native launcher that bundles Wine 11, DXMT and D3DMetal. No CrossOver, Homebrew or Terminal.",
    "icon": "https://corvusdevs.github.io/icons/corvus-arcade.png",
    "url": "https://corvusdevs.github.io/CorvusArcade/",
    "store": {

@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Игры Windows на Mac",
-  "description": "Запускайте игры для Windows на Apple Silicon с помощью встроенных Wine и D3DMetal. Ранняя альфа-версия, протестирована на Overwatch."
+  "description": "Запускайте игры для Windows на Mac с процессорами Apple Silicon с помощью бесплатного нативного лаунчера, в который входят Wine 11, DXMT и D3DMetal. Без CrossOver, Homebrew и терминала."
  },
  "CorvusDisplay": {
   "tagline": "macOS: управление дисплеем",

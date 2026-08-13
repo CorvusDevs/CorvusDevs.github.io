@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "ألعاب ويندوز على ماك",
-  "description": "لعبة Corvus Arcade التي تعمل على Apple Silicon لتشغيل ألعاب ويندوز باستخدام محرك Wine و D3DMetal المدمج. في مرحلة ألفا المبكرة، تم اختبارها مع لعبة Overwatch."
+  "description": "قم بتشغيل ألعاب Windows على أجهزة Mac المزودة بمعالج Apple Silicon باستخدام مشغل أصلي مجاني يضم Wine 11 وDXMT وD3DMetal. لا حاجة إلى CrossOver أو Homebrew أو Terminal."
  },
  "CorvusDisplay": {
   "tagline": "تحكم عرض macOS",

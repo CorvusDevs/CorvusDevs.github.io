@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "मैक पर विंडोज़ गेम्स",
-  "description": "Windows गेम्स Apple Silicon पर एक बंदिस्त Wine और D3DMetal इंजन के साथ चलाएं। यह शुरुआती अल्फा संस्करण है, जिसे ओवरवॉच के साथ परीक्षण किया गया है।"
+  "description": "Wine 11, DXMT और D3DMetal को बंडल करने वाले एक मुफ़्त नेटिव लॉन्चर के साथ Apple Silicon Macs पर Windows गेम्स चलाएँ। कोई CrossOver, Homebrew या Terminal नहीं।"
  },
  "CorvusDisplay": {
   "tagline": "macOS प्रदर्शन नियंत्रण",

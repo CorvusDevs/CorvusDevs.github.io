@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "משחקי ווינדוס למק",
-  "description": "הפעל משחקי Windows על חומרת ה-Apple Silicon באמצעות Wine ומוטור D3DMetal המובנים. גרסת אלפא ראשונה, נבדקה עם Overwatch."
+  "description": "הפעל משחקי Windows במחשבי Mac עם Apple Silicon באמצעות משגר ייעודי חינמי המשלב את Wine 11, DXMT ו-D3DMetal. ללא CrossOver, Homebrew או Terminal."
  },
  "CorvusDisplay": {
   "tagline": "macOS שליטה במסך",

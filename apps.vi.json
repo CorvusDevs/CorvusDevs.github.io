@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Game Windows trên Mac",
-  "description": "Chạy game Windows trên Apple Silicon với Wine và D3DMetal. Bản alpha sớm, đã kiểm thử với Overwatch."
+  "description": "Chạy các trò chơi Windows trên máy Mac sử dụng chip Apple Silicon bằng trình khởi chạy gốc miễn phí tích hợp sẵn Wine 11, DXMT và D3DMetal. Không cần CrossOver, Homebrew hay Terminal."
  },
  "CorvusDisplay": {
   "tagline": "macOS Điều khiển Màn hình",

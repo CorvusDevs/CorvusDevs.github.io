@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Παιχνίδια Windows στο Mac",
-  "description": "Εκτελέστε παιχνίδια Windows σε Apple Silicon με ενσωματωμένο Wine και μηχανή D3DMetal. Πρόωρη άλφα, δοκιμασμένο με το Overwatch."
+  "description": "Εκτελέστε παιχνίδια Windows σε Mac με Apple Silicon χρησιμοποιώντας ένα δωρεάν εγγενές πρόγραμμα εκκίνησης που περιλαμβάνει τα Wine 11, DXMT και D3DMetal. Χωρίς CrossOver, Homebrew ή Terminal."
  },
  "CorvusDisplay": {
   "tagline": "Έλεγχος οθόνης macOS",

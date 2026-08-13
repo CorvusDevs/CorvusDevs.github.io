@@ -20,7 +20,7 @@
  },
  "CorvusArcade": {
   "tagline": "Mac에서 즐기는 Windows 게임",
-  "description": "Apple 실리콘에서 Wine 과 D3DMetal 엔진이 포함된 패키지로 윈도우 게임을 실행하세요. 초기 알파 버전이며 오버워치에서 테스트되었습니다."
+  "description": "Wine 11, DXMT 및 D3DMetal이 번들로 제공되는 무료 네이티브 런처를 통해 Apple Silicon 기반 Mac에서 Windows 게임을 실행하세요. CrossOver, Homebrew 또는 터미널이 필요하지 않습니다."
  },
  "CorvusDisplay": {
   "tagline": "macOS 디스플레이 제어",
