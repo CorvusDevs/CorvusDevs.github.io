@@ -1,4 +1,4 @@
-# CorvusDevs.github.io — files allowed to be pushed to the PUBLIC GitHub repo.
+# CorvusDevs.github.io - files allowed to be pushed to the PUBLIC GitHub repo.
 # This repo is a pure GitHub Pages site, so everything is public.
 
 _config.yml
@@ -9,6 +9,7 @@ favicon-32x32.png
 googlef5df0bf94fe3b6d7.html
 icons/**
 index.html
+i18n/**
 og-image.png
 privacy.html
 privacy.md

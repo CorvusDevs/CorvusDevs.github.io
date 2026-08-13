@@ -57,5 +57,9 @@
  "Sidestep": {
   "tagline": "Web kitaplıkları cihazınızda",
   "description": "Web siteleri kendi parçalarını takip ağlarından çeker. Sidestep o parçaları cihazınızda tutar, böylece o ağlara hiç ulaşılmaz ve sizi hiç takip edemezler."
+ },
+ "Corvus-Music-Player": {
+  "tagline": "Müziğin, çevrimdışı",
+  "description": "Gerçekten sana ait olan müzik için hızlı ve güzel bir çevrimdışı müzik çalar.\n\nAbonelik yok. Akış yok. Hesap yok. Sadece kendi kitaplığın, kendi MP3, AAC, ALAC, FLAC ve WAV dosyaların, tam istediğin gibi çalıyor.\n\nÖzellikler\n• Şarkı, albüm, sanatçı, tür, besteci veya çalma listesine göre gözat\n• Tüm kitaplığında anında arama yap\n• Eşzamanlı ve düz şarkı sözleri, tam ekran görünümüyle\n• Yüzlerce kulaklık ayarıyla grafik ve parametrik ekolayzer\n• Kendini güncel tutan akıllı çalma listeleri\n• Boşluksuz çalma, çapraz geçiş ve ReplayGain ses seviyesi dengeleme\n• Albüm kapağından alınan canlı renklerle çalma ekranı\n• Tek dokunuşla tam ekrana açılan mini çalar\n• Sürükleyerek sıralanan, kaydırarak silinen sıra\n• Karışık (gerçek Fisher-Yates) ve tekrar (kapalı / tümü / bir)\n• Duraklatmadan önce sesi yumuşakça kısan uyku zamanlayıcısı\n• Yıldızlı puanlar ve favoriler\n• Dört görselden oluşan mozaik çalma listesi kapakları\n• Kilit ekranı, kontrol merkezi ve Dynamic Island denetimleri\n• CarPlay desteği\n• Anında aygıt seçicili AirPlay 2\n• Kulaklık kumandası ve Bluetooth denetimleri\n• Evrensel: iPhone ve iPad\n\nMüziğini içe aktar\nDosyaları Dosyalar uygulamasıyla ekle, başka bir aygıttan AirDrop ile gönder veya Finder dosya paylaşımıyla bilgisayarından kopyala. Wi-Fi Paylaşımı yerel ağına özel bir yükleme sayfası ekler: adresi herhangi bir tarayıcıda aç ve klasörlerin tamamını sürükle. Dosyaların kitaplığa yerleştirilir, gömülü kapaklar ve etiketler otomatik okunur.\n\nGizlilik\nHiçbir şey toplanmaz. Analiz yok, telemetri yok, buluta çağrı yok. Kitaplığın aygıtında kalır."
  }
 }

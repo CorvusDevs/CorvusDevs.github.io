@@ -1,6 +1,6 @@
 {
  "$schema": "Manifest of CorvusDevs apps. Each project's docs/index.html carousel fetches this and renders all entries except its own (matched on slug). Adding a new app here makes it appear automatically across every project's page on next page load. Keep keys stable, they're consumed by the cross-promo carousel + automated README renderers.",
- "updated": "2026-08-04",
+ "updated": "2026-08-13",
  "apps": [
   {
    "slug": "CorvusDisplay",
@@ -158,6 +158,21 @@
     "zh-Hans",
     "zh-Hant"
    ]
+  },
+  {
+   "slug": "Corvus-Music-Player",
+   "name": "Corvus Music Player",
+   "tagline": "Your music, offline",
+   "description": "A fast, beautiful, offline-first music player for the music you own. No subscription, no streaming, no account.",
+   "icon": "https://corvusdevs.github.io/icons/corvus-music-player.png",
+   "url": "https://corvusdevs.github.io/Corvus-Music-Player/",
+   "store": {
+    "kind": "app-store",
+    "label": "App Store",
+    "url": "https://apps.apple.com/app/id6781115973"
+   },
+   "accent": "purple",
+   "featured": false
   },
   {
    "slug": "Corvus-RSS-Reader-For-Safari",

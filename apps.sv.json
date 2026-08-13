@@ -57,5 +57,9 @@
  "Sidestep": {
   "tagline": "Webbibliotek, lokalt",
   "description": "Webbplatser hämtar delar av sig själva från spårningsnätverk. Sidestep behåller de delarna på din enhet, så nätverken kontaktas aldrig och spårar dig aldrig."
+ },
+ "Corvus-Music-Player": {
+  "tagline": "Din musik, offline",
+  "description": "En snabb och vacker offlinemusikspelare för musiken du faktiskt äger.\n\nIngen prenumeration. Ingen streaming. Inget konto. Bara ditt bibliotek, dina MP3, AAC, ALAC, FLAC och WAV, uppspelade precis som du vill.\n\nFunktioner\n• Bläddra efter låt, album, artist, genre, kompositör eller spellista\n• Sök i hela biblioteket direkt\n• Synkroniserade och vanliga sångtexter, med vy i helskärm\n• Grafisk och parametrisk equalizer med hundratals hörlursinställningar\n• Smarta spellistor som håller sig uppdaterade själva\n• Uppspelning utan glapp, crossfade och ReplayGain-volymutjämning\n• Spelar nu med livfulla färger hämtade från omslaget\n• Minispelare som öppnas i helskärm med en tryckning\n• Kö med dra för att ändra ordning och svep för att radera\n• Slumpvis (äkta Fisher-Yates) och upprepa (av / alla / en)\n• Insomningstimer som tonar ut mjukt innan den pausar\n• Stjärnbetyg och favoriter\n• Spellisteomslag som mosaik av fyra bilder\n• Reglage på låsskärmen, i kontrollcenter och Dynamic Island\n• Stöd för CarPlay\n• AirPlay 2 med snabb enhetsväljare\n• Fjärrkontroll på hörlurar och Bluetooth-reglage\n• Universell: iPhone och iPad\n\nImportera din musik\nLägg in filer via Filer-appen, skicka dem med AirDrop från en annan enhet eller kopiera dem från datorn med fildelning i Finder. Wi-Fi-delning lägger till en privat uppladdningssida på ditt lokala nätverk: öppna adressen i en webbläsare och dra in hela mappar. Dina filer sorteras in i biblioteket, och inbäddade omslag och taggar läses automatiskt.\n\nIntegritet\nIngenting samlas in. Ingen analys, ingen telemetri, inga anrop till molnet. Ditt bibliotek stannar på din enhet."
  }
 }
