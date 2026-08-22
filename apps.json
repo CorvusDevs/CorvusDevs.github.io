@@ -1,6 +1,6 @@
 {
   "$schema": "Manifest of CorvusDevs apps. Each project's docs/index.html carousel fetches this and renders all entries except its own (matched on slug). Adding a new app here makes it appear automatically across every project's page on next page load. Keep keys stable, they're consumed by the cross-promo carousel + automated README renderers.",
-  "updated": "2026-08-13",
+  "updated": "2026-08-22",
   "apps": [
     {
       "slug": "CorvusDisplay",
@@ -201,6 +201,28 @@
       "featured": false,
       "family": "media-play",
       "platforms": [
+        "iPhone",
+        "iPad"
+      ],
+      "price": "App Store"
+    },
+    {
+      "slug": "Stow",
+      "name": "Stow",
+      "tagline": "Zip, Unzip and Archive",
+      "description": "A privacy-first archive utility for Mac, iPhone, and iPad, with encryption, archive browsing, and no file uploads.",
+      "icon": "https://corvusdevs.github.io/icons/stow.png",
+      "url": "https://corvusdevs.github.io/Stow/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6801190003"
+      },
+      "accent": "purple",
+      "featured": true,
+      "family": "better-mac",
+      "platforms": [
+        "macOS",
         "iPhone",
         "iPad"
       ],

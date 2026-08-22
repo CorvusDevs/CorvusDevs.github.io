@@ -6,7 +6,7 @@
 
 Independent apps for the Apple devices you already own.
 
-[Explore all 15 apps](https://corvusdevs.github.io) · [Email us](mailto:corvusdevs@outlook.com)
+[Explore all 16 apps](https://corvusdevs.github.io) · [Email us](mailto:corvusdevs@outlook.com)
 
 </div>
 
@@ -39,6 +39,7 @@ Independent apps for the Apple devices you already own.
 | [Ekual](https://corvusdevs.github.io/Ekual/) | Balances loudness across apps in real time |
 | [Tekla](https://corvusdevs.github.io/Tekla/) | Adds a swipe-to-type virtual keyboard |
 | [Mouse Scroll Plus](https://corvusdevs.github.io/Mouse-Scroll-Plus/) | Improves scrolling and mouse accessibility |
+| [Stow](https://corvusdevs.github.io/Stow/) | Packs, browses, encrypts, and safely extracts archives on Mac, iPhone, and iPad |
 
 ## How we build
 
