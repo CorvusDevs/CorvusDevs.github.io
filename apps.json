@@ -195,7 +195,7 @@
       "name": "Corvus Music Player",
       "tagline": "Your music, without a subscription",
       "description": "A fast, beautiful, offline-first music player for the music you own. No subscription, no streaming, no account.",
-      "icon": "https://corvusdevs.github.io/icons/corvus-music-player.jpg",
+      "icon": "https://corvusdevs.github.io/icons/corvus-music-player.png",
       "url": "https://corvusdevs.github.io/Corvus-Music-Player/",
       "store": {
         "kind": "app-store",
