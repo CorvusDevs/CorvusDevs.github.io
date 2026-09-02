@@ -1,6 +1,6 @@
 {
   "$schema": "Manifest of CorvusDevs apps. Each project's docs/index.html carousel fetches this and renders all entries except its own (matched on slug). Adding a new app here makes it appear automatically across every project's page on next page load. Keep keys stable, they're consumed by the cross-promo carousel + automated README renderers.",
-  "updated": "2026-08-22",
+  "updated": "2026-09-02",
   "apps": [
     {
       "slug": "CorvusDisplay",
@@ -203,6 +203,29 @@
       "platforms": [
         "iPhone",
         "iPad"
+      ],
+      "price": "App Store"
+    },
+    {
+      "slug": "CorvusRecall",
+      "name": "Corvus Recall",
+      "tagline": "Private flashcards",
+      "description": "Study with clear spaced repetition, on-device capture, practical imports, and careful backups. No account, ads, or subscription.",
+      "icon": "https://corvusdevs.github.io/icons/corvus-recall.png",
+      "url": "https://corvusdevs.github.io/CorvusRecall/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6806901041"
+      },
+      "accent": "red",
+      "featured": false,
+      "locales": [
+        "es"
+      ],
+      "family": "media-play",
+      "platforms": [
+        "macOS"
       ],
       "price": "App Store"
     },

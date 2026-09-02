@@ -6,7 +6,7 @@
 
 Independent apps for the Apple devices you already own.
 
-[Explore all 16 apps](https://corvusdevs.github.io) · [Email us](mailto:corvusdevs@outlook.com)
+[Explore all 17 apps](https://corvusdevs.github.io) · [Email us](mailto:corvusdevs@outlook.com)
 
 </div>
 
@@ -15,6 +15,7 @@ Independent apps for the Apple devices you already own.
 | App | What it does | Devices |
 | --- | --- | --- |
 | [Corvus Music Player](https://corvusdevs.github.io/Corvus-Music-Player/) | Plays the music you own, offline and without an account | iPhone, iPad |
+| [Corvus Recall](https://corvusdevs.github.io/CorvusRecall/) | Keeps flashcards, study schedules, and backups private | Mac |
 | [Corvus Player](https://corvusdevs.github.io/Corvus-Player/) | Customizable, GPU-accelerated media playback | Mac |
 | [Corvus Arcade](https://corvusdevs.github.io/CorvusArcade/) | Runs Windows games on Apple silicon Macs | Mac |
 
