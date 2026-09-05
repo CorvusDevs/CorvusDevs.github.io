@@ -708,6 +708,7 @@
             footer { padding-bottom: 24px; padding-top: 24px; }
         }
 </style>
+  <script src="/language-router.js"></script>
 </head>
 <body>
 
@@ -1287,7 +1288,7 @@
             if (s[k]) el.innerHTML = s[k];
         });
         document.documentElement.lang = lang;
-        localStorage.setItem("corvus-lang", lang);
+        localStorage.setItem("corvusdevs-site-lang", lang);
         document.getElementById("langBtn").textContent = langLabels[lang] || langLabels.en;
         document.querySelectorAll("#langMenu button").forEach(b => {
             b.classList.toggle("active", b.dataset.lang === lang);
@@ -1306,7 +1307,7 @@
     document.addEventListener("click", () => document.getElementById("langMenu").classList.remove("open"));
 
     (function() {
-        const saved = localStorage.getItem("corvus-lang");
+        const saved = localStorage.getItem("corvusdevs-site-lang");
         if (saved && T[saved]) { setLanguage(saved); return; }
         const bl = (navigator.language || "en").split("-")[0];
         if (T[bl]) setLanguage(bl);

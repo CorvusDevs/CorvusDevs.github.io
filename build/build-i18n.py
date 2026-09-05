@@ -66,7 +66,7 @@ def localize_head(h, tr, loc):
     h = re.sub(r'(<meta name="twitter:description" content=")[^"]*(">)', lambda m:m.group(1)+esc(desc)+m.group(2), h, count=1)
     h = re.sub(r'(<meta property="og:url" content=")[^"]*(">)', lambda m:m.group(1)+canon+m.group(2), h, count=1)
     # force this locale before the runtime auto-detect runs
-    h = h.replace('</head>', f'<script>try{{localStorage.setItem("corvus-lang","{loc}")}}catch(e){{}}</script>\n</head>', 1)
+    h = h.replace('</head>', f'<script>try{{localStorage.setItem("corvusdevs-site-lang","{loc}")}}catch(e){{}}</script>\n</head>', 1)
     return h
 
 n=0

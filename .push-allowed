@@ -23,3 +23,7 @@ README.md
 apps.json
 apps.*.json          # per-locale card copy, added when the site was localized
 .gitignore
+
+language-router.js
+build/index.src.html
+build/build-i18n.py
