@@ -34,3 +34,5 @@ build/sync-products.py
 build/templates/*.html
 build/ui.json
 catalog.js
+catalog-layout.css
+build/improvement-ui.json

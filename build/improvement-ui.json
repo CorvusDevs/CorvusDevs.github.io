@@ -1,0 +1,192 @@
+{
+  "en": {
+    "heroIntro": "Play your music, plan your study, work with files, and make Safari your own.",
+    "mediaTitle": "Study, media and play",
+    "mediaDescription": "Plan your study, inspect media, play your own music, and make time for games.",
+    "toolsTitle": "Everyday tools",
+    "toolsDescription": "Work with files, displays, sound, typing, and pointing devices.",
+    "browseApps": "Browse apps",
+    "trial": "Free trial",
+    "storiesIntro": "See how these apps work with your own files and routines."
+  },
+  "ar": {
+    "heroIntro": "شغّل موسيقاك، وخطّط لدراستك، واعمل على ملفاتك، وخصّص Safari كما تحب.",
+    "mediaTitle": "الدراسة والوسائط والألعاب",
+    "mediaDescription": "خطّط لدراستك، وافحص ملفات الوسائط، واستمع إلى موسيقاك، وخصّص وقتًا للألعاب.",
+    "toolsTitle": "أدوات يومية",
+    "toolsDescription": "أدوات للملفات والشاشات والصوت والكتابة وأجهزة التأشير.",
+    "browseApps": "تصفّح التطبيقات",
+    "trial": "تجربة مجانية",
+    "storiesIntro": "اكتشف كيف تستخدم هذه التطبيقات مع ملفاتك وروتينك اليومي."
+  },
+  "de": {
+    "heroIntro": "Höre deine Musik, plane dein Lernen, arbeite mit Dateien und gestalte Safari nach deinen Wünschen.",
+    "mediaTitle": "Lernen, Medien und Spiele",
+    "mediaDescription": "Plane dein Lernen, prüfe Mediendateien, höre deine eigene Musik und nimm dir Zeit zum Spielen.",
+    "toolsTitle": "Werkzeuge für den Alltag",
+    "toolsDescription": "Werkzeuge für Dateien, Bildschirme, Audio, Texteingabe und Zeigegeräte.",
+    "browseApps": "Apps anzeigen",
+    "trial": "Kostenlose Testversion",
+    "storiesIntro": "Entdecke, wie diese Apps mit deinen eigenen Dateien und Abläufen arbeiten."
+  },
+  "es": {
+    "heroIntro": "Escucha tu música, planifica tu estudio, trabaja con archivos y adapta Safari a tu manera.",
+    "mediaTitle": "Estudio, multimedia y juegos",
+    "mediaDescription": "Planifica tu estudio, inspecciona archivos multimedia, escucha tu propia música y encuentra tiempo para jugar.",
+    "toolsTitle": "Herramientas cotidianas",
+    "toolsDescription": "Herramientas para archivos, pantallas, sonido, escritura y dispositivos apuntadores.",
+    "browseApps": "Ver apps",
+    "trial": "Prueba gratuita",
+    "storiesIntro": "Descubre cómo usar estas apps con tus propios archivos y rutinas."
+  },
+  "fr": {
+    "heroIntro": "Écoutez votre musique, organisez vos études, travaillez sur vos fichiers et adaptez Safari à vos envies.",
+    "mediaTitle": "Études, médias et jeux",
+    "mediaDescription": "Organisez vos études, inspectez vos fichiers multimédias, écoutez votre propre musique et prenez le temps de jouer.",
+    "toolsTitle": "Outils du quotidien",
+    "toolsDescription": "Des outils pour les fichiers, les écrans, le son, la saisie et les périphériques de pointage.",
+    "browseApps": "Voir les apps",
+    "trial": "Essai gratuit",
+    "storiesIntro": "Découvrez comment utiliser ces apps avec vos propres fichiers et habitudes."
+  },
+  "hi": {
+    "heroIntro": "अपना संगीत सुनें, पढ़ाई की योजना बनाएँ, फ़ाइलों पर काम करें और Safari को अपनी पसंद के अनुसार ढालें।",
+    "mediaTitle": "पढ़ाई, मीडिया और गेम",
+    "mediaDescription": "पढ़ाई की योजना बनाएँ, मीडिया फ़ाइलें जाँचें, अपना संगीत सुनें और गेम खेलने के लिए समय निकालें।",
+    "toolsTitle": "रोज़मर्रा के टूल",
+    "toolsDescription": "फ़ाइलों, डिस्प्ले, ध्वनि, टाइपिंग और पॉइंटिंग डिवाइस के लिए टूल।",
+    "browseApps": "ऐप देखें",
+    "trial": "मुफ़्त ट्रायल",
+    "storiesIntro": "जानें कि ये ऐप आपकी अपनी फ़ाइलों और दिनचर्या के साथ कैसे काम करते हैं।"
+  },
+  "id": {
+    "heroIntro": "Putar musik Anda, rencanakan belajar, kelola berkas, dan sesuaikan Safari dengan gaya Anda.",
+    "mediaTitle": "Belajar, media, dan bermain",
+    "mediaDescription": "Rencanakan belajar, periksa berkas media, putar musik milik Anda, dan luangkan waktu untuk bermain.",
+    "toolsTitle": "Alat sehari-hari",
+    "toolsDescription": "Alat untuk berkas, layar, suara, pengetikan, dan perangkat penunjuk.",
+    "browseApps": "Lihat aplikasi",
+    "trial": "Uji coba gratis",
+    "storiesIntro": "Lihat cara aplikasi ini bekerja dengan berkas dan rutinitas Anda sendiri."
+  },
+  "it": {
+    "heroIntro": "Ascolta la tua musica, organizza lo studio, lavora con i file e personalizza Safari a modo tuo.",
+    "mediaTitle": "Studio, media e giochi",
+    "mediaDescription": "Organizza lo studio, analizza i file multimediali, ascolta la musica che possiedi e trova il tempo per giocare.",
+    "toolsTitle": "Strumenti quotidiani",
+    "toolsDescription": "Strumenti per file, schermi, audio, digitazione e dispositivi di puntamento.",
+    "browseApps": "Esplora le app",
+    "trial": "Prova gratuita",
+    "storiesIntro": "Scopri come usare queste app con i tuoi file e le tue abitudini."
+  },
+  "ja": {
+    "heroIntro": "自分の音楽を聴き、学習を計画し、ファイルを扱い、Safariを自分好みに。",
+    "mediaTitle": "学習・メディア・ゲーム",
+    "mediaDescription": "学習を計画し、メディアファイルを調べ、自分の音楽を聴き、ゲームの時間も楽しみましょう。",
+    "toolsTitle": "毎日のためのツール",
+    "toolsDescription": "ファイル、ディスプレイ、音声、文字入力、ポインティングデバイスを使う日々の作業に。",
+    "browseApps": "アプリを見る",
+    "trial": "無料体験",
+    "storiesIntro": "自分のファイルや日々の作業で、これらのアプリをどう使えるかご覧ください。"
+  },
+  "ko": {
+    "heroIntro": "내 음악을 듣고, 학습을 계획하고, 파일로 작업하며 Safari를 나에게 맞게 바꾸세요.",
+    "mediaTitle": "학습, 미디어, 게임",
+    "mediaDescription": "학습을 계획하고, 미디어 파일을 살펴보고, 소장한 음악을 듣고, 게임을 즐길 시간도 마련하세요.",
+    "toolsTitle": "일상에 필요한 도구",
+    "toolsDescription": "파일, 디스플레이, 사운드, 타이핑, 포인팅 장치를 위한 도구입니다.",
+    "browseApps": "앱 살펴보기",
+    "trial": "무료 체험",
+    "storiesIntro": "내 파일과 일상에서 이 앱들을 어떻게 활용할 수 있는지 살펴보세요."
+  },
+  "nl": {
+    "heroIntro": "Luister naar je muziek, plan je studie, werk met bestanden en maak Safari helemaal van jou.",
+    "mediaTitle": "Studie, media en games",
+    "mediaDescription": "Plan je studie, bekijk mediabestanden, luister naar je eigen muziek en maak tijd om te gamen.",
+    "toolsTitle": "Hulpmiddelen voor elke dag",
+    "toolsDescription": "Hulpmiddelen voor bestanden, schermen, geluid, typen en aanwijsapparaten.",
+    "browseApps": "Apps bekijken",
+    "trial": "Gratis proefversie",
+    "storiesIntro": "Ontdek hoe je deze apps met je eigen bestanden en dagelijkse routines gebruikt."
+  },
+  "pl": {
+    "heroIntro": "Słuchaj swojej muzyki, planuj naukę, pracuj z plikami i dostosuj Safari do siebie.",
+    "mediaTitle": "Nauka, multimedia i gry",
+    "mediaDescription": "Planuj naukę, sprawdzaj pliki multimedialne, słuchaj własnej muzyki i znajdź czas na gry.",
+    "toolsTitle": "Narzędzia na co dzień",
+    "toolsDescription": "Narzędzia do plików, ekranów, dźwięku, pisania i urządzeń wskazujących.",
+    "browseApps": "Przeglądaj aplikacje",
+    "trial": "Bezpłatna wersja próbna",
+    "storiesIntro": "Zobacz, jak te aplikacje współpracują z Twoimi plikami i codziennymi zadaniami."
+  },
+  "pt": {
+    "heroIntro": "Ouça sua música, planeje seus estudos, trabalhe com arquivos e personalize o Safari do seu jeito.",
+    "mediaTitle": "Estudo, mídia e jogos",
+    "mediaDescription": "Planeje seus estudos, inspecione arquivos de mídia, ouça sua própria música e reserve tempo para jogar.",
+    "toolsTitle": "Ferramentas para o dia a dia",
+    "toolsDescription": "Ferramentas para arquivos, telas, som, digitação e dispositivos apontadores.",
+    "browseApps": "Ver apps",
+    "trial": "Teste gratuito",
+    "storiesIntro": "Veja como usar esses apps com seus próprios arquivos e rotinas."
+  },
+  "ru": {
+    "heroIntro": "Слушайте свою музыку, планируйте учёбу, работайте с файлами и настройте Safari под себя.",
+    "mediaTitle": "Учёба, медиа и игры",
+    "mediaDescription": "Планируйте учёбу, изучайте медиафайлы, слушайте свою музыку и находите время для игр.",
+    "toolsTitle": "Инструменты на каждый день",
+    "toolsDescription": "Инструменты для файлов, экранов, звука, ввода текста и указательных устройств.",
+    "browseApps": "Посмотреть приложения",
+    "trial": "Бесплатная пробная версия",
+    "storiesIntro": "Посмотрите, как использовать эти приложения со своими файлами и привычными задачами."
+  },
+  "sv": {
+    "heroIntro": "Lyssna på din musik, planera dina studier, arbeta med filer och gör Safari till ditt eget.",
+    "mediaTitle": "Studier, medier och spel",
+    "mediaDescription": "Planera dina studier, granska mediefiler, lyssna på din egen musik och ta dig tid att spela.",
+    "toolsTitle": "Verktyg för vardagen",
+    "toolsDescription": "Verktyg för filer, bildskärmar, ljud, skrivande och pekdon.",
+    "browseApps": "Visa appar",
+    "trial": "Kostnadsfri provperiod",
+    "storiesIntro": "Se hur du kan använda de här apparna med dina egna filer och vardagsrutiner."
+  },
+  "th": {
+    "heroIntro": "ฟังเพลงของคุณ วางแผนการเรียน จัดการไฟล์ และปรับ Safari ให้เป็นแบบที่คุณชอบ",
+    "mediaTitle": "การเรียน สื่อ และเกม",
+    "mediaDescription": "วางแผนการเรียน ตรวจสอบไฟล์สื่อ ฟังเพลงที่คุณมี และแบ่งเวลาให้เกม",
+    "toolsTitle": "เครื่องมือสำหรับทุกวัน",
+    "toolsDescription": "เครื่องมือสำหรับไฟล์ จอภาพ เสียง การพิมพ์ และอุปกรณ์ชี้ตำแหน่ง",
+    "browseApps": "ดูแอป",
+    "trial": "ทดลองใช้ฟรี",
+    "storiesIntro": "ดูวิธีใช้แอปเหล่านี้กับไฟล์และกิจวัตรของคุณ"
+  },
+  "tr": {
+    "heroIntro": "Müziğinizi dinleyin, ders çalışmanızı planlayın, dosyalarla çalışın ve Safari’yi kendinize göre düzenleyin.",
+    "mediaTitle": "Ders, medya ve oyun",
+    "mediaDescription": "Ders çalışmanızı planlayın, medya dosyalarını inceleyin, kendi müziğinizi dinleyin ve oyunlara zaman ayırın.",
+    "toolsTitle": "Günlük araçlar",
+    "toolsDescription": "Dosyalar, ekranlar, ses, yazma ve işaretleme aygıtları için araçlar.",
+    "browseApps": "Uygulamalara göz at",
+    "trial": "Ücretsiz deneme",
+    "storiesIntro": "Bu uygulamaları kendi dosyalarınız ve günlük işlerinizle nasıl kullanabileceğinizi görün."
+  },
+  "vi": {
+    "heroIntro": "Nghe nhạc của bạn, lên kế hoạch học tập, làm việc với tệp và tùy chỉnh Safari theo cách của bạn.",
+    "mediaTitle": "Học tập, nội dung đa phương tiện và trò chơi",
+    "mediaDescription": "Lên kế hoạch học tập, kiểm tra tệp đa phương tiện, nghe nhạc bạn sở hữu và dành thời gian chơi game.",
+    "toolsTitle": "Công cụ hằng ngày",
+    "toolsDescription": "Công cụ cho tệp, màn hình, âm thanh, nhập văn bản và thiết bị trỏ.",
+    "browseApps": "Khám phá ứng dụng",
+    "trial": "Dùng thử miễn phí",
+    "storiesIntro": "Khám phá cách dùng những ứng dụng này với tệp và công việc thường ngày của bạn."
+  },
+  "zh": {
+    "heroIntro": "聆听自己的音乐、规划学习、处理文件，让 Safari 更合你的心意。",
+    "mediaTitle": "学习、媒体与游戏",
+    "mediaDescription": "规划学习、查看媒体文件、聆听自己的音乐，也为游戏留些时间。",
+    "toolsTitle": "日常工具",
+    "toolsDescription": "处理文件、显示、声音、文字输入和指向设备方面的日常任务。",
+    "browseApps": "浏览应用",
+    "trial": "免费试用",
+    "storiesIntro": "了解如何在自己的文件和日常任务中使用这些应用。"
+  }
+}

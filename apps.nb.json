@@ -3,7 +3,7 @@
   "cta": "Finn ut mer"
  },
  "Alien-Crow-For-Safari": {
-  "tagline": "Makverktøy for Reddit",
+  "tagline": "Gjør Reddit raskere og roligere",
   "description": "Over 100 verktøy for Reddit: temaer, medieverktøy, forbedrede kommentarer og tastaturnavigering. Tilgjengelig for Mac, iPhone og iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
@@ -63,6 +63,7 @@
   "description": "En rask og vakker offline musikkspiller for musikken du faktisk eier.\n\nIngen abonnement. Ingen strømming. Ingen konto. Bare biblioteket ditt, MP3-, AAC-, ALAC-, FLAC- og WAV-filene dine, spilt av akkurat slik du vil.\n\nFunksjoner\n• Bla etter sang, album, artist, sjanger, komponist eller spilleliste\n• Søk i hele biblioteket med én gang\n• Synkroniserte og vanlige sangtekster, med visning i fullskjerm\n• Grafisk og parametrisk equalizer med hundrevis av hodetelefonvalg\n• Smarte spillelister som holder seg oppdatert selv\n• Avspilling uten opphold, krysstoning og ReplayGain-volumjustering\n• Spilles nå med sterke farger hentet fra omslaget\n• Minispiller som åpnes i fullskjerm med ett trykk\n• Kø med dra for å endre rekkefølge og sveip for å slette\n• Tilfeldig (ekte Fisher-Yates) og gjenta (av / alle / én)\n• Sovetimer som toner rolig ut før den setter på pause\n• Stjernevurderinger og favoritter\n• Spillelisteomslag som mosaikk av fire bilder\n• Kontroller på låst skjerm, i kontrollsenter og Dynamic Island\n• Støtte for CarPlay\n• AirPlay 2 med rask enhetsvelger\n• Fjernkontroll på hodetelefoner og Bluetooth-kontroller\n• Universal: iPhone og iPad\n\nImporter musikken din\nLegg inn filer via Filer-appen, send dem med AirDrop fra en annen enhet, eller kopier dem fra datamaskinen med fildeling i Finder. Wi-Fi-deling legger til en privat opplastingsside på det lokale nettverket: åpne adressen i en nettleser og dra inn hele mapper. Filene blir ordnet i biblioteket, og innebygde omslag og tagger leses automatisk.\n\nPersonvern\nIngenting samles inn. Ingen analyse, ingen telemetri, ingen skykall. Biblioteket ditt blir på enheten din."
  },
  "CorvusRecall": {
+  "tagline": "Husk mer, med personvernet i behold",
   "description": "Private læringskort med studieplaner, daglig arbeidsmengde, OCR, import fra Anki og CSV samt sikkerhetskopier. Studer på Mac, iPhone og iPad med valgfri iCloud-synkronisering."
  },
  "New-Tab-Plus": {
@@ -76,5 +77,9 @@
  "Puzzle-Observatory": {
   "tagline": "En daglig puslespillreise",
   "description": "Utforsk 14 puslespill, Daily Signal og Daily Sky, Archive, Guided Expeditions og frakoblet øving på 19 språk. Det offisielle daglige innholdet er inkludert i appen og velges ut fra UTC-datoen."
+ },
+ "Stow": {
+  "tagline": "Pakk og pakk ut filene dine",
+  "description": "Bla i og beskytt arkiver på Mac. Pakk og pakk ut filer fra Filer på iPhone og iPad uten å laste dem opp."
  }
 }

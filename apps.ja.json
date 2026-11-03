@@ -3,7 +3,7 @@
   "cta": "詳しい情報"
  },
  "Alien-Crow-For-Safari": {
-  "tagline": "Reddit Safari Extension",
+  "tagline": "Redditをもっと速く、落ち着いた使い心地に",
   "description": "Reddit向けの100以上のツール。テーマ、メディアツール、コメント機能の改善、キーボードナビゲーションを利用できます。Mac、iPhone、iPadに対応。"
  },
  "Auto-Mute-Tab-For-Safari": {
@@ -67,8 +67,8 @@
   "description": "学習計画、毎日の学習量、OCR、AnkiとCSVの読み込み、バックアップを備えたプライベートなフラッシュカード。Mac、iPhone、iPadで学習でき、iCloud同期は任意で有効にできます。"
  },
  "Stow": {
-  "tagline": "展開する前にアーカイブを確認",
-  "description": "暗号化とアーカイブ閲覧に対応し、ファイルをアップロードしない、Mac、iPhone、iPad向けのプライバシー重視アーカイブツールです。"
+  "tagline": "ファイルを圧縮・展開",
+  "description": "Macではアーカイブの内容を確認し、保護できます。iPhoneとiPadでは「ファイル」アプリから、アップロードせずにファイルを圧縮・展開できます。"
  },
  "New-Tab-Plus": {
   "tagline": "Safariの新規タブを自分らしく",

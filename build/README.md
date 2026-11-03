@@ -10,7 +10,9 @@
 - `apps.<locale>.json`: translated product taglines and descriptions. The public page aliases `pt` to `pt-BR` and `zh` to `zh-Hans`.
 - `build/templates/<locale>.html`: preserved branded page shells, localized navigation, SEO, and styles. Catalog placeholders are rendered statically.
 - `build/ui.json`: existing translated catalog labels and family descriptions.
+- `build/improvement-ui.json`: reviewed localized task descriptions, family names, disclosure labels and trial labels. The builder places the searchable catalog immediately after the hero and keeps full family lists in native disclosures.
 - `catalog.js`: search, filters and featured-image selection. Links and catalog content work without JavaScript.
+- `catalog-layout.css`: screenshot framing, mobile purpose text and disclosure layout. Product screenshots keep their real aspect ratios and captions stay outside the image.
 
 The old `index.src.html` and `site_style.css` are historical source from a previous design and are not used by this build.
 

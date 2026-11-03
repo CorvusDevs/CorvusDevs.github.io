@@ -299,8 +299,8 @@
     {
       "slug": "Stow",
       "name": "Stow",
-      "tagline": "Open archives before you unpack",
-      "description": "A privacy-first archive utility for Mac, iPhone, and iPad, with encryption, archive browsing, and no file uploads.",
+      "tagline": "Pack and unpack your files",
+      "description": "Browse and protect archives on Mac. Pack and unpack files from Files on iPhone and iPad, without uploading them.",
       "icon": "https://corvusdevs.github.io/icons/stow.png",
       "url": "https://corvusdevs.github.io/Stow/",
       "store": {

@@ -3,7 +3,7 @@
   "cta": "Saiba mais"
  },
  "Alien-Crow-For-Safari": {
-  "tagline": "Reddit Safari Extension",
+  "tagline": "Um Reddit mais rápido e tranquilo",
   "description": "Mais de 100 ferramentas para o Reddit: temas, ferramentas multimédia, melhorias nos comentários e navegação pelo teclado. Disponível para Mac, iPhone e iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
@@ -63,6 +63,7 @@
   "description": "Um leitor de música offline, rápido e bonito, para a música que é mesmo sua.\n\nSem subscrição. Sem streaming. Sem conta. Apenas a sua biblioteca, os seus MP3, AAC, ALAC, FLAC e WAV, a tocar exatamente como quer.\n\nFuncionalidades\n• Navegue por faixa, álbum, artista, género, compositor ou playlist\n• Pesquise toda a biblioteca de imediato\n• Letras sincronizadas e simples, com vista em ecrã inteiro\n• Equalizador gráfico e paramétrico com centenas de predefinições para auscultadores\n• Playlists inteligentes que se mantêm atualizadas sozinhas\n• Reprodução sem intervalos, sobreposição e nivelamento ReplayGain\n• Ecrã de reprodução com cores vivas retiradas da capa\n• Mini-leitor que abre em ecrã inteiro com um toque\n• Fila com arrastar para reordenar e deslizar para eliminar\n• Aleatório (Fisher-Yates verdadeiro) e repetição (não / tudo / uma)\n• Temporizador que baixa o som devagar antes de pausar\n• Classificações por estrelas e favoritos\n• Capas de playlist em mosaico de quatro imagens\n• Controlos no ecrã bloqueado, centro de controlo e Dynamic Island\n• Compatível com CarPlay\n• AirPlay 2 com seletor de dispositivo imediato\n• Comando dos auscultadores e controlos Bluetooth\n• Universal: iPhone e iPad\n\nImportar a sua música\nColoque ficheiros através da app Ficheiros, envie-os por AirDrop de outro dispositivo ou copie-os do computador com a partilha de ficheiros do Finder. A Partilha por Wi-Fi acrescenta uma página de envio privada na sua rede local: abra o endereço num navegador e arraste pastas inteiras. Os ficheiros são organizados na biblioteca, com capas e etiquetas lidas automaticamente.\n\nPrivacidade\nNão é recolhido nada. Sem análises, sem telemetria, sem chamadas à nuvem. A sua biblioteca fica no seu dispositivo."
  },
  "CorvusRecall": {
+  "tagline": "Memorize mais, com privacidade",
   "description": "Cartões de estudo privados com planos de estudo, carga diária, OCR, importações do Anki e CSV e cópias de segurança. Estude no Mac, iPhone e iPad, com sincronização iCloud opcional."
  },
  "New-Tab-Plus": {
@@ -76,5 +77,9 @@
  "Puzzle-Observatory": {
   "tagline": "Uma viagem diária de puzzles",
   "description": "Explore 14 jogos de puzzles, Daily Signal e Daily Sky, Archive, Guided Expeditions e prática offline em 19 idiomas. O conteúdo diário oficial está incluído na app e é selecionado pela data UTC."
+ },
+ "Stow": {
+  "tagline": "Comprima e extraia os seus ficheiros",
+  "description": "Explore e proteja arquivos no Mac. Comprima e extraia ficheiros a partir da app Ficheiros no iPhone e iPad, sem os carregar para a internet."
  }
 }

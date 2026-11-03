@@ -3,7 +3,7 @@
   "cta": "进一步了解"
  },
  "Alien-Crow-For-Safari": {
-  "tagline": "Reddit Safari Extension",
+  "tagline": "让 Reddit 更快、更清爽",
   "description": "为 Reddit 提供 100 多种工具：主题、媒体工具、评论增强和键盘导航。适用于 Mac、iPhone 和 iPad。"
  },
  "Auto-Mute-Tab-For-Safari": {
@@ -67,8 +67,8 @@
   "description": "注重隐私的学习卡片，提供学习计划、每日任务量、OCR、Anki 和 CSV 导入以及备份。在 Mac、iPhone 和 iPad 上学习，并可选择启用 iCloud 同步。"
  },
  "Stow": {
-  "tagline": "解压前先浏览归档内容",
-  "description": "适用于 Mac、iPhone 和 iPad 的隐私优先归档工具，支持加密和归档浏览，不会上传文件。"
+  "tagline": "打包和解压你的文件",
+  "description": "在 Mac 上浏览和保护归档文件。在 iPhone 和 iPad 上通过“文件”App 打包和解压文件，无需上传。"
  },
  "New-Tab-Plus": {
   "tagline": "让 Safari 新标签页更有个性",

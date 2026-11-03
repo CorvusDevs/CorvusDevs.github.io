@@ -1,0 +1,32 @@
+/* Product discovery: keep purpose visible and show the real screenshot in full. */
+.shelf-screen{aspect-ratio:auto;height:clamp(300px,33vw,430px);padding:14px;display:flex;align-items:center;justify-content:center}
+.shelf-screen img{width:100%;height:100%;object-fit:contain;object-position:center}
+.shelf-caption{position:static;margin-top:12px;background:var(--surface-2);color:var(--text);border-color:var(--line);backdrop-filter:none}
+.shelf-caption span{color:var(--muted)}
+.story-media img{object-fit:contain;object-position:center}
+.family{min-height:0}
+.family-list-disclosure{margin-top:20px;border-top:1px solid var(--line)}
+.family-list-disclosure summary{padding:13px 0;min-height:44px;cursor:pointer;color:var(--accent);font-weight:700}
+.family-list-disclosure summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.family-list-disclosure .family-list{margin-top:6px}
+.app-price{font-size:.8rem}
+.app-tag{display:block}
+.app-row a:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:3px}
+@media(max-width:860px){
+ .app-row{grid-template-columns:48px minmax(0,1fr) auto;gap:6px 12px;align-items:start;padding:20px 0}
+ .app-row>img{grid-column:1;grid-row:1/4;width:44px;height:44px}
+ .app-row>span:first-of-type{grid-column:2/-1;grid-row:1;min-width:0}
+ .app-row .app-tag{display:block;grid-column:2/-1;grid-row:2;font-size:.93rem;line-height:1.45;color:var(--text)}
+ .app-row .app-platform{grid-column:2/-1;grid-row:3;font-size:.8rem}
+ .app-row .app-price{grid-column:2;grid-row:4;font-size:.78rem;align-self:center;white-space:normal}
+ .app-row .row-action{grid-column:3;grid-row:4;align-self:center;min-height:44px;display:flex;align-items:center}
+ .status-badge{margin-left:5px}
+ .shelf-screen{height:360px}
+ .shelf-caption{padding:11px 13px}
+}
+@media(max-width:430px){
+ .app-row{grid-template-columns:40px minmax(0,1fr) auto;gap:5px 10px}
+ .app-row>img{width:38px;height:38px}
+ .app-row .row-action{font-size:.8rem}
+ .shelf-screen{height:330px}
+}

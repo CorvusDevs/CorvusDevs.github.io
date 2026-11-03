@@ -3,7 +3,7 @@
   "cta": "Obtener detalles"
  },
  "Alien-Crow-For-Safari": {
-  "tagline": "Reddit Safari Extension",
+  "tagline": "Un Reddit más rápido y tranquilo",
   "description": "Más de 100 herramientas para Reddit: temas, herramientas multimedia, mejoras en los comentarios y navegación con teclado. Disponible para Mac, iPhone y iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
@@ -63,6 +63,7 @@
   "description": "Un reproductor de música sin conexión, rápido y bonito, para la música que de verdad es tuya.\n\nSin suscripción. Sin streaming. Sin cuenta. Solo tu biblioteca, tus MP3, AAC, ALAC, FLAC y WAV, sonando justo como quieres.\n\nFunciones\n• Explora por canción, álbum, artista, género, compositor o playlist\n• Busca en toda tu biblioteca al instante\n• Letras sincronizadas y sin sincronizar, con vista en pantalla completa\n• Ecualizador gráfico y paramétrico con cientos de ajustes para audífonos\n• Playlists inteligentes que se mantienen al día solas\n• Reproducción sin silencios, fundido cruzado y nivelación ReplayGain\n• Pantalla de reproducción con color vivo tomado de la portada\n• Minirreproductor que se abre en pantalla completa con un toque\n• Cola con arrastrar para reordenar y deslizar para eliminar\n• Aleatorio (Fisher-Yates real) y repetición (no / todo / una)\n• Temporizador que baja el volumen poco a poco antes de pausar\n• Calificaciones con estrellas y favoritos\n• Portadas de playlist en mosaico de cuatro imágenes\n• Controles en pantalla bloqueada, centro de control y Dynamic Island\n• Compatible con CarPlay\n• AirPlay 2 con selector de dispositivo al momento\n• Control de audífonos y controles Bluetooth\n• Universal: iPhone y iPad\n\nImporta tu música\nAgrega archivos desde la app Archivos, mándalos por AirDrop desde otro dispositivo o cópialos de la computadora con el uso compartido de archivos de Finder. Compartir por Wi-Fi agrega una página de carga privada en tu red local: abre la dirección en cualquier navegador y arrastra carpetas completas. Tus archivos se organizan en la biblioteca y las portadas y etiquetas se leen automáticamente.\n\nPrivacidad\nNo se recopila nada. Sin analíticas, sin telemetría, sin llamadas a la nube. Tu biblioteca se queda en tu dispositivo."
  },
  "CorvusRecall": {
+  "tagline": "Recuerda más, en privado",
   "description": "Tarjetas de estudio privadas con planes de estudio, carga diaria, OCR, importaciones de Anki y CSV y respaldos. Estudia en Mac, iPhone y iPad, con sincronización opcional mediante iCloud."
  },
  "New-Tab-Plus": {
@@ -76,5 +77,9 @@
  "Puzzle-Observatory": {
   "tagline": "Un viaje diario de rompecabezas",
   "description": "Explora 14 juegos de rompecabezas, Daily Signal y Daily Sky, Archive, Guided Expeditions y práctica sin conexión en 19 idiomas. El contenido diario oficial está incluido en la app y se selecciona según la fecha UTC."
+ },
+ "Stow": {
+  "tagline": "Comprime y extrae tus archivos",
+  "description": "Explora y protege archivos comprimidos en Mac. Comprime y extrae archivos desde Archivos en iPhone y iPad, sin subirlos."
  }
 }

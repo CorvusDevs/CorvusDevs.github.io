@@ -3,7 +3,7 @@
   "cta": "Daha Fazla Bilgi"
  },
  "Alien-Crow-For-Safari": {
-  "tagline": "Reddit Safari Extension",
+  "tagline": "Reddit’i daha hızlı ve sakin kullanın",
   "description": "Reddit için 100'den fazla araç: temalar, medya araçları, gelişmiş yorumlar ve klavyeyle gezinme. Mac, iPhone ve iPad için kullanılabilir."
  },
  "Auto-Mute-Tab-For-Safari": {
@@ -67,8 +67,8 @@
   "description": "Çalışma planları, günlük iş yükü, OCR, Anki ve CSV içe aktarma ve yedeklemeler sunan özel çalışma kartları. İsteğe bağlı iCloud eşzamanlamasıyla Mac, iPhone ve iPad'de çalışın."
  },
  "Stow": {
-  "tagline": "Arşivleri çıkarmadan önce inceleyin",
-  "description": "Mac, iPhone ve iPad için gizlilik öncelikli, şifreleme ve arşiv tarama özelliklerine sahip, dosya yüklemeyen bir arşiv aracı."
+  "tagline": "Dosyalarınızı arşivleyin ve arşivden çıkarın",
+  "description": "Mac’te arşivlere göz atın ve onları koruyun. iPhone ve iPad’de Dosyalar uygulamasından dosyaları, internete yüklemeden arşivleyin ve arşivden çıkarın."
  },
  "New-Tab-Plus": {
   "tagline": "Safari'nin yeni sekmesini kendinize göre düzenleyin",

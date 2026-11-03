@@ -3,7 +3,7 @@
   "cta": "Zistiť viac"
  },
  "Alien-Crow-For-Safari": {
-  "tagline": "Nástroje pre Reddit",
+  "tagline": "Zrýchlite a upokojte Reddit",
   "description": "Viac než 100 nástrojov pre Reddit: motívy, mediálne nástroje, vylepšené komentáre a ovládanie klávesnicou. Dostupné pre Mac, iPhone a iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
@@ -63,6 +63,7 @@
   "description": "Rýchly a krásny offline prehrávač hudby pre hudbu, ktorú naozaj vlastníš.\n\nBez predplatného. Bez streamovania. Bez účtu. Len tvoja knižnica, tvoje MP3, AAC, ALAC, FLAC a WAV, prehrávané presne tak, ako chceš.\n\nFunkcie\n• Prechádzaj podľa skladby, albumu, interpreta, žánru, skladateľa alebo playlistu\n• Prehľadaj celú knižnicu okamžite\n• Synchronizované aj bežné texty piesní, so zobrazením na celú obrazovku\n• Grafický a parametrický ekvalizér so stovkami predvolieb pre slúchadlá\n• Inteligentné playlisty, ktoré sa samy udržiavajú aktuálne\n• Prehrávanie bez medzier, prelínanie a vyrovnanie hlasitosti ReplayGain\n• Obrazovka prehrávania so živými farbami prevzatými z obalu\n• Mini prehrávač, ktorý sa jedným ťuknutím otvorí na celú obrazovku\n• Poradie s potiahnutím na zmenu poradia a prejdením na vymazanie\n• Náhodne (skutočný Fisher-Yates) a opakovanie (vypnuté / všetko / jedna)\n• Časovač vypnutia, ktorý zvuk jemne stlmí, než prehrávanie pozastaví\n• Hodnotenie hviezdičkami a obľúbené\n• Obaly playlistov ako mozaika zo štyroch obrázkov\n• Ovládanie zo zamknutej obrazovky, ovládacieho centra a Dynamic Islandu\n• Podpora CarPlay\n• AirPlay 2 s okamžitým výberom zariadenia\n• Diaľkové ovládanie na slúchadlách a ovládanie cez Bluetooth\n• Univerzálna: iPhone a iPad\n\nImportuj svoju hudbu\nVlož súbory cez aplikáciu Súbory, pošli ich cez AirDrop z iného zariadenia alebo ich skopíruj z počítača pomocou zdieľania súborov vo Finderi. Zdieľanie cez Wi-Fi pridá súkromnú stránku na nahrávanie v tvojej miestnej sieti: otvor adresu v ľubovoľnom prehliadači a presuň celé priečinky. Súbory sa zaradia do knižnice a vložené obaly a značky sa načítajú automaticky.\n\nSúkromie\nNezbiera sa nič. Žiadna analytika, žiadna telemetria, žiadne volania do cloudu. Tvoja knižnica zostáva v tvojom zariadení."
  },
  "CorvusRecall": {
+  "tagline": "Zapamätajte si viac v súkromí",
   "description": "Súkromné učebné kartičky so študijnými plánmi, dennou záťažou, OCR, importom Anki a CSV a zálohami. Učte sa na Macu, iPhone a iPade s voliteľnou synchronizáciou cez iCloud."
  },
  "New-Tab-Plus": {
@@ -76,5 +77,9 @@
  "Puzzle-Observatory": {
   "tagline": "Každodenná cesta za hlavolamami",
   "description": "Objavte 14 logických hier, Daily Signal a Daily Sky, Archive, Guided Expeditions a precvičovanie offline v 19 jazykoch. Oficiálny denný obsah je súčasťou aplikácie a vyberá sa podľa dátumu UTC."
+ },
+ "Stow": {
+  "tagline": "Zbaľte a rozbaľte svoje súbory",
+  "description": "Prehliadajte a chráňte archívy na Macu. Na zariadeniach iPhone a iPad zbaľte a rozbaľte súbory z aplikácie Súbory bez ich nahrávania."
  }
 }

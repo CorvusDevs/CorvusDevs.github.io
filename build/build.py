@@ -38,7 +38,32 @@ def rendered_apps(locale, data):
 def build():
     data = json.loads((ROOT / 'apps.json').read_text())
     configs = json.loads((ROOT / 'build/ui.json').read_text())
+    improvements = json.loads((ROOT / 'build/improvement-ui.json').read_text())
     for locale, ui in configs.items():
+        ui = dict(ui)
+        extra = improvements[locale]
+        ui['families'] = dict(ui['families'])
+        ui['families']['media-play'] = [extra['mediaTitle'], extra['mediaDescription']]
+        ui['families']['better-mac'] = [extra['toolsTitle'], extra['toolsDescription']]
+        shell = (ROOT / 'build/templates' / f'{locale}.html').read_text()
+        # The searchable catalog is the first destination after the hero.
+        sections = re.findall(r'<section\b[^>]*>(?:(?!<section\b).)*?</section>', shell, re.S)
+        catalog_section = next(section for section in sections if '<!-- CATALOG -->' in section)
+        family_section = next(section for section in sections if '<!-- FAMILIES -->' in section)
+        family_section_new = family_section.replace('id="apps"', 'id="families-section"')
+        family_section_new = re.sub(r'<p class="section-intro">.*?</p>', '', family_section_new, count=1, flags=re.S)
+        shell = shell.replace(family_section, family_section_new).replace(catalog_section, '')
+        catalog_section = catalog_section.replace('<section class="section">', '<section class="section" id="apps">', 1)
+        shell = shell.replace('</section>', '</section>\n' + catalog_section, 1)
+        shell = re.sub(r'(<p class="hero-copy">).*?(</p>)', lambda m: m[1] + e(extra['heroIntro']) + m[2], shell, count=1, flags=re.S)
+        story_section = next(section for section in sections if '<!-- STORIES -->' in section)
+        story_new = re.sub(r'(<p class="section-intro">).*?(</p>)', lambda m: m[1] + e(extra['storiesIntro']) + m[2], story_section, count=1, flags=re.S)
+        shell = shell.replace(story_section, story_new)
+        # Keep the caption outside the picture, so it cannot obscure app controls.
+        shell = re.sub(r'(<div class="shelf-screen">)(<img[^>]+>)(<div class="shelf-caption">.*?</div>)(</div>)', lambda m: m[1] + m[2] + m[4] + m[3], shell, count=1, flags=re.S)
+        shell = shell.replace('</head>', '<link rel="stylesheet" href="/catalog-layout.css">\n</head>', 1)
+        one_time = re.search(r'data-filter="one-time"[^>]*>([^<]+)</button>', shell)[1]
+        free = re.search(r'data-filter="free"[^>]*>([^<]+)</button>', shell)[1]
         apps = rendered_apps(locale, data)
         by_slug = {a['slug']: a for a in apps}
         def badge(a):
@@ -47,14 +72,14 @@ def build():
             return f'<a href="{e(a["url"])}"><img src="{e(a["icon"])}" alt="" loading="lazy"><span>{e(a["name"])}</span></a>'
         rows = []
         for a in apps:
-            rows.append(f'<article class="app-row" data-slug="{e(a["slug"])}"><img src="{e(a["icon"])}" alt="" loading="lazy" width="48" height="48"><span><a class="app-name" href="{e(a["url"])}">{e(a["name"])}</a>{badge(a)}</span><span class="app-tag">{e(a["tagline"])}</span><span class="app-platform">{e(" · ".join(a["platforms"]))}</span><span class="app-price">{e(a["price"])}</span><a class="row-action" href="{e(a["store"]["url"] if a.get("appStoreId") else a["url"])}" aria-label="{e(("App Store: " if a.get("appStoreId") else ui["action"] + ": ") + a["name"])}">{e("App Store" if a.get("appStoreId") else ui["action"])}</a></article>')
-        families = ''.join(f'<article class="family"><h3>{e(title)}</h3><p>{e(desc)}</p><ul class="family-list">' + ''.join('<li>' + link(a) + '</li>' for a in apps if a['family'] == key) + '</ul></article>' for key, (title, desc) in ui['families'].items())
+            model = one_time if a.get('appStoreId') else free if a['price'] == 'Free' else extra['trial'] if a['price'] == 'Free trial' else a['price']
+            rows.append(f'<article class="app-row" data-slug="{e(a["slug"])}"><img src="{e(a["icon"])}" alt="" loading="lazy" width="48" height="48"><span><a class="app-name" href="{e(a["url"])}">{e(a["name"])}</a>{badge(a)}</span><span class="app-tag">{e(a["tagline"])}</span><span class="app-platform">{e(" · ".join(a["platforms"]))}</span><span class="app-price">{e(model)}</span><a class="row-action" href="{e(a["store"]["url"] if a.get("appStoreId") else a["url"])}" aria-label="{e(("App Store: " if a.get("appStoreId") else ui["action"] + ": ") + a["name"])}">{e("App Store" if a.get("appStoreId") else ui["action"])}</a></article>')
+        families = ''.join(f'<article class="family"><h3 id="family-{e(key)}">{e(title)}</h3><p>{e(desc)}</p><details class="family-list-disclosure"><summary aria-describedby="family-{e(key)}">{e(extra["browseApps"])}</summary><ul class="family-list">' + ''.join('<li>' + link(a) + '</li>' for a in apps if a['family'] == key) + '</ul></details></article>' for key, (title, desc) in ui['families'].items())
         featured = [by_slug[s] for s in ['CorvusRecall', 'Stow', 'Corvus-Music-Player', 'Corvus-Player', 'Night-Crow-For-Safari', 'CorvusArcade']]
         icons = ''.join(f'<button aria-label="{e(a["name"])}" aria-pressed="{str(i == 0).lower()}" data-i="{i}"><img src="{e(a["icon"])}" alt="" width="44" height="44"></button>' for i, a in enumerate(featured))
         stories = ''.join(f'<article class="story"><div class="story-media"><img src="{e(a["screenshot"])}" alt="{e(a["name"])}" loading="lazy"></div><div class="story-copy"><span class="section-kicker">{e(" + ".join(a["platforms"]))}</span><h3>{e(a["name"])}</h3><p>{e(a["description"])}</p><a href="{e(a["url"])}">{e(ui["explore"].replace("${a.name}", a["name"]))}</a></div></article>' for a in (by_slug[s] for s in ['CorvusRecall', 'Stow', 'Corvus-Music-Player']))
         recent = sorted((a for a in apps if a.get('appStoreId')), key=lambda a: a['releaseDate'], reverse=True)[:5]
         activity = ''.join(f'<a class="activity-card" href="{e(a["url"])}">{badge(a)}<img src="{e(a["icon"])}" alt="" width="64" height="64" loading="lazy"><strong>{e(a["name"])}</strong><span>{e(a["tagline"])}</span><span>v{e(a["version"])} · <time datetime="{e(a["releaseDate"])}">{e(a["releaseDate"][:10])}</time></span></a>' for a in recent)
-        shell = (ROOT / 'build/templates' / f'{locale}.html').read_text()
         shell = shell.replace('--accent:#1674d1', '--accent:#1266ba')
         language = re.search(r'<span class="lang-current">([^<]+)</span>', shell)
         if language:

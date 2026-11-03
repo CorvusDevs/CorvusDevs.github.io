@@ -3,7 +3,7 @@
   "cta": "Lagi"
  },
  "Alien-Crow-For-Safari": {
-  "tagline": "Alat Kuasa untuk Reddit",
+  "tagline": "Jadikan Reddit lebih pantas dan tenang",
   "description": "Lebih 100 alat untuk Reddit: tema, alat media, penambahbaikan komen dan navigasi papan kekunci. Tersedia untuk Mac, iPhone dan iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
@@ -63,6 +63,7 @@
   "description": "Pemain muzik luar talian yang pantas dan cantik untuk muzik yang benar-benar anda miliki.\n\nTiada langganan. Tiada penstriman. Tiada akaun. Hanya pustaka anda, fail MP3, AAC, ALAC, FLAC dan WAV anda, dimainkan tepat seperti yang anda mahu.\n\nCiri\n• Layari mengikut lagu, album, artis, genre, komposer atau senarai main\n• Cari seluruh pustaka anda serta-merta\n• Lirik disegerakkan dan biasa, dengan paparan skrin penuh\n• Penyama grafik dan parametrik dengan ratusan pratetap fon kepala\n• Senarai main pintar yang mengemas kini dirinya sendiri\n• Main tanpa jeda, resap silang dan pelarasan kelantangan ReplayGain\n• Skrin main dengan warna terang yang diambil daripada kulit album\n• Pemain mini yang terbuka ke skrin penuh dengan satu ketikan\n• Baris gilir dengan seret untuk susun semula dan leret untuk padam\n• Rawak (Fisher-Yates sebenar) dan ulang (mati / semua / satu)\n• Pemasa tidur yang meredup perlahan sebelum menjeda\n• Penilaian bintang dan kegemaran\n• Kulit senarai main sebagai mozek empat imej\n• Kawalan pada skrin kunci, pusat kawalan dan Dynamic Island\n• Sokongan CarPlay\n• AirPlay 2 dengan pemilih peranti serta-merta\n• Kawalan jauh fon kepala dan kawalan Bluetooth\n• Universal: iPhone dan iPad\n\nImport muzik anda\nMasukkan fail melalui app Files, hantar melalui AirDrop dari peranti lain, atau salin dari komputer anda menggunakan perkongsian fail Finder. Perkongsian Wi-Fi menambah halaman muat naik peribadi pada rangkaian tempatan anda: buka alamat dalam mana-mana pelayar dan seret keseluruhan folder. Fail anda disusun ke dalam pustaka, kulit album dan tag terbenam dibaca secara automatik.\n\nPrivasi\nTiada apa-apa dikumpulkan. Tiada analitik, tiada telemetri, tiada panggilan awan. Pustaka anda kekal pada peranti anda."
  },
  "CorvusRecall": {
+  "tagline": "Ingat lebih banyak dengan privasi terpelihara",
   "description": "Kad imbas peribadi dengan rancangan belajar, beban harian, OCR, import Anki dan CSV serta sandaran. Belajar pada Mac, iPhone dan iPad, dengan penyegerakan iCloud pilihan."
  },
  "New-Tab-Plus": {
@@ -76,5 +77,9 @@
  "Puzzle-Observatory": {
   "tagline": "Pengembaraan teka-teki harian",
   "description": "Terokai 14 permainan teka-teki, Daily Signal dan Daily Sky, Archive, Guided Expeditions serta latihan luar talian dalam 19 bahasa. Kandungan harian rasmi disertakan dalam aplikasi dan dipilih berdasarkan tarikh UTC."
+ },
+ "Stow": {
+  "tagline": "Mampatkan dan ekstrak fail anda",
+  "description": "Semak imbas dan lindungi arkib pada Mac. Mampatkan dan ekstrak fail daripada app Fail pada iPhone dan iPad tanpa memuat naiknya."
  }
 }

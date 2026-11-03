@@ -10,7 +10,7 @@ Independent apps for the Apple devices you already own.
 
 </div>
 
-## Media and play
+## Study, media and play
 
 | App | What it does | Devices |
 | --- | --- | --- |
@@ -35,7 +35,7 @@ Independent apps for the Apple devices you already own.
 | [New Tab Plus](https://corvusdevs.github.io/New-Tab-Plus/) | Customizes Safari's new tab with widgets, backgrounds, and shortcuts | Mac |
 | [Sidestep](https://corvusdevs.github.io/Sidestep/) | Serves common web libraries locally to reduce tracking | Mac, iPhone, iPad |
 
-## Better Mac
+## Everyday tools
 
 | App | What it does |
 | --- | --- |
@@ -43,7 +43,7 @@ Independent apps for the Apple devices you already own.
 | [Ekual](https://corvusdevs.github.io/Ekual/) | Balances loudness across apps in real time |
 | [Tekla](https://corvusdevs.github.io/Tekla/) | Adds a swipe-to-type virtual keyboard |
 | [Mouse Scroll Plus](https://corvusdevs.github.io/Mouse-Scroll-Plus/) | Improves scrolling and mouse accessibility |
-| [Stow](https://corvusdevs.github.io/Stow/) | Packs, browses, encrypts, and safely extracts archives on Mac, iPhone, and iPad |
+| [Stow](https://corvusdevs.github.io/Stow/) | Provides a Mac archive workstation and a Files pack/unpack companion for iPhone and iPad |
 
 ## How we build
 
