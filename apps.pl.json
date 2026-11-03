@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Ponad 100 narzędzi do Reddita: motywy, narzędzia multimedialne, ulepszone komentarze i nawigacja klawiaturą. Dostępne na Maca, iPhone'a i iPada."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Wyciszanie zakładek Safari",
-  "description": "Automatycznie ucisza karty w tle, aby dźwięk odtwarzał się tylko na aktywnej karcie. Obsługuje PiP, skróty klawiaturowe oraz białą listę domen."
+  "description": "Wyciszaj karty Safari w tle na Macu, iPhonie i iPadzie. Obraz w obrazie, skróty klawiszowe i sterowanie między oknami to funkcje Maca; na urządzeniach mobilnych działanie podlega ograniczeniom Safari w tle."
  },
  "Corvus-Player": {
   "tagline": "Odtwarzacz odtwarzania macOS",
@@ -43,12 +43,12 @@
   "description": "Mądra, natywna ciemna tryb dla każdej strony w Safari. Dynamiczne mapowanie kolorów zachowuje prawdziwość zdjęć i czytelność tekstu. Działa na macOS, iOS i iPadOS."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Rozszerzenie Twitch",
-  "description": "Emotki BTTV, FFZ i 7TV oraz ponad 50 funkcji, w tym automatyczne odbieranie nagród, dzielenie czatu, odtwarzanie w oknie w oknie, anonimowe oglądanie i wiele innych."
+  "tagline": "Lepszy Twitch i Kick w Safari",
+  "description": "Ponad 70 funkcji dla Twitcha i Kicka, w tym emotki BTTV, FFZ i 7TV, narzędzia czatu i obraz w obrazie."
  },
  "Red-Crow-For-Safari": {
   "tagline": "Rozszerzenie YouTube Safari",
-  "description": "Kontrola prędkości, SponsorBlock, filtry wideo i ponad 40 funkcji dla YouTube. Wtyczka Safari dla iPhone'a i iPad-a. macOS wkrótce."
+  "description": "Sterowanie odtwarzaniem, SponsorBlock, filtry i konfigurowalne ustawienia YouTube'a. Dostępne na Maca, iPhone'a i iPada."
  },
  "Tekla": {
   "tagline": "Wirtualna klawiatura macOS",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "Biblioteki www lokalnie",
-  "description": "Strony pobierają swoje własne fragmenty z sieci śledzących. Sidestep trzyma te fragmenty na Twoim urządzeniu, więc te sieci nigdy Cię nie śledzą."
+  "description": "Udostępnia lokalnie 224 popularne biblioteki internetowe z 33 obsługiwanych sieci, aby ograniczyć żądania do podmiotów trzecich. Dostępne na Maca, iPhone'a i iPada."
  },
  "Corvus-Music-Player": {
   "tagline": "Twoja muzyka, offline",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "Zapamiętuj więcej, zachowując prywatność",
-  "description": "Buduj trwałą wiedzę dzięki przejrzystym powtórkom rozłożonym w czasie, przechwytywaniu na urządzeniu, praktycznemu importowi i starannym kopiom zapasowym. Bez konta, reklam i subskrypcji."
+  "description": "Prywatne fiszki z planami nauki, dziennym obciążeniem, OCR, importem Anki i CSV oraz kopiami zapasowymi. Ucz się na Macu, iPhonie i iPadzie z opcjonalną synchronizacją iCloud."
  },
  "Stow": {
   "tagline": "Przejrzyj archiwum przed rozpakowaniem",
   "description": "Narzędzie do archiwów dla Maca, iPhone’a i iPada, które chroni prywatność, oferuje szyfrowanie i przeglądanie archiwów oraz nie przesyła plików."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Dostosuj nową kartę Safari do siebie",
+  "description": "Personalizuj stronę nowej karty Safari za pomocą teł, widżetów i skrótów. Dostępne na Maca z macOS 13 lub nowszym."
+ },
+ "Playhead": {
+  "tagline": "Sprawdzaj swoje pliki multimedialne",
+  "description": "Sprawdzaj pliki wideo, audio i napisów na Macu, iPhonie i iPadzie."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "Codzienna podróż z łamigłówkami",
+  "description": "Odkryj 14 gier logicznych, Daily Signal i Daily Sky, Archive, Guided Expeditions oraz ćwiczenia offline w 19 językach. Oficjalna zawartość na każdy dzień jest dołączona do aplikacji i wybierana według daty UTC."
  }
 }

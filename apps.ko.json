@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Reddit을 위한 100가지 이상의 도구: 테마, 미디어 도구, 향상된 댓글 기능, 키보드 탐색. Mac, iPhone, iPad에서 사용할 수 있습니다."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "탭 음소거",
-  "description": "백그라운드 탭을 자동으로 무음 처리하여, 현재 선택된 탭에서만 오디오가 재생됩니다. PiP, 키보드 단축키, 도메인 화이트리스트 기능을 지원합니다."
+  "description": "Mac, iPhone, iPad에서 백그라운드 Safari 탭을 조용하게 유지하세요. 화면 속 화면, 키보드 단축키, 윈도우 간 제어는 Mac 기능이며, 모바일 기기에서는 Safari의 백그라운드 제한이 적용됩니다."
  },
  "Corvus-Player": {
   "tagline": "미디어 플레이어",
@@ -43,12 +43,12 @@
   "description": "Safari 의 모든 웹사이트에 적용되는 지능형 네이티브 다크 모드입니다. 동적 색상 매핑은 사진의 원래 색상을 유지하고 텍스트 가 읽기 쉽게 만듭니다. macOS, iOS, iPadOS 에서 작동합니다."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Twitch 확장",
-  "description": "BTTV, FFZ, 7TV 이모트 + 50개 이상 기능. 자동 수집, 분할 채팅, PiP 등."
+  "tagline": "Safari에서 더 나은 Twitch와 Kick 경험",
+  "description": "BTTV, FFZ, 7TV 이모트, 채팅 도구, 화면 속 화면을 포함한 Twitch와 Kick용 70가지 이상의 기능."
  },
  "Red-Crow-For-Safari": {
   "tagline": "Safari용 YouTube 확장 프로그램",
-  "description": "Red Crow for Safari 는 YouTube 를 위한 속도 조절, SponsorBlock, 비디오 필터 및 40 개 이상의 기능을 제공합니다. iPhone 과 iPad 에는 네이티브 Safari 확장 프로그램이 있으며, macOS 는 곧 출시됩니다."
+  "description": "YouTube용 재생 제어, SponsorBlock, 필터, 사용자화 가능한 설정. Mac, iPhone, iPad에서 사용할 수 있습니다."
  },
  "Tekla": {
   "tagline": "가상 키보드",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "웹 라이브러리를 기기에서",
-  "description": "웹사이트는 자기 부품을 추적 네트워크에서 조용히 가져옵니다. Sidestep은 그 부품을 기기에 두므로 네트워크에 연결하지 않고, 네트워크는 사용자를 추적할 수 없습니다."
+  "description": "지원되는 33개 네트워크의 일반적인 웹 라이브러리 224개를 로컬로 제공하여 제3자 요청을 줄입니다. Mac, iPhone, iPad에서 사용할 수 있습니다."
  },
  "Corvus-Music-Player": {
   "tagline": "내 음악을, 오프라인으로",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "더 많이 기억하고, 개인정보는 지키세요",
-  "description": "명확한 간격 반복, 기기 내 캡처, 실용적인 가져오기와 안전한 백업으로 오래가는 지식을 쌓으세요. 계정, 광고 또는 구독이 필요 없습니다."
+  "description": "학습 계획, 일일 학습량, OCR, Anki 및 CSV 가져오기, 백업을 갖춘 개인 플래시카드. Mac, iPhone, iPad에서 학습하고 선택적으로 iCloud 동기화를 사용하세요."
  },
  "Stow": {
   "tagline": "압축을 풀기 전에 아카이브 살펴보기",
   "description": "암호화와 아카이브 탐색을 제공하며 파일을 업로드하지 않는 Mac, iPhone 및 iPad용 개인정보 보호 중심 아카이브 도구입니다."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Safari의 새 탭을 나답게 꾸미세요",
+  "description": "배경, 위젯, 바로가기로 Safari의 새 탭 페이지를 사용자화하세요. macOS 13 이상을 실행하는 Mac에서 사용할 수 있습니다."
+ },
+ "Playhead": {
+  "tagline": "미디어 파일을 자세히 확인하세요",
+  "description": "Mac, iPhone, iPad에서 비디오, 오디오, 자막 파일을 자세히 확인하세요."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "매일 떠나는 퍼즐 여행",
+  "description": "14가지 퍼즐 게임, Daily Signal과 Daily Sky, Archive, Guided Expeditions, 오프라인 연습을 19개 언어로 즐기세요. 공식 일일 콘텐츠는 앱에 포함되어 있으며 UTC 날짜를 기준으로 선택됩니다."
  }
 }

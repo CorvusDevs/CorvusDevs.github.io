@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Plus de 100 outils pour Reddit : thèmes, outils multimédias, améliorations des commentaires et navigation au clavier. Disponible sur Mac, iPhone et iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Silenceur d’Onglets",
-  "description": "Auto Mute Tab pour Safari mute automatiquement les onglets en arrière-plan, ne laissant jouer l'audio que dans l'onglet actif. Il propose la lecture en fenêtre flottante, des raccourcis clavier et une liste blanche de domaines."
+  "description": "Gardez les onglets Safari en arrière-plan silencieux sur Mac, iPhone et iPad. L'image dans l'image, les raccourcis clavier et le contrôle entre fenêtres sont réservés au Mac ; sur mobile, le comportement dépend des limites de Safari en arrière-plan."
  },
  "Corvus-Player": {
   "tagline": "Lecteur Multimédia",
@@ -43,12 +43,12 @@
   "description": "Un mode sombre natif intelligent pour tous les sites web dans Safari. Le remappage dynamique des couleurs conserve la fidélité des photos et la lisibilité du texte. Fonctionne sur macOS, iOS et iPadOS."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Extension Twitch",
-  "description": "Emotes BTTV, FFZ et 7TV plus 50+ fonctionnalités. Auto-claim, split chat, PiP, mode anonyme."
+  "tagline": "Une meilleure expérience Twitch et Kick dans Safari",
+  "description": "Plus de 70 fonctionnalités pour Twitch et Kick, dont les emotes BTTV, FFZ et 7TV, des outils de chat et l'image dans l'image."
  },
  "Red-Crow-For-Safari": {
   "tagline": "Extension YouTube pour Safari",
-  "description": "Contrôle de la vitesse, SponsorBlock, filtres vidéo et plus de 40 fonctionnalités pour YouTube. Extension Safari native pour iPhone et iPad. macOS bientôt disponible."
+  "description": "Commandes de lecture, SponsorBlock, filtres et réglages personnalisables pour YouTube. Disponible sur Mac, iPhone et iPad."
  },
  "Tekla": {
   "tagline": "Clavier Virtuel macOS",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "Bibliothèques web en local",
-  "description": "Les sites web récupèrent des morceaux d'eux-mêmes chez des réseaux de pistage. Sidestep garde ces morceaux sur votre appareil, les réseaux ne vous pistent jamais."
+  "description": "Fournit localement 224 bibliothèques web courantes de 33 réseaux pris en charge pour réduire les requêtes à des tiers. Disponible sur Mac, iPhone et iPad."
  },
  "Corvus-Music-Player": {
   "tagline": "Votre musique, hors ligne",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "Retenez davantage, en privé",
-  "description": "Construisez des connaissances durables grâce à une répétition espacée claire, la capture sur l’appareil, des imports pratiques et des sauvegardes soignées. Sans compte, publicité ni abonnement."
+  "description": "Des fiches de révision privées avec plans d'étude, charge quotidienne, OCR, importations Anki et CSV et sauvegardes. Étudiez sur Mac, iPhone et iPad, avec synchronisation iCloud facultative."
  },
  "Stow": {
   "tagline": "Explorez les archives avant de les extraire",
   "description": "Un utilitaire d’archivage respectueux de la vie privée pour Mac, iPhone et iPad, avec chiffrement, exploration des archives et aucun envoi de fichier."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Personnalisez le nouvel onglet de Safari",
+  "description": "Personnalisez la page de nouvel onglet de Safari avec des fonds, des widgets et des raccourcis. Disponible sur Mac avec macOS 13 ou version ultérieure."
+ },
+ "Playhead": {
+  "tagline": "Inspectez vos fichiers multimédias",
+  "description": "Inspectez des fichiers vidéo, audio et de sous-titres sur Mac, iPhone et iPad."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "Un voyage quotidien au fil des énigmes",
+  "description": "Explorez 14 jeux de réflexion, Daily Signal et Daily Sky, Archive, Guided Expeditions et l'entraînement hors ligne en 19 langues. Le contenu quotidien officiel est inclus dans l'app et sélectionné selon la date UTC."
  }
 }

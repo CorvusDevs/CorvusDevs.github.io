@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Power Tools",
-  "description": "Töltse le az Alien Crow-t, hogy felgyorsítsa a régi és a modern Redditot 90+ eszközzel: sötét mód, 20+ téma, hirdetés- és zaklatásblokkolás, komment-fejlesztések, médiaeszközök és billentyűzetes navigáció. A macOS, iOS és iPadOS támogatja."
+  "description": "Több mint 100 eszköz a Reddithez: témák, médiaeszközök, továbbfejlesztett hozzászólások és billentyűzetes navigáció. Macen, iPhone-on és iPaden érhető el."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Safari fülszórást gátló",
-  "description": "Automatikusan némíti a háttérben lévő füleket, így csak a fókuszált fül adja vissza a hangot. Támogatja a PiP-t, a billentyűzati gyorsparancsokat és a tartományok fehérlistáját."
+  "description": "Némítsa el a Safari háttérben lévő lapjait Macen, iPhone-on és iPaden. A kép a képben, a billentyűparancsok és az ablakok közötti vezérlés Mac-funkciók; mobileszközökön a Safari háttérkorlátai érvényesek."
  },
  "Corvus-Player": {
   "tagline": "macOS lejátszó",
@@ -43,12 +43,12 @@
   "description": "Okos, natív sötét mód minden weboldalhoz a Safari-ben. A dinamikus színátrendezés megőrzi a fényképek hitelességét és olvashatóságot a szövegnek. Működik macOS, iOS és iPadOS rendszeren."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Twitch bővítmény",
-  "description": "A Purple Crow for Safari egy chatbővítmény, amely a BTTV, FFZ és 7TV emóciókat, valamint 50+ funkciót kínál. A funkciók közé tartozik a automatikus igénylés, a chat felosztása, a képernyőn belüli képernyő (PiP), az anonim megtekintés és sok más."
+  "tagline": "Jobb Twitch- és Kick-élmény Safariban",
+  "description": "Több mint 70 funkció a Twitchhez és a Kickhez, köztük BTTV-, FFZ- és 7TV-emote-ok, csevegőeszközök és kép a képben."
  },
  "Red-Crow-For-Safari": {
   "tagline": "YouTube Safari bővítmény",
-  "description": "A Red Crow for Safari egy YouTube-bővítmény sebességvezérléssel, SponsorBlock-szal, videószűrőkkel és 40+ funkcióval. Natív Safari bővítmény iPhone-ra és iPad-re, macOS hamarosan érhető lesz."
+  "description": "Lejátszásvezérlés, SponsorBlock, szűrők és testreszabható beállítások a YouTube-hoz. Macen, iPhone-on és iPaden érhető el."
  },
  "Tekla": {
   "tagline": "macOS Virtuális billentyűzet",
@@ -56,10 +56,25 @@
  },
  "Sidestep": {
   "tagline": "Webes könyvtárak helyben",
-  "description": "A webhelyek saját darabjaikat töltik le követő hálózatokról. A Sidestep ezeket a készülékén tartja, így a hálózatok sosem kapnak megkeresést és nem követik Önt."
+  "description": "224 gyakori webes könyvtárat szolgál ki helyben 33 támogatott hálózatról, csökkentve a harmadik felekhez küldött kéréseket. Macen, iPhone-on és iPaden érhető el."
  },
  "Corvus-Music-Player": {
   "tagline": "A zenéd, offline",
   "description": "Gyors és szép offline zenelejátszó ahhoz a zenéhez, ami tényleg a tiéd.\n\nNincs előfizetés. Nincs streaming. Nincs fiók. Csak a saját gyűjteményed, a te MP3, AAC, ALAC, FLAC és WAV fájljaid, pontosan úgy lejátszva, ahogy szeretnéd.\n\nFunkciók\n• Böngéssz szám, album, előadó, műfaj, zeneszerző vagy lejátszólista szerint\n• Keress a teljes gyűjteményben azonnal\n• Szinkronizált és egyszerű dalszövegek, teljes képernyős nézettel\n• Grafikus és parametrikus hangszínszabályzó több száz fülhallgató-beállítással\n• Okos lejátszólisták, amelyek maguktól frissülnek\n• Szünet nélküli lejátszás, átúsztatás és ReplayGain hangerőkiegyenlítés\n• Lejátszási képernyő élénk színekkel, a borítóból véve\n• Minilejátszó, amely egy koppintással teljes képernyőre nyílik\n• Sor húzással átrendezhető és elhúzással törölhető\n• Véletlenszerű (igazi Fisher-Yates) és ismétlés (ki / összes / egy)\n• Elalvásidőzítő, amely lágyan elhalkul, mielőtt szüneteltet\n• Csillagos értékelés és kedvencek\n• Lejátszólista-borítók négy képből álló mozaikként\n• Vezérlés a zárolt képernyőről, a vezérlőközpontból és a Dynamic Islandről\n• CarPlay támogatás\n• AirPlay 2 azonnali eszközválasztóval\n• Fülhallgató-távirányító és Bluetooth-vezérlés\n• Univerzális: iPhone és iPad\n\nImportáld a zenédet\nTegyél be fájlokat a Fájlok appal, küldd át őket AirDroppal egy másik eszközről, vagy másold át a számítógépről a Finder fájlmegosztásával. A Wi-Fi-megosztás egy privát feltöltési oldalt ad a helyi hálózatodon: nyisd meg a címet bármelyik böngészőben, és húzz be egész mappákat. A fájlok bekerülnek a gyűjteménybe, a beágyazott borítók és címkék automatikusan beolvasódnak.\n\nAdatvédelem\nSemmit nem gyűjtünk. Nincs analitika, nincs telemetria, nincs felhőhívás. A gyűjteményed az eszközödön marad."
+ },
+ "CorvusRecall": {
+  "description": "Privát tanulókártyák tanulási tervekkel, napi terheléssel, OCR-rel, Anki- és CSV-importtal, valamint biztonsági mentésekkel. Tanuljon Macen, iPhone-on és iPaden, igény szerint iCloud-szinkronizálással."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Szabja személyre a Safari új lapját",
+  "description": "Tegye egyedivé a Safari új lapjának oldalát hátterekkel, widgetekkel és parancsikonokkal. macOS 13 vagy újabb rendszert futtató Macen érhető el."
+ },
+ "Playhead": {
+  "tagline": "Vizsgálja meg médiafájljait",
+  "description": "Vizsgáljon meg videó-, hang- és feliratfájlokat Macen, iPhone-on és iPaden."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "Mindennapi kaland a fejtörők világában",
+  "description": "Fedezzen fel 14 logikai játékot, a Daily Signal és Daily Sky funkciókat, az Archive-ot, a Guided Expeditions lehetőséget és az offline gyakorlást 19 nyelven. A hivatalos napi tartalmat az alkalmazás tartalmazza, és az UTC-dátum szerint választja ki."
  }
 }

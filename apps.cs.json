@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Nástroje pro Reddit",
-  "description": "Supercharger pro staré i moderní Reddit s více než 90 nástroji: tmavý režim a 20+ motivů, blokování reklam a výzr, vylepšení komentářů, nástroje pro média a ovládání klávesnicí. Funguje na macOS, iOS a iPadOS."
+  "description": "Více než 100 nástrojů pro Reddit: motivy, nástroje pro média, vylepšené komentáře a ovládání klávesnicí. Dostupné pro Mac, iPhone a iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Ztlumení karet v Safari",
-  "description": "Automatické ztlumení pozadí záložek, takže se zvuk přehrává pouze ve zaměřené záložce. Podpora PiP, zkratky na klávesnici a seznam povolených domén."
+  "description": "Ztište panely Safari na pozadí na Macu, iPhonu a iPadu. Obraz v obraze, klávesové zkratky a ovládání napříč okny jsou funkce Macu; na mobilních zařízeních se chování řídí omezeními Safari na pozadí."
  },
  "Corvus-Player": {
   "tagline": "Hráč pro macOS",
@@ -43,12 +43,12 @@
   "description": "Chytrý, nativní tmavý režim pro každou webovou stránku ve Safari. Dynamické přemapování barev zachovává správné barvy fotografií a zajišťuje čitelnost textu. Funguje na macOS, iOS a iPadOS."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Rozšíření pro Twitch",
-  "description": "Purple Crow pro Safari nabízí emodíky z BTTV, FFZ a 7TV spolu s více než 50 funkcemi. Mezi ně patří automatické získávání, rozdělování chatu, přehrávání v okně v okně, anonymní prohlížení a další."
+  "tagline": "Lepší Twitch a Kick v Safari",
+  "description": "Více než 70 funkcí pro Twitch a Kick včetně emotikonů BTTV, FFZ a 7TV, nástrojů chatu a obrazu v obraze."
  },
  "Red-Crow-For-Safari": {
   "tagline": "Rozšíření pro YouTube pro Safari",
-  "description": "Rychlost přehrávání, SponsorBlock, filtry videa a 40+ funkcí pro YouTube. Nativní rozšíření Safari pro iPhone a iPad. macOS brzy."
+  "description": "Ovládání přehrávání, SponsorBlock, filtry a přizpůsobitelná nastavení pro YouTube. Dostupné pro Mac, iPhone a iPad."
  },
  "Tekla": {
   "tagline": "Virtuální klávesnice macOS",
@@ -56,10 +56,25 @@
  },
  "Sidestep": {
   "tagline": "Webové knihovny lokálně",
-  "description": "Weby si stahují své vlastní části ze sledovacích sítí. Sidestep drží tyto části na tvém zařízení, takže sítě nikdo neosloví a nikdy tě nesledují."
+  "description": "Poskytuje místně 224 běžných webových knihoven z 33 podporovaných sítí a omezuje tak požadavky na třetí strany. Dostupné pro Mac, iPhone a iPad."
  },
  "Corvus-Music-Player": {
   "tagline": "Tvoje hudba, offline",
   "description": "Rychlý a krásný offline přehrávač hudby pro hudbu, kterou opravdu vlastníš.\n\nBez předplatného. Bez streamování. Bez účtu. Jen tvoje knihovna, tvoje MP3, AAC, ALAC, FLAC a WAV, přehrávané přesně tak, jak chceš.\n\nFunkce\n• Procházej podle skladby, alba, interpreta, žánru, skladatele nebo playlistu\n• Prohledej celou knihovnu okamžitě\n• Synchronizované i běžné texty písní, se zobrazením na celou obrazovku\n• Grafický a parametrický ekvalizér se stovkami předvoleb pro sluchátka\n• Chytré playlisty, které se samy udržují aktuální\n• Přehrávání bez mezer, prolínání a vyrovnání hlasitosti ReplayGain\n• Obrazovka přehrávání s živými barvami převzatými z obalu\n• Mini přehrávač, který se jedním klepnutím otevře na celou obrazovku\n• Fronta s přetažením pro změnu pořadí a přejetím pro smazání\n• Náhodně (skutečný Fisher-Yates) a opakování (vypnuto / vše / jedna)\n• Časovač vypnutí, který zvuk jemně ztiší, než přehrávání pozastaví\n• Hodnocení hvězdičkami a oblíbené\n• Obaly playlistů jako mozaika ze čtyř obrázků\n• Ovládání ze zamčené obrazovky, ovládacího centra a Dynamic Islandu\n• Podpora CarPlay\n• AirPlay 2 s okamžitým výběrem zařízení\n• Dálkové ovládání na sluchátkách a ovládání přes Bluetooth\n• Univerzální: iPhone a iPad\n\nNaimportuj svou hudbu\nVlož soubory přes aplikaci Soubory, pošli je přes AirDrop z jiného zařízení nebo je zkopíruj z počítače pomocí sdílení souborů ve Finderu. Sdílení přes Wi-Fi přidá soukromou stránku pro nahrávání v tvé místní síti: otevři adresu v libovolném prohlížeči a přetáhni celé složky. Soubory se zařadí do knihovny a vložené obaly a značky se načtou automaticky.\n\nSoukromí\nNesbírá se nic. Žádná analytika, žádná telemetrie, žádná volání do cloudu. Tvoje knihovna zůstává v tvém zařízení."
+ },
+ "CorvusRecall": {
+  "description": "Soukromé výukové kartičky se studijními plány, denní zátěží, OCR, importem Anki a CSV a zálohami. Studujte na Macu, iPhonu a iPadu s volitelnou synchronizací přes iCloud."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Upravte si nový panel Safari podle sebe",
+  "description": "Přizpůsobte stránku nového panelu Safari pomocí pozadí, widgetů a zkratek. Dostupné pro Mac s macOS 13 nebo novějším."
+ },
+ "Playhead": {
+  "tagline": "Prozkoumejte své mediální soubory",
+  "description": "Prozkoumejte video, zvukové a titulkové soubory na Macu, iPhonu a iPadu."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "Každodenní cesta za hlavolamy",
+  "description": "Objevte 14 logických her, Daily Signal a Daily Sky, Archive, Guided Expeditions a procvičování offline v 19 jazycích. Oficiální denní obsah je součástí aplikace a vybírá se podle data UTC."
  }
 }

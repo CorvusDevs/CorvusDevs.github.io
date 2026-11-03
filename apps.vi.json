@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Hơn 100 công cụ cho Reddit: chủ đề, công cụ đa phương tiện, cải tiến bình luận và điều hướng bằng bàn phím. Có trên Mac, iPhone và iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Tắt tab trình duyệt",
-  "description": "Tự động tắt âm thanh các tab nền để chỉ tab đang chọn phát nhạc. Hỗ trợ chếo PiP, phím tắt và danh sách cho phép theo miền."
+  "description": "Giữ các tab Safari chạy nền im lặng trên Mac, iPhone và iPad. Hình trong hình, phím tắt và điều khiển giữa các cửa sổ là tính năng dành cho Mac; trên thiết bị di động, hoạt động tuân theo giới hạn chạy nền của Safari."
  },
  "Corvus-Player": {
   "tagline": "Trình phát macOS",
@@ -43,12 +43,12 @@
   "description": "Chế độ tối thông minh, bản địa dành cho mọi trang web trên Safari. Màu sắc động được ánh xạ lại giúp hình ảnh giữ nguyên và văn bản dễ đọc. Hoạt động trên macOS, iOS và iPadOS."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Tiện ích Twitch",
-  "description": "Hỗ trợ biểu tượng cảm xúc từ BTTV, FFZ và 7TV cùng hơn 50 tính năng, bao gồm tự động yêu cầu, chia sẻ trò chuyện, hiển thị hình ảnh lồng ghép, xem ẩn danh và nhiều tính năng khác."
+  "tagline": "Trải nghiệm Twitch và Kick tốt hơn trong Safari",
+  "description": "Hơn 70 tính năng cho Twitch và Kick, bao gồm biểu cảm BTTV, FFZ và 7TV, công cụ trò chuyện và hình trong hình."
  },
  "Red-Crow-For-Safari": {
   "tagline": "Kéo dài YouTube cho Safari",
-  "description": "Red Crow for Safari cung cấp điều chỉnh tốc độ phát, SponsorBlock, bộ lọc video và hơn 40 tính năng cho YouTube. Tiện ích mở rộng Safari bản địa dành cho iPhone và iPad. macOS sắp ra mắt."
+  "description": "Điều khiển phát, SponsorBlock, bộ lọc và cài đặt tùy chỉnh cho YouTube. Có trên Mac, iPhone và iPad."
  },
  "Tekla": {
   "tagline": "Bàn phím ảo macOS",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "Thư viện web ngay trên máy",
-  "description": "Trang web lặng lẽ tải các mảnh của chính nó từ mạng theo dõi. Sidestep giữ những mảnh đó trên thiết bị của bạn, nên các mạng đó không bao giờ theo dõi bạn."
+  "description": "Cung cấp cục bộ 224 thư viện web phổ biến từ 33 mạng được hỗ trợ để giảm yêu cầu tới bên thứ ba. Có trên Mac, iPhone và iPad."
  },
  "Corvus-Music-Player": {
   "tagline": "Nhạc của bạn, ngoại tuyến",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "Ghi nhớ nhiều hơn, vẫn riêng tư",
-  "description": "Xây dựng kiến thức lâu dài bằng phương pháp lặp lại ngắt quãng rõ ràng, thu thập ngay trên thiết bị, nhập dữ liệu thuận tiện và sao lưu cẩn thận. Không tài khoản, quảng cáo hay đăng ký."
+  "description": "Thẻ ghi nhớ riêng tư với kế hoạch học, khối lượng hằng ngày, OCR, nhập Anki và CSV cùng bản sao lưu. Học trên Mac, iPhone và iPad, với tùy chọn đồng bộ iCloud."
  },
  "Stow": {
   "tagline": "Xem kho lưu trữ trước khi giải nén",
   "description": "Tiện ích lưu trữ ưu tiên quyền riêng tư cho Mac, iPhone và iPad, có mã hóa, duyệt kho lưu trữ và không tải tệp lên mạng."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Tạo dấu ấn riêng cho tab mới của Safari",
+  "description": "Tùy chỉnh trang tab mới của Safari bằng hình nền, tiện ích và lối tắt. Có trên Mac chạy macOS 13 trở lên."
+ },
+ "Playhead": {
+  "tagline": "Kiểm tra các tệp đa phương tiện của bạn",
+  "description": "Kiểm tra tệp video, âm thanh và phụ đề trên Mac, iPhone và iPad."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "Hành trình giải đố mỗi ngày",
+  "description": "Khám phá 14 trò chơi giải đố, Daily Signal và Daily Sky, Archive, Guided Expeditions cùng chế độ luyện tập ngoại tuyến bằng 19 ngôn ngữ. Nội dung hằng ngày chính thức có sẵn trong ứng dụng và được chọn theo ngày UTC."
  }
 }

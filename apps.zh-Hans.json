@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "为 Reddit 提供 100 多种工具：主题、媒体工具、评论增强和键盘导航。适用于 Mac、iPhone 和 iPad。"
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "标签页静音",
-  "description": "自动静音后台标签页，仅播放当前标签页的音频。支持画中画、键盘快捷键及域名白名单。"
+  "description": "让 Mac、iPhone 和 iPad 上的 Safari 后台标签页保持静音。画中画、键盘快捷键和跨窗口控制为 Mac 专属功能；移动设备上的行为受 Safari 后台限制影响。"
  },
  "Corvus-Player": {
   "tagline": "媒体播放器",
@@ -43,12 +43,12 @@
   "description": "一款适用于 Safari 中所有网站的智能原生深色模式。动态色彩重映射确保照片色彩真实且文字清晰可读。支持 macOS、iOS 和 iPadOS。"
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Twitch 扩展",
-  "description": "BTTV、FFZ、7TV 表情加 50+ 功能。自动领取、分屏聊天、画中画等。"
+  "tagline": "在 Safari 中享受更好的 Twitch 和 Kick 体验",
+  "description": "为 Twitch 和 Kick 提供 70 多项功能，包括 BTTV、FFZ 和 7TV 表情、聊天工具和画中画。"
  },
  "Red-Crow-For-Safari": {
   "tagline": "Safari 的 YouTube 扩展",
-  "description": "Red Crow for Safari 是一款 Safari 扩展，支持速度控制、SponsorBlock、视频滤镜以及 40 多项 YouTube 功能。iPhone 和 iPad 拥有原生 Safari 扩展，macOS 版本即将推出。"
+  "description": "为 YouTube 提供播放控制、SponsorBlock、滤镜和可自定义设置。适用于 Mac、iPhone 和 iPad。"
  },
  "Tekla": {
   "tagline": "虚拟键盘",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "网页库，从本机提供",
-  "description": "网站会悄悄从追踪网络取回自己的零件。Sidestep 把这些零件放在你的设备上，那些网络因此从未被联系，也无法追踪你。"
+  "description": "在本地提供 33 个受支持网络中的 224 种常用网页库，减少对第三方的请求。适用于 Mac、iPhone 和 iPad。"
  },
  "Corvus-Music-Player": {
   "tagline": "你的音乐，离线畅听",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "记得更多，保持私密",
-  "description": "通过清晰的间隔重复、设备端采集、便捷导入和可靠备份来建立持久知识。无需账户、无广告、无订阅。"
+  "description": "注重隐私的学习卡片，提供学习计划、每日任务量、OCR、Anki 和 CSV 导入以及备份。在 Mac、iPhone 和 iPad 上学习，并可选择启用 iCloud 同步。"
  },
  "Stow": {
   "tagline": "解压前先浏览归档内容",
   "description": "适用于 Mac、iPhone 和 iPad 的隐私优先归档工具，支持加密和归档浏览，不会上传文件。"
+ },
+ "New-Tab-Plus": {
+  "tagline": "让 Safari 新标签页更有个性",
+  "description": "通过背景、组件和快捷方式自定义 Safari 新标签页。适用于运行 macOS 13 或更高版本的 Mac。"
+ },
+ "Playhead": {
+  "tagline": "检查你的媒体文件",
+  "description": "在 Mac、iPhone 和 iPad 上检查视频、音频和字幕文件。"
+ },
+ "Puzzle-Observatory": {
+  "tagline": "每日解谜之旅",
+  "description": "探索 14 款解谜游戏、Daily Signal 和 Daily Sky、Archive、Guided Expeditions，以及支持 19 种语言的离线练习。官方每日内容已包含在应用中，并根据 UTC 日期选择。"
  }
 }

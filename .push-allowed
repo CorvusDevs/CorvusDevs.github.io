@@ -27,3 +27,10 @@ apps.*.json          # per-locale card copy, added when the site was localized
 language-router.js
 build/index.src.html
 build/build-i18n.py
+build/README.md
+build/build.py
+build/check-catalog.py
+build/sync-products.py
+build/templates/*.html
+build/ui.json
+catalog.js

@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Meer dan 100 hulpmiddelen voor Reddit: thema's, mediahulpmiddelen, verbeterde reacties en toetsenbordnavigatie. Beschikbaar voor Mac, iPhone en iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Safari Tab Demper",
-  "description": "Automatisch de geluiden van achtergrondtabbladen dempen zodat alleen het actieve tabblad audio afspeelt. PiP, snelkoppelingen en een domein-witlijst zijn beschikbaar."
+  "description": "Houd Safari-tabbladen op de achtergrond stil op Mac, iPhone en iPad. Beeld-in-beeld, sneltoetsen en bediening tussen vensters zijn Mac-functies; op mobiele apparaten gelden de achtergrondbeperkingen van Safari."
  },
  "Corvus-Player": {
   "tagline": "Media Player macOS",
@@ -43,12 +43,12 @@
   "description": "Een slimme, inheemse donkere modus voor elke website in Safari. Dynamische kleurhermappening houdt foto's authentiek en tekst leesbaar. Werkt op macOS, iOS en iPadOS."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Twitch-extensie",
-  "description": "BTTV, FFZ en 7TV-emojis plus meer dan 50 functies, waaronder automatisch ophalen, gesplitst chatvenster, afspelen in beeld, anoniem kijken en nog veel meer."
+  "tagline": "Een betere Twitch- en Kick-ervaring in Safari",
+  "description": "Meer dan 70 functies voor Twitch en Kick, waaronder emotes van BTTV, FFZ en 7TV, chathulpmiddelen en beeld-in-beeld."
  },
  "Red-Crow-For-Safari": {
   "tagline": "YouTube Safari-extensie",
-  "description": "Red Crow voor Safari biedt snelheidscontrole, SponsorBlock, videofilters en meer dan 40 functies voor YouTube. De app is een inheemse Safari-extensie voor iPhone en iPad; macOS komt binnenkort."
+  "description": "Afspeelbediening, SponsorBlock, filters en aanpasbare instellingen voor YouTube. Beschikbaar voor Mac, iPhone en iPad."
  },
  "Tekla": {
   "tagline": "MacOS Virtueel Toetsenbord",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "Webbibliotheken, lokaal",
-  "description": "Websites halen stukjes van zichzelf bij trackingnetwerken. Sidestep bewaart die stukjes op uw apparaat, zodat die netwerken nooit worden benaderd en u nooit volgen."
+  "description": "Levert 224 veelgebruikte webbibliotheken van 33 ondersteunde netwerken lokaal om verzoeken aan derden te verminderen. Beschikbaar voor Mac, iPhone en iPad."
  },
  "Corvus-Music-Player": {
   "tagline": "Je muziek, offline",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "Onthoud meer, privé",
-  "description": "Bouw blijvende kennis op met duidelijke gespreide herhaling, vastlegging op het apparaat, praktische imports en zorgvuldige back-ups. Geen account, advertenties of abonnement."
+  "description": "Privéleerkaarten met studieplannen, dagelijkse studielast, OCR, Anki- en CSV-import en reservekopieën. Studeer op Mac, iPhone en iPad, met optionele iCloud-synchronisatie."
  },
  "Stow": {
   "tagline": "Bekijk archieven voordat je ze uitpakt",
   "description": "Een privacyvriendelijk archiefhulpmiddel voor Mac, iPhone en iPad, met versleuteling, archiefweergave en zonder bestandsuploads."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Maak het nieuwe tabblad van Safari persoonlijk",
+  "description": "Pas de nieuw-tabbladpagina van Safari aan met achtergronden, widgets en snelkoppelingen. Beschikbaar voor Mac met macOS 13 of nieuwer."
+ },
+ "Playhead": {
+  "tagline": "Inspecteer je mediabestanden",
+  "description": "Inspecteer video-, audio- en ondertitelbestanden op Mac, iPhone en iPad."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "Een dagelijkse puzzelreis",
+  "description": "Ontdek 14 puzzelspellen, Daily Signal en Daily Sky, Archive, Guided Expeditions en offline oefenen in 19 talen. De officiële dagelijkse inhoud is opgenomen in de app en wordt geselecteerd op basis van de UTC-datum."
  }
 }

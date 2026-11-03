@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Reddit için 100'den fazla araç: temalar, medya araçları, gelişmiş yorumlar ve klavyeyle gezinme. Mac, iPhone ve iPad için kullanılabilir."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Safari Sekmesi Susturma",
-  "description": "Arka plan sekmelerini otomatik olarak susturarak yalnızca odaklanan sekmede ses çalmasını sağlar. Ekran içi görüntü, klavye kısayolları ve alan adı beyaz listesi özellikleri içerir."
+  "description": "Mac, iPhone ve iPad'de arka plandaki Safari sekmelerini sessiz tutun. Resim içinde resim, klavye kestirmeleri ve pencereler arası denetim Mac özellikleridir; mobil cihazlardaki davranış Safari'nin arka plan sınırlarına bağlıdır."
  },
  "Corvus-Player": {
   "tagline": "macOS Medya Oynatıcı",
@@ -43,12 +43,12 @@
   "description": "Safari'deki her web sitesi için akıllı, yerel bir karanlık mod. Dinamik renk yeniden haritalandırma, fotoğrafların doğal kalmasını ve yazının okunabilir olmasını sağlar. macOS, iOS ve iPadOS'te çalışır."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Twitch Uzantısı",
-  "description": "BTTV, FFZ ve 7TV emojileri ile 50'den fazla özellik; otomatik talep, sohbet bölme, resim içinde resim, anonim izleme ve daha fazlası."
+  "tagline": "Safari'de daha iyi bir Twitch ve Kick deneyimi",
+  "description": "BTTV, FFZ ve 7TV ifadeleri, sohbet araçları ve resim içinde resim dahil Twitch ve Kick için 70'ten fazla özellik."
  },
  "Red-Crow-For-Safari": {
   "tagline": "YouTube Safari Uzantısı",
-  "description": "Red Crow for Safari, YouTube için hız kontrolü, SponsorBlock, video filtreleri ve 40+ özellik sunar. iPhone ve iPad için yerel Safari uzantısı; macOS yakında gelecek."
+  "description": "YouTube için oynatma denetimleri, SponsorBlock, filtreler ve özelleştirilebilir ayarlar. Mac, iPhone ve iPad için kullanılabilir."
  },
  "Tekla": {
   "tagline": "macOS Sanal Klavye",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "Web kitaplıkları cihazınızda",
-  "description": "Web siteleri kendi parçalarını takip ağlarından çeker. Sidestep o parçaları cihazınızda tutar, böylece o ağlara hiç ulaşılmaz ve sizi hiç takip edemezler."
+  "description": "Üçüncü taraf isteklerini azaltmak için desteklenen 33 ağdaki 224 yaygın web kitaplığını yerel olarak sunar. Mac, iPhone ve iPad için kullanılabilir."
  },
  "Corvus-Music-Player": {
   "tagline": "Müziğin, çevrimdışı",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "Daha fazlasını gizlice hatırlayın",
-  "description": "Anlaşılır aralıklı tekrar, aygıt üzerinde yakalama, pratik içe aktarma ve özenli yedeklemelerle kalıcı bilgi oluşturun. Hesap, reklam veya abonelik yok."
+  "description": "Çalışma planları, günlük iş yükü, OCR, Anki ve CSV içe aktarma ve yedeklemeler sunan özel çalışma kartları. İsteğe bağlı iCloud eşzamanlamasıyla Mac, iPhone ve iPad'de çalışın."
  },
  "Stow": {
   "tagline": "Arşivleri çıkarmadan önce inceleyin",
   "description": "Mac, iPhone ve iPad için gizlilik öncelikli, şifreleme ve arşiv tarama özelliklerine sahip, dosya yüklemeyen bir arşiv aracı."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Safari'nin yeni sekmesini kendinize göre düzenleyin",
+  "description": "Safari'nin yeni sekme sayfasını arka planlar, araç takımları ve kestirmelerle özelleştirin. macOS 13 veya sonraki bir sürümü çalıştıran Mac'ler için kullanılabilir."
+ },
+ "Playhead": {
+  "tagline": "Medya dosyalarınızı inceleyin",
+  "description": "Mac, iPhone ve iPad'de video, ses ve altyazı dosyalarını inceleyin."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "Günlük bir bulmaca yolculuğu",
+  "description": "14 bulmaca oyununu, Daily Signal ve Daily Sky'ı, Archive'ı, Guided Expeditions'ı ve 19 dilde çevrimdışı alıştırmayı keşfedin. Resmî günlük içerik uygulamaya dahildir ve UTC tarihine göre seçilir."
  }
 }

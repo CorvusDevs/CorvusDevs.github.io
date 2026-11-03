@@ -1,6 +1,6 @@
 {
-  "$schema": "Manifest of CorvusDevs apps. Each project's docs/index.html carousel fetches this and renders all entries except its own (matched on slug). Adding a new app here makes it appear automatically across every project's page on next page load. Keep keys stable, they're consumed by the cross-promo carousel + automated README renderers.",
-  "updated": "2026-09-02",
+  "$schema": "Shared public website catalog. apps.json drives static homepage cards, localized catalogs, product-data snapshots, marked product fields, and version/CTA drift checks. Run python3 build/build.py and python3 build/sync-products.py --products ../products.",
+  "updated": "2026-11-03",
   "apps": [
     {
       "slug": "CorvusDisplay",
@@ -62,7 +62,7 @@
       "slug": "Alien-Crow-For-Safari",
       "name": "Alien Crow",
       "tagline": "Make Reddit faster and calmer",
-      "description": "Supercharge old.reddit.com and modern Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, media tools, and keyboard navigation. Works on macOS, iOS, and iPadOS.",
+      "description": "100+ tools for Reddit: themes, media tools, comment upgrades, and keyboard navigation. Available for Mac, iPhone, and iPad.",
       "icon": "https://corvusdevs.github.io/icons/alien-crow.png",
       "url": "https://corvusdevs.github.io/Alien-Crow-For-Safari/",
       "store": {
@@ -79,7 +79,17 @@
         "iPad"
       ],
       "price": "App Store",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6769216829,
+      "version": "2.5",
+      "releaseDate": "2026-11-03T01:16:21Z",
+      "originalReleaseDate": "2026-06-09T07:00:00Z",
+      "requirements": {
+        "macOS": "26.4",
+        "iOS": "16.0",
+        "iPadOS": "16.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6769216829&country=us"
     },
     {
       "slug": "Findbar-For-Safari",
@@ -131,7 +141,17 @@
         "iPad"
       ],
       "price": "App Store",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6773464299,
+      "version": "1.1.2",
+      "releaseDate": "2026-08-10T00:06:34Z",
+      "originalReleaseDate": "2026-06-02T07:00:00Z",
+      "requirements": {
+        "macOS": "14.0",
+        "iOS": "17.0",
+        "iPadOS": "17.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6773464299&country=us"
     },
     {
       "slug": "Corvus-Player",
@@ -210,15 +230,23 @@
         "iPad"
       ],
       "price": "App Store",
-      "status": "new",
       "screenshot": "https://corvusdevs.github.io/shots/corvus-music-player.jpg",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6781115973,
+      "version": "1.0.1",
+      "releaseDate": "2026-08-22T19:12:01Z",
+      "originalReleaseDate": "2026-08-12T07:00:00Z",
+      "requirements": {
+        "iOS": "18.0",
+        "iPadOS": "18.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6781115973&country=us"
     },
     {
       "slug": "CorvusRecall",
       "name": "Corvus Recall",
       "tagline": "Remember more, privately",
-      "description": "Build lasting knowledge with clear spaced repetition, on-device capture, practical imports, and careful backups. No account, ads, or subscription.",
+      "description": "Private flashcards with study plans, daily workload, OCR, Anki and CSV imports, and backups. Study on Mac, iPhone, and iPad, with optional iCloud sync.",
       "icon": "https://corvusdevs.github.io/icons/corvus-recall.png",
       "url": "https://corvusdevs.github.io/CorvusRecall/",
       "store": {
@@ -250,12 +278,23 @@
       ],
       "family": "media-play",
       "platforms": [
-        "macOS"
+        "macOS",
+        "iPhone",
+        "iPad"
       ],
       "price": "App Store",
-      "status": "new",
       "screenshot": "https://corvusdevs.github.io/shots/corvus-recall.png",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6806901041,
+      "version": "1.0",
+      "releaseDate": "2026-10-14T14:24:56Z",
+      "originalReleaseDate": "2026-09-02T07:00:00Z",
+      "requirements": {
+        "macOS": "15.0",
+        "iOS": "18.0",
+        "iPadOS": "18.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6806901041&country=us"
     },
     {
       "slug": "Stow",
@@ -278,9 +317,18 @@
         "iPad"
       ],
       "price": "App Store",
-      "status": "new",
       "screenshot": "https://corvusdevs.github.io/shots/stow.png",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6801190003,
+      "version": "1.0.2",
+      "releaseDate": "2026-09-24T04:30:36Z",
+      "originalReleaseDate": "2026-08-21T07:00:00Z",
+      "requirements": {
+        "macOS": "15.0",
+        "iOS": "26.0",
+        "iPadOS": "26.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6801190003&country=us"
     },
     {
       "slug": "Corvus-RSS-Reader-For-Safari",
@@ -333,7 +381,17 @@
       ],
       "price": "App Store",
       "screenshot": "https://corvusdevs.github.io/shots/corvus-rss.jpg",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6761442829,
+      "version": "2.8.5",
+      "releaseDate": "2026-10-01T18:47:46Z",
+      "originalReleaseDate": "2026-04-09T07:00:00Z",
+      "requirements": {
+        "macOS": "12.0",
+        "iOS": "15.0",
+        "iPadOS": "15.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6761442829&country=us"
     },
     {
       "slug": "Ekual",
@@ -394,8 +452,8 @@
     {
       "slug": "Purple-Crow-For-Safari",
       "name": "Purple Crow for Safari",
-      "tagline": "A better Twitch experience in Safari",
-      "description": "BTTV, FFZ, and 7TV emotes plus 50+ features. Auto-claim, split chat, PiP, anonymous viewing, and more.",
+      "tagline": "A better Twitch and Kick experience in Safari",
+      "description": "70+ features for Twitch and Kick, including BTTV, FFZ, and 7TV emotes, chat tools, and picture-in-picture.",
       "icon": "https://corvusdevs.github.io/icons/purple-crow.png",
       "url": "https://corvusdevs.github.io/Purple-Crow-For-Safari/",
       "store": {
@@ -444,13 +502,23 @@
         "iPad"
       ],
       "price": "App Store",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6761481948,
+      "version": "3.9.8",
+      "releaseDate": "2026-10-19T08:42:27Z",
+      "originalReleaseDate": "2026-04-09T07:00:00Z",
+      "requirements": {
+        "macOS": "12.0",
+        "iOS": "15.0",
+        "iPadOS": "15.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6761481948&country=us"
     },
     {
       "slug": "Auto-Mute-Tab-For-Safari",
       "name": "Auto Mute Tab for Safari",
       "tagline": "Hear only the tab you are using",
-      "description": "Automatically mutes background tabs so only the focused tab plays audio. PiP, keyboard shortcuts, and domain whitelist.",
+      "description": "Keep background Safari tabs quiet on Mac, iPhone, and iPad. Picture-in-picture, keyboard shortcuts, and cross-window control are Mac features; mobile behavior follows Safari background limits.",
       "icon": "https://corvusdevs.github.io/icons/auto-mute-tab.png",
       "url": "https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/",
       "store": {
@@ -462,16 +530,28 @@
       "featured": false,
       "family": "better-safari",
       "platforms": [
-        "macOS"
+        "macOS",
+        "iPhone",
+        "iPad"
       ],
       "price": "App Store",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6761746627,
+      "version": "3.4",
+      "releaseDate": "2026-08-27T16:35:40Z",
+      "originalReleaseDate": "2026-04-24T07:00:00Z",
+      "requirements": {
+        "macOS": "10.14",
+        "iOS": "16.0",
+        "iPadOS": "16.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6761746627&country=us"
     },
     {
       "slug": "Red-Crow-For-Safari",
       "name": "Red Crow for Safari",
       "tagline": "Take control of YouTube in Safari",
-      "description": "Speed control, SponsorBlock, video filters, and 40+ features for YouTube. Native Safari extension for iPhone and iPad. macOS coming soon.",
+      "description": "Playback controls, SponsorBlock, filters, and customizable settings for YouTube. Available for Mac, iPhone, and iPad.",
       "icon": "https://corvusdevs.github.io/icons/red-crow.png",
       "url": "https://corvusdevs.github.io/Red-Crow-For-Safari/",
       "store": {
@@ -483,11 +563,22 @@
       "featured": false,
       "family": "better-safari",
       "platforms": [
+        "macOS",
         "iPhone",
         "iPad"
       ],
       "price": "App Store",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6766324724,
+      "version": "1.8",
+      "releaseDate": "2026-09-07T21:32:26Z",
+      "originalReleaseDate": "2026-05-04T07:00:00Z",
+      "requirements": {
+        "macOS": "14.0",
+        "iOS": "17.0",
+        "iPadOS": "17.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6766324724&country=us"
     },
     {
       "slug": "Night-Crow-For-Safari",
@@ -539,7 +630,17 @@
       ],
       "price": "App Store",
       "screenshot": "https://corvusdevs.github.io/shots/night-crow.jpg",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6785353496,
+      "version": "1.0.3",
+      "releaseDate": "2026-07-19T17:35:12Z",
+      "originalReleaseDate": "2026-07-10T07:00:00Z",
+      "requirements": {
+        "macOS": "14.0",
+        "iOS": "17.0",
+        "iPadOS": "17.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6785353496&country=us"
     },
     {
       "slug": "Tekla",
@@ -568,7 +669,7 @@
       "name": "Corvus Arcade",
       "tagline": "Play Windows games on Apple silicon",
       "description": "Run Windows games on Apple Silicon Macs with a free native launcher that bundles Wine 11, DXMT and D3DMetal. No CrossOver, Homebrew or Terminal.",
-      "icon": "https://corvusdevs.github.io/icons/corvus-arcade.png",
+      "icon": "/icons/corvus-arcade.png",
       "url": "https://corvusdevs.github.io/CorvusArcade/",
       "store": {
         "kind": "download",
@@ -672,13 +773,21 @@
         "macOS"
       ],
       "price": "App Store",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6790469923,
+      "version": "1.0.2",
+      "releaseDate": "2026-09-03T04:01:17Z",
+      "originalReleaseDate": "2026-07-26T07:00:00Z",
+      "requirements": {
+        "macOS": "13.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6790469923&country=us"
     },
     {
       "slug": "Sidestep",
       "name": "Sidestep",
       "tagline": "Keep common web libraries off tracking networks",
-      "description": "Websites quietly pull pieces of themselves from tracking networks. Sidestep keeps those pieces on your device, so the networks are never contacted and never track you.",
+      "description": "Serves 224 common web libraries locally across 33 supported networks to reduce third-party requests. Available for Mac, iPhone, and iPad.",
       "icon": "https://corvusdevs.github.io/icons/sidestep.png",
       "url": "https://corvusdevs.github.io/Sidestep/",
       "store": {
@@ -729,7 +838,112 @@
         "iPad"
       ],
       "price": "App Store",
-      "purchase": "one-time"
+      "purchase": "one-time",
+      "appStoreId": 6794502381,
+      "version": "1.2",
+      "releaseDate": "2026-08-11T17:35:19Z",
+      "originalReleaseDate": "2026-08-03T07:00:00Z",
+      "requirements": {
+        "macOS": "13.0",
+        "iOS": "15.0",
+        "iPadOS": "15.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6794502381&country=us"
+    },
+    {
+      "slug": "New-Tab-Plus",
+      "name": "New Tab Plus",
+      "tagline": "Make Safari’s new tab your own",
+      "description": "Customize Safari’s new tab page with backgrounds, widgets, and shortcuts. Available for Mac with macOS 13 or later.",
+      "icon": "https://corvusdevs.github.io/icons/new-tab-plus.png",
+      "url": "https://corvusdevs.github.io/New-Tab-Plus/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6792364994"
+      },
+      "accent": "purple",
+      "featured": false,
+      "family": "better-safari",
+      "platforms": [
+        "macOS"
+      ],
+      "price": "App Store",
+      "purchase": "one-time",
+      "appStoreId": 6792364994,
+      "version": "1.0",
+      "releaseDate": "2026-10-24T11:17:48Z",
+      "originalReleaseDate": "2026-10-24T07:00:00Z",
+      "requirements": {
+        "macOS": "13.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6792364994&country=us"
+    },
+    {
+      "slug": "Playhead",
+      "name": "Playhead",
+      "tagline": "Inspect your media files",
+      "description": "Inspect video, audio, and subtitle files on Mac, iPhone, and iPad.",
+      "icon": "https://corvusdevs.github.io/icons/playhead.png",
+      "url": "https://corvusdevs.github.io/Playhead/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6800165777"
+      },
+      "accent": "purple",
+      "featured": false,
+      "family": "media-play",
+      "platforms": [
+        "macOS",
+        "iPhone",
+        "iPad"
+      ],
+      "price": "App Store",
+      "purchase": "one-time",
+      "appStoreId": 6800165777,
+      "version": "1.0",
+      "releaseDate": "2026-09-28T06:40:53Z",
+      "originalReleaseDate": "2026-09-26T07:00:00Z",
+      "requirements": {
+        "macOS": "14.0",
+        "iOS": "17.0",
+        "iPadOS": "17.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6800165777&country=us"
+    },
+    {
+      "slug": "Puzzle-Observatory",
+      "name": "Puzzle Observatory",
+      "tagline": "A daily puzzle journey",
+      "description": "Explore 14 puzzle games, Daily Signal and Daily Sky, the Archive, Guided Expeditions, and offline practice in 19 languages. Official daily content is included in the app and selected by UTC date.",
+      "icon": "https://corvusdevs.github.io/icons/puzzle-observatory.png",
+      "url": "https://corvusdevs.github.io/Puzzle-Observatory/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6809021090"
+      },
+      "accent": "purple",
+      "featured": false,
+      "family": "media-play",
+      "platforms": [
+        "macOS",
+        "iPhone",
+        "iPad"
+      ],
+      "price": "App Store",
+      "purchase": "one-time",
+      "appStoreId": 6809021090,
+      "version": "1.0.4",
+      "releaseDate": "2026-10-31T23:58:38Z",
+      "originalReleaseDate": "2026-10-31T07:00:00Z",
+      "requirements": {
+        "macOS": "15.0",
+        "iOS": "18.0",
+        "iPadOS": "18.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6809021090&country=us"
     }
   ],
   "i18n": {

@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Mais de 100 ferramentas para o Reddit: temas, ferramentas multimédia, melhorias nos comentários e navegação pelo teclado. Disponível para Mac, iPhone e iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Silenciador de Abas",
-  "description": "Automuta as abas de fundo para que apenas a aba focada reproduza áudio. Inclui PiP, atalhos de teclado e lista branca de domínios."
+  "description": "Mantenha os separadores do Safari em segundo plano silenciosos no Mac, iPhone e iPad. Imagem dentro de imagem, atalhos de teclado e controlo entre janelas são funcionalidades do Mac; nos dispositivos móveis, o comportamento segue os limites do Safari em segundo plano."
  },
  "Corvus-Player": {
   "tagline": "Reprodutor Multimídia",
@@ -43,12 +43,12 @@
   "description": "Um modo escuro inteligente e nativo para todos os sites no Safari. A remapeação dinâmica de cores mantém as fotos fiéis e o texto legível. Funciona no macOS, iOS e iPadOS."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Extensão para Twitch",
-  "description": "Emotes BTTV, FFZ e 7TV mais 50+ recursos. Auto-coleta, split chat, PiP e mais."
+  "tagline": "Uma melhor experiência de Twitch e Kick no Safari",
+  "description": "Mais de 70 funcionalidades para Twitch e Kick, incluindo emotes de BTTV, FFZ e 7TV, ferramentas de chat e imagem dentro de imagem."
  },
  "Red-Crow-For-Safari": {
   "tagline": "Extensão do YouTube para Safari",
-  "description": "Controlo de velocidade, SponsorBlock, filtros de vídeo e mais de 40 funcionalidades para o YouTube. Extensão nativa do Safari para iPhone e iPad. O macOS chegará em breve."
+  "description": "Controlos de reprodução, SponsorBlock, filtros e definições personalizáveis para o YouTube. Disponível para Mac, iPhone e iPad."
  },
  "Tekla": {
   "tagline": "Teclado Virtual macOS",
@@ -56,10 +56,25 @@
  },
  "Sidestep": {
   "tagline": "Bibliotecas web locais",
-  "description": "Os sites vão buscar pedaços de si mesmos a redes de rastreio. O Sidestep guarda esses pedaços no seu dispositivo, por isso essas redes não o contactam nem o rastreiam."
+  "description": "Fornece localmente 224 bibliotecas web comuns de 33 redes compatíveis para reduzir pedidos a terceiros. Disponível para Mac, iPhone e iPad."
  },
  "Corvus-Music-Player": {
   "tagline": "A sua música, offline",
   "description": "Um leitor de música offline, rápido e bonito, para a música que é mesmo sua.\n\nSem subscrição. Sem streaming. Sem conta. Apenas a sua biblioteca, os seus MP3, AAC, ALAC, FLAC e WAV, a tocar exatamente como quer.\n\nFuncionalidades\n• Navegue por faixa, álbum, artista, género, compositor ou playlist\n• Pesquise toda a biblioteca de imediato\n• Letras sincronizadas e simples, com vista em ecrã inteiro\n• Equalizador gráfico e paramétrico com centenas de predefinições para auscultadores\n• Playlists inteligentes que se mantêm atualizadas sozinhas\n• Reprodução sem intervalos, sobreposição e nivelamento ReplayGain\n• Ecrã de reprodução com cores vivas retiradas da capa\n• Mini-leitor que abre em ecrã inteiro com um toque\n• Fila com arrastar para reordenar e deslizar para eliminar\n• Aleatório (Fisher-Yates verdadeiro) e repetição (não / tudo / uma)\n• Temporizador que baixa o som devagar antes de pausar\n• Classificações por estrelas e favoritos\n• Capas de playlist em mosaico de quatro imagens\n• Controlos no ecrã bloqueado, centro de controlo e Dynamic Island\n• Compatível com CarPlay\n• AirPlay 2 com seletor de dispositivo imediato\n• Comando dos auscultadores e controlos Bluetooth\n• Universal: iPhone e iPad\n\nImportar a sua música\nColoque ficheiros através da app Ficheiros, envie-os por AirDrop de outro dispositivo ou copie-os do computador com a partilha de ficheiros do Finder. A Partilha por Wi-Fi acrescenta uma página de envio privada na sua rede local: abra o endereço num navegador e arraste pastas inteiras. Os ficheiros são organizados na biblioteca, com capas e etiquetas lidas automaticamente.\n\nPrivacidade\nNão é recolhido nada. Sem análises, sem telemetria, sem chamadas à nuvem. A sua biblioteca fica no seu dispositivo."
+ },
+ "CorvusRecall": {
+  "description": "Cartões de estudo privados com planos de estudo, carga diária, OCR, importações do Anki e CSV e cópias de segurança. Estude no Mac, iPhone e iPad, com sincronização iCloud opcional."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Personalize o novo separador do Safari",
+  "description": "Personalize a página de novo separador do Safari com fundos, widgets e atalhos. Disponível para Mac com macOS 13 ou posterior."
+ },
+ "Playhead": {
+  "tagline": "Inspecione os seus ficheiros multimédia",
+  "description": "Inspecione ficheiros de vídeo, áudio e legendas no Mac, iPhone e iPad."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "Uma viagem diária de puzzles",
+  "description": "Explore 14 jogos de puzzles, Daily Signal e Daily Sky, Archive, Guided Expeditions e prática offline em 19 idiomas. O conteúdo diário oficial está incluído na app e é selecionado pela data UTC."
  }
 }

@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "أكثر من 100 أداة لـ Reddit: سمات وأدوات وسائط وتحسينات للتعليقات وتنقل بلوحة المفاتيح. متاح لأجهزة Mac وiPhone وiPad."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "مُخَفِّفُ تَبِيعَاتِ سَافاري",
-  "description": "تقوم بتكتم التتبّعات الخلفية تلقائيًا بحيث يُشعَّر الصوت فقط من التبويب النشط. يدعم وضع صورة في صورة، اختصارات لوحة المفاتيح، وقائمة مسموح بها حسب النطاق."
+  "description": "أبقِ علامات تبويب Safari في الخلفية صامتة على Mac وiPhone وiPad. صورة داخل صورة واختصارات لوحة المفاتيح والتحكم عبر النوافذ ميزات خاصة بـ Mac؛ أما على الأجهزة المحمولة فيخضع السلوك لقيود Safari في الخلفية."
  },
  "Corvus-Player": {
   "tagline": "مشغل الوسائط",
@@ -43,12 +43,12 @@
   "description": "وضع ليلي ذكي أصلي لجميع المواقع في Safari. يعيد تعيين الألوان ديناميكيًا للحفاظ على صحة الصور وقراءة النص. يعمل على macOS و iOS و iPadOS."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "إضافة تيوتش",
-  "description": "إيموجي BTTV و FFZ و 7TV بالإضافة إلى أكثر من 50 ميزة، مع خيارات مثل المطالبة التلقائية، تقسيم الدردشة، عرض الصورة فوق الصورة، والمشاهدة المجهولة، وغيرها الكثير."
+  "tagline": "تجربة أفضل لـ Twitch وKick في Safari",
+  "description": "أكثر من 70 ميزة لـ Twitch وKick، بما فيها تعبيرات BTTV وFFZ و7TV وأدوات الدردشة وصورة داخل صورة."
  },
  "Red-Crow-For-Safari": {
   "tagline": "إضافة Safari لـ YouTube",
-  "description": "تحكم في سرعة التشغيل، SponsorBlock، فلاتر الفيديو، وأكثر من 40 ميزة لـ YouTube. إضافة Safari الأصلية لـ iPhone و iPad. macOS قريبًا."
+  "description": "عناصر تحكم بالتشغيل وSponsorBlock وفلاتر وإعدادات قابلة للتخصيص لـ YouTube. متاح لأجهزة Mac وiPhone وiPad."
  },
  "Tekla": {
   "tagline": "لوحة المفاتيح الافتراضية",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "مكتبات الويب من جهازك",
-  "description": "تجلب المواقع أجزاء من نفسها من شبكات تتبع. يحتفظ Sidestep بتلك الأجزاء على جهازك، فلا يجري الاتصال بتلك الشبكات ولا تتعقبك أبدًا."
+  "description": "يقدم محليًا 224 مكتبة ويب شائعة من 33 شبكة مدعومة لتقليل الطلبات إلى الجهات الخارجية. متاح لأجهزة Mac وiPhone وiPad."
  },
  "Corvus-Music-Player": {
   "tagline": "موسيقاك، دون إنترنت",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "تذكر أكثر بخصوصية",
-  "description": "ابن معرفة تدوم باستخدام التكرار المتباعد الواضح والالتقاط على الجهاز والاستيراد العملي والنسخ الاحتياطية الدقيقة. بلا حساب أو إعلانات أو اشتراك."
+  "description": "بطاقات تعليمية خاصة مع خطط دراسة وحمل عمل يومي وOCR واستيراد Anki وCSV ونسخ احتياطية. ادرس على Mac وiPhone وiPad مع مزامنة iCloud اختيارية."
  },
  "Stow": {
   "tagline": "افتح الأرشيف قبل فك ضغطه",
   "description": "أداة أرشفة تضع الخصوصية أولا لأجهزة Mac وiPhone وiPad، مع التشفير وتصفح الأرشيف ومن دون رفع الملفات."
+ },
+ "New-Tab-Plus": {
+  "tagline": "خصص علامة تبويب Safari الجديدة كما تحب",
+  "description": "خصص صفحة علامة التبويب الجديدة في Safari بالخلفيات والأدوات والاختصارات. متاح لأجهزة Mac التي تعمل بنظام macOS 13 أو أحدث."
+ },
+ "Playhead": {
+  "tagline": "افحص ملفات الوسائط لديك",
+  "description": "افحص ملفات الفيديو والصوت والترجمة على Mac وiPhone وiPad."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "رحلة ألغاز يومية",
+  "description": "استكشف 14 لعبة ألغاز وDaily Signal وDaily Sky وArchive وGuided Expeditions والتدريب دون اتصال بـ 19 لغة. المحتوى اليومي الرسمي مضمن في التطبيق ويُختار حسب تاريخ UTC."
  }
 }

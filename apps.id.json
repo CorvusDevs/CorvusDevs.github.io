@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Lebih dari 100 alat untuk Reddit: tema, alat media, penyempurnaan komentar, dan navigasi keyboard. Tersedia untuk Mac, iPhone, dan iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Tab Safari Matikan",
-  "description": "Menyembunyikan suara pada tab latar belakang agar hanya tab yang aktif yang memutar audio. Mendukung PiP, pintasan keyboard, dan daftar domain yang diizinkan."
+  "description": "Senyapkan tab Safari di latar belakang pada Mac, iPhone, dan iPad. Gambar dalam gambar, pintasan keyboard, dan kontrol antarjendela adalah fitur Mac; perilaku pada perangkat seluler mengikuti batasan latar belakang Safari."
  },
  "Corvus-Player": {
   "tagline": "Pemutar Media macOS",
@@ -43,12 +43,12 @@
   "description": "Mode gelap cerdas dan asli untuk setiap situs web di Safari. Penggantian warna dinamis menjaga foto tetap asli dan teks mudah dibaca. Berfungsi di macOS, iOS, dan iPadOS."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Perluasan Twitch",
-  "description": "Emotikon BTTV, FFZ, dan 7TV plus 50+ fitur. Klaim otomatis, obrolan terbagi, PiP, penayangan anonim, dan lainnya."
+  "tagline": "Pengalaman Twitch dan Kick yang lebih baik di Safari",
+  "description": "Lebih dari 70 fitur untuk Twitch dan Kick, termasuk emote BTTV, FFZ, dan 7TV, alat obrolan, dan gambar dalam gambar."
  },
  "Red-Crow-For-Safari": {
   "tagline": "Perpanjangan Safari YouTube",
-  "description": "Kontrol kecepatan, SponsorBlock, filter video, dan 40+ fitur untuk YouTube. Ekstensi Safari asli untuk iPhone dan iPad. macOS segera hadir."
+  "description": "Kontrol pemutaran, SponsorBlock, filter, dan pengaturan yang dapat disesuaikan untuk YouTube. Tersedia untuk Mac, iPhone, dan iPad."
  },
  "Tekla": {
   "tagline": "Keyboard Virtual macOS",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "Pustaka web, dari perangkat",
-  "description": "Situs web diam-diam mengambil bagian dirinya dari jaringan pelacak. Sidestep menyimpan bagian itu di perangkat Anda, jadi jaringan itu tak pernah melacak Anda."
+  "description": "Menyediakan 224 pustaka web umum secara lokal dari 33 jaringan yang didukung untuk mengurangi permintaan ke pihak ketiga. Tersedia untuk Mac, iPhone, dan iPad."
  },
  "Corvus-Music-Player": {
   "tagline": "Musikmu, offline",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "Ingat lebih banyak secara privat",
-  "description": "Bangun pengetahuan yang bertahan lama dengan pengulangan bersela yang jelas, pengambilan di perangkat, impor praktis, dan cadangan yang aman. Tanpa akun, iklan, atau langganan."
+  "description": "Kartu belajar pribadi dengan rencana belajar, beban harian, OCR, impor Anki dan CSV, serta cadangan. Belajar di Mac, iPhone, dan iPad, dengan sinkronisasi iCloud opsional."
  },
  "Stow": {
   "tagline": "Jelajahi arsip sebelum mengekstraknya",
   "description": "Utilitas arsip yang mengutamakan privasi untuk Mac, iPhone, dan iPad, dengan enkripsi, penjelajahan arsip, dan tanpa unggahan file."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Jadikan tab baru Safari sesuai keinginan Anda",
+  "description": "Sesuaikan halaman tab baru Safari dengan latar belakang, widget, dan pintasan. Tersedia untuk Mac dengan macOS 13 atau lebih baru."
+ },
+ "Playhead": {
+  "tagline": "Periksa file media Anda",
+  "description": "Periksa file video, audio, dan subtitel di Mac, iPhone, dan iPad."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "Perjalanan teka-teki setiap hari",
+  "description": "Jelajahi 14 game teka-teki, Daily Signal dan Daily Sky, Archive, Guided Expeditions, dan latihan offline dalam 19 bahasa. Konten harian resmi disertakan dalam aplikasi dan dipilih berdasarkan tanggal UTC."
  }
 }

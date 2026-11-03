@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Power Tools",
-  "description": "Alien Crow tehostaa vanhaa ja uutta Redditia yli 90 työkalulla: tumma tila ja 20+ teemaa, mainos- ja häirikköjen poisto, kommenttien parannukset, mediatyökalut ja näppäimistönavigointi. Sovellus toimii macOS-, iOS- ja iPadOS-laitteilla."
+  "description": "Yli 100 työkalua Redditiin: teemoja, mediatyökaluja, kommenttien parannuksia ja näppäimistönavigointia. Saatavilla Macille, iPhonelle ja iPadille."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Safari-vaikeneja",
-  "description": "Automaattisesti hiljentää taustat, jolloin vain valittu välilehti toistaa ääntä. PiP, näppäimistön oikotiet ja valkolistat."
+  "description": "Pidä Safarin taustavälilehdet hiljaisina Macilla, iPhonella ja iPadilla. Kuva kuvassa, pikanäppäimet ja ikkunoiden välinen hallinta ovat Mac-ominaisuuksia; mobiililaitteissa toiminta noudattaa Safarin taustarajoituksia."
  },
  "Corvus-Player": {
   "tagline": "macOS -mediapelaaja",
@@ -43,12 +43,12 @@
   "description": "Kälyttävä, alkuperäinen tumma tila kaikille verkkosivuille Safarissa. Dynaaminen värien uudelleenkarttaminen pitää valokuvat luonnollisina ja teksti lueteltavana. Toimii macOS-, iOS- ja iPadOS -laiteilla."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Twitch-laajennus",
-  "description": "Purple Crow for Safari on macOS ja iOS:n sovellus tarjoaa BTTB, FFZ ja 7TV -emootteja sekä yli 50 ominaisuutta, kuten automaattinen tilaaminen, jakamaton chat, PiP, nimettömä katselu ja muut."
+  "tagline": "Parempi Twitch- ja Kick-kokemus Safarissa",
+  "description": "Yli 70 ominaisuutta Twitchiin ja Kickiin, kuten BTTV-, FFZ- ja 7TV-hymiöt, keskustelutyökalut ja kuva kuvassa."
  },
  "Red-Crow-For-Safari": {
   "tagline": "YouTube-safari-laajennus",
-  "description": "Red Crow for Safari on YouTube: toistonopeuden säätäminen, SponsorBlock, videoiden suodattimet ja yli 40 muuta ominaisuutta. Natiivi Safari-laajennus iPhoneille ja iPadille. macOS tulevina päivinä."
+  "description": "Toiston hallinta, SponsorBlock, suodattimet ja mukautettavat asetukset YouTubeen. Saatavilla Macille, iPhonelle ja iPadille."
  },
  "Tekla": {
   "tagline": "macOS Virtuaali-näppäimistö",
@@ -56,10 +56,25 @@
  },
  "Sidestep": {
   "tagline": "Verkkokirjastot laitteelta",
-  "description": "Verkkosivustot hakevat osia itsestään seurantaverkoista. Sidestep pitää ne osat laitteellasi, joten verkkoihin ei oteta yhteyttä eivätkä ne seuraa sinua."
+  "description": "Tarjoaa paikallisesti 224 yleistä verkkokirjastoa 33 tuetusta verkosta kolmansille osapuolille tehtävien pyyntöjen vähentämiseksi. Saatavilla Macille, iPhonelle ja iPadille."
  },
  "Corvus-Music-Player": {
   "tagline": "Musiikkisi, offline",
   "description": "Nopea ja kaunis offline-musiikkisoitin musiikille, jonka todella omistat.\n\nEi tilausta. Ei suoratoistoa. Ei tiliä. Vain oma kirjastosi, omat MP3-, AAC-, ALAC-, FLAC- ja WAV-tiedostosi, juuri niin kuin haluat.\n\nOminaisuudet\n• Selaa kappaleen, albumin, artistin, tyylilajin, säveltäjän tai soittolistan mukaan\n• Hae koko kirjastosta heti\n• Tahdistetut ja tavalliset sanoitukset, koko näytön näkymällä\n• Graafinen ja parametrinen taajuuskorjain ja satoja kuuloke-esiasetuksia\n• Älykkäät soittolistat, jotka pysyvät itsestään ajan tasalla\n• Tauoton toisto, ristihäivytys ja ReplayGain-äänenvoimakkuuden tasaus\n• Toistonäkymä, jonka värit poimitaan kansikuvasta\n• Pienoissoitin, joka avautuu koko näytölle yhdellä napautuksella\n• Jono, jossa järjestys muuttuu vetämällä ja poisto pyyhkäisemällä\n• Satunnaistoisto (aito Fisher-Yates) ja kertaus (pois / kaikki / yksi)\n• Uniajastin, joka häivyttää äänen pehmeästi ennen taukoa\n• Tähtiarviot ja suosikit\n• Soittolistan kannet neljän kuvan mosaiikkina\n• Säätimet lukitusnäytöllä, ohjauskeskuksessa ja Dynamic Islandissa\n• CarPlay-tuki\n• AirPlay 2 ja nopea laitevalitsin\n• Kuulokkeiden kaukosäädin ja Bluetooth-säätimet\n• Universaali: iPhone ja iPad\n\nTuo musiikkisi\nLisää tiedostoja Tiedostot-apilla, lähetä ne AirDropilla toiselta laitteelta tai kopioi ne tietokoneelta Finderin tiedostojaolla. Wi-Fi-jako lisää yksityisen lähetyssivun lähiverkkoosi: avaa osoite selaimessa ja vedä kokonaisia kansioita. Tiedostot järjestetään kirjastoon, ja kansikuvat ja tunnisteet luetaan automaattisesti.\n\nTietosuoja\nMitään ei kerätä. Ei analytiikkaa, ei telemetriaa, ei pilvikutsuja. Kirjastosi pysyy laitteellasi."
+ },
+ "CorvusRecall": {
+  "description": "Yksityiset muistikortit, opiskelusuunnitelmat, päivittäinen työmäärä, OCR, Anki- ja CSV-tuonti sekä varmuuskopiot. Opiskele Macilla, iPhonella ja iPadilla ja ota halutessasi käyttöön iCloud-synkronointi."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Tee Safarin uudesta välilehdestä omannäköisesi",
+  "description": "Mukauta Safarin uuden välilehden sivua taustakuvilla, widgeteillä ja oikoteillä. Saatavilla Macille, jossa on macOS 13 tai uudempi."
+ },
+ "Playhead": {
+  "tagline": "Tarkastele mediatiedostojasi",
+  "description": "Tarkastele video-, ääni- ja tekstitystiedostoja Macilla, iPhonella ja iPadilla."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "Päivittäinen pulmapelimatka",
+  "description": "Tutustu 14 pulmapeliin, Daily Signal- ja Daily Sky -toimintoihin, Archiveen, Guided Expeditions -retkiin ja offline-harjoitteluun 19 kielellä. Virallinen päivittäinen sisältö sisältyy sovellukseen, ja se valitaan UTC-päivämäärän mukaan."
  }
 }

@@ -6,7 +6,7 @@
 
 Independent apps for the Apple devices you already own.
 
-[Explore all 17 apps](https://corvusdevs.github.io) · [Email us](mailto:corvusdevs@outlook.com)
+[Explore all 20 apps](https://corvusdevs.github.io) · [Email us](mailto:corvusdevs@outlook.com)
 
 </div>
 
@@ -15,7 +15,9 @@ Independent apps for the Apple devices you already own.
 | App | What it does | Devices |
 | --- | --- | --- |
 | [Corvus Music Player](https://corvusdevs.github.io/Corvus-Music-Player/) | Plays the music you own, offline and without an account | iPhone, iPad |
-| [Corvus Recall](https://corvusdevs.github.io/CorvusRecall/) | Keeps flashcards, study schedules, and backups private | Mac |
+| [Corvus Recall](https://corvusdevs.github.io/CorvusRecall/) | Keeps flashcards, study schedules, and backups private, with optional iCloud sync | Mac, iPhone, iPad |
+| [Playhead](https://corvusdevs.github.io/Playhead/) | Checks media files and explains playback and delivery issues | Mac, iPhone, iPad |
+| [Puzzle Observatory](https://corvusdevs.github.io/Puzzle-Observatory/) | Brings 14 puzzle games, daily editions, and offline practice together | Mac, iPhone, iPad |
 | [Corvus Player](https://corvusdevs.github.io/Corvus-Player/) | Customizable, GPU-accelerated media playback | Mac |
 | [Corvus Arcade](https://corvusdevs.github.io/CorvusArcade/) | Runs Windows games on Apple silicon Macs | Mac |
 
@@ -24,12 +26,13 @@ Independent apps for the Apple devices you already own.
 | App | What it does | Devices |
 | --- | --- | --- |
 | [Alien Crow](https://corvusdevs.github.io/Alien-Crow-For-Safari/) | Adds power tools, themes, and navigation to Reddit | Mac, iPhone, iPad |
-| [Red Crow](https://corvusdevs.github.io/Red-Crow-For-Safari/) | Adds playback controls, SponsorBlock, and video tools to YouTube | iPhone, iPad |
-| [Purple Crow](https://corvusdevs.github.io/Purple-Crow-For-Safari/) | Adds emotes, chat tools, and picture-in-picture to Twitch | Mac, iPhone, iPad |
+| [Red Crow](https://corvusdevs.github.io/Red-Crow-For-Safari/) | Adds playback controls, SponsorBlock, and video tools to YouTube | Mac, iPhone, iPad |
+| [Purple Crow](https://corvusdevs.github.io/Purple-Crow-For-Safari/) | Adds 70+ features, emotes, chat tools, and picture-in-picture to Twitch and Kick | Mac, iPhone, iPad |
 | [Findbar](https://corvusdevs.github.io/Findbar-For-Safari/) | Turns Safari address-bar keywords into shortcuts | Mac, iPhone, iPad |
 | [Corvus RSS Reader](https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/) | Reads feeds, blogs, and YouTube subscriptions | Mac, iPhone, iPad |
 | [Night Crow](https://corvusdevs.github.io/Night-Crow-For-Safari/) | Adds a native, image-aware dark mode to websites | Mac, iPhone, iPad |
-| [Auto Mute Tab](https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/) | Keeps background Safari tabs quiet | Mac |
+| [Auto Mute Tab](https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/) | Keeps background Safari tabs quiet, with platform-specific limits and Mac controls | Mac, iPhone, iPad |
+| [New Tab Plus](https://corvusdevs.github.io/New-Tab-Plus/) | Customizes Safari's new tab with widgets, backgrounds, and shortcuts | Mac |
 | [Sidestep](https://corvusdevs.github.io/Sidestep/) | Serves common web libraries locally to reduce tracking | Mac, iPhone, iPad |
 
 ## Better Mac

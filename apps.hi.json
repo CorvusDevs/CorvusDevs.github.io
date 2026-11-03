@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Reddit के लिए 100 से अधिक टूल: थीम, मीडिया टूल, बेहतर टिप्पणियाँ और कीबोर्ड नेविगेशन। Mac, iPhone और iPad के लिए उपलब्ध।"
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "सफारी टैब म्यूटर",
-  "description": "पृष्ठभूमि में खोले गए टैब्स को अपने आप चुप कराता है ताकि केवल फोकस किए गए टैब में ऑडियो बजता रहे। इसमें पिप, कीबोर्ड शॉर्टकट और डोमेन व्हाइटलिस्ट भी शामिल हैं।"
+  "description": "Mac, iPhone और iPad पर Safari के बैकग्राउंड टैब को शांत रखें। पिक्चर-इन-पिक्चर, कीबोर्ड शॉर्टकट और कई विंडो के बीच नियंत्रण Mac की सुविधाएँ हैं; मोबाइल पर व्यवहार Safari की बैकग्राउंड सीमाओं के अनुसार होता है।"
  },
  "Corvus-Player": {
   "tagline": "मैकओएस मीडिया प्लेयर",
@@ -43,12 +43,12 @@
   "description": "Night Crow: Safari के लिए हर वेबसाइट के लिए एक स्मार्ट, नेटिव डार्क मोड। डायनामिक रंग रीमैपिंग फोटो को सटीक और टेक्स्ट को पढ़ने योग्य बनाए रखती है। यह macOS, iOS और iPadOS पर काम करता है।"
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Twitch विस्तार",
-  "description": "BTTV, FFZ और 7TV इमोजी प्लस 50+ सुविधाएं। ऑटो-क्लेम, चैट विभाजन, PiP, नि anonymous देखने और अधिक।"
+  "tagline": "Safari में Twitch और Kick का बेहतर अनुभव",
+  "description": "Twitch और Kick के लिए 70 से अधिक सुविधाएँ, जिनमें BTTV, FFZ और 7TV इमोट, चैट टूल और पिक्चर-इन-पिक्चर शामिल हैं।"
  },
  "Red-Crow-For-Safari": {
   "tagline": "YouTube Safari विस्तार",
-  "description": "Red Crow for Safari: YouTube के लिए स्पीड नियंत्रण, SponsorBlock, वीडियो फ़िल्टर और 40+ सुविधाएं। iPhone और iPad के लिए मूल Safari एक्सटेंशन। macOS जल्द ही उपलब्ध होगा।"
+  "description": "YouTube के लिए प्लेबैक नियंत्रण, SponsorBlock, फ़िल्टर और अनुकूलन योग्य सेटिंग। Mac, iPhone और iPad के लिए उपलब्ध।"
  },
  "Tekla": {
   "tagline": "मैकओएस वर्चुअल कीबोर्ड",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "वेब लाइब्रेरी आपके डिवाइस पर",
-  "description": "वेबसाइटें चुपचाप अपने ही हिस्से ट्रैकिंग नेटवर्क से लाती हैं। Sidestep उन्हें आपके डिवाइस पर रखता है, इसलिए वे नेटवर्क आपको कभी ट्रैक नहीं कर पाते।"
+  "description": "तीसरे पक्ष को भेजे जाने वाले अनुरोध कम करने के लिए 33 समर्थित नेटवर्क की 224 आम वेब लाइब्रेरी स्थानीय रूप से उपलब्ध कराता है। Mac, iPhone और iPad के लिए उपलब्ध।"
  },
  "Corvus-Music-Player": {
   "tagline": "आपका संगीत, ऑफ़लाइन",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "निजी तौर पर, अधिक याद रखें",
-  "description": "स्पष्ट अंतराल पुनरावृत्ति, डिवाइस पर कैप्चर, आसान आयात और सुरक्षित बैकअप से स्थायी ज्ञान बनाएं। कोई खाता, विज्ञापन या सदस्यता नहीं।"
+  "description": "अध्ययन योजनाओं, दैनिक कार्यभार, OCR, Anki और CSV इंपोर्ट और बैकअप के साथ निजी फ़्लैशकार्ड। वैकल्पिक iCloud सिंक के साथ Mac, iPhone और iPad पर पढ़ें।"
  },
  "Stow": {
   "tagline": "निकालने से पहले आर्काइव देखें",
   "description": "Mac, iPhone और iPad के लिए निजता-केंद्रित आर्काइव टूल, जिसमें एन्क्रिप्शन और आर्काइव ब्राउजिंग है तथा फाइलें अपलोड नहीं होतीं।"
+ },
+ "New-Tab-Plus": {
+  "tagline": "Safari के नए टैब को अपना बनाएँ",
+  "description": "Safari के नए टैब पेज को बैकग्राउंड, विजेट और शॉर्टकट से अनुकूलित करें। macOS 13 या बाद के संस्करण वाले Mac के लिए उपलब्ध।"
+ },
+ "Playhead": {
+  "tagline": "अपनी मीडिया फ़ाइलों की जाँच करें",
+  "description": "Mac, iPhone और iPad पर वीडियो, ऑडियो और सबटाइटल फ़ाइलों की जाँच करें।"
+ },
+ "Puzzle-Observatory": {
+  "tagline": "हर दिन पहेलियों का एक सफ़र",
+  "description": "14 पहेली गेम, Daily Signal और Daily Sky, Archive, Guided Expeditions और 19 भाषाओं में ऑफ़लाइन अभ्यास खोजें। आधिकारिक दैनिक सामग्री ऐप में शामिल है और UTC तारीख के अनुसार चुनी जाती है।"
  }
 }

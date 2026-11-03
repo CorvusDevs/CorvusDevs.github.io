@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Över 100 verktyg för Reddit: teman, medieverktyg, förbättrade kommentarer och tangentbordsnavigering. Finns för Mac, iPhone och iPad."
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "Tysta Safari-flik",
-  "description": "Automatisera att dämpa bakgrundsflikar så att bara den fokuserade fliken spelar ljud. Stöd för bild-i-bild, genvägar på tangentbord och domänlistor för tillåtelse."
+  "description": "Håll Safari-flikar i bakgrunden tysta på Mac, iPhone och iPad. Bild-i-bild, kortkommandon och styrning mellan fönster är Mac-funktioner; på mobila enheter gäller Safaris begränsningar i bakgrunden."
  },
  "Corvus-Player": {
   "tagline": "macOS Mediaspelare",
@@ -43,12 +43,12 @@
   "description": "En smart, inbyggd mörk läge för alla webbplatser i Safari. Dynamisk färgåtergivning håller bilder korrekta och text läsbar. Fungerar på macOS, iOS och iPadOS."
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Twitch Tillägg",
-  "description": "BTTV, FFZ och 7TV-ansiktsuttryck plus 50+ funktioner, inklusive automatisk aktivering, uppdelad chatt, bild-i-bild, anonym visning och mycket mer."
+  "tagline": "En bättre Twitch- och Kick-upplevelse i Safari",
+  "description": "Över 70 funktioner för Twitch och Kick, inklusive emotes från BTTV, FFZ och 7TV, chattverktyg och bild-i-bild."
  },
  "Red-Crow-For-Safari": {
   "tagline": "YouTube Safari-tillägg",
-  "description": "Red Crow för Safari erbjuder hastighetskontroll, SponsorBlock, videofilter och 40+ funktioner för YouTube. Det är en inbyggd Safari-utökning för iPhone och iPad, med macOS på väg."
+  "description": "Uppspelningskontroller, SponsorBlock, filter och anpassningsbara inställningar för YouTube. Finns för Mac, iPhone och iPad."
  },
  "Tekla": {
   "tagline": "MacOS Virtuell tangentbord",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "Webbibliotek, lokalt",
-  "description": "Webbplatser hämtar delar av sig själva från spårningsnätverk. Sidestep behåller de delarna på din enhet, så nätverken kontaktas aldrig och spårar dig aldrig."
+  "description": "Tillhandahåller 224 vanliga webbibliotek lokalt från 33 nätverk som stöds för att minska förfrågningar till tredje part. Finns för Mac, iPhone och iPad."
  },
  "Corvus-Music-Player": {
   "tagline": "Din musik, offline",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "Kom ihåg mer, privat",
-  "description": "Bygg varaktig kunskap med tydlig intervallrepetition, insamling på enheten, praktisk import och noggranna säkerhetskopior. Inget konto, ingen reklam och inget abonnemang."
+  "description": "Privata minneskort med studieplaner, daglig arbetsmängd, OCR, import från Anki och CSV samt säkerhetskopior. Studera på Mac, iPhone och iPad, med valfri iCloud-synkronisering."
  },
  "Stow": {
   "tagline": "Granska arkiv innan du packar upp",
   "description": "Ett integritetsvänligt arkivverktyg för Mac, iPhone och iPad med kryptering, arkivgranskning och inga filuppladdningar."
+ },
+ "New-Tab-Plus": {
+  "tagline": "Gör Safaris nya flik till din egen",
+  "description": "Anpassa Safaris nya fliksida med bakgrunder, widgetar och genvägar. Finns för Mac med macOS 13 eller senare."
+ },
+ "Playhead": {
+  "tagline": "Granska dina mediefiler",
+  "description": "Granska video-, ljud- och undertextfiler på Mac, iPhone och iPad."
+ },
+ "Puzzle-Observatory": {
+  "tagline": "En daglig pusselresa",
+  "description": "Utforska 14 pusselspel, Daily Signal och Daily Sky, Archive, Guided Expeditions och offlineövning på 19 språk. Det officiella dagliga innehållet ingår i appen och väljs utifrån UTC-datumet."
  }
 }

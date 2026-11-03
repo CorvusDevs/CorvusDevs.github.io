@@ -4,11 +4,11 @@
  },
  "Alien-Crow-For-Safari": {
   "tagline": "Reddit Safari Extension",
-  "description": "Supercharge Reddit with 90+ tools: dark mode and 20+ themes, ad and nag blocking, comment upgrades, and keyboard navigation. Works on macOS, iOS, and iPadOS."
+  "description": "Reddit向けの100以上のツール。テーマ、メディアツール、コメント機能の改善、キーボードナビゲーションを利用できます。Mac、iPhone、iPadに対応。"
  },
  "Auto-Mute-Tab-For-Safari": {
   "tagline": "タブミュート",
-  "description": "バックグラウンドのタブを自動でミュートし、フォーカスされたタブの音声のみ再生します。PiP、キーボードショートカット、ドメインホワイトリストに対応。"
+  "description": "Mac、iPhone、iPadでバックグラウンドのSafariタブをミュートします。ピクチャ・イン・ピクチャ、キーボードショートカット、ウインドウ間の制御はMac向けの機能です。モバイル端末での動作はSafariのバックグラウンド制限に従います。"
  },
  "Corvus-Player": {
   "tagline": "メディアプレーヤー",
@@ -43,12 +43,12 @@
   "description": "Safari のすべてのウェブサイトに対応した、スマートなネイティブダークモードです。動的な色変換により、写真の自然な色合いとテキストの可読性を維持します。macOS、iOS、iPadOS で動作します。"
  },
  "Purple-Crow-For-Safari": {
-  "tagline": "Twitch拡張機能",
-  "description": "BTTV、FFZ、7TVエモート＋50以上の機能。自動収集、スプリットチャット、PiPなど。"
+  "tagline": "SafariでTwitchとKickをもっと快適に",
+  "description": "BTTV、FFZ、7TVのエモート、チャットツール、ピクチャ・イン・ピクチャなど、TwitchとKick向けの70以上の機能。"
  },
  "Red-Crow-For-Safari": {
   "tagline": "Safari用YouTube拡張機能",
-  "description": "YouTube の再生速度制御、SponsorBlock、動画フィルター、40 以上の機能。iPhone と iPad 用のネイティブ Safari 拡張機能。macOS 版は近日公開予定。"
+  "description": "YouTube向けの再生コントロール、SponsorBlock、フィルター、カスタマイズ可能な設定。Mac、iPhone、iPadに対応。"
  },
  "Tekla": {
   "tagline": "バーチャルキーボード",
@@ -56,7 +56,7 @@
  },
  "Sidestep": {
   "tagline": "Webライブラリを端末から",
-  "description": "ウェブサイトは自分の部品を追跡ネットワークから静かに取り寄せています。Sidestep はその部品を端末に置くので、ネットワークには接続せず、あなたを追跡できません。"
+  "description": "対応する33のネットワークの一般的なWebライブラリ224種類をローカルで提供し、第三者へのリクエストを減らします。Mac、iPhone、iPadに対応。"
  },
  "Corvus-Music-Player": {
   "tagline": "あなたの音楽を、オフラインで",
@@ -64,10 +64,22 @@
  },
  "CorvusRecall": {
   "tagline": "もっと覚える。プライバシーも守る。",
-  "description": "分かりやすい間隔反復、デバイス上での取り込み、実用的なインポート、丁寧なバックアップで知識を定着させます。アカウント、広告、サブスクリプションは不要です。"
+  "description": "学習計画、毎日の学習量、OCR、AnkiとCSVの読み込み、バックアップを備えたプライベートなフラッシュカード。Mac、iPhone、iPadで学習でき、iCloud同期は任意で有効にできます。"
  },
  "Stow": {
   "tagline": "展開する前にアーカイブを確認",
   "description": "暗号化とアーカイブ閲覧に対応し、ファイルをアップロードしない、Mac、iPhone、iPad向けのプライバシー重視アーカイブツールです。"
+ },
+ "New-Tab-Plus": {
+  "tagline": "Safariの新規タブを自分らしく",
+  "description": "背景、ウィジェット、ショートカットでSafariの新規タブページをカスタマイズ。macOS 13以降を搭載したMacに対応。"
+ },
+ "Playhead": {
+  "tagline": "メディアファイルを詳しく確認",
+  "description": "Mac、iPhone、iPadで動画、音声、字幕ファイルを詳しく確認できます。"
+ },
+ "Puzzle-Observatory": {
+  "tagline": "毎日のパズルの旅",
+  "description": "14種類のパズルゲーム、Daily SignalとDaily Sky、Archive、Guided Expeditions、オフライン練習を19言語で楽しめます。公式の日替わりコンテンツはアプリに含まれ、UTCの日付に基づいて選ばれます。"
  }
 }

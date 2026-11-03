@@ -1,0 +1,401 @@
+{
+  "en": {
+    "families": {
+      "media-play": [
+        "Media and play",
+        "Your files, games, and music, with playback designed around the content you own."
+      ],
+      "better-safari": [
+        "Better Safari",
+        "Focused extensions that fix real gaps in browsing, reading, video, and privacy."
+      ],
+      "better-mac": [
+        "Better Mac",
+        "Small native utilities for displays, sound, typing, and pointing devices."
+      ]
+    },
+    "new": "New",
+    "updated": "Updated",
+    "action": "View app",
+    "explore": "Explore ${a.name}",
+    "count": "${count} apps shown"
+  },
+  "ar": {
+    "families": {
+      "media-play": [
+        "الوسائط والتشغيل",
+        "ملفاتك وألعابك وموسيقاك، مع تشغيل مصمم للمحتوى الذي تملكه."
+      ],
+      "better-safari": [
+        "Safari أفضل",
+        "ملحقات مركزة تعالج ثغرات حقيقية في التصفح والقراءة والفيديو والخصوصية."
+      ],
+      "better-mac": [
+        "Mac أفضل",
+        "أدوات أصلية صغيرة للشاشات والصوت والكتابة وأجهزة التأشير."
+      ]
+    },
+    "new": "جديد",
+    "updated": "محدث",
+    "action": "عرض التطبيق",
+    "explore": "عرض التطبيق",
+    "count": "${count} تطبيقا معروضا"
+  },
+  "de": {
+    "families": {
+      "media-play": [
+        "Medien und Wiedergabe",
+        "Deine Dateien, Spiele und Musik, mit Wiedergabe für Inhalte, die dir gehören."
+      ],
+      "better-safari": [
+        "Safari verbessern",
+        "Gezielte Erweiterungen für echte Lücken bei Navigation, Lesen, Video und Datenschutz."
+      ],
+      "better-mac": [
+        "Mac verbessern",
+        "Kleine native Werkzeuge für Displays, Ton, Eingabe und Zeigegeräte."
+      ]
+    },
+    "new": "Neu",
+    "updated": "Aktualisiert",
+    "action": "App ansehen",
+    "explore": "App ansehen",
+    "count": "${count} Apps angezeigt"
+  },
+  "es": {
+    "families": {
+      "media-play": [
+        "Contenido y reproducción",
+        "Tus archivos, juegos y música, con una reproducción diseñada para el contenido que te pertenece."
+      ],
+      "better-safari": [
+        "Un Safari mejor",
+        "Extensiones específicas que resuelven carencias reales de navegación, lectura, vídeo y privacidad."
+      ],
+      "better-mac": [
+        "Un Mac mejor",
+        "Pequeñas utilidades nativas para pantallas, sonido, escritura y dispositivos señaladores."
+      ]
+    },
+    "new": "Nueva",
+    "updated": "Actualizada",
+    "action": "Ver app",
+    "explore": "Ver app",
+    "count": "${count} apps mostradas"
+  },
+  "fr": {
+    "families": {
+      "media-play": [
+        "Médias et lecture",
+        "Vos fichiers, jeux et musique, avec une lecture pensée pour le contenu qui vous appartient."
+      ],
+      "better-safari": [
+        "Un meilleur Safari",
+        "Des extensions ciblées qui comblent de vrais manques en navigation, lecture, vidéo et confidentialité."
+      ],
+      "better-mac": [
+        "Un meilleur Mac",
+        "De petits utilitaires natifs pour les écrans, le son, la saisie et les périphériques de pointage."
+      ]
+    },
+    "new": "Nouveau",
+    "updated": "Mis à jour",
+    "action": "Voir l’app",
+    "explore": "Voir l’app",
+    "count": "${count} apps affichées"
+  },
+  "hi": {
+    "families": {
+      "media-play": [
+        "मीडिया और प्लेबैक",
+        "आपकी फ़ाइलें, गेम और संगीत, आपके अपने कंटेंट के लिए बनाया गया प्लेबैक।"
+      ],
+      "better-safari": [
+        "बेहतर Safari",
+        "ब्राउज़िंग, पढ़ने, वीडियो और गोपनीयता की वास्तविक कमियों को दूर करने वाले केंद्रित एक्सटेंशन।"
+      ],
+      "better-mac": [
+        "बेहतर Mac",
+        "डिस्प्ले, ध्वनि, टाइपिंग और पॉइंटिंग डिवाइसों के लिए छोटे नेटिव टूल।"
+      ]
+    },
+    "new": "नया",
+    "updated": "अपडेट किया गया",
+    "action": "ऐप देखें",
+    "explore": "ऐप देखें",
+    "count": "${count} ऐप दिखाए गए"
+  },
+  "id": {
+    "families": {
+      "media-play": [
+        "Media dan pemutaran",
+        "File, game, dan musik Anda, dengan pemutaran yang dirancang untuk konten milik Anda."
+      ],
+      "better-safari": [
+        "Safari yang lebih baik",
+        "Ekstensi terfokus yang mengatasi kekurangan nyata dalam penelusuran, membaca, video, dan privasi."
+      ],
+      "better-mac": [
+        "Mac yang lebih baik",
+        "Utilitas native kecil untuk layar, suara, pengetikan, dan perangkat penunjuk."
+      ]
+    },
+    "new": "Baru",
+    "updated": "Diperbarui",
+    "action": "Lihat app",
+    "explore": "Lihat app",
+    "count": "${count} app ditampilkan"
+  },
+  "it": {
+    "families": {
+      "media-play": [
+        "Media e riproduzione",
+        "I tuoi file, giochi e musica, con una riproduzione pensata per i contenuti che possiedi."
+      ],
+      "better-safari": [
+        "Safari migliore",
+        "Estensioni mirate che colmano vere lacune in navigazione, lettura, video e privacy."
+      ],
+      "better-mac": [
+        "Mac migliore",
+        "Piccole utility native per schermi, audio, digitazione e dispositivi di puntamento."
+      ]
+    },
+    "new": "Nuova",
+    "updated": "Aggiornata",
+    "action": "Vedi app",
+    "explore": "Vedi app",
+    "count": "${count} app mostrate"
+  },
+  "ja": {
+    "families": {
+      "media-play": [
+        "メディアと再生",
+        "自分が所有するファイル、ゲーム、音楽のために設計された再生環境。"
+      ],
+      "better-safari": [
+        "Safariをもっと便利に",
+        "ブラウズ、読書、動画、プライバシーの実際の不足を補う、目的を絞った機能拡張。"
+      ],
+      "better-mac": [
+        "Macをもっと便利に",
+        "ディスプレイ、サウンド、入力、ポインティングデバイスのための小さなネイティブユーティリティ。"
+      ]
+    },
+    "new": "新着",
+    "updated": "更新済み",
+    "action": "アプリを見る",
+    "explore": "アプリを見る",
+    "count": "${count} 件のアプリを表示"
+  },
+  "ko": {
+    "families": {
+      "media-play": [
+        "미디어와 재생",
+        "내가 소유한 파일, 게임, 음악을 위해 설계된 재생 환경."
+      ],
+      "better-safari": [
+        "더 나은 Safari",
+        "탐색, 읽기, 동영상, 개인정보 보호의 실제 빈틈을 해결하는 집중형 확장 프로그램."
+      ],
+      "better-mac": [
+        "더 나은 Mac",
+        "디스플레이, 사운드, 입력, 포인팅 기기를 위한 작은 네이티브 유틸리티."
+      ]
+    },
+    "new": "신규",
+    "updated": "업데이트됨",
+    "action": "앱 보기",
+    "explore": "앱 보기",
+    "count": "${count} 개 앱 표시"
+  },
+  "nl": {
+    "families": {
+      "media-play": [
+        "Media en afspelen",
+        "Je bestanden, games en muziek, met afspelen dat is ontworpen voor inhoud die van jou is."
+      ],
+      "better-safari": [
+        "Beter Safari",
+        "Gerichte extensies die echte hiaten oplossen in browsen, lezen, video en privacy."
+      ],
+      "better-mac": [
+        "Beter op de Mac",
+        "Kleine native hulpmiddelen voor beeldschermen, geluid, typen en aanwijsapparaten."
+      ]
+    },
+    "new": "Nieuw",
+    "updated": "Bijgewerkt",
+    "action": "Bekijk app",
+    "explore": "Bekijk app",
+    "count": "${count} apps weergegeven"
+  },
+  "pl": {
+    "families": {
+      "media-play": [
+        "Multimedia i odtwarzanie",
+        "Twoje pliki, gry i muzyka, z odtwarzaniem zaprojektowanym dla treści, które należą do Ciebie."
+      ],
+      "better-safari": [
+        "Lepsze Safari",
+        "Skupione rozszerzenia, które rozwiązują realne problemy z przeglądaniem, czytaniem, wideo i prywatnością."
+      ],
+      "better-mac": [
+        "Lepszy Mac",
+        "Małe natywne narzędzia do ekranów, dźwięku, pisania i urządzeń wskazujących."
+      ]
+    },
+    "new": "Nowa",
+    "updated": "Zaktualizowana",
+    "action": "Zobacz aplikację",
+    "explore": "Zobacz aplikację",
+    "count": "${count} wyświetlonych aplikacji"
+  },
+  "pt": {
+    "families": {
+      "media-play": [
+        "Mídia e reprodução",
+        "Seus arquivos, jogos e músicas, com reprodução feita para o conteúdo que é seu."
+      ],
+      "better-safari": [
+        "Safari melhor",
+        "Extensões focadas que resolvem lacunas reais em navegação, leitura, vídeo e privacidade."
+      ],
+      "better-mac": [
+        "Mac melhor",
+        "Pequenos utilitários nativos para telas, som, digitação e dispositivos apontadores."
+      ]
+    },
+    "new": "Novo",
+    "updated": "Atualizado",
+    "action": "Ver app",
+    "explore": "Ver app",
+    "count": "${count} apps exibidos"
+  },
+  "ru": {
+    "families": {
+      "media-play": [
+        "Медиа и воспроизведение",
+        "Ваши файлы, игры и музыка, с воспроизведением для контента, который принадлежит вам."
+      ],
+      "better-safari": [
+        "Улучшенный Safari",
+        "Специализированные расширения, устраняющие реальные пробелы в навигации, чтении, видео и конфиденциальности."
+      ],
+      "better-mac": [
+        "Улучшенный Mac",
+        "Небольшие нативные утилиты для дисплеев, звука, ввода и указывающих устройств."
+      ]
+    },
+    "new": "Новое",
+    "updated": "Обновлено",
+    "action": "Открыть приложение",
+    "explore": "Открыть приложение",
+    "count": "${count} приложений показано"
+  },
+  "sv": {
+    "families": {
+      "media-play": [
+        "Medier och uppspelning",
+        "Dina filer, spel och musik, med uppspelning utformad för innehåll du äger."
+      ],
+      "better-safari": [
+        "Bättre Safari",
+        "Fokuserade tillägg som löser verkliga luckor inom surfning, läsning, video och integritet."
+      ],
+      "better-mac": [
+        "Bättre Mac",
+        "Små inbyggda verktyg för skärmar, ljud, skrivning och pekdon."
+      ]
+    },
+    "new": "Ny",
+    "updated": "Uppdaterad",
+    "action": "Visa app",
+    "explore": "Visa app",
+    "count": "${count} appar visas"
+  },
+  "th": {
+    "families": {
+      "media-play": [
+        "สื่อและการเล่น",
+        "ไฟล์ เกม และเพลงของคุณ พร้อมการเล่นที่ออกแบบมาสำหรับเนื้อหาที่คุณเป็นเจ้าของ"
+      ],
+      "better-safari": [
+        "Safari ที่ดีกว่า",
+        "ส่วนขยายที่แก้ช่องว่างจริงในการท่องเว็บ การอ่าน วิดีโอ และความเป็นส่วนตัว"
+      ],
+      "better-mac": [
+        "Mac ที่ดีกว่า",
+        "ยูทิลิตี้แบบเนทีฟขนาดเล็กสำหรับจอภาพ เสียง การพิมพ์ และอุปกรณ์ชี้ตำแหน่ง"
+      ]
+    },
+    "new": "ใหม่",
+    "updated": "อัปเดตแล้ว",
+    "action": "ดูแอป",
+    "explore": "ดูแอป",
+    "count": "${count} แอปที่แสดง"
+  },
+  "tr": {
+    "families": {
+      "media-play": [
+        "Medya ve oynatma",
+        "Dosyalarınız, oyunlarınız ve müziğiniz için size ait içeriklere göre tasarlanmış oynatma."
+      ],
+      "better-safari": [
+        "Daha iyi Safari",
+        "Gezinme, okuma, video ve gizlilikteki gerçek eksikleri gideren odaklı uzantılar."
+      ],
+      "better-mac": [
+        "Daha iyi Mac",
+        "Ekran, ses, yazma ve işaretleme aygıtları için küçük yerel yardımcı programlar."
+      ]
+    },
+    "new": "Yeni",
+    "updated": "Güncellendi",
+    "action": "Uygulamayı görüntüle",
+    "explore": "Uygulamayı görüntüle",
+    "count": "${count} uygulama gösteriliyor"
+  },
+  "vi": {
+    "families": {
+      "media-play": [
+        "Nội dung và phát lại",
+        "Tệp, trò chơi và nhạc của bạn, với trải nghiệm phát lại dành cho nội dung bạn sở hữu."
+      ],
+      "better-safari": [
+        "Safari tốt hơn",
+        "Các tiện ích tập trung giải quyết những thiếu sót thực tế về duyệt web, đọc, video và quyền riêng tư."
+      ],
+      "better-mac": [
+        "Mac tốt hơn",
+        "Các tiện ích native nhỏ cho màn hình, âm thanh, nhập liệu và thiết bị trỏ."
+      ]
+    },
+    "new": "Mới",
+    "updated": "Đã cập nhật",
+    "action": "Xem ứng dụng",
+    "explore": "Xem ứng dụng",
+    "count": "${count} ứng dụng được hiển thị"
+  },
+  "zh": {
+    "families": {
+      "media-play": [
+        "媒体与播放",
+        "为你拥有的文件、游戏和音乐打造的播放体验。"
+      ],
+      "better-safari": [
+        "更好用的 Safari",
+        "专注解决浏览、阅读、视频和隐私实际缺口的扩展。"
+      ],
+      "better-mac": [
+        "更好用的 Mac",
+        "用于显示器、声音、输入和指针设备的小巧原生工具。"
+      ]
+    },
+    "new": "新品",
+    "updated": "已更新",
+    "action": "查看 App",
+    "explore": "查看 App",
+    "count": "${count} 款 App 已显示"
+  }
+}

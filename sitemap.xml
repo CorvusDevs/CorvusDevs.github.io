@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://corvusdevs.github.io/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/ar/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/de/</loc></url>
   <url><loc>https://corvusdevs.github.io/i18n/es/</loc></url>
   <url><loc>https://corvusdevs.github.io/i18n/fr/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/de/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/pt/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/it/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/ja/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/zh/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/ko/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/ru/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/ar/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/nl/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/tr/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/pl/</loc></url>
-  <url><loc>https://corvusdevs.github.io/i18n/sv/</loc></url>
   <url><loc>https://corvusdevs.github.io/i18n/hi/</loc></url>
   <url><loc>https://corvusdevs.github.io/i18n/id/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/it/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/ja/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/ko/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/nl/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/pl/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/pt/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/ru/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/sv/</loc></url>
   <url><loc>https://corvusdevs.github.io/i18n/th/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/tr/</loc></url>
   <url><loc>https://corvusdevs.github.io/i18n/vi/</loc></url>
+  <url><loc>https://corvusdevs.github.io/i18n/zh/</loc></url>
+  <url><loc>https://corvusdevs.github.io/CorvusDisplay/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Alien-Crow-For-Safari/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Findbar-For-Safari/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Corvus-Player/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Corvus-Music-Player/</loc></url>
+  <url><loc>https://corvusdevs.github.io/CorvusRecall/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Stow/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Corvus-RSS-Reader-For-Safari/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Ekual/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Purple-Crow-For-Safari/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Red-Crow-For-Safari/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Night-Crow-For-Safari/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Tekla/</loc></url>
+  <url><loc>https://corvusdevs.github.io/CorvusArcade/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Mouse-Scroll-Plus/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Sidestep/</loc></url>
+  <url><loc>https://corvusdevs.github.io/New-Tab-Plus/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Playhead/</loc></url>
+  <url><loc>https://corvusdevs.github.io/Puzzle-Observatory/</loc></url>
+  <url><loc>https://corvusdevs.github.io/privacy.html</loc></url>
+  <url><loc>https://corvusdevs.github.io/terms.html</loc></url>
 </urlset>
