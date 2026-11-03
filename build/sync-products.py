@@ -5,11 +5,31 @@ import json
 import re
 from html import escape
 from pathlib import Path
+from urllib.parse import urlsplit, parse_qs
 
 ROOT = Path(__file__).resolve().parents[1]
 FIELDS = ('slug', 'name', 'appStoreId', 'version', 'releaseDate', 'originalReleaseDate', 'platforms', 'requirements', 'store', 'metadataSource')
 
 def sync_html(text, app):
+    # Bind existing download anchors, including Apple's equivalent slug URLs.
+    def bind_cta(m):
+        anchor = m[0]
+        href = re.search(r'href="([^"]+)"', anchor)
+        if not href:
+            return anchor
+        url = urlsplit(href[1].replace('&amp;', '&'))
+        identifier = re.search(r'/id(\d+)(?:/|$)', url.path)
+        if url.hostname == 'apps.apple.com' and identifier and int(identifier[1]) == app['appStoreId'] and parse_qs(url.query).get('action') != ['write-review']:
+            if 'data-product-store' not in anchor:
+                anchor = anchor[:-1] + ' data-product-store>'
+        return anchor
+    text = re.sub(r'<a\b[^>]*>', bind_cta, text)
+    # Footer links to the current changelog entry are current-version fields.
+    def bind_version(m):
+        value = m[2]
+        prefix = 'v' if value.startswith('v') else ''
+        return m[1] + prefix + '<span data-product-field="version">' + escape(app['version']) + '</span>' + m[3] if value.removeprefix('v') == app['version'] else m[0]
+    text = re.sub(r'(<a\b[^>]*href="[^"]*changelog\.html"[^>]*>)([^<>]*)(</a>)', bind_version, text)
     values = {'version': app['version'], 'platforms': ' · '.join(app['platforms']),
               'requirements': ' · '.join(f'{system} {version}+' for system, version in app['requirements'].items())}
     pattern = r'(<(?P<tag>[a-zA-Z0-9]+)\b[^>]*\bdata-product-field="(?P<field>version|platforms|requirements)"[^>]*>)(?P<value>[^<]*)(</(?P=tag)>)'
