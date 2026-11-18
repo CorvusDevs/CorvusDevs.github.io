@@ -36,3 +36,10 @@ build/ui.json
 catalog.js
 catalog-layout.css
 build/improvement-ui.json
+
+# Tube public information only: no application source or screenshots.
+tube-ambient-lights/*.html
+tube-ambient-lights/style.css
+tube-ambient-lights/LICENSE.txt
+tube-ambient-lights/robots.txt
+tube-ambient-lights/i18n/*/*.html
