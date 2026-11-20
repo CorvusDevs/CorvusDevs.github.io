@@ -3,6 +3,7 @@
 from datetime import date
 from html import escape
 from pathlib import Path
+from string import Template
 import json
 import re
 
@@ -93,11 +94,131 @@ def build():
             shell = shell.replace('<!-- ' + name + ' -->', content)
         shell = shell.replace('<!-- CATALOG_DATA -->', '<script id="appsData" type="application/json">' + json_script(apps) + '</script>\n<script id="catalogUI" type="application/json">' + json_script({'count': ui['count']}) + '</script>')
         shell = shell.replace('<p id="resultCount" aria-live="polite"></p>', '<p id="resultCount" aria-live="polite">' + e(ui['count'].replace('${count}', str(len(apps)))) + '</p>')
+        shell = add_projects(shell, locale)
         out = ROOT / ('index.html' if locale == 'en' else f'i18n/{locale}/index.html')
         out.write_text(shell)
-    urls = [BASE + '/'] + [BASE + f'/i18n/{locale}/' for locale in configs if locale != 'en'] + [a['url'] for a in data['apps']] + [BASE + '/privacy.html', BASE + '/terms.html']
+    urls = [BASE + '/'] + [BASE + f'/i18n/{locale}/' for locale in configs if locale != 'en'] + [a['url'] for a in data['apps']] + [BASE + '/privacy.html', BASE + '/terms.html'] + build_case_studies()
     (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(f'  <url><loc>{e(url)}</loc></url>' for url in urls) + '\n</urlset>\n')
     print(f'Built {len(configs)} static pages, {len(apps)} catalog entries each, {len(urls)} sitemap URLs.')
+
+PUBLIC_SITE = 'https://aletea.org/'
+CASE = {'en': '/i18n/en/projects/aletea/', 'es': '/i18n/es/projects/aletea/'}
+COPY = {
+    'en': {
+        'home': '/', 'nav': 'Projects', 'home_kicker': 'Selected work',
+        'home_intro': 'A look at work beyond our apps.',
+        'card_title': 'Aletea',
+        'card_text': 'A public website and an internal coordination tool for an Uruguayan civil association working alongside autistic people and their families.',
+        'read_case': 'Read the case study', 'title': 'Aletea: a public website and an internal coordination tool',
+        'description': 'A CorvusDevs case study in design and development with Aletea, from finding information to following up on a request.',
+        'lang_menu': 'Language', 'lang_name': 'English', 'work': 'Case study · Uruguay',
+        'headline': 'From finding help to following through.',
+        'intro': 'Two connected projects for Aletea: a public website that helps people find where to start, and an internal tool that helps the team carry requests forward.',
+        'website_cta': 'Visit the public website', 'role': 'Role',
+        'role_detail': 'Experience design and development', 'collaboration': 'Collaboration',
+        'collaboration_detail': 'With the Aletea team', 'public': '01 / Public website',
+        'public_title': 'Give people a clear starting point.',
+        'public_text': 'We organized the site around what visitors come to do: find guidance, check the agenda, or explore resources. People can start with a question without needing to know how the association is organized.',
+        'links_title': 'Three routes into the site',
+        'guide': 'Guidance', 'guide_text': 'Find the right way to get in touch.',
+        'agenda': 'Agenda', 'agenda_text': 'See activities and dates in one place.',
+        'resources': 'Resources', 'resources_text': 'Find guides and practical materials.',
+        'internal': '02 / Internal coordination',
+        'internal_title': 'Keep the next step visible.',
+        'internal_text': 'The internal tool gives the team a place to receive requests, assign responsibility and record what happens next.',
+        'demo': 'Illustrative demo · Fictional data',
+        'demo_id': 'Example 01', 'demo_title': 'Question about joining an activity',
+        'intake': 'Received', 'intake_text': 'A request arrives through a form.',
+        'assign': 'Assigned', 'assign_text': 'The activities team takes responsibility.',
+        'follow': 'Follow-up', 'follow_text': 'The next step is recorded for the team.',
+        'demo_note': 'This is a simplified illustration, not a capture of the internal system. No real records are shown.',
+        'credit': 'Design and development by CorvusDevs, in collaboration with the Aletea team. The team brought its day-to-day work and feedback to the design.',
+        'back': 'Back to projects',
+    },
+    'es': {
+        'home': '/i18n/es/', 'nav': 'Proyectos', 'home_kicker': 'Trabajos seleccionados',
+        'home_intro': 'Una mirada a nuestro trabajo más allá de las apps.',
+        'card_title': 'Aletea',
+        'card_text': 'Un sitio público y un gestor interno para una asociación civil uruguaya que trabaja junto a personas autistas y sus familias.',
+        'read_case': 'Ver el caso de estudio', 'title': 'Aletea: sitio público y gestor interno',
+        'description': 'Un caso de diseño y desarrollo de CorvusDevs junto a Aletea, desde encontrar información hasta dar seguimiento a una consulta.',
+        'lang_menu': 'Idioma', 'lang_name': 'Español', 'work': 'Caso de estudio · Uruguay',
+        'headline': 'De encontrar orientación a dar seguimiento.',
+        'intro': 'Dos proyectos conectados para Aletea: un sitio público que ayuda a encontrar por dónde empezar y un gestor interno que ayuda al equipo a dar curso a las consultas.',
+        'website_cta': 'Visitar el sitio público', 'role': 'Rol',
+        'role_detail': 'Diseño de experiencia y desarrollo', 'collaboration': 'Colaboración',
+        'collaboration_detail': 'Con el equipo de Aletea', 'public': '01 / Sitio público',
+        'public_title': 'Un punto de partida claro.',
+        'public_text': 'Organizamos el sitio según lo que las personas necesitan hacer: pedir orientación, consultar la agenda o buscar recursos. Se puede empezar con una pregunta sin tener que conocer la estructura de la asociación.',
+        'links_title': 'Tres entradas al sitio',
+        'guide': 'Orientación', 'guide_text': 'Encontrá el canal adecuado para tu consulta.',
+        'agenda': 'Agenda', 'agenda_text': 'Consultá las actividades y fechas en un solo lugar.',
+        'resources': 'Recursos', 'resources_text': 'Encontrá guías y materiales prácticos.',
+        'internal': '02 / Gestión interna',
+        'internal_title': 'Que el próximo paso quede claro.',
+        'internal_text': 'El gestor le da al equipo un lugar para recibir consultas, asignar responsabilidades y registrar qué sigue.',
+        'demo': 'Demo ilustrativa · Datos ficticios',
+        'demo_id': 'Ejemplo 01', 'demo_title': 'Consulta para participar en una actividad',
+        'intake': 'Recibida', 'intake_text': 'La consulta llega por un formulario.',
+        'assign': 'Asignada', 'assign_text': 'El equipo de actividades toma la consulta.',
+        'follow': 'Seguimiento', 'follow_text': 'El equipo registra el próximo paso.',
+        'demo_note': 'Es una ilustración simplificada, no una captura del gestor interno. No muestra registros reales.',
+        'credit': 'Diseño y desarrollo de CorvusDevs, en colaboración con el equipo de Aletea, que aportó su experiencia cotidiana y devoluciones al diseño.',
+        'back': 'Volver a proyectos',
+    },
+}
+
+
+def add_projects(shell, locale):
+    if locale not in COPY:
+        return shell
+    c = {k: e(v) for k, v in COPY[locale].items()}
+    about = '<li><a href="#principles">'
+    section = '<section class="section" id="principles">'
+    assert shell.count(about) == shell.count(section) == 1
+    shell = shell.replace(about, f'<li><a href="#projects">{c["nav"]}</a></li>' + about, 1)
+    shell = shell.replace('</head>', '<link rel="stylesheet" href="/i18n/en/projects/aletea/portfolio.css">\n</head>', 1)
+    shell, nav_count = re.subn(
+        r'const navProduct=.*?updateNav\(\);',
+        """const navSections=['apps','projects','principles'].map(id=>[document.getElementById(id),document.querySelector('.nav-links a[href="#'+id+'"]')]);
+function updateNav(){const y=scrollY+160;let active;for(const pair of navSections)if(y>=pair[0].offsetTop)active=pair;for(const pair of navSections){if(pair===active)pair[1].setAttribute('aria-current','true');else pair[1].removeAttribute('aria-current')}}
+addEventListener('scroll',updateNav,{passive:true});updateNav();
+navSections[1][1].addEventListener('click',()=>{document.body.classList.remove('nav-open');document.querySelector('.nav-toggle').setAttribute('aria-expanded','false')});""",
+        shell, count=1,
+    )
+    assert nav_count == 1
+    card = (
+        f'<section class="section" id="projects" aria-labelledby="projects-title"><div class="shell">'
+        f'<div class="section-head"><div><div class="section-kicker">{c["home_kicker"]}</div>'
+        f'<h2 id="projects-title">{c["nav"]}</h2></div><p class="section-intro">{c["home_intro"]}</p></div>'
+        f'<article class="portfolio-card"><div class="portfolio-art" aria-hidden="true">'
+        '<svg viewBox="0 0 320 180" width="320" height="180" fill="none" focusable="false">'
+        '<rect x="35" y="41" width="154" height="107" rx="15" stroke="currentColor" stroke-width="2"/>'
+        '<path d="M35 65h154M57 89h77m-77 16h51m-51 16h64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'
+        '<rect x="166" y="20" width="119" height="95" rx="14" fill="#174347" stroke="currentColor" stroke-width="2"/>'
+        '<path d="M188 52h73m-73 30h73" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'
+        '<path d="M204 52l4 4 8-8m11 34 4 4 8-8" stroke="#fbe09e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
+        '</svg></div>'
+        f'<div class="portfolio-card-body"><h3>{c["card_title"]}</h3><p>{c["card_text"]}</p>'
+        f'<a class="button" href="{CASE[locale]}">{c["read_case"]}<span aria-hidden="true">↗</span></a></div>'
+        '</article></div></section>\n'
+    )
+    return shell.replace(section, card + section, 1)
+
+
+def build_case_studies():
+    template = Template((ROOT / 'build/templates/aletea-case.html').read_text(encoding='utf-8'))
+    for locale, copy in COPY.items():
+        other = 'es' if locale == 'en' else 'en'
+        public = dict(copy, locale=locale, og_locale='en_US' if locale == 'en' else 'es_UY',
+                      canonical=BASE + CASE[locale], en_url=BASE + CASE['en'],
+                      es_url=BASE + CASE['es'], alt=CASE[other], alt_lang=other,
+                      alt_name=COPY[other]['lang_name'], public_url=PUBLIC_SITE)
+        out = ROOT / CASE[locale].strip('/') / 'index.html'
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(template.substitute({k: e(v) for k, v in public.items()}), encoding='utf-8')
+    return [BASE + url for url in CASE.values()]
+
 
 if __name__ == '__main__':
     build()

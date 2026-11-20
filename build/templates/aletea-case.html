@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="${locale}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>${title} | CorvusDevs</title>
+  <meta name="description" content="${description}">
+  <meta name="robots" content="index, follow">
+  <meta property="og:locale" content="${og_locale}">
+  <!-- HREFLANG_BLOCK -->
+  <link rel="canonical" href="${canonical}">
+  <link rel="alternate" hreflang="en" href="${en_url}">
+  <link rel="alternate" hreflang="es" href="${es_url}">
+  <link rel="alternate" hreflang="x-default" href="${en_url}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="${canonical}">
+  <meta property="og:title" content="${title} | CorvusDevs">
+  <meta property="og:description" content="${description}">
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="stylesheet" href="/i18n/en/projects/aletea/portfolio.css">
+  <style>
+    /* ac-no-horizontal-scroll v1 */
+    html, body { overflow-x: clip; max-width: 100%; }
+    img, video, iframe { max-width: 100%; height: auto; }
+    pre, table { max-width: 100%; overflow-x: auto; }
+    /* ac-nav-hamburger v2: two compact links fit natively on mobile; no hidden menu. */
+    /* ac-footer-mobile v1 */
+    @media(max-width:720px) { body { min-height: 0; } footer { padding-block: 24px; } }
+  </style>
+</head>
+<body class="case-study">
+<header class="case-header">
+  <nav class="case-wrap case-nav">
+    <a class="case-brand" href="${home}"><img src="/avatar.png" width="32" height="32" alt="">CorvusDevs</a>
+    <a class="case-language" href="${alt}" hreflang="${alt_lang}"><b aria-hidden="true">文A</b> <span lang="${alt_lang}">${alt_name}</span></a>
+  </nav>
+</header>
+<main>
+  <section class="case-hero case-wrap">
+    <a class="case-back" href="${home}#projects"><span aria-hidden="true">←</span> <span data-i18n="back">${back}</span></a>
+    <p class="case-kicker" data-i18n="work">${work}</p>
+    <h1><span>Aletea</span><small data-i18n="headline">${headline}</small></h1>
+    <p class="case-lede" data-i18n="intro">${intro}</p>
+    <dl class="case-details">
+      <div><dt data-i18n="role">${role}</dt><dd data-i18n="role_detail">${role_detail}</dd></div>
+      <div><dt data-i18n="collaboration">${collaboration}</dt><dd data-i18n="collaboration_detail">${collaboration_detail}</dd></div>
+    </dl>
+  </section>
+  <section class="case-chapter case-wrap" aria-labelledby="case-public">
+    <div class="case-copy">
+      <p class="case-kicker" data-i18n="public">${public}</p>
+      <h2 id="case-public" data-i18n="public_title">${public_title}</h2>
+      <p data-i18n="public_text">${public_text}</p>
+      <a class="case-site" href="${public_url}"><span data-i18n="website_cta">${website_cta}</span><span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="case-routes">
+      <h3 data-i18n="links_title">${links_title}</h3>
+      <ul>
+        <li><div class="case-route"><strong data-i18n="guide">${guide}</strong><small data-i18n="guide_text">${guide_text}</small></div></li>
+        <li><div class="case-route"><strong data-i18n="agenda">${agenda}</strong><small data-i18n="agenda_text">${agenda_text}</small></div></li>
+        <li><div class="case-route"><strong data-i18n="resources">${resources}</strong><small data-i18n="resources_text">${resources_text}</small></div></li>
+      </ul>
+    </div>
+  </section>
+  <section class="case-chapter case-wrap" aria-labelledby="case-internal">
+    <div class="case-copy">
+      <p class="case-kicker" data-i18n="internal">${internal}</p>
+      <h2 id="case-internal" data-i18n="internal_title">${internal_title}</h2>
+      <p data-i18n="internal_text">${internal_text}</p>
+    </div>
+    <figure class="case-demo">
+      <figcaption data-i18n="demo">${demo}</figcaption>
+      <p class="case-example" data-i18n="demo_id">${demo_id}</p>
+      <h3 data-i18n="demo_title">${demo_title}</h3>
+      <ol>
+        <li><strong data-i18n="intake">${intake}</strong><small data-i18n="intake_text">${intake_text}</small></li>
+        <li><strong data-i18n="assign">${assign}</strong><small data-i18n="assign_text">${assign_text}</small></li>
+        <li><strong data-i18n="follow">${follow}</strong><small data-i18n="follow_text">${follow_text}</small></li>
+      </ol>
+      <p class="case-demo-note" data-i18n="demo_note">${demo_note}</p>
+    </figure>
+  </section>
+</main>
+<footer class="case-wrap case-footer">
+  <p data-i18n="credit">${credit}</p>
+  <a class="case-back" href="${home}#projects"><span aria-hidden="true">←</span> <span data-i18n="back">${back}</span></a>
+</footer>
+</body>
+</html>
