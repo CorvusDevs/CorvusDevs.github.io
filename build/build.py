@@ -103,76 +103,253 @@ def build():
 
 PUBLIC_SITE = 'https://aletea.org/'
 CASE = {'en': '/i18n/en/projects/aletea/', 'es': '/i18n/es/projects/aletea/'}
-COPY = {
-    'en': {
-        'home': '/', 'nav': 'Projects', 'home_kicker': 'Selected work',
-        'home_intro': 'A look at work beyond our apps.',
+CASE_ASSETS = '/i18n/en/projects/aletea/assets/'
+CASE_IMAGE = CASE_ASSETS + 'aletea-project.png'
+COPY = {'en': {'home': '/',
+        'nav': 'Projects',
+        'home_title': 'Selected projects',
+        'home_kicker': 'Beyond the apps',
+        'home_intro': 'Design and development with organizations working alongside their communities.',
         'card_title': 'Aletea',
-        'card_text': 'A public website and an internal coordination tool for an Uruguayan civil association working alongside autistic people and their families.',
-        'read_case': 'Read the case study', 'title': 'Aletea: a public website and an internal coordination tool',
-        'description': 'A CorvusDevs case study in design and development with Aletea, from finding information to following up on a request.',
-        'lang_menu': 'Language', 'lang_name': 'English', 'work': 'Case study · Uruguay',
-        'headline': 'From finding help to following through.',
-        'intro': 'Two connected projects for Aletea: a public website that helps people find where to start, and an internal tool that helps the team carry requests forward.',
-        'website_cta': 'Visit the public website', 'role': 'Role',
-        'role_detail': 'Experience design and development', 'collaboration': 'Collaboration',
-        'collaboration_detail': 'With the Aletea team', 'public': '01 / Public website',
-        'public_title': 'Give people a clear starting point.',
-        'public_text': 'We organized the site around what visitors come to do: find guidance, check the agenda, or explore resources. People can start with a question without needing to know how the association is organized.',
-        'links_title': 'Three routes into the site',
-        'guide': 'Guidance', 'guide_text': 'Find the right way to get in touch.',
-        'agenda': 'Agenda', 'agenda_text': 'See activities and dates in one place.',
-        'resources': 'Resources', 'resources_text': 'Find guides and practical materials.',
-        'internal': '02 / Internal coordination',
-        'internal_title': 'Keep the next step visible.',
-        'internal_text': 'The internal tool gives the team a place to receive requests, assign responsibility and record what happens next.',
-        'demo': 'Illustrative demo · Fictional data',
-        'demo_id': 'Example 01', 'demo_title': 'Question about joining an activity',
-        'intake': 'Received', 'intake_text': 'A request arrives through a form.',
-        'assign': 'Assigned', 'assign_text': 'The activities team takes responsibility.',
-        'follow': 'Follow-up', 'follow_text': 'The next step is recorded for the team.',
-        'demo_note': 'This is a simplified illustration, not a capture of the internal system. No real records are shown.',
-        'credit': 'Design and development by CorvusDevs, in collaboration with the Aletea team. The team brought its day-to-day work and feedback to the design.',
+        'card_subtitle': 'Website and internal coordination tool',
+        'card_text': 'Two tools supporting Aletea’s mission: helping autistic people and their families find '
+                     'support and helping the team follow through on requests.',
+        'read_case': 'Read the case study',
         'back': 'Back to projects',
-    },
-    'es': {
-        'home': '/i18n/es/', 'nav': 'Proyectos', 'home_kicker': 'Trabajos seleccionados',
-        'home_intro': 'Una mirada a nuestro trabajo más allá de las apps.',
+        'description': 'Aletea takes a neurodiversity approach to improving quality of life for autistic '
+                       'people and their families. Explore its website and coordination tool.',
+        'art_alt': 'Aletea’s wordmark and an excerpt of the paths on its public website.',
+        'title': 'Design and development portfolio',
+        'skip': 'Skip to content',
+        'folio': 'Portfolio · Design and development',
+        'alt': 'Español',
+        'location': 'Uruguayan civil association for autism',
+        'scope': 'I designed and developed two tools with the Aletea team to help autistic people and their '
+                 'families find support, and help the team follow through on requests.',
+        'discover': 'Explore the projects',
+        'public_short': 'Public website',
+        'internal_short': 'Internal coordination',
+        'related_short': 'Video work',
+        'role_label': 'My role',
+        'role': 'Ale / CorvusDevs · Experience design and development',
+        'collab_label': 'Collaboration',
+        'collab': 'With the Aletea team',
+        'deliverables_label': 'Delivered work',
+        'deliverables': 'Website, internal tool and video work',
+        'nav_label': 'Case study sections',
+        'index_short': 'Feature index',
+        'site_head': 'A simpler path to guidance.',
+        'site_lede': 'For a first-time visitor, “I need guidance” is clearer than the name of a department. '
+                     'That became the starting point for the website.',
+        'decision_label': 'The decision',
+        'site_decision': 'Organize navigation around what people come to do: ask for guidance, find an '
+                         'activity or look up a resource.',
+        'result_label': 'What people can do today',
+        'site_result': 'Find where to ask for guidance, check dates or browse resources from one website.',
+        'site_cta': 'Visit Aletea’s website',
+        'public_caption': 'Excerpt from Aletea’s Spanish homepage: original paths, icons and links, reframed '
+                          'for this portfolio.',
+        'mgr_head': 'Keep each request moving.',
+        'mgr_lede': 'The work does not end when a form is submitted. The team needs to see what came in, who '
+                    'is handling it and what happens next.',
+        'mgr_decision': 'Bring intake, routing, ownership and follow-up together in a workflow the team can '
+                        'pick back up.',
+        'mgr_result': 'A request can move from a form to the team responsible for it, with a record of actions '
+                      'and next steps.',
+        'fake': 'Demo · fictional data',
+        'fake_id': 'Example 01',
+        'request': 'Question about joining an activity',
+        'request_desc': 'A generic example. No contact or participant details.',
+        'step_label': 'Explore the three example steps',
+        'nojs': 'Example workflow: receive a form, route it to the responsible team and record the next step.',
+        'manager_footer': 'Changes in this example are not stored or submitted.',
+        'manager_caption': 'An interactive workflow demo, not a screenshot or a link to the live internal '
+                           'tool.',
+        'editorial_head': 'Telling the community’s story.',
+        'editorial_lede': 'For Fútbol sin Barreras, I edited a thank-you video for volunteers with recorded '
+                          'narration, synchronized captions and a sound mix. This portfolio shows the scope of '
+                          'that editing without displaying footage of participants.',
+        'film_cover_label': 'Video work · Aletea',
+        'film_cover_line': 'An end-of-year thank-you to volunteers',
+        'film_role': 'Editing, captions and sound mix',
+        'film_format_label': 'Format',
+        'film_format': 'Vertical video',
+        'film_caption': 'The project’s public badge. This graphic is not a frame from the video.',
+        'cap_kicker': 'Project scope',
+        'cap_head': 'The work in detail.',
+        'accessibility': 'Aletea uses WCAG 2.2 AA as a benchmark. Evaluation with people and assistive '
+                         'technologies is still pending.',
+        'credit': 'Designed and developed by CorvusDevs with the Aletea team. Their day-to-day work and '
+                  'feedback shaped the decisions.',
+        'cards': [('Find guidance', 'Find a first point of contact for talking with the team.', '/familias/'),
+                  ('Check the agenda', 'See published activities and how to take part.', '/agenda/'),
+                  ('Explore the library', 'Find guides, materials and references.', '/biblioteca/')],
+        'flow': [('01 · Receive', 'Received', 'From: form', 'The request is ready to review and route.'),
+                 ('02 · Route',
+                  'Routed',
+                  'Activities team',
+                  'The responsible team takes the request. This does not confirm enrollment.'),
+                 ('03 · Follow up',
+                  'In follow-up',
+                  'Next step recorded',
+                  'The team records what guidance remains to be given.')],
+        'inv': [('Public website',
+                 ['Needs-based navigation',
+                  'Agenda and activities',
+                  'Search with categories',
+                  'Digital library',
+                  'Training and resources',
+                  'Sections for families and autistic adults',
+                  'Contact routes and forms',
+                  'Blog, campaigns and transparency']),
+                ('Internal coordination',
+                 ['Form intake',
+                  'Pending requests',
+                  'Routing by team',
+                  'Assigning responsibility',
+                  'Role-based access',
+                  'Replies and internal comments',
+                  'Tasks and activity notices',
+                  'Follow-up record']),
+                ('Video editing',
+                 ['Recorded narration and original footage',
+                  'Synchronized captions',
+                  'Voice and music mix',
+                  'Vertical framing and export'])],
+        'mission_first': 'Breaking down barriers.',
+        'mission_last': 'Building community.',
+        'ref_label_es': 'Detalle del sitio público',
+        'route_label': 'Explore the public paths',
+        'fsb_cta': 'Explore Fútbol sin Barreras',
+        'fsb_alt': 'Official Fútbol sin Barreras badge'},
+ 'es': {'home': '/i18n/es/',
+        'nav': 'Proyectos',
+        'home_title': 'Proyectos seleccionados',
+        'home_kicker': 'Más allá de las apps',
+        'home_intro': 'Diseño y desarrollo junto a organizaciones que trabajan en comunidad.',
         'card_title': 'Aletea',
-        'card_text': 'Un sitio público y un gestor interno para una asociación civil uruguaya que trabaja junto a personas autistas y sus familias.',
-        'read_case': 'Ver el caso de estudio', 'title': 'Aletea: sitio público y gestor interno',
-        'description': 'Un caso de diseño y desarrollo de CorvusDevs junto a Aletea, desde encontrar información hasta dar seguimiento a una consulta.',
-        'lang_menu': 'Idioma', 'lang_name': 'Español', 'work': 'Caso de estudio · Uruguay',
-        'headline': 'De encontrar orientación a dar seguimiento.',
-        'intro': 'Dos proyectos conectados para Aletea: un sitio público que ayuda a encontrar por dónde empezar y un gestor interno que ayuda al equipo a dar curso a las consultas.',
-        'website_cta': 'Visitar el sitio público', 'role': 'Rol',
-        'role_detail': 'Diseño de experiencia y desarrollo', 'collaboration': 'Colaboración',
-        'collaboration_detail': 'Con el equipo de Aletea', 'public': '01 / Sitio público',
-        'public_title': 'Un punto de partida claro.',
-        'public_text': 'Organizamos el sitio según lo que las personas necesitan hacer: pedir orientación, consultar la agenda o buscar recursos. Se puede empezar con una pregunta sin tener que conocer la estructura de la asociación.',
-        'links_title': 'Tres entradas al sitio',
-        'guide': 'Orientación', 'guide_text': 'Encontrá el canal adecuado para tu consulta.',
-        'agenda': 'Agenda', 'agenda_text': 'Consultá las actividades y fechas en un solo lugar.',
-        'resources': 'Recursos', 'resources_text': 'Encontrá guías y materiales prácticos.',
-        'internal': '02 / Gestión interna',
-        'internal_title': 'Que el próximo paso quede claro.',
-        'internal_text': 'El gestor le da al equipo un lugar para recibir consultas, asignar responsabilidades y registrar qué sigue.',
-        'demo': 'Demo ilustrativa · Datos ficticios',
-        'demo_id': 'Ejemplo 01', 'demo_title': 'Consulta para participar en una actividad',
-        'intake': 'Recibida', 'intake_text': 'La consulta llega por un formulario.',
-        'assign': 'Asignada', 'assign_text': 'El equipo de actividades toma la consulta.',
-        'follow': 'Seguimiento', 'follow_text': 'El equipo registra el próximo paso.',
-        'demo_note': 'Es una ilustración simplificada, no una captura del gestor interno. No muestra registros reales.',
-        'credit': 'Diseño y desarrollo de CorvusDevs, en colaboración con el equipo de Aletea, que aportó su experiencia cotidiana y devoluciones al diseño.',
+        'card_subtitle': 'Sitio web y Gestor interno',
+        'card_text': 'Dos herramientas para acompañar la misión de Aletea: acercar apoyos a las personas '
+                     'autistas y sus familias, y ayudar al equipo a dar seguimiento a las consultas.',
+        'read_case': 'Ver el caso de estudio',
         'back': 'Volver a proyectos',
-    },
-}
+        'description': 'Desde la neurodiversidad, Aletea trabaja por una mejor calidad de vida para personas '
+                       'autistas y sus familias. Conocé la web y el gestor.',
+        'art_alt': 'Identidad de Aletea y un fragmento de los recorridos de su sitio público.',
+        'title': 'Portafolio de diseño y desarrollo',
+        'skip': 'Saltar al contenido',
+        'folio': 'Portafolio · Diseño y desarrollo',
+        'alt': 'English',
+        'location': 'Asociación Civil Uruguaya de Autismo',
+        'scope': 'Diseñé y desarrollé junto al equipo de Aletea dos herramientas para que las personas '
+                 'autistas y sus familias encuentren apoyos, y para que el equipo pueda dar curso a cada '
+                 'consulta.',
+        'discover': 'Ver los proyectos',
+        'public_short': 'Sitio público',
+        'internal_short': 'Gestor interno',
+        'related_short': 'Trabajo audiovisual',
+        'role_label': 'Mi rol',
+        'role': 'Ale / CorvusDevs · Diseño de experiencia y desarrollo',
+        'collab_label': 'Colaboración',
+        'collab': 'Con el equipo de Aletea',
+        'deliverables_label': 'Trabajo entregado',
+        'deliverables': 'Sitio, gestor y piezas audiovisuales',
+        'nav_label': 'Secciones del caso',
+        'index_short': 'Índice de funciones',
+        'site_head': 'Orientación sin vueltas.',
+        'site_lede': 'Para quien llega por primera vez, “necesito orientación” es más claro que el nombre de '
+                     'un área. Ese fue el punto de partida del sitio.',
+        'decision_label': 'La decisión',
+        'site_decision': 'Ordenar la navegación por lo que la persona necesita hacer: pedir orientación, '
+                         'buscar una actividad o encontrar un recurso.',
+        'result_label': 'Lo que se puede hacer hoy',
+        'site_result': 'Llegar a un canal de orientación, consultar fechas o buscar materiales desde el mismo '
+                       'sitio.',
+        'site_cta': 'Visitar el sitio de Aletea',
+        'public_caption': 'Fragmento de la portada pública: rutas, íconos y enlaces originales. Encuadre '
+                          'adaptado al portafolio.',
+        'mgr_head': 'Que ninguna consulta pierda el hilo.',
+        'mgr_lede': 'La consulta no termina al enviar un formulario. El equipo necesita saber qué llegó, quién '
+                    'lo toma y qué seguimiento queda.',
+        'mgr_decision': 'Reunir recepción, derivación, responsables y seguimiento en un flujo que el equipo '
+                        'pueda retomar.',
+        'mgr_result': 'Una consulta puede pasar del formulario a un equipo responsable, con un registro de '
+                      'acciones y próximos pasos.',
+        'fake': 'Demo · datos ficticios',
+        'fake_id': 'Ejemplo 01',
+        'request': 'Consulta para participar en una actividad',
+        'request_desc': 'Ejemplo genérico, sin datos de contacto ni de participantes.',
+        'step_label': 'Explorar los tres pasos de ejemplo',
+        'nojs': 'Flujo ilustrado: recibir el formulario, derivar al equipo responsable y dejar registrado el '
+                'próximo paso.',
+        'manager_footer': 'Los cambios de estado de este ejemplo no se guardan ni se envían.',
+        'manager_caption': 'Demo interactiva del flujo, no captura ni acceso al gestor real.',
+        'editorial_head': 'La comunidad también se cuenta.',
+        'editorial_lede': 'Para Fútbol sin Barreras, edité una pieza de agradecimiento al voluntariado con voz '
+                          'grabada, montaje, subtítulos sincronizados y mezcla. Acá muestro el trabajo de '
+                          'edición, sin reproducir imágenes de participantes.',
+        'film_cover_label': 'Pieza audiovisual · Aletea',
+        'film_cover_line': 'Agradecimiento de fin de año al voluntariado',
+        'film_role': 'Montaje, subtítulos y mezcla',
+        'film_format_label': 'Formato',
+        'film_format': 'Video vertical',
+        'film_caption': 'Escudo público del proyecto. Esta composición no es un fotograma de la pieza.',
+        'cap_kicker': 'Alcance del proyecto',
+        'cap_head': 'El trabajo, en detalle.',
+        'accessibility': 'Aletea usa WCAG 2.2 AA como referencia. La evaluación con personas y tecnologías de '
+                         'asistencia sigue pendiente.',
+        'credit': 'Diseño y desarrollo por CorvusDevs, junto al equipo de Aletea. Su trabajo cotidiano y sus '
+                  'devoluciones orientaron las decisiones.',
+        'cards': [('Pedir orientación', 'Encontrá un primer canal para conversar con el equipo.', '/familias/'),
+                  ('Consultar la agenda', 'Revisá las actividades publicadas y cómo participar.', '/agenda/'),
+                  ('Explorar la biblioteca', 'Encontrá guías, materiales y referencias.', '/biblioteca/')],
+        'flow': [('01 · Recibir',
+                  'Recibida',
+                  'Origen: formulario',
+                  'La consulta queda disponible para revisar y derivar.'),
+                 ('02 · Derivar',
+                  'Derivada',
+                  'Equipo de actividades',
+                  'El equipo responsable toma la consulta; no se confirma una inscripción.'),
+                 ('03 · Seguir',
+                  'En seguimiento',
+                  'Próximo paso registrado',
+                  'El equipo deja asentado qué orientación falta dar.')],
+        'inv': [('Sitio público',
+                 ['Navegación por necesidades',
+                  'Agenda y actividades',
+                  'Buscador con categorías',
+                  'Biblioteca digital',
+                  'Formación y recursos',
+                  'Páginas para familias y personas adultas autistas',
+                  'Canales y formularios de contacto',
+                  'Blog, campañas y transparencia']),
+                ('Gestor interno',
+                 ['Recepción de formularios',
+                  'Cola de pendientes',
+                  'Derivación por equipo',
+                  'Asignación de responsables',
+                  'Permisos por rol',
+                  'Respuestas y comentarios internos',
+                  'Tareas y avisos de actividad',
+                  'Registro del seguimiento']),
+                ('Edición audiovisual',
+                 ['Montaje de voz y material original',
+                  'Subtítulos sincronizados',
+                  'Mezcla de voz y música',
+                  'Composición y exportación vertical'])],
+        'mission_first': 'Derribamos barreras.',
+        'mission_last': 'Construimos comunidad.',
+        'ref_label_es': 'Detalle del sitio público',
+        'route_label': 'Probá estos recorridos',
+        'fsb_cta': 'Conocé Fútbol sin Barreras',
+        'fsb_alt': 'Escudo oficial de Fútbol sin Barreras'}}
 
 
 def add_projects(shell, locale):
     if locale not in COPY:
         return shell
-    c = {k: e(v) for k, v in COPY[locale].items()}
+    c = {k: e(v) for k, v in COPY[locale].items() if isinstance(v, str)}
     about = '<li><a href="#principles">'
     section = '<section class="section" id="principles">'
     assert shell.count(about) == shell.count(section) == 1
@@ -190,16 +367,10 @@ navSections[1][1].addEventListener('click',()=>{document.body.classList.remove('
     card = (
         f'<section class="section" id="projects" aria-labelledby="projects-title"><div class="shell">'
         f'<div class="section-head"><div><div class="section-kicker">{c["home_kicker"]}</div>'
-        f'<h2 id="projects-title">{c["nav"]}</h2></div><p class="section-intro">{c["home_intro"]}</p></div>'
-        f'<article class="portfolio-card"><div class="portfolio-art" aria-hidden="true">'
-        '<svg viewBox="0 0 320 180" width="320" height="180" fill="none" focusable="false">'
-        '<rect x="35" y="41" width="154" height="107" rx="15" stroke="currentColor" stroke-width="2"/>'
-        '<path d="M35 65h154M57 89h77m-77 16h51m-51 16h64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'
-        '<rect x="166" y="20" width="119" height="95" rx="14" fill="#174347" stroke="currentColor" stroke-width="2"/>'
-        '<path d="M188 52h73m-73 30h73" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'
-        '<path d="M204 52l4 4 8-8m11 34 4 4 8-8" stroke="#fbe09e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
-        '</svg></div>'
-        f'<div class="portfolio-card-body"><h3>{c["card_title"]}</h3><p>{c["card_text"]}</p>'
+        f'<h2 id="projects-title">{c["home_title"]}</h2></div><p class="section-intro">{c["home_intro"]}</p></div>'
+        f'<article class="portfolio-card"><div class="portfolio-art">'
+        f'<img src="{CASE_IMAGE}" width="1200" height="630" loading="lazy" decoding="async" alt="{c["art_alt"]}"></div>'
+        f'<div class="portfolio-card-body"><h3>{c["card_title"]}<span>{c["card_subtitle"]}</span></h3><p>{c["card_text"]}</p>'
         f'<a class="button" href="{CASE[locale]}">{c["read_case"]}<span aria-hidden="true">↗</span></a></div>'
         '</article></div></section>\n'
     )
@@ -210,13 +381,30 @@ def build_case_studies():
     template = Template((ROOT / 'build/templates/aletea-case.html').read_text(encoding='utf-8'))
     for locale, copy in COPY.items():
         other = 'es' if locale == 'en' else 'en'
-        public = dict(copy, locale=locale, og_locale='en_US' if locale == 'en' else 'es_UY',
-                      canonical=BASE + CASE[locale], en_url=BASE + CASE['en'],
-                      es_url=BASE + CASE['es'], alt=CASE[other], alt_lang=other,
-                      alt_name=COPY[other]['lang_name'], public_url=PUBLIC_SITE)
+        values = {k: e(v) for k, v in copy.items() if isinstance(v, str)}
+        values.update(lang=locale, og_locale='en_US' if locale == 'en' else 'es_UY',
+                      canonical=BASE + CASE[locale], en_url=BASE + CASE['en'], es_url=BASE + CASE['es'],
+                      alt_path=CASE[other], alt_lang=other, og_image=BASE + CASE_IMAGE)
+        values['public_cards'] = ''.join(
+            f'<a class="webstep" href="{e(PUBLIC_SITE.rstrip("/") + path)}"><strong>{e(title)}</strong>'
+            f'<span>{e(detail)}</span><b aria-hidden="true">↗</b></a>'
+            for title, detail, path in copy['cards']
+        )
+        values['steps'] = ''.join(
+            f'<button class="flowstep" type="button" aria-pressed="{str(i == 0).lower()}" '
+            f'data-status="{e(status)}" data-owner="{e(owner)}" data-detail="{e(detail)}">{e(step)}</button>'
+            for i, (step, status, owner, detail) in enumerate(copy['flow'])
+        )
+        _, first_status, first_owner, first_detail = copy['flow'][0]
+        values.update(first_status=e(first_status), first_owner=e(first_owner), first_detail=e(first_detail))
+        values['inventories'] = ''.join(
+            '<details' + (' open' if i == 0 else '') + '><summary>' + e(name) + '</summary><ul>'
+            + ''.join('<li>' + e(item) + '</li>' for item in items) + '</ul></details>'
+            for i, (name, items) in enumerate(copy['inv'])
+        )
         out = ROOT / CASE[locale].strip('/') / 'index.html'
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(template.substitute({k: e(v) for k, v in public.items()}), encoding='utf-8')
+        out.write_text(template.substitute(values), encoding='utf-8')
     return [BASE + url for url in CASE.values()]
 
 

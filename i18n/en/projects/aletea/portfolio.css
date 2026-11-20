@@ -1,51 +1,12 @@
+/* Homepage only; the independent case pages load case.css. */
 #projects{scroll-margin-top:76px}
-.portfolio-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);border:1px solid var(--line);border-radius:24px;overflow:hidden;background:var(--surface)}
-.portfolio-art{display:grid;place-items:center;min-height:224px;background:radial-gradient(ellipse at 10% 0%,#286a68,#153e42 75%);color:#d6eddf;padding:18px}
-.portfolio-art svg{max-width:100%;height:auto;display:block}
-.portfolio-card-body{padding:clamp(24px,4vw,54px);align-self:center}
-.portfolio-card-body h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.2rem,4vw,3.7rem);line-height:1;margin:0 0 12px;font-weight:500;letter-spacing:-.04em}
-.portfolio-card-body p{color:var(--muted);max-width:48ch;margin:0 0 24px}
-.portfolio-card-body a{gap:12px}
-@media(max-width:640px){.portfolio-card{grid-template-columns:1fr}.portfolio-art{min-height:0;padding:8px}.portfolio-art svg{width:220px}.portfolio-card-body{padding:24px}}
-.case-study{margin:0;color-scheme:light dark;--case-bg:#f7f6f2;--case-surface:#fff;--case-tint:#e8f0eb;--case-text:#132725;--case-muted:#465b58;--case-border:#cddad2;--case-accent:#17564f;color:var(--case-text);background:var(--case-bg);font:1rem/1.55 "Avenir Next",Avenir,system-ui,sans-serif}
-@media(prefers-color-scheme:dark){.case-study{--case-bg:#101a19;--case-surface:#182624;--case-tint:#1c332e;--case-text:#e7f1eb;--case-muted:#b3c6bc;--case-border:#3a5049;--case-accent:#a9e6c9}}
-.case-study *{box-sizing:border-box}
-.case-study h1,.case-study h2,.case-study h3,.case-study p,.case-study ul,.case-study ol,.case-study figure,.case-study dl,.case-study dd{margin:0}
-.case-study a{color:var(--case-accent);text-decoration-thickness:.08em;text-underline-offset:.22em}
-.case-study a:focus-visible,#projects a:focus-visible{outline:3px solid currentColor;outline-offset:4px}
-.case-wrap{width:min(1090px,calc(100% - 48px));margin-inline:auto}
-.case-header{border-bottom:1px solid var(--case-border)}
-.case-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:67px}
-.case-brand,.case-language{display:inline-flex;align-items:center;gap:9px;min-height:44px;text-decoration:none}
-.case-nav .case-brand{font-weight:750;color:var(--case-text)}.case-brand img{width:32px;height:32px;border-radius:8px}
-.case-language{padding-inline:8px}.case-language:hover{text-decoration:underline}
-.case-hero{padding:36px 0 clamp(54px,8vw,102px)}
-.case-back{display:inline-flex;gap:8px;align-items:center;min-height:44px}
-.case-kicker{font-size:.77rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--case-accent)}
-.case-hero .case-kicker{margin-top:clamp(26px,5vw,64px)}
-.case-hero h1{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.055em;font-weight:500;line-height:.92;font-size:clamp(4rem,11vw,8rem);margin:12px 0 20px}
-.case-hero h1 small{display:block;font-size:clamp(1.7rem,4vw,3.1rem);letter-spacing:-.035em;line-height:1.12;margin-top:13px}
-.case-study .case-lede{font-size:clamp(1.09rem,2vw,1.35rem);color:var(--case-muted);max-width:59ch}
-.case-study .case-details{display:flex;flex-wrap:wrap;gap:17px 42px;margin-top:29px}
-.case-details dt{font-size:.78rem;color:var(--case-muted);font-weight:650}.case-details dd{font-weight:700}
-.case-chapter{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(25px,6vw,75px);align-items:start;padding:clamp(34px,6vw,72px) 0;border-top:1px solid var(--case-border)}
-.case-copy h2{font:500 clamp(2rem,4.4vw,3.7rem)/1.02 Georgia,"Times New Roman",serif;letter-spacing:-.04em;margin:10px 0 15px}
-.case-copy>p:not(.case-kicker){max-width:47ch;color:var(--case-muted)}
-.case-site{display:inline-flex;align-items:center;min-height:44px;gap:8px;margin-top:14px;font-weight:700}
-.case-routes,.case-demo{border:1px solid var(--case-border);border-radius:20px;padding:clamp(18px,3.5vw,31px);background:var(--case-surface)}
-.case-routes h3{font-size:1rem;margin:0 0 7px}
-.case-routes ul,.case-demo ol{list-style:none;padding:0}
-.case-routes li+li{border-top:1px solid var(--case-border)}
-.case-route{padding:11px 0}
-.case-routes small,.case-demo small{display:block;color:var(--case-muted);font-size:.91rem}
-.case-demo{background:var(--case-tint)}
-.case-demo figcaption{color:var(--case-accent);font-size:.77rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;margin-bottom:14px}
-.case-demo .case-example{font-size:.8rem;color:var(--case-muted)}
-.case-demo h3{font-size:1.12rem}
-.case-demo ol{counter-reset:steps;margin:16px 0}
-.case-demo li{counter-increment:steps;position:relative;padding:8px 0 8px 36px;border-top:1px solid var(--case-border)}
-.case-demo li::before{content:counter(steps,decimal-leading-zero);position:absolute;inset-inline-start:0;top:10px;font-size:.75rem;font-weight:800;color:var(--case-accent)}
-.case-demo .case-demo-note{font-size:.84rem;color:var(--case-muted)}
-.case-footer{border-top:1px solid var(--case-border);padding:30px 0 52px;color:var(--case-muted)}
-.case-footer p{max-width:66ch;margin-bottom:8px}
-@media(max-width:720px){.case-wrap{width:calc(100% - 32px)}.case-nav{min-height:60px}.case-chapter{grid-template-columns:1fr}.case-hero{padding-top:20px}}
+#projects .portfolio-card{display:grid;grid-template-columns:minmax(0,1.17fr) minmax(0,.83fr);border:1px solid var(--line);border-radius:24px;overflow:hidden;background:var(--surface)}
+#projects .portfolio-art{display:grid;background:#fcfafd;align-items:center}
+#projects .portfolio-art img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:contain}
+#projects .portfolio-card-body{padding:clamp(24px,4vw,48px);align-self:center}
+#projects .portfolio-card-body h3{font:500 clamp(2.2rem,4vw,3.65rem)/1 Georgia,"Times New Roman",serif;margin:0 0 13px;letter-spacing:-.04em}
+#projects .portfolio-card-body h3 span{font:650 .98rem/1.35 system-ui,sans-serif;letter-spacing:normal;display:block;margin-top:8px}
+#projects .portfolio-card-body p{color:var(--muted);max-width:42ch;margin:0 0 19px}
+#projects .portfolio-card-body a{gap:12px}
+#projects a:focus-visible{outline:3px solid currentColor;outline-offset:4px}
+@media(max-width:720px){#projects .portfolio-card{grid-template-columns:1fr}#projects .portfolio-card-body{padding:22px}}
