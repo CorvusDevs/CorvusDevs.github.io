@@ -22,4 +22,4 @@ Run `python3 build/sync-products.py --products ../products` to write `docs/produ
 
 Release labels use verified App Store dates and the catalog's `updated` snapshot date. New and recently updated mean within 45 days; the activity shelf orders the five latest public App Store versions. Refresh the metadata and rebuild when making a catalog update. No live Apple API calls or price changes occur during the build.
 
-The build creates 20 crawlable app entries per maintained page and a sitemap including product pages. Before review, run `python3 build/check-catalog.py` and `python3 build/sync-products.py --products ../products --check`.
+The build creates 21 crawlable app entries per maintained page and a sitemap including product pages. Before review, run `python3 build/check-catalog.py` and `python3 build/sync-products.py --products ../products --check`.

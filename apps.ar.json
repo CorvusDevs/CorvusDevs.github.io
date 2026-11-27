@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "رحلة ألغاز يومية",
   "description": "استكشف 14 لعبة ألغاز وDaily Signal وDaily Sky وArchive وGuided Expeditions والتدريب دون اتصال بـ 19 لغة. المحتوى اليومي الرسمي مضمن في التطبيق ويُختار حسب تاريخ UTC."
+ },
+ "tube-ambient-lights": {
+  "tagline": "إضاءة تتبع ألوان الفيديو",
+  "description": "أضف توهجًا ناعمًا يتبع الألوان حول فيديوهات YouTube المدعومة التي تعمل داخل صفحة Safari على iPhone أو iPad. يعالج Tube Ambient Lights for Safari الإضاءة محليًا على جهازك."
  }
 }

@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "Un viaje diario de puzles",
   "description": "Explora 14 juegos de puzles, Daily Signal y Daily Sky, Archive, Guided Expeditions y práctica sin conexión en 19 idiomas. El contenido diario oficial está incluido en la app y se selecciona según la fecha UTC."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Luz que sigue los colores del video",
+  "description": "Añade una luz suave con los colores del vídeo alrededor de los vídeos de YouTube compatibles que se reproducen dentro de la página de Safari en tu iPhone o iPad. Tube Ambient Lights for Safari procesa la iluminación en tu dispositivo."
  }
 }

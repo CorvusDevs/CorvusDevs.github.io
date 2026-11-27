@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "Eine tägliche Rätselreise",
   "description": "Entdecke 14 Rätselspiele, Daily Signal und Daily Sky, Archive, Guided Expeditions und Offline-Übungen in 19 Sprachen. Die offiziellen täglichen Inhalte sind in der App enthalten und werden anhand des UTC-Datums ausgewählt."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Licht, das den Farben deines Videos folgt",
+  "description": "Verleihe unterstützten YouTube-Videos, die direkt auf der Safari-Webseite auf deinem iPhone oder iPad laufen, einen sanften, farblich passenden Lichtschein. Tube Ambient Lights for Safari verarbeitet die Beleuchtung lokal auf deinem Gerät."
  }
 }

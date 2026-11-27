@@ -81,5 +81,9 @@
  "Stow": {
   "tagline": "Comprima e extraia os seus ficheiros",
   "description": "Explore e proteja arquivos no Mac. Comprima e extraia ficheiros a partir da app Ficheiros no iPhone e iPad, sem os carregar para a internet."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Luz que acompanha as cores do vídeo",
+  "description": "Adicione uma luz suave, com cores correspondentes às do vídeo, à volta dos vídeos do YouTube compatíveis que são reproduzidos dentro da página web do Safari no seu iPhone ou iPad. Tube Ambient Lights for Safari processa a iluminação localmente no dispositivo."
  }
 }

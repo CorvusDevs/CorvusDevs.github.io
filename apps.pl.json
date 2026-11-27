@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "Codzienna podróż z łamigłówkami",
   "description": "Odkryj 14 gier logicznych, Daily Signal i Daily Sky, Archive, Guided Expeditions oraz ćwiczenia offline w 19 językach. Oficjalna zawartość na każdy dzień jest dołączona do aplikacji i wybierana według daty UTC."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Światło, które podąża za kolorami filmu",
+  "description": "Dodaj miękką poświatę dopasowaną do kolorów obsługiwanych filmów YouTube odtwarzanych na stronie w Safari na urządzeniu iPhone lub iPad. Tube Ambient Lights for Safari przetwarza podświetlenie lokalnie na urządzeniu."
  }
 }

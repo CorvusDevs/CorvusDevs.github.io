@@ -81,5 +81,9 @@
  "Stow": {
   "tagline": "壓縮及解壓縮你的檔案",
   "description": "在 Mac 上瀏覽及保護封存檔。在 iPhone 和 iPad 上透過「檔案」App 壓縮及解壓縮檔案，無須上傳。"
+ },
+ "tube-ambient-lights": {
+  "tagline": "隨影片色彩變化的光暈",
+  "description": "在 iPhone 或 iPad 上，為 Safari 網頁內播放的受支援 YouTube 影片添上柔和光暈，讓光暈隨影片色彩變化。Tube Ambient Lights for Safari 會在你的裝置上以本機方式處理光效。"
  }
 }

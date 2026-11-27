@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "Un viaggio quotidiano tra i rompicapi",
   "description": "Esplora 14 giochi di rompicapi, Daily Signal e Daily Sky, Archive, Guided Expeditions ed esercizi offline in 19 lingue. I contenuti giornalieri ufficiali sono inclusi nell'app e selezionati in base alla data UTC."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Una luce che segue i colori del video",
+  "description": "Aggiungi un alone soffuso, coordinato con i colori del video, intorno ai video YouTube supportati riprodotti nella pagina web di Safari su iPhone o iPad. Tube Ambient Lights for Safari elabora l’illuminazione localmente sul dispositivo."
  }
 }

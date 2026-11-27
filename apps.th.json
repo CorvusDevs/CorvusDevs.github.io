@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "การเดินทางกับปริศนาประจำวัน",
   "description": "สำรวจเกมปริศนา 14 เกม Daily Signal และ Daily Sky, Archive, Guided Expeditions และการฝึกแบบออฟไลน์ใน 19 ภาษา เนื้อหารายวันอย่างเป็นทางการรวมอยู่ในแอปและเลือกตามวันที่ UTC"
+ },
+ "tube-ambient-lights": {
+  "tagline": "แสงที่เปลี่ยนตามสีของวิดีโอ",
+  "description": "เพิ่มแสงนุ่มที่ปรับตามสีของวิดีโอ รอบวิดีโอ YouTube ที่รองรับซึ่งเล่นอยู่ภายในหน้าเว็บ Safari บน iPhone หรือ iPad โดย Tube Ambient Lights for Safari จะประมวลผลแสงภายในอุปกรณ์ของคุณ"
  }
 }

@@ -81,5 +81,9 @@
  "Stow": {
   "tagline": "Fájlok becsomagolása és kicsomagolása",
   "description": "Böngéssze és védje az archívumokat Macen. iPhone-on és iPaden a Fájlok alkalmazásból csomagolhatja be és ki fájljait, feltöltés nélkül."
+ },
+ "tube-ambient-lights": {
+  "tagline": "A videó színeit követő fény",
+  "description": "Adjon a színekhez illő lágy ragyogást az iPhone vagy iPad Safari-weboldalán lejátszott, támogatott YouTube-videók köré. A Tube Ambient Lights for Safari a világítást helyileg, az eszközén dolgozza fel."
  }
 }

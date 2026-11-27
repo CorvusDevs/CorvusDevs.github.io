@@ -81,5 +81,9 @@
  "Stow": {
   "tagline": "Pakk og pakk ut filene dine",
   "description": "Bla i og beskytt arkiver på Mac. Pakk og pakk ut filer fra Filer på iPhone og iPad uten å laste dem opp."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Lys som følger fargene i videoen",
+  "description": "Legg til en myk glød i matchende farger rundt støttede YouTube-videoer som spilles av på nettsiden i Safari på iPhone eller iPad. Tube Ambient Lights for Safari behandler belysningen lokalt på enheten din."
  }
 }

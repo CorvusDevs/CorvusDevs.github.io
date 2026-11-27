@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "Uma jornada diária de quebra-cabeças",
   "description": "Explore 14 jogos de quebra-cabeças, Daily Signal e Daily Sky, Archive, Guided Expeditions e prática offline em 19 idiomas. O conteúdo diário oficial está incluído no app e é selecionado pela data UTC."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Luz que acompanha as cores do vídeo",
+  "description": "Adicione um brilho suave, combinando com as cores do vídeo, ao redor dos vídeos compatíveis do YouTube reproduzidos dentro da página do Safari no iPhone ou iPad. Tube Ambient Lights for Safari processa a iluminação localmente no dispositivo."
  }
 }

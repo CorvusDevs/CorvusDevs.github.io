@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "En daglig pusselresa",
   "description": "Utforska 14 pusselspel, Daily Signal och Daily Sky, Archive, Guided Expeditions och offlineövning på 19 språk. Det officiella dagliga innehållet ingår i appen och väljs utifrån UTC-datumet."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Ljus som följer videons färger",
+  "description": "Lägg till ett mjukt, färgmatchat sken runt YouTube-videor som stöds och spelas upp i Safaris webbsida på din iPhone eller iPad. Tube Ambient Lights for Safari bearbetar ljuset lokalt på din enhet."
  }
 }

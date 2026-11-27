@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "Günlük bir bulmaca yolculuğu",
   "description": "14 bulmaca oyununu, Daily Signal ve Daily Sky'ı, Archive'ı, Guided Expeditions'ı ve 19 dilde çevrimdışı alıştırmayı keşfedin. Resmî günlük içerik uygulamaya dahildir ve UTC tarihine göre seçilir."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Videonun renklerini takip eden ışık",
+  "description": "iPhone veya iPad’inizde Safari web sayfası içinde oynatılan desteklenen YouTube videolarının çevresine, renklerle uyumlu yumuşak bir parıltı ekleyin. Tube Ambient Lights for Safari aydınlatmayı cihazınızda yerel olarak işler."
  }
 }

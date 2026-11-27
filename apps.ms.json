@@ -81,5 +81,9 @@
  "Stow": {
   "tagline": "Mampatkan dan ekstrak fail anda",
   "description": "Semak imbas dan lindungi arkib pada Mac. Mampatkan dan ekstrak fail daripada app Fail pada iPhone dan iPad tanpa memuat naiknya."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Cahaya yang mengikut warna video",
+  "description": "Tambahkan cahaya lembut dengan warna sepadan di sekeliling video YouTube yang disokong dan dimainkan dalam halaman web Safari pada iPhone atau iPad anda. Tube Ambient Lights for Safari memproses pencahayaan secara setempat pada peranti anda."
  }
 }

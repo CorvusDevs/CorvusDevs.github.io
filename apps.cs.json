@@ -81,5 +81,9 @@
  "Stow": {
   "tagline": "Sbalte a rozbalte své soubory",
   "description": "Procházejte a chraňte archivy na Macu. Na zařízeních iPhone a iPad sbalte a rozbalte soubory v aplikaci Soubory bez jejich nahrávání."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Světlo, které sleduje barvy videa",
+  "description": "Přidejte jemnou záři sladěnou s barvami kolem podporovaných videí YouTube přehrávaných přímo na webové stránce v Safari na zařízeních iPhone nebo iPad. Tube Ambient Lights for Safari zpracovává osvětlení místně na vašem zařízení."
  }
 }

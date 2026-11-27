@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "毎日のパズルの旅",
   "description": "14種類のパズルゲーム、Daily SignalとDaily Sky、Archive、Guided Expeditions、オフライン練習を19言語で楽しめます。公式の日替わりコンテンツはアプリに含まれ、UTCの日付に基づいて選ばれます。"
+ },
+ "tube-ambient-lights": {
+  "tagline": "動画の色に合わせて変わる光",
+  "description": "iPhoneやiPadのSafariで、Webページ内に再生される対応YouTube動画の周囲に、動画の色に合わせたやわらかな光を添えましょう。Tube Ambient Lights for Safariは、照明の処理をデバイス内で行います。"
  }
 }

@@ -81,5 +81,9 @@
  "Stow": {
   "tagline": "Comprimă și dezarhivează fișierele tale",
   "description": "Răsfoiește și protejează arhive pe Mac. Comprimă și dezarhivează fișiere din aplicația Fișiere pe iPhone și iPad, fără să le încarci online."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Lumină care urmărește culorile videoclipului",
+  "description": "Adăugați o strălucire blândă, asortată culorilor, în jurul videoclipurilor YouTube acceptate, redate în pagina Safari de pe iPhone sau iPad. Tube Ambient Lights for Safari procesează iluminarea local, pe dispozitiv."
  }
 }

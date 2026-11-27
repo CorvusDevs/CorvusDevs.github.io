@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "हर दिन पहेलियों का एक सफ़र",
   "description": "14 पहेली गेम, Daily Signal और Daily Sky, Archive, Guided Expeditions और 19 भाषाओं में ऑफ़लाइन अभ्यास खोजें। आधिकारिक दैनिक सामग्री ऐप में शामिल है और UTC तारीख के अनुसार चुनी जाती है।"
+ },
+ "tube-ambient-lights": {
+  "tagline": "वीडियो के रंगों के साथ बदलती रोशनी",
+  "description": "अपने iPhone या iPad पर Safari के वेबपेज के भीतर चल रहे समर्थित YouTube वीडियो के आसपास, वीडियो के रंगों से मेल खाती नरम रोशनी जोड़ें। Tube Ambient Lights for Safari रोशनी को आपके डिवाइस पर स्थानीय रूप से प्रोसेस करता है।"
  }
 }

@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "每日解谜之旅",
   "description": "探索 14 款解谜游戏、Daily Signal 和 Daily Sky、Archive、Guided Expeditions，以及支持 19 种语言的离线练习。官方每日内容已包含在应用中，并根据 UTC 日期选择。"
+ },
+ "tube-ambient-lights": {
+  "tagline": "随视频色彩变化的光晕",
+  "description": "在 iPhone 或 iPad 上，为 Safari 网页内播放的受支持 YouTube 视频添上柔和光晕，让光晕随视频色彩变化。Tube Ambient Lights for Safari 在你的设备上本地处理照明效果。"
  }
 }

@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "Perjalanan teka-teki setiap hari",
   "description": "Jelajahi 14 game teka-teki, Daily Signal dan Daily Sky, Archive, Guided Expeditions, dan latihan offline dalam 19 bahasa. Konten harian resmi disertakan dalam aplikasi dan dipilih berdasarkan tanggal UTC."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Cahaya yang mengikuti warna video",
+  "description": "Tambahkan pendar lembut yang senada dengan warna video di sekeliling video YouTube yang didukung dan diputar di dalam halaman web Safari pada iPhone atau iPad Anda. Tube Ambient Lights for Safari memproses pencahayaan secara lokal di perangkat Anda."
  }
 }

@@ -81,5 +81,9 @@
  "Puzzle-Observatory": {
   "tagline": "Hành trình giải đố mỗi ngày",
   "description": "Khám phá 14 trò chơi giải đố, Daily Signal và Daily Sky, Archive, Guided Expeditions cùng chế độ luyện tập ngoại tuyến bằng 19 ngôn ngữ. Nội dung hằng ngày chính thức có sẵn trong ứng dụng và được chọn theo ngày UTC."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Ánh sáng thay đổi theo màu video",
+  "description": "Thêm ánh sáng dịu, đồng màu quanh các video YouTube được hỗ trợ đang phát trong trang web Safari trên iPhone hoặc iPad. Tube Ambient Lights for Safari xử lý ánh sáng ngay trên thiết bị của bạn."
  }
 }

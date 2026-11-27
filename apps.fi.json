@@ -81,5 +81,9 @@
  "Stow": {
   "tagline": "Pakkaa ja pura tiedostosi",
   "description": "Selaa ja suojaa arkistoja Macilla. Pakkaa ja pura tiedostoja iPhonen ja iPadin Tiedostot-apin kautta lataamatta niitä verkkoon."
+ },
+ "tube-ambient-lights": {
+  "tagline": "Valo seuraa videon värejä",
+  "description": "Lisää pehmeä, videon väreihin mukautuva hehku tuettujen YouTube-videoiden ympärille, kun ne toistuvat Safarin verkkosivulla iPhonessa tai iPadissa. Tube Ambient Lights for Safari käsittelee valaistuksen paikallisesti laitteellasi."
  }
 }

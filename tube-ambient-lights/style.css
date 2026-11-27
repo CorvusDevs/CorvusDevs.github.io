@@ -39,3 +39,24 @@ main p[data-i18n^="listing."] { white-space:pre-line; }
 main a,footer a { overflow-wrap:anywhere; } summary:focus-visible,button:focus-visible { outline:3px solid #f4cf74; outline-offset:4px; }
 @media(max-width:720px) { .nav-links { display:none; z-index:7; } body.nav-open .nav-links { display:flex; } .nav-brand { max-width:48%; font-size:14px; } #lang-current { font-size:13px; } header nav { gap:10px; } .lang-btn { padding:7px; } }
 @media(prefers-reduced-motion:reduce) { * { scroll-behavior:auto; } }
+
+/* Product landing page. Support and privacy keep the narrower reading layout. */
+.tube-main { width:min(100% - 40px, 1120px); padding-block:36px 64px; }
+.tube-hero { display:grid; grid-template-columns:minmax(0, .86fr) minmax(0,1.14fr); align-items:center; gap:clamp(1.5rem, 4vw, 3.5rem); padding:clamp(1.25rem, 4vw, 3rem); border:1px solid #394058; border-radius:24px; background:radial-gradient(ellipse at 95% 65%, #252040, transparent 65%), #171b29; }
+.tube-icon { display:block; border-radius:15px; box-shadow:0 8px 24px #0006; }
+.tube-kicker { margin:1rem 0 .45rem; color:#b8c9ff; font-size:.86rem; font-weight:700; }
+.tube-copy h1 { margin:.25rem 0 .75rem; font-size:clamp(2.1rem, 4.5vw, 3.35rem); overflow-wrap:anywhere; }
+.tube-copy h2 { margin:0; color:#bdf4dc; font-size:clamp(1.1rem, 2vw, 1.45rem); }
+.tube-copy .intro { margin:.65rem 0 1.15rem; font-size:1rem; }
+.tube-actions { display:flex; gap:.75rem 1rem; align-items:center; flex-wrap:wrap; }
+.tube-actions > span,.tube-mac { color:#d1d7ed; font-size:.875rem; }
+.tube-mac { margin:.75rem 0 0; }
+.tube-store { display:inline-flex; gap:.55em; align-items:center; min-height:44px; padding:.45rem 1rem; border-radius:10px; background:#bdf4dc; color:#12251d; font-weight:750; text-decoration:none; }
+.tube-store:hover { color:#101d18; background:#d9ffed; }
+.tube-visual { margin:0; }
+.tube-visual img { display:block; width:100%; height:auto; border:1px solid #3b4158; border-radius:14px; }
+.tube-visual figcaption { margin-top:.6rem; color:#c4c9dc; font-size:.75rem; }
+.tube-details { display:flex; flex-wrap:wrap; gap:.6rem 1.25rem; align-items:center; padding:1.25rem .25rem 0; font-size:.94rem; }
+.tube-details p { margin:0; }
+@media(max-width:800px) { .tube-hero { grid-template-columns:1fr; } }
+@media(max-width:420px) { .tube-main { width:min(100% - 24px,1120px); padding-block:16px 36px; } .tube-hero { border-radius:18px; } .tube-visual img { border-radius:10px; } }

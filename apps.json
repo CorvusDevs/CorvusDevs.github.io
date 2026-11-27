@@ -1,6 +1,6 @@
 {
   "$schema": "Shared public website catalog. apps.json drives static homepage cards, localized catalogs, product-data snapshots, marked product fields, and version/CTA drift checks. Run python3 build/build.py and python3 build/sync-products.py --products ../products.",
-  "updated": "2026-11-03",
+  "updated": "2026-11-27",
   "apps": [
     {
       "slug": "CorvusDisplay",
@@ -579,6 +579,68 @@
         "iPadOS": "17.0"
       },
       "metadataSource": "https://itunes.apple.com/lookup?id=6766324724&country=us"
+    },
+    {
+      "slug": "tube-ambient-lights",
+      "name": "Tube Ambient Lights for Safari",
+      "tagline": "Light that follows your video",
+      "description": "Add a soft, color-matched glow around supported YouTube videos playing within the Safari webpage on your iPhone or iPad. Tube Ambient Lights for Safari processes the lighting locally on your device.",
+      "icon": "https://corvusdevs.github.io/icons/tube-ambient-lights.png",
+      "url": "https://corvusdevs.github.io/tube-ambient-lights/",
+      "store": {
+        "kind": "app-store",
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6833198715"
+      },
+      "accent": "purple",
+      "featured": false,
+      "family": "better-safari",
+      "platforms": [
+        "iPhone",
+        "iPad"
+      ],
+      "price": "App Store",
+      "purchase": "one-time",
+      "appStoreId": 6833198715,
+      "version": "1.0",
+      "releaseDate": "2026-11-25T15:56:11Z",
+      "originalReleaseDate": "2026-11-25T08:00:00Z",
+      "requirements": {
+        "iOS": "17.0",
+        "iPadOS": "17.0"
+      },
+      "metadataSource": "https://itunes.apple.com/lookup?id=6833198715&country=us",
+      "locales": [
+        "ar",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "es",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "ms",
+        "nb",
+        "nl",
+        "pl",
+        "ro",
+        "ru",
+        "sk",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi"
+      ]
     },
     {
       "slug": "Night-Crow-For-Safari",

@@ -49,7 +49,7 @@ def validate_page(text, apps):
 def main():
     data = json.loads((ROOT / 'apps.json').read_text())
     apps = data['apps']
-    assert len(apps) == 20 and sum(bool(a.get('appStoreId')) for a in apps) == 15
+    assert len(apps) == 21 and sum(bool(a.get('appStoreId')) for a in apps) == 16
     assert len({a['slug'] for a in apps}) == len(apps)
     # Positive/negative controls establish that the scanner detects the original gap.
     assert validate_page('<div id="catalog"></div>', apps)
@@ -72,7 +72,7 @@ def main():
         for error in validate_page(text, apps):
             errors.append(str(page.relative_to(ROOT)) + ': ' + error)
         payload = json.loads(re.search(r'<script id="appsData" type="application/json">(.*?)</script>', text, re.S)[1])
-        assert len(payload) == 20
+        assert len(payload) == len(apps)
         for local, app in zip(payload, apps):
             for key in ('slug', 'store', 'platforms', 'version', 'releaseDate'):
                 assert local.get(key) == app.get(key), (page, app['slug'], key)
@@ -88,7 +88,7 @@ def main():
     assert {a['url'] for a in apps} <= urls
     if errors:
         raise SystemExit('\n'.join(errors))
-    print(json.dumps({'pages': len(pages), 'static_app_entries': len(pages) * len(apps), 'app_store_products': 15, 'sitemap_urls': len(urls), 'errors': 0}, indent=2))
+    print(json.dumps({'pages': len(pages), 'static_app_entries': len(pages) * len(apps), 'app_store_products': sum(bool(a.get('appStoreId')) for a in apps), 'sitemap_urls': len(urls), 'errors': 0}, indent=2))
 
 if __name__ == '__main__':
     main()

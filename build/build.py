@@ -97,9 +97,15 @@ def build():
         shell = add_projects(shell, locale)
         out = ROOT / ('index.html' if locale == 'en' else f'i18n/{locale}/index.html')
         out.write_text(shell)
-    urls = [BASE + '/'] + [BASE + f'/i18n/{locale}/' for locale in configs if locale != 'en'] + [a['url'] for a in data['apps']] + [BASE + '/privacy.html', BASE + '/terms.html'] + build_case_studies()
+    urls = [BASE + '/'] + [BASE + f'/i18n/{locale}/' for locale in configs if locale != 'en'] + [a['url'] for a in data['apps']] + [BASE + '/privacy.html', BASE + '/terms.html'] + build_case_studies() + tube_product_locales()
     (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(f'  <url><loc>{e(url)}</loc></url>' for url in urls) + '\n</urlset>\n')
     print(f'Built {len(configs)} static pages, {len(apps)} catalog entries each, {len(urls)} sitemap URLs.')
+
+def tube_product_locales():
+    product = ROOT / 'tube-ambient-lights'
+    paths = [product / 'index.es.html', *sorted((product / 'i18n').glob('*/index.html'))]
+    return [BASE + '/' + str(p.relative_to(ROOT)) for p in paths if 'rel="alternate"' in p.read_text()]
+
 
 PUBLIC_SITE = 'https://aletea.org/'
 CASE = {'en': '/i18n/en/projects/aletea/', 'es': '/i18n/es/projects/aletea/'}
