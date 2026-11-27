@@ -1,0 +1,1334 @@
+{
+  "ar": {
+    "path": "i18n/ar/index.html",
+    "direction": "rtl",
+    "name": "العربية",
+    "support": "الدعم",
+    "privacy": "سياسة الخصوصية",
+    "legal": "<p data-i18n=\"native.codeCredit\">يستخدم Tube Ambient Lights for Safari محرّك العرض youtube-ambilight من Wessel Kroos المرخّص بموجب MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">ترخيص مفتوح المصدر</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">سياسة الخصوصية</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "اللغة",
+      "illustration": "نظرة توضيحية",
+      "captures": "لقطات من iPad",
+      "compare_button": "عرض المقارنة",
+      "features": "الميزات"
+    },
+    "title": "ألوان الفيديو تمتد خارج المشغّل",
+    "lead": "إضاءة محيطية تتبع ألوان فيديو YouTube في Safari.",
+    "setup": "فعّل الإضافة في Safari واسمح بالوصول إلى YouTube.",
+    "compare": "مقارنة الإضاءة",
+    "off": "بدون إضاءة",
+    "on": "مع الإضاءة",
+    "privacy_blurb": "تجري المعالجة على جهازك. بلا تحليلات.",
+    "mac": "يتطلب macOS 14 أو أحدث وSafari 17 أو أحدث. مصمم لصفحات فيديو YouTube المدعومة في Safari. يبقى التأثير داخل صفحة الويب ولا يظهر فوق وضع صورة داخل صورة. لا يدعم YouTube Shorts أو تطبيق YouTube. لا يلزم حساب لدى مطوّر التطبيق.",
+    "local_title": "معالجة محلية",
+    "automatic": [
+      "بدء تلقائي تحت تحكمك",
+      "فعّل الإضافة في Safari واسمح بالوصول إلى موقع YouTube. يبدأ التأثير بعد ذلك تلقائيًا على صفحات YouTube المدعومة. يمكنك إيقاف خيار «بدء التشغيل تلقائيًا على YouTube» من «الإعدادات» في الإضافة؛ ويُحتفظ بأي اختيار سابق لإيقافه. إن لم تمنح وصولًا مستمرًا إلى YouTube، فيمكنك استخدام «بدء التشغيل في علامة التبويب هذه» مع منح أي إذن للوصول إلى الصفحة يطلبه Safari."
+    ],
+    "controls": [
+      "اضبط الإضاءة",
+      "غيّر «مدى الإضاءة» و«نعومة التوهّج» من النافذة المنبثقة للإضافة. تتيح إعدادات الأجهزة المحمولة أيضًا ضبط «السطوع» و«التشبّع». توفر الإضاءة على الأجهزة المحمولة مجموعة محدودة من عناصر التحكم، وليست كل إعدادات التأثير المتاحة على الكمبيوتر."
+    ],
+    "limits": [
+      "أبقِ الفيديو داخل الصفحة",
+      "يحيط التوهج بالفيديو الذي يعمل داخل صفحة الويب. ويتوقف مؤقتًا في مشغّل النظام بملء الشاشة وفي وضع صورة داخل صورة. لا يدعم YouTube Shorts أو تطبيق YouTube. قد لا تدعم بعض الفيديوهات المحمية هذا التأثير."
+    ],
+    "req": "يتطلب iOS 17 أو iPadOS 17 أو أحدث، ومتصفح Safari. لا يلزم حساب لدى مطوّر التطبيق."
+  },
+  "ca": {
+    "path": "i18n/ca/index.html",
+    "direction": "ltr",
+    "name": "Català",
+    "support": "Assistència",
+    "privacy": "Política de privacitat",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari utilitza el motor youtube-ambilight de Wessel Kroos amb llicència MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Llicència de codi obert</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Política de privacitat</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Idioma",
+      "illustration": "Vista il·lustrativa",
+      "captures": "Captures de l’iPad",
+      "compare_button": "Compara",
+      "features": "Funcions"
+    },
+    "title": "Els colors del vídeo van més enllà del reproductor",
+    "lead": "Llum ambiental que segueix els colors de YouTube a Safari.",
+    "setup": "Activa l’extensió a Safari i permet l’accés a YouTube.",
+    "compare": "Comparació de la llum",
+    "off": "Sense llum",
+    "on": "Amb llum",
+    "privacy_blurb": "Es processa al teu dispositiu. Sense analítica.",
+    "mac": "Requereix macOS 14 o posterior i Safari 17 o posterior. Dissenyada per a pàgines de vídeos de YouTube compatibles al Safari. L’efecte es manté a la pàgina web i no apareix sobre Imatge dins d'imatge. YouTube Shorts i l’app nativa de YouTube no són compatibles. No cal cap compte amb el desenvolupador de l’app.",
+    "local_title": "PROCESSAMENT LOCAL",
+    "automatic": [
+      "INICI AUTOMÀTIC, TU TENS EL CONTROL",
+      "Activa l’extensió al Safari i permet l’accés al lloc web de YouTube. L’efecte s’iniciarà automàticament a les pàgines compatibles de YouTube. Pots desactivar «Inicia automàticament a YouTube» a la configuració de l’extensió. Si ja havies desactivat l’inici automàtic, aquesta tria es conserva. Sense accés continuat a YouTube, pots utilitzar «Inicia en aquesta pestanya» i concedir els permisos d’accés a la pàgina que demani el Safari."
+    ],
+    "controls": [
+      "AJUSTA LA LLUM",
+      "Canvia l’abast de la llum i la difuminació des de la finestra emergent de l’extensió. La configuració per a mòbils també et permet ajustar la brillantor i la saturació. La il·luminació per a mòbils ofereix un conjunt limitat de controls, en lloc de tots els paràmetres d’efecte de la versió d’escriptori."
+    ],
+    "limits": [
+      "MANTÉN EL VÍDEO A LA PÀGINA",
+      "La resplendor envolta el vídeo que es reprodueix dins de la pàgina web. Es posa en pausa al reproductor de pantalla completa del sistema i a Imatge dins d'imatge. YouTube Shorts i l’app nativa de YouTube no són compatibles. És possible que alguns vídeos protegits no admetin l’efecte."
+    ],
+    "req": "Requereix iOS 17 o iPadOS 17 o posterior i Safari. No cal cap compte amb el desenvolupador de l’app."
+  },
+  "cs": {
+    "path": "i18n/cs/index.html",
+    "direction": "ltr",
+    "name": "Čeština",
+    "support": "Podpora",
+    "privacy": "Zásady ochrany soukromí",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari využívá vykreslovací modul youtube-ambilight pod licencí MIT (autor: Wessel Kroos).</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licence otevřeného zdrojového kódu</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Zásady ochrany soukromí</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Jazyk",
+      "illustration": "Ilustrační náhled",
+      "captures": "Snímky z iPadu",
+      "compare_button": "Porovnat",
+      "features": "Funkce"
+    },
+    "title": "Barvy videa přesahují přehrávač",
+    "lead": "Okolní světlo sleduje barvy YouTube v Safari.",
+    "setup": "Zapněte rozšíření v Safari a povolte přístup k YouTube.",
+    "compare": "Porovnání osvětlení",
+    "off": "Bez světla",
+    "on": "Se světlem",
+    "privacy_blurb": "Zpracování na vašem zařízení. Bez analytiky.",
+    "mac": "Vyžaduje macOS 14 nebo novější a Safari 17 nebo novější. Určeno pro podporované stránky videí YouTube v Safari. Efekt zůstává na webové stránce a nezobrazuje se přes režim Obraz v obrazu. YouTube Shorts a nativní aplikace YouTube nejsou podporované. Účet u vývojáře aplikace není potřeba.",
+    "local_title": "MÍSTNÍ ZPRACOVÁNÍ",
+    "automatic": [
+      "AUTOMATICKÉ SPOUŠTĚNÍ, VAŠE KONTROLA",
+      "Zapněte rozšíření v Safari a povolte přístup k webu YouTube. Efekt se potom na podporovaných stránkách YouTube spustí automaticky. Automatické spouštění můžete vypnout v nastavení rozšíření. Dřívější volba vypnutí zůstane zachovaná. Bez trvalého přístupu k YouTube můžete použít Spustit na tomto panelu a udělit případné oprávnění k přístupu na stránku, o které Safari požádá."
+    ],
+    "controls": [
+      "UPRAVTE SVĚTLO",
+      "V okně rozšíření měňte Dosah světla a Jemnost. Mobilní nastavení umožňuje upravit také Jas a Sytost. Mobilní osvětlení nabízí omezenou sadu voleb, nikoli úplné nastavení efektu z počítačové verze."
+    ],
+    "limits": [
+      "NECHTE VIDEO NA STRÁNCE",
+      "Záře obklopuje video přehrávané přímo na webové stránce. V systémovém celoobrazovkovém přehrávači a v režimu Obraz v obrazu se pozastaví. YouTube Shorts a nativní aplikace YouTube nejsou podporované. Některá chráněná videa nemusí efekt podporovat."
+    ],
+    "req": "Vyžaduje iOS 17 nebo iPadOS 17 nebo novější a Safari. Účet u vývojáře aplikace není potřeba."
+  },
+  "da": {
+    "path": "i18n/da/index.html",
+    "direction": "ltr",
+    "name": "Dansk",
+    "support": "Support",
+    "privacy": "Anonymitetspolitik",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari bruger Wessel Kroos&#x27; youtube-ambilight-renderer under MIT-licensen.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Open source-licens</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Anonymitetspolitik</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Sprog",
+      "illustration": "Illustration",
+      "captures": "Skærmbilleder fra iPad",
+      "compare_button": "Sammenlign",
+      "features": "Funktioner"
+    },
+    "title": "Videoens farver når ud over afspilleren",
+    "lead": "Stemningslys følger farverne på YouTube i Safari.",
+    "setup": "Slå udvidelsen til i Safari, og giv adgang til YouTube.",
+    "compare": "Sammenlign lyset",
+    "off": "Uden lys",
+    "on": "Med lys",
+    "privacy_blurb": "Behandles på din enhed. Ingen analyse.",
+    "mac": "Kræver macOS 14 eller nyere og Safari 17 eller nyere. Udviklet til understøttede YouTube-videosider i Safari. Effekten bliver på websiden og vises ikke oven på vinduet Billede i billede. YouTube Shorts og den selvstændige YouTube-app understøttes ikke. Du behøver ikke en konto hos appens udvikler.",
+    "local_title": "LOKAL BEHANDLING",
+    "automatic": [
+      "AUTOMATISK START, DU BESTEMMER",
+      "Slå udvidelsen til i Safari, og tillad adgang til YouTube-webstedet. Effekten starter derefter automatisk på understøttede YouTube-sider. Du kan slå »Start automatisk på YouTube« fra i udvidelsens indstillinger. Hvis du tidligere har slået automatisk start fra, bevares det valg. Uden vedvarende adgang til YouTube kan du bruge »Start på denne fane« og give de tilladelser til siden, Safari beder om."
+    ],
+    "controls": [
+      "TILPAS LYSET",
+      "Skift lysrækkevidde og sløring i udvidelsens pop op-vindue. I mobilindstillingerne kan du også tilpasse lysstyrke og mætning. Belysningen på mobile enheder har et begrænset udvalg af kontroller, ikke alle effektindstillingerne fra computerversionen."
+    ],
+    "limits": [
+      "BEHOLD VIDEOEN PÅ SIDEN",
+      "Lysskæret omgiver video, der afspilles på websiden. Det sættes på pause i systemets fuldskærmsafspiller og i Billede i billede. YouTube Shorts og den selvstændige YouTube-app understøttes ikke. Effekten understøttes muligvis ikke i visse beskyttede videoer."
+    ],
+    "req": "Kræver iOS 17 eller iPadOS 17 eller nyere samt Safari. Du behøver ikke en konto hos appens udvikler."
+  },
+  "de": {
+    "path": "i18n/de/index.html",
+    "direction": "ltr",
+    "name": "Deutsch",
+    "support": "Support",
+    "privacy": "Datenschutzerklärung",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari verwendet den MIT-lizenzierten youtube-ambilight-Renderer von Wessel Kroos.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Open-Source-Lizenz</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Datenschutzerklärung</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Sprache",
+      "illustration": "Illustration",
+      "captures": "Bildschirmfotos vom iPad",
+      "compare_button": "Vergleichen",
+      "features": "Funktionen"
+    },
+    "title": "Die Farben deines Videos reichen über den Player hinaus",
+    "lead": "Umgebungslicht folgt den Farben von YouTube in Safari.",
+    "setup": "Aktiviere die Erweiterung in Safari und erlaube den Zugriff auf YouTube.",
+    "compare": "Lichtvergleich",
+    "off": "Ohne Licht",
+    "on": "Mit Licht",
+    "privacy_blurb": "Verarbeitung auf deinem Gerät. Keine Analysedaten.",
+    "mac": "Erfordert macOS 14 oder neuer und Safari 17 oder neuer. Für unterstützte YouTube-Videoseiten in Safari entwickelt. Der Effekt bleibt auf der Webseite und erscheint nicht im Bild-in-Bild-Fenster. YouTube Shorts und die native YouTube-App werden nicht unterstützt. Ein Konto beim App-Entwickler ist nicht erforderlich.",
+    "local_title": "LOKALE VERARBEITUNG",
+    "automatic": [
+      "AUTOMATISCHER START, DEINE ENTSCHEIDUNG",
+      "Aktiviere die Erweiterung in Safari und erlaube den Zugriff auf YouTube. Danach startet der Effekt auf unterstützten YouTube-Seiten automatisch. Du kannst „Auf YouTube automatisch starten“ in den Einstellungen der Erweiterung ausschalten. Wenn du den automatischen Start bereits ausgeschaltet hast, bleibt diese Auswahl erhalten. Ohne dauerhaften YouTube-Zugriff kannst du „In diesem Tab starten“ verwenden und den von Safari angeforderten Seitenzugriff erlauben."
+    ],
+    "controls": [
+      "PASSE DAS LICHT AN",
+      "Ändere Reichweite und Weichzeichnung im Erweiterungsfenster. In den mobilen Einstellungen kannst du außerdem Helligkeit und Sättigung anpassen. Die mobile Beleuchtung bietet eine begrenzte Auswahl an Reglern, nicht die vollständigen Effekteinstellungen der Desktopversion."
+    ],
+    "limits": [
+      "LASS DAS VIDEO AUF DER WEBSEITE",
+      "Der Lichtschein umgibt Videos, die direkt auf der Webseite laufen. Im systemeigenen Vollbildplayer und in Bild-in-Bild pausiert er. YouTube Shorts und die native YouTube-App werden nicht unterstützt. Bei einigen geschützten Videos ist der Effekt möglicherweise nicht verfügbar."
+    ],
+    "req": "Erfordert iOS 17 oder iPadOS 17 oder neuer sowie Safari. Ein Konto beim App-Entwickler ist nicht erforderlich."
+  },
+  "el": {
+    "path": "i18n/el/index.html",
+    "direction": "ltr",
+    "name": "Ελληνικά",
+    "support": "Υποστήριξη",
+    "privacy": "Πολιτική απορρήτου",
+    "legal": "<p data-i18n=\"native.codeCredit\">Το Tube Ambient Lights for Safari χρησιμοποιεί τη μηχανή youtube-ambilight του Wessel Kroos με άδεια MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Άδεια ανοικτού κώδικα</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Πολιτική απορρήτου</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Γλώσσα",
+      "illustration": "Ενδεικτική εικόνα",
+      "captures": "Στιγμιότυπα από iPad",
+      "compare_button": "Σύγκριση",
+      "features": "Λειτουργίες"
+    },
+    "title": "Τα χρώματα του βίντεο πέρα από το πλαίσιο",
+    "lead": "Φωτισμός περιβάλλοντος που ακολουθεί τα χρώματα του YouTube στο Safari.",
+    "setup": "Ενεργοποιήστε την επέκταση στο Safari και επιτρέψτε την πρόσβαση στο YouTube.",
+    "compare": "Σύγκριση φωτισμού",
+    "off": "Χωρίς φως",
+    "on": "Με φως",
+    "privacy_blurb": "Επεξεργασία στη συσκευή σας. Χωρίς αναλυτικά στοιχεία.",
+    "mac": "Απαιτεί macOS 14 ή νεότερο και Safari 17 ή νεότερο. Σχεδιασμένο για υποστηριζόμενες σελίδες βίντεο YouTube στο Safari. Το εφέ παραμένει στην ιστοσελίδα και δεν εμφανίζεται πάνω από την Εικόνα εντός εικόνας. Δεν υποστηρίζονται τα YouTube Shorts και η εγγενής εφαρμογή YouTube. Δεν απαιτείται λογαριασμός στον δημιουργό της εφαρμογής.",
+    "local_title": "ΤΟΠΙΚΗ ΕΠΕΞΕΡΓΑΣΙΑ",
+    "automatic": [
+      "ΑΥΤΟΜΑΤΗ ΕΝΑΡΞΗ, ΔΙΚΟΣ ΣΑΣ ΕΛΕΓΧΟΣ",
+      "Ενεργοποιήστε την επέκταση στο Safari και επιτρέψτε πρόσβαση στον ιστότοπο YouTube. Το εφέ ξεκινά έπειτα αυτόματα σε υποστηριζόμενες σελίδες YouTube. Μπορείτε να απενεργοποιήσετε την αυτόματη έναρξη στις ρυθμίσεις της επέκτασης. Προηγούμενη επιλογή απενεργοποίησής της διατηρείται. Χωρίς διαρκή πρόσβαση στο YouTube, μπορείτε να χρησιμοποιήσετε την «Έναρξη σε αυτή την καρτέλα», παραχωρώντας όποια άδεια πρόσβασης στη σελίδα ζητήσει το Safari."
+    ],
+    "controls": [
+      "ΡΥΘΜΙΣΤΕ ΤΟ ΦΩΣ",
+      "Αλλάξτε την εξάπλωση και την απαλότητα από το αναδυόμενο παράθυρο της επέκτασης. Οι ρυθμίσεις για κινητές συσκευές επιτρέπουν επίσης προσαρμογή φωτεινότητας και κορεσμού. Ο φωτισμός σε κινητές συσκευές προσφέρει περιορισμένα χειριστήρια αντί για το πλήρες σύνολο ρυθμίσεων εφέ της έκδοσης υπολογιστή."
+    ],
+    "limits": [
+      "ΚΡΑΤΗΣΤΕ ΤΟ ΒΙΝΤΕΟ ΣΤΗ ΣΕΛΙΔΑ",
+      "Η λάμψη περιβάλλει το βίντεο που παίζει μέσα στην ιστοσελίδα. Παύει στη συσκευή αναπαραγωγής πλήρους οθόνης του συστήματος και στην Εικόνα εντός εικόνας. Δεν υποστηρίζονται τα YouTube Shorts και η εγγενής εφαρμογή YouTube. Ορισμένα προστατευμένα βίντεο ενδέχεται να μην υποστηρίζουν το εφέ."
+    ],
+    "req": "Απαιτεί iOS 17 ή iPadOS 17 ή νεότερο και Safari. Δεν απαιτείται λογαριασμός στον δημιουργό της εφαρμογής."
+  },
+  "es-419": {
+    "path": "i18n/es_419/index.html",
+    "direction": "ltr",
+    "name": "Español (Latinoamérica)",
+    "support": "Asistencia",
+    "privacy": "Política de privacidad",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari utiliza el motor de renderizado youtube-ambilight de Wessel Kroos, con licencia MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licencia de código abierto</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Política de privacidad</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Idioma",
+      "illustration": "Vista ilustrativa",
+      "captures": "Capturas reales de iPad",
+      "compare_button": "Comparar",
+      "features": "Funciones"
+    },
+    "title": "El color de tus videos va más allá del reproductor",
+    "lead": "Una luz ambiental que sigue los colores de YouTube en Safari.",
+    "setup": "Activá la extensión en Safari y permití el acceso a YouTube.",
+    "compare": "Comparativa de iluminación",
+    "off": "Sin luz",
+    "on": "Con luz",
+    "privacy_blurb": "Procesamiento en tu dispositivo. Sin análisis de uso.",
+    "mac": "Requiere macOS 14 o posterior y Safari 17 o posterior. Diseñada para páginas de videos de YouTube compatibles en Safari. El efecto permanece dentro de la página y no aparece sobre Imagen dentro de imagen. YouTube Shorts y la app nativa de YouTube no son compatibles. No se requiere una cuenta con el desarrollador de la app.",
+    "local_title": "PROCESAMIENTO LOCAL",
+    "automatic": [
+      "INICIO AUTOMÁTICO, TÚ DECIDES",
+      "Activa la extensión en Safari y permite el acceso al sitio web de YouTube. El efecto se inicia automáticamente en las páginas compatibles de YouTube. Puedes desactivar el inicio automático en la configuración de la extensión. Si ya lo habías desactivado, se conserva tu elección. Sin acceso permanente a YouTube, puedes usar Iniciar en esta pestaña y conceder los permisos de acceso a la página que solicite Safari."
+    ],
+    "controls": [
+      "AJUSTA LA LUZ",
+      "Cambia la extensión de la luz y el difuminado desde la ventana emergente de la extensión. Los ajustes para dispositivos móviles también permiten cambiar el brillo y la saturación. La iluminación móvil ofrece un conjunto limitado de controles, no todos los ajustes del efecto para computadoras."
+    ],
+    "limits": [
+      "MANTÉN EL VIDEO EN LA PÁGINA",
+      "El resplandor rodea el video que se reproduce dentro de la página. Se pausa en el reproductor a pantalla completa del sistema y en Imagen dentro de imagen. YouTube Shorts y la app nativa de YouTube no son compatibles. Es posible que algunos videos protegidos no admitan el efecto."
+    ],
+    "req": "Requiere iOS 17 o iPadOS 17 o posterior y Safari. No se requiere una cuenta con el desarrollador de la app."
+  },
+  "fi": {
+    "path": "i18n/fi/index.html",
+    "direction": "ltr",
+    "name": "Suomi",
+    "support": "Tuki",
+    "privacy": "Tietosuojakäytäntö",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari käyttää Wessel Kroosin MIT-lisensoitua youtube-ambilight-piirtomoottoria.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Avoimen lähdekoodin lisenssi</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Tietosuojakäytäntö</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Kieli",
+      "illustration": "Havainnekuva",
+      "captures": "Kuvakaappaukset iPadilta",
+      "compare_button": "Vertaa",
+      "features": "Ominaisuudet"
+    },
+    "title": "Videon värit ulottuvat soittimen ulkopuolelle",
+    "lead": "Tunnelmavalo seuraa YouTuben värejä Safarissa.",
+    "setup": "Ota laajennus käyttöön Safarissa ja salli YouTube-sivuston käyttö.",
+    "compare": "Vertaa valaistusta",
+    "off": "Ilman valoa",
+    "on": "Valon kanssa",
+    "privacy_blurb": "Käsitellään laitteellasi. Ei analytiikkaa.",
+    "mac": "Edellyttää macOS 14:ää tai uudempaa ja Safari 17:ää tai uudempaa. Suunniteltu tuetuille YouTube-videosivuille Safarissa. Tehoste pysyy verkkosivulla eikä näy kuva kuvassa -ikkunan päällä. YouTube Shorts -videoita ja erillistä YouTube-appia ei tueta. Tiliä apin kehittäjälle ei tarvita.",
+    "local_title": "PAIKALLINEN KÄSITTELY",
+    "automatic": [
+      "AUTOMAATTINEN KÄYNNISTYS, SINÄ PÄÄTÄT",
+      "Ota laajennus käyttöön Safarissa ja salli YouTube-sivuston käyttöoikeus. Tehoste käynnistyy tämän jälkeen automaattisesti tuetuilla YouTube-sivuilla. Voit poistaa automaattisen käynnistyksen käytöstä laajennusasetuksissa. Aiempi valinta poistaa se käytöstä säilytetään. Ilman jatkuvaa YouTube-käyttöoikeutta voit käyttää Käynnistä tällä välilehdellä -toimintoa ja myöntää Safarin mahdollisesti pyytämän sivun käyttöoikeuden."
+    ],
+    "controls": [
+      "SÄÄDÄ VALOA",
+      "Muuta Valon ulottuvuutta ja Pehmeyttä laajennuksen ponnahdusikkunassa. Mobiiliasetuksissa voit myös säätää Kirkkautta ja Kylläisyyttä. Mobiilivalaistus tarjoaa rajatun valikoiman säätimiä, ei kaikkia työpöytäversion tehosteasetuksia."
+    ],
+    "limits": [
+      "PIDÄ VIDEO SIVULLA",
+      "Hehku ympäröi verkkosivulla toistettavaa videota. Se keskeytyy järjestelmän koko näytön soittimessa ja kuva kuvassa -tilassa. YouTube Shorts -videoita ja erillistä YouTube-appia ei tueta. Jotkin suojatut videot eivät ehkä tue tehostetta."
+    ],
+    "req": "Edellyttää iOS 17:ää tai iPadOS 17:ää tai uudempaa sekä Safaria. Tiliä apin kehittäjälle ei tarvita."
+  },
+  "fr": {
+    "path": "i18n/fr/index.html",
+    "direction": "ltr",
+    "name": "Français (France)",
+    "support": "Assistance",
+    "privacy": "Politique de confidentialité",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari utilise le moteur youtube-ambilight de Wessel Kroos sous licence MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licence open source</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Politique de confidentialité</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Langue",
+      "illustration": "Illustration",
+      "captures": "Captures sur iPad",
+      "compare_button": "Comparer",
+      "features": "Fonctionnalités"
+    },
+    "title": "Les couleurs de vos vidéos dépassent le cadre",
+    "lead": "Un éclairage ambiant qui suit les couleurs de YouTube dans Safari.",
+    "setup": "Activez l’extension dans Safari et autorisez l’accès à YouTube.",
+    "compare": "Comparer l’éclairage",
+    "off": "Sans éclairage",
+    "on": "Avec éclairage",
+    "privacy_blurb": "Traitement sur votre appareil. Aucune analyse d’utilisation.",
+    "mac": "Nécessite macOS 14 ou version ultérieure et Safari 17 ou version ultérieure. Conçue pour les pages vidéo YouTube compatibles dans Safari. L’effet reste dans la page web et n’apparaît pas sur la fenêtre Image dans l’image. YouTube Shorts et l’app native YouTube ne sont pas pris en charge. Aucun compte auprès du développeur de l’app n’est nécessaire.",
+    "local_title": "TRAITEMENT LOCAL",
+    "automatic": [
+      "LE DÉMARRAGE AUTOMATIQUE SOUS VOTRE CONTRÔLE",
+      "Activez l’extension dans Safari et autorisez l’accès au site YouTube. L’effet démarre alors automatiquement sur les pages YouTube compatibles. Vous pouvez désactiver « Démarrer automatiquement sur YouTube » dans les réglages de l’extension. Si vous aviez déjà désactivé le démarrage automatique, ce choix est conservé. Sans accès permanent à YouTube, vous pouvez utiliser « Démarrer dans cet onglet » et accorder les autorisations d’accès à la page demandées par Safari."
+    ],
+    "controls": [
+      "AJUSTEZ L’ÉCLAIRAGE",
+      "Modifiez la portée et le flou depuis la fenêtre de l’extension. Les réglages mobiles permettent aussi d’ajuster la luminosité et la saturation. L’éclairage sur mobile propose un nombre limité de commandes, plutôt que l’ensemble des réglages d’effet de la version pour ordinateur."
+    ],
+    "limits": [
+      "GARDEZ LA VIDÉO DANS LA PAGE",
+      "Le halo entoure la vidéo lue dans la page web. Il se met en pause dans le lecteur plein écran du système et dans Image dans l’image. YouTube Shorts et l’app native YouTube ne sont pas pris en charge. L’effet peut ne pas être disponible sur certaines vidéos protégées."
+    ],
+    "req": "Nécessite iOS 17 ou iPadOS 17 ou version ultérieure, ainsi que Safari. Aucun compte auprès du développeur de l’app n’est nécessaire."
+  },
+  "fr-CA": {
+    "path": "i18n/fr_CA/index.html",
+    "direction": "ltr",
+    "name": "Français (Canada)",
+    "support": "Assistance",
+    "privacy": "Politique de confidentialité",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari utilise le moteur youtube-ambilight de Wessel Kroos sous licence MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licence de logiciel libre</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Politique de confidentialité</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Langue",
+      "illustration": "Illustration",
+      "captures": "Captures sur iPad",
+      "compare_button": "Comparer",
+      "features": "Fonctionnalités"
+    },
+    "title": "Les couleurs de vos vidéos dépassent le cadre",
+    "lead": "Un éclairage ambiant qui suit les couleurs de YouTube dans Safari.",
+    "setup": "Activez l’extension dans Safari et autorisez l’accès à YouTube.",
+    "compare": "Comparer l’éclairage",
+    "off": "Sans éclairage",
+    "on": "Avec éclairage",
+    "privacy_blurb": "Traitement sur votre appareil. Aucune analyse d’utilisation.",
+    "mac": "Nécessite macOS 14 ou une version ultérieure et Safari 17 ou une version ultérieure. Conçu pour les pages vidéo YouTube prises en charge dans Safari. L’effet reste dans la page web et n’apparaît pas au-dessus du mode Image dans l’image. YouTube Shorts et l’app YouTube native ne sont pas pris en charge. Aucun compte auprès du développeur de l’app n’est requis.",
+    "local_title": "TRAITEMENT LOCAL",
+    "automatic": [
+      "DÉMARRAGE AUTOMATIQUE, SOUS VOTRE CONTRÔLE",
+      "Activez l’extension dans Safari et autorisez l’accès au site web YouTube. L’effet démarre alors automatiquement sur les pages YouTube prises en charge. Vous pouvez désactiver le démarrage automatique dans les réglages de l’extension. Si vous l’aviez déjà désactivé, votre choix est conservé. Sans accès permanent à YouTube, vous pouvez utiliser Démarrer dans cet onglet en accordant les autorisations d’accès à la page demandées par Safari."
+    ],
+    "controls": [
+      "RÉGLEZ L’ÉCLAIRAGE",
+      "Modifiez la portée et le flou depuis la fenêtre de l’extension. Les réglages mobiles permettent aussi d’ajuster la luminosité et la saturation. L’éclairage mobile propose un ensemble limité de commandes, et non tous les réglages d’effet de la version pour ordinateur."
+    ],
+    "limits": [
+      "GARDEZ LA VIDÉO DANS LA PAGE",
+      "Le halo entoure la vidéo lue dans la page web. Il se met en pause dans le lecteur plein écran du système et en mode Image dans l’image. YouTube Shorts et l’app YouTube native ne sont pas pris en charge. Certaines vidéos protégées peuvent ne pas prendre en charge l’effet."
+    ],
+    "req": "Nécessite iOS 17 ou iPadOS 17 ou une version ultérieure, ainsi que Safari. Aucun compte auprès du développeur de l’app n’est requis."
+  },
+  "he": {
+    "path": "i18n/he/index.html",
+    "direction": "rtl",
+    "name": "עברית",
+    "support": "תמיכה",
+    "privacy": "מדיניות פרטיות",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari משתמש במנוע הרינדור youtube-ambilight של Wessel Kroos, ברישיון MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">רישיון קוד פתוח</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">מדיניות פרטיות</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "שפה",
+      "illustration": "תמונה להמחשה",
+      "captures": "צילומי מסך מ‑iPad",
+      "compare_button": "השוואה",
+      "features": "תכונות"
+    },
+    "title": "צבעי הסרטון ממשיכים מעבר לנגן",
+    "lead": "תאורת אווירה שעוקבת אחר צבעי YouTube ב‑Safari.",
+    "setup": "הפעילו את ההרחבה ב‑Safari ואפשרו גישה ל‑YouTube.",
+    "compare": "השוואת תאורה",
+    "off": "בלי תאורה",
+    "on": "עם תאורה",
+    "privacy_blurb": "העיבוד מתבצע במכשיר שלך. ללא ניתוח שימוש.",
+    "mac": "נדרשים macOS 14 ואילך ו-Safari 17 ואילך. מיועדת לדפי סרטונים נתמכים של YouTube ב-Safari. האפקט נשאר בתוך דף האינטרנט ואינו מופיע מעל תמונה בתוך תמונה. אין תמיכה ב-YouTube Shorts או באפליקציית YouTube. אין צורך בחשבון אצל מפתח האפליקציה.",
+    "local_title": "עיבוד מקומי",
+    "automatic": [
+      "הפעלה אוטומטית בשליטה שלכם",
+      "הפעילו את ההרחבה ב-Safari ואפשרו גישה לאתר YouTube. לאחר מכן האפקט יתחיל אוטומטית בדפי YouTube נתמכים. אפשר לכבות את „הפעלה אוטומטית ב-YouTube” ב„הגדרות” של ההרחבה; בחירה קודמת לכבות אותה נשמרת. ללא גישה מתמשכת לאתר YouTube, אפשר להשתמש ב„הפעלה בכרטיסייה זו” ולתת כל הרשאת גישה לדף ש-Safari מבקש."
+    ],
+    "controls": [
+      "התאימו את התאורה",
+      "שנו את „טווח התאורה” ואת „רכות הזוהר” מחלונית ההרחבה. בהגדרות לנייד אפשר לשנות גם את „בהירות” ואת „רוויה”. התאורה בנייד מציעה מספר מוגבל של אפשרויות שליטה, ולא את כל הגדרות האפקט של גרסת המחשב."
+    ],
+    "limits": [
+      "השאירו את הסרטון בתוך הדף",
+      "הזוהר מקיף סרטון המתנגן בתוך דף האינטרנט. הוא מושהה בנגן המערכת במסך מלא ובמצב תמונה בתוך תמונה. אין תמיכה ב-YouTube Shorts או באפליקציית YouTube. ייתכן שהאפקט לא יפעל בחלק מהסרטונים המוגנים."
+    ],
+    "req": "נדרשים iOS 17 או iPadOS 17 ואילך, וכן Safari. אין צורך בחשבון אצל מפתח האפליקציה."
+  },
+  "hi": {
+    "path": "i18n/hi/index.html",
+    "direction": "ltr",
+    "name": "हिन्दी",
+    "support": "सहायता से संपर्क",
+    "privacy": "गोपनीयता नीति",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari, Wessel Kroos के MIT-लाइसेंस प्राप्त youtube-ambilight रेंडरर का इस्तेमाल करता है।</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">ओपन-सोर्स लाइसेंस</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">गोपनीयता नीति</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "भाषा",
+      "illustration": "उदाहरण के लिए चित्र",
+      "captures": "iPad के स्क्रीनशॉट",
+      "compare_button": "तुलना करें",
+      "features": "सुविधाएँ"
+    },
+    "title": "वीडियो के रंग प्लेयर से बाहर तक",
+    "lead": "एम्बिएंट लाइट Safari में YouTube के रंगों के साथ बदलती है।",
+    "setup": "Safari में एक्सटेंशन चालू करें और YouTube की ऐक्सेस की अनुमति दें।",
+    "compare": "रोशनी की तुलना",
+    "off": "बिना रोशनी",
+    "on": "रोशनी के साथ",
+    "privacy_blurb": "प्रोसेसिंग आपके डिवाइस पर होती है। इस्तेमाल के आँकड़े नहीं जुटाए जाते।",
+    "mac": "macOS 14 या बाद का संस्करण और Safari 17 या बाद का संस्करण ज़रूरी है। Safari में समर्थित YouTube वीडियो पेजों के लिए बनाया गया है। प्रभाव वेबपेज के भीतर रहता है और पिक्चर इन पिक्चर के ऊपर नहीं दिखता। YouTube Shorts और YouTube ऐप समर्थित नहीं हैं। ऐप डेवलपर के पास खाता बनाने की ज़रूरत नहीं है।",
+    "local_title": "स्थानीय प्रोसेसिंग",
+    "automatic": [
+      "अपने-आप शुरुआत, नियंत्रण आपके पास",
+      "Safari में एक्सटेंशन चालू करें और YouTube वेबसाइट का ऐक्सेस दें। इसके बाद समर्थित YouTube पेजों पर प्रभाव अपने-आप शुरू होता है। एक्सटेंशन की “सेटिंग” में “YouTube पर अपने-आप शुरू करें” बंद किया जा सकता है। अगर आपने पहले इसे बंद करने का विकल्प चुना था, तो वह बना रहता है। YouTube का लगातार ऐक्सेस न दिया हो, तब भी “इस टैब पर शुरू करें” इस्तेमाल किया जा सकता है; Safari पेज के ऐक्सेस की जो अनुमति माँगे, वह दें।"
+    ],
+    "controls": [
+      "रोशनी बदलें",
+      "एक्सटेंशन के पॉपअप से “रोशनी का फैलाव” और “चमक की नरमी” बदलें। मोबाइल की सेटिंग में “चमक” और “रंग की संतृप्ति” भी बदली जा सकती हैं। मोबाइल पर रोशनी के लिए सीमित नियंत्रण मिलते हैं, डेस्कटॉप वाले प्रभाव की सभी सेटिंग नहीं।"
+    ],
+    "limits": [
+      "वीडियो पेज के भीतर रखें",
+      "रोशनी वेबपेज के भीतर चल रहे वीडियो के आसपास होती है। सिस्टम के फ़ुलस्क्रीन प्लेयर और पिक्चर इन पिक्चर में यह रुक जाती है। YouTube Shorts और YouTube ऐप समर्थित नहीं हैं। हो सकता है कि कुछ संरक्षित वीडियो में यह प्रभाव काम न करे।"
+    ],
+    "req": "iOS 17 या iPadOS 17 या बाद का संस्करण और Safari ज़रूरी है। ऐप डेवलपर के पास खाता बनाने की ज़रूरत नहीं है।"
+  },
+  "hr": {
+    "path": "i18n/hr/index.html",
+    "direction": "ltr",
+    "name": "Hrvatski",
+    "support": "Podrška",
+    "privacy": "Pravila privatnosti",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari koristi iscrtavanje youtube-ambilight autora Wessel Kroos pod licencom MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licenca otvorenog koda</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Pravila privatnosti</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Jezik",
+      "illustration": "Ilustracija",
+      "captures": "Snimke zaslona s iPada",
+      "compare_button": "Usporedi",
+      "features": "Značajke"
+    },
+    "title": "Boje videa izlaze iz okvira reproduktora",
+    "lead": "Ambijentalno svjetlo prati boje YouTubea u Safariju.",
+    "setup": "Uključite proširenje u Safariju i dopustite pristup YouTubeu.",
+    "compare": "Usporedba osvjetljenja",
+    "off": "Bez svjetla",
+    "on": "Sa svjetlom",
+    "privacy_blurb": "Obrada na vašem uređaju. Bez analitike.",
+    "mac": "Zahtijeva macOS 14 ili noviji i Safari 17 ili noviji. Namijenjeno podržanim stranicama s YouTube videozapisima u Safariju. Efekt ostaje na web-stranici i ne prikazuje se preko načina Slika u slici. YouTube Shorts i izvorna aplikacija YouTube nisu podržani. Nije potreban račun kod razvojnog programera aplikacije.",
+    "local_title": "LOKALNA OBRADA",
+    "automatic": [
+      "AUTOMATSKO POKRETANJE POD VAŠOM KONTROLOM",
+      "Uključite proširenje u Safariju i dopustite pristup web-stranici YouTube. Efekt se zatim automatski pokreće na podržanim YouTube stranicama. Automatsko pokretanje možete isključiti u postavkama proširenja; prethodna odluka da ga isključite ostaje sačuvana. Bez trajnog pristupa YouTubeu možete koristiti Pokreni na ovoj kartici i odobriti pristup stranici ako ga Safari zatraži."
+    ],
+    "controls": [
+      "PRILAGODITE SVJETLO",
+      "Mijenjajte „Doseg svjetla” i „Zamućenje” u skočnom prozoru proširenja. Mobilne postavke omogućuju i prilagodbu stavki „Svjetlina” i „Zasićenost”. Mobilno osvjetljenje nudi ograničen skup kontrola, a ne sve postavke efekta za računalo."
+    ],
+    "limits": [
+      "ZADRŽITE VIDEOZAPIS NA STRANICI",
+      "Sjaj okružuje videozapis koji se reproducira unutar web-stranice. Pauzira se u sustavskom reproduktoru preko cijelog zaslona i načinu Slika u slici. YouTube Shorts i izvorna aplikacija YouTube nisu podržani. Neki zaštićeni videozapisi možda ne podržavaju efekt."
+    ],
+    "req": "Zahtijeva iOS 17 ili iPadOS 17 ili noviji te Safari. Nije potreban račun kod razvojnog programera aplikacije."
+  },
+  "hu": {
+    "path": "i18n/hu/index.html",
+    "direction": "ltr",
+    "name": "Magyar",
+    "support": "Támogatás",
+    "privacy": "Adatvédelmi tájékoztató",
+    "legal": "<p data-i18n=\"native.codeCredit\">A Tube Ambient Lights for Safari Wessel Kroos MIT-licencű youtube-ambilight megjelenítőjét használja.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Nyílt forráskódú licenc</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Adatvédelmi tájékoztató</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Nyelv",
+      "illustration": "Illusztráció",
+      "captures": "Képernyőképek iPadről",
+      "compare_button": "Összehasonlítás",
+      "features": "Funkciók"
+    },
+    "title": "A videó színei túlnyúlnak a lejátszón",
+    "lead": "A környezeti fény követi a YouTube színeit a Safariban.",
+    "setup": "Kapcsold be a Safari-bővítményt, és engedélyezd a YouTube elérését.",
+    "compare": "A megvilágítás összehasonlítása",
+    "off": "Fény nélkül",
+    "on": "Fénnyel",
+    "privacy_blurb": "Feldolgozás az eszközén. Nincs analitika.",
+    "mac": "macOS 14 vagy újabb és Safari 17 vagy újabb szükséges. A Safari támogatott YouTube-videóoldalaihoz készült. Az effektus a weboldalon marad, a Kép a képben fölött nem jelenik meg. A YouTube Shorts és a natív YouTube alkalmazás nem támogatott. Nem szükséges fiók az alkalmazás fejlesztőjénél.",
+    "local_title": "HELYI FELDOLGOZÁS",
+    "automatic": [
+      "AUTOMATIKUS INDÍTÁS, AZ ÖN KEZÉBEN",
+      "Kapcsolja be a bővítményt a Safariban, és engedélyezze a YouTube-webhely elérését. Az effektus ezután automatikusan indul a támogatott YouTube-oldalakon. Az automatikus indítást kikapcsolhatja a bővítmény beállításaiban; a korábbi kikapcsolás megmarad. Folyamatos YouTube-hozzáférés nélkül az Indítás ezen a lapon lehetőséget használhatja, a Safari által kért oldalelérési engedély megadásával."
+    ],
+    "controls": [
+      "ÁLLÍTSA BE A FÉNYT",
+      "Módosítsa a „Fény kiterjedése” és „Elmosás” értékét a bővítmény felugró ablakában. A mobilbeállításokban a „Fényerő” és „Telítettség” is állítható. A mobilvilágítás a teljes asztali effektusbeállítások helyett korlátozott vezérlőkészletet kínál."
+    ],
+    "limits": [
+      "TARTSA A VIDEÓT AZ OLDALON",
+      "A fény a weboldalon lejátszott videót veszi körül. A rendszer teljes képernyős lejátszójában és Kép a képben módban szünetel. A YouTube Shorts és a natív YouTube alkalmazás nem támogatott. Előfordulhat, hogy védett videókkal az effektus nem működik."
+    ],
+    "req": "iOS 17 vagy iPadOS 17 vagy újabb, valamint Safari szükséges. Nem szükséges fiók az alkalmazás fejlesztőjénél."
+  },
+  "id": {
+    "path": "i18n/id/index.html",
+    "direction": "ltr",
+    "name": "Bahasa Indonesia",
+    "support": "Dukungan",
+    "privacy": "Kebijakan Privasi",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari menggunakan perender youtube-ambilight berlisensi MIT karya Wessel Kroos.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Lisensi sumber terbuka</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Kebijakan Privasi</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Bahasa",
+      "illustration": "Ilustrasi",
+      "captures": "Tangkapan layar dari iPad",
+      "compare_button": "Bandingkan",
+      "features": "Fitur"
+    },
+    "title": "Warna video meluas ke luar pemutar",
+    "lead": "Cahaya ambien mengikuti warna YouTube di Safari.",
+    "setup": "Aktifkan ekstensi di Safari dan izinkan akses ke YouTube.",
+    "compare": "Perbandingan pencahayaan",
+    "off": "Tanpa cahaya",
+    "on": "Dengan cahaya",
+    "privacy_blurb": "Diproses di perangkat Anda. Tanpa analitik.",
+    "mac": "Memerlukan macOS 14 atau lebih baru dan Safari 17 atau lebih baru. Dirancang untuk halaman video YouTube yang didukung di Safari. Efek tetap di dalam halaman web dan tidak muncul di atas Gambar dalam Gambar. YouTube Shorts dan aplikasi YouTube tidak didukung. Tidak memerlukan akun dengan pengembang aplikasi.",
+    "local_title": "PEMROSESAN LOKAL",
+    "automatic": [
+      "MULAI OTOMATIS, TETAP DALAM KENDALI ANDA",
+      "Aktifkan ekstensi di Safari dan izinkan akses situs web YouTube. Efek lalu dimulai otomatis pada halaman YouTube yang didukung. Anda dapat menonaktifkan mulai otomatis di pengaturan ekstensi; pilihan sebelumnya untuk menonaktifkannya dipertahankan. Tanpa akses berkelanjutan ke YouTube, Anda dapat menggunakan Mulai di tab ini dengan izin akses halaman yang diminta Safari."
+    ],
+    "controls": [
+      "SESUAIKAN CAHAYA",
+      "Ubah Jangkauan dan Kelembutan dari pop-up ekstensi. Pengaturan seluler juga memungkinkan Anda menyesuaikan Kecerahan dan Saturasi. Pencahayaan seluler menyediakan sejumlah kontrol terbatas, bukan seluruh pengaturan efek desktop."
+    ],
+    "limits": [
+      "PERTAHANKAN VIDEO DI DALAM HALAMAN",
+      "Pendar mengelilingi video yang diputar di dalam halaman web. Efek dijeda di pemutar layar penuh sistem dan Gambar dalam Gambar. YouTube Shorts dan aplikasi YouTube tidak didukung. Beberapa video yang dilindungi mungkin tidak mendukung efek ini."
+    ],
+    "req": "Memerlukan iOS 17 atau iPadOS 17 atau lebih baru serta Safari. Tidak memerlukan akun dengan pengembang aplikasi."
+  },
+  "it": {
+    "path": "i18n/it/index.html",
+    "direction": "ltr",
+    "name": "Italiano",
+    "support": "Assistenza",
+    "privacy": "Informativa sulla privacy",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari usa il motore youtube-ambilight di Wessel Kroos con licenza MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licenza open source</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Informativa sulla privacy</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Lingua",
+      "illustration": "Immagine illustrativa",
+      "captures": "Schermate da iPad",
+      "compare_button": "Confronta",
+      "features": "Funzioni"
+    },
+    "title": "I colori del video vanno oltre il riquadro",
+    "lead": "La luce ambientale segue i colori di YouTube in Safari.",
+    "setup": "Attiva l’estensione in Safari e consenti l’accesso a YouTube.",
+    "compare": "Confronta la luce",
+    "off": "Senza luce",
+    "on": "Con luce",
+    "privacy_blurb": "Elaborazione sul dispositivo. Nessuna analisi di utilizzo.",
+    "mac": "Richiede macOS 14 o successivo e Safari 17 o successivo. Progettata per le pagine video YouTube supportate in Safari. L’effetto resta nella pagina web e non appare sopra Picture in Picture. YouTube Shorts e l’app nativa di YouTube non sono supportati. Non è richiesto un account presso lo sviluppatore dell’app.",
+    "local_title": "ELABORAZIONE LOCALE",
+    "automatic": [
+      "AVVIO AUTOMATICO, SOTTO IL TUO CONTROLLO",
+      "Attiva l’estensione in Safari e consenti l’accesso al sito YouTube. L’effetto si avvia quindi automaticamente sulle pagine YouTube supportate. Puoi disattivare «Avvia automaticamente su YouTube» nelle impostazioni dell’estensione. Se avevi già disattivato l’avvio automatico, la tua scelta viene mantenuta. Senza accesso continuativo a YouTube, puoi usare «Avvia in questo pannello» e concedere le eventuali autorizzazioni di accesso alla pagina richieste da Safari."
+    ],
+    "controls": [
+      "REGOLA LA LUCE",
+      "Modifica estensione della luce e sfocatura dal pannello dell’estensione. Le impostazioni per dispositivi mobili consentono anche di regolare luminosità e saturazione. L’illuminazione su dispositivi mobili offre un insieme limitato di controlli, non tutte le impostazioni dell’effetto disponibili nella versione desktop."
+    ],
+    "limits": [
+      "MANTIENI IL VIDEO NELLA PAGINA",
+      "L’alone circonda il video riprodotto nella pagina web. Si mette in pausa nel player a schermo intero del sistema e in Picture in Picture. YouTube Shorts e l’app nativa di YouTube non sono supportati. Alcuni video protetti potrebbero non supportare l’effetto."
+    ],
+    "req": "Richiede iOS 17 o iPadOS 17 o successivi e Safari. Non è richiesto un account presso lo sviluppatore dell’app."
+  },
+  "ja": {
+    "path": "i18n/ja/index.html",
+    "direction": "ltr",
+    "name": "日本語",
+    "support": "サポート",
+    "privacy": "プライバシーポリシー",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safariは、Wessel KroosによるMITライセンスのyoutube-ambilightレンダラーを使用しています。</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">オープンソースライセンス</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">プライバシーポリシー</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "言語",
+      "illustration": "イメージ画像",
+      "captures": "iPadの実際の画面",
+      "compare_button": "比較",
+      "features": "機能"
+    },
+    "title": "動画の色がプレーヤーの外まで広がる",
+    "lead": "SafariのYouTube動画の色に合わせて光が広がります。",
+    "setup": "Safariで拡張機能を有効にし、YouTubeへのアクセスを許可してください。",
+    "compare": "照明の比較",
+    "off": "光なし",
+    "on": "光あり",
+    "privacy_blurb": "デバイス内で処理します。分析データの収集はありません。",
+    "mac": "macOS 14以降およびSafari 17以降が必要です。Safari内の対応するYouTube動画ページ向けに設計されています。光の効果はWebページ内に表示され、ピクチャ・イン・ピクチャの上には表示されません。YouTube ShortsとYouTubeアプリには対応していません。アプリ開発者のアカウントは不要です。",
+    "local_title": "処理はデバイス内で",
+    "automatic": [
+      "自動開始も、自分でコントロール",
+      "Safariで機能拡張を有効にし、YouTubeのWebサイトへのアクセスを許可してください。その後、対応するYouTubeページで光の効果が自動的に開始します。機能拡張の「設定」で「YouTubeで自動的に開始」をオフにできます。以前にオフを選んでいた場合、その選択は維持されます。YouTubeへの継続的なアクセス許可がなくても、Safariが求めるページへのアクセス許可を与えることで「このタブで開始」を使用できます。"
+    ],
+    "controls": [
+      "光を調整",
+      "機能拡張のポップアップで「光の広がり」と「ぼかし」を変更できます。モバイル版の設定では「明るさ」と「彩度」も調整できます。モバイル版の照明で使えるコントロールは限られており、デスクトップ版の光の効果に関する全設定は利用できません。"
+    ],
+    "limits": [
+      "動画はページ内で再生",
+      "光はWebページ内で再生される動画の周囲に表示されます。システムのフルスクリーンプレーヤーやピクチャ・イン・ピクチャでは一時停止します。YouTube ShortsとYouTubeアプリには対応していません。保護された一部の動画では、光の効果を利用できない場合があります。"
+    ],
+    "req": "iOS 17以降またはiPadOS 17以降、およびSafariが必要です。アプリ開発者のアカウントは不要です。"
+  },
+  "ko": {
+    "path": "i18n/ko/index.html",
+    "direction": "ltr",
+    "name": "한국어",
+    "support": "지원",
+    "privacy": "개인정보 처리방침",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari는 Wessel Kroos의 MIT 라이선스 youtube-ambilight 렌더러를 사용합니다.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">오픈 소스 라이선스</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">개인정보 처리방침</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "언어",
+      "illustration": "연출 이미지",
+      "captures": "iPad 실제 화면",
+      "compare_button": "비교",
+      "features": "기능"
+    },
+    "title": "동영상의 색이 플레이어 밖으로 퍼져요",
+    "lead": "Safari에서 YouTube 동영상의 색에 맞춰 주변 조명이 바뀝니다.",
+    "setup": "Safari에서 확장 프로그램을 켜고 YouTube 접근을 허용하세요.",
+    "compare": "조명 비교",
+    "off": "조명 끔",
+    "on": "조명 켬",
+    "privacy_blurb": "기기 내에서 처리합니다. 분석 데이터를 수집하지 않습니다.",
+    "mac": "macOS 14 이상 및 Safari 17 이상이 필요합니다. Safari에서 지원되는 YouTube 동영상 페이지용으로 설계되었습니다. 효과는 웹페이지 안에만 표시되며 화면 속 화면 위에는 나타나지 않습니다. YouTube Shorts와 YouTube 앱은 지원하지 않습니다. 앱 개발자 계정은 필요하지 않습니다.",
+    "local_title": "기기 내 처리",
+    "automatic": [
+      "자동 시작도 내 뜻대로",
+      "Safari에서 확장 프로그램을 켜고 YouTube 웹사이트 접근을 허용하세요. 그 후 지원되는 YouTube 페이지에서 효과가 자동으로 시작됩니다. 확장 프로그램의 ‘설정’에서 ‘YouTube에서 자동으로 시작’을 끌 수 있으며, 이전에 끄기로 선택했다면 그 선택이 유지됩니다. YouTube에 대한 지속적인 접근 권한이 없어도 Safari가 요청하는 페이지 접근 권한을 허용하면 ‘이 탭에서 시작’을 사용할 수 있습니다."
+    ],
+    "controls": [
+      "조명 조절하기",
+      "확장 프로그램 팝업에서 ‘빛 확산 범위’와 ‘흐림’을 변경하세요. 모바일 설정에서는 ‘밝기’와 ‘채도’도 조절할 수 있습니다. 모바일 조명은 일부 컨트롤만 제공하며 데스크탑의 전체 효과 설정을 제공하지는 않습니다."
+    ],
+    "limits": [
+      "동영상은 페이지 안에서",
+      "빛은 웹페이지 안에서 재생되는 동영상을 감쌉니다. 시스템 전체 화면 플레이어와 화면 속 화면에서는 일시 정지됩니다. YouTube Shorts와 YouTube 앱은 지원하지 않습니다. 일부 보호된 동영상에서는 효과를 사용할 수 없을 수 있습니다."
+    ],
+    "req": "iOS 17 이상 또는 iPadOS 17 이상 및 Safari가 필요합니다. 앱 개발자 계정은 필요하지 않습니다."
+  },
+  "ms": {
+    "path": "i18n/ms/index.html",
+    "direction": "ltr",
+    "name": "Bahasa Melayu",
+    "support": "Sokongan",
+    "privacy": "Dasar Privasi",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari menggunakan pemapar youtube-ambilight berlesen MIT oleh Wessel Kroos.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Lesen sumber terbuka</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Dasar Privasi</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Bahasa",
+      "illustration": "Ilustrasi",
+      "captures": "Tangkapan skrin iPad",
+      "compare_button": "Bandingkan",
+      "features": "Ciri"
+    },
+    "title": "Warna video melimpah ke luar pemain",
+    "lead": "Cahaya ambien mengikut warna YouTube dalam Safari.",
+    "setup": "Aktifkan sambungan dalam Safari dan benarkan akses kepada YouTube.",
+    "compare": "Perbandingan pencahayaan",
+    "off": "Tanpa cahaya",
+    "on": "Dengan cahaya",
+    "privacy_blurb": "Diproses pada peranti anda. Tiada analitik.",
+    "mac": "Memerlukan macOS 14 atau lebih baharu dan Safari 17 atau lebih baharu. Direka untuk halaman video YouTube yang disokong dalam Safari. Kesan kekal dalam halaman web dan tidak muncul di atas Gambar dalam Gambar. YouTube Shorts dan app YouTube tidak disokong. Tiada akaun dengan pembangun app diperlukan.",
+    "local_title": "PEMPROSESAN SETEMPAT",
+    "automatic": [
+      "PERMULAAN AUTOMATIK, KAWALAN DI TANGAN ANDA",
+      "Dayakan sambungan dalam Safari dan benarkan akses laman web YouTube. Kesan kemudian bermula secara automatik pada halaman YouTube yang disokong. Anda boleh mematikan permulaan automatik dalam seting sambungan; pilihan terdahulu untuk mematikannya dikekalkan. Tanpa akses berterusan kepada YouTube, anda boleh menggunakan Mulakan pada tab ini dengan sebarang kebenaran akses halaman yang diminta oleh Safari."
+    ],
+    "controls": [
+      "LARASKAN CAHAYA",
+      "Ubah Jangkauan dan Kelembutan daripada tetingkap timbul sambungan. Seting mudah alih turut membolehkan anda melaraskan Kecerahan dan Ketepuan. Pencahayaan mudah alih menawarkan set kawalan terhad, bukannya seting kesan desktop penuh."
+    ],
+    "limits": [
+      "KEKALKAN VIDEO DALAM HALAMAN",
+      "Cahaya mengelilingi video yang dimainkan dalam halaman web. Kesan dijeda dalam pemain skrin penuh sistem dan Gambar dalam Gambar. YouTube Shorts dan app YouTube tidak disokong. Sesetengah video yang dilindungi mungkin tidak menyokong kesan ini."
+    ],
+    "req": "Memerlukan iOS 17 atau iPadOS 17 atau lebih baharu serta Safari. Tiada akaun dengan pembangun app diperlukan."
+  },
+  "nb": {
+    "path": "i18n/nb/index.html",
+    "direction": "ltr",
+    "name": "Norsk bokmål",
+    "support": "Kundestøtte",
+    "privacy": "Personvernerklæring",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari bruker youtube-ambilight-gjengivelsesmotoren til Wessel Kroos under MIT-lisensen.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Åpen kildekode-lisens</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Personvernerklæring</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Språk",
+      "illustration": "Illustrasjon",
+      "captures": "Skjermbilder fra iPad",
+      "compare_button": "Sammenlign",
+      "features": "Funksjoner"
+    },
+    "title": "Videoens farger når utenfor spilleren",
+    "lead": "Stemningslyset følger fargene på YouTube i Safari.",
+    "setup": "Slå på utvidelsen i Safari og tillat tilgang til YouTube.",
+    "compare": "Sammenlign lyset",
+    "off": "Uten lys",
+    "on": "Med lys",
+    "privacy_blurb": "Behandles på enheten din. Ingen analyse.",
+    "mac": "Krever macOS 14 eller nyere og Safari 17 eller nyere. Laget for støttede YouTube-videosider i Safari. Effekten blir på nettsiden og vises ikke over vinduet for Bilde i bilde. YouTube Shorts og den separate YouTube-appen støttes ikke. Du trenger ingen konto hos apputvikleren.",
+    "local_title": "LOKAL BEHANDLING",
+    "automatic": [
+      "AUTOMATISK START, DU BESTEMMER",
+      "Aktiver utvidelsen i Safari og tillat tilgang til YouTube-nettstedet. Effekten starter deretter automatisk på støttede YouTube-sider. Du kan slå av «Start automatisk på YouTube» i utvidelsens innstillinger. Hvis du allerede har slått av automatisk start, beholdes det valget. Uten vedvarende tilgang til YouTube kan du bruke «Start på denne fanen» og gi sidetilgangen Safari ber om."
+    ],
+    "controls": [
+      "JUSTER LYSET",
+      "Endre lysrekkevidde og uskarphet i utvidelsens sprettoppvindu. Mobilinnstillingene lar deg også justere lysstyrke og metning. Belysning på mobile enheter har et begrenset utvalg kontroller, ikke alle effektinnstillingene fra skrivebordsversjonen."
+    ],
+    "limits": [
+      "BEHOLD VIDEOEN PÅ SIDEN",
+      "Gløden omgir video som spilles av på nettsiden. Den settes på pause i systemets fullskjermspiller og i Bilde i bilde. YouTube Shorts og den separate YouTube-appen støttes ikke. Enkelte beskyttede videoer støtter kanskje ikke effekten."
+    ],
+    "req": "Krever iOS 17 eller iPadOS 17 eller nyere og Safari. Du trenger ingen konto hos apputvikleren."
+  },
+  "nl": {
+    "path": "i18n/nl/index.html",
+    "direction": "ltr",
+    "name": "Nederlands",
+    "support": "Ondersteuning",
+    "privacy": "Privacybeleid",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari gebruikt de youtube-ambilight-renderer van Wessel Kroos onder de MIT-licentie.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Opensourcelicentie</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Privacybeleid</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Taal",
+      "illustration": "Illustratie",
+      "captures": "Schermafbeeldingen van iPad",
+      "compare_button": "Vergelijk",
+      "features": "Functies"
+    },
+    "title": "De kleuren van je video gaan verder dan de speler",
+    "lead": "Sfeerverlichting volgt de kleuren van YouTube in Safari.",
+    "setup": "Schakel de extensie in Safari in en geef toegang tot YouTube.",
+    "compare": "Vergelijk de verlichting",
+    "off": "Zonder licht",
+    "on": "Met licht",
+    "privacy_blurb": "Verwerkt op je apparaat. Geen analyses.",
+    "mac": "Vereist macOS 14 of nieuwer en Safari 17 of nieuwer. Ontworpen voor ondersteunde YouTube-videopagina’s in Safari. Het effect blijft op de webpagina en verschijnt niet over het Beeld in beeld-venster. YouTube Shorts en de native YouTube-app worden niet ondersteund. Een account bij de app-ontwikkelaar is niet nodig.",
+    "local_title": "LOKALE VERWERKING",
+    "automatic": [
+      "AUTOMATISCH STARTEN, JIJ BESLIST",
+      "Schakel de extensie in Safari in en geef toegang tot de YouTube-website. Het effect start dan automatisch op ondersteunde YouTube-pagina’s. Je kunt ‘Automatisch starten op YouTube’ uitschakelen in de instellingen van de extensie. Als je automatisch starten eerder hebt uitgeschakeld, blijft die keuze behouden. Zonder blijvende toegang tot YouTube kun je ‘Starten op dit tabblad’ gebruiken en de paginatoegang toestaan waar Safari om vraagt."
+    ],
+    "controls": [
+      "PAS HET LICHT AAN",
+      "Wijzig lichtbereik en vervaging vanuit het pop-upvenster van de extensie. In de mobiele instellingen kun je ook helderheid en verzadiging aanpassen. De mobiele verlichting biedt een beperkte set regelaars, niet alle effectinstellingen van de desktopversie."
+    ],
+    "limits": [
+      "HOUD DE VIDEO OP DE PAGINA",
+      "De gloed omringt video’s die op de webpagina worden afgespeeld. De gloed pauzeert in de schermvullende systeemspeler en in Beeld in beeld. YouTube Shorts en de native YouTube-app worden niet ondersteund. Sommige beveiligde video’s ondersteunen het effect mogelijk niet."
+    ],
+    "req": "Vereist iOS 17 of iPadOS 17 of nieuwer en Safari. Een account bij de app-ontwikkelaar is niet nodig."
+  },
+  "pl": {
+    "path": "i18n/pl/index.html",
+    "direction": "ltr",
+    "name": "Polski",
+    "support": "Pomoc techniczna",
+    "privacy": "Polityka prywatności",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari korzysta z renderera youtube-ambilight na licencji MIT (autor: Wessel Kroos).</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licencja otwartego oprogramowania</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Polityka prywatności</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Język",
+      "illustration": "Ilustracja",
+      "captures": "Zrzuty ekranu z iPada",
+      "compare_button": "Porównaj",
+      "features": "Funkcje"
+    },
+    "title": "Kolory filmu wychodzą poza odtwarzacz",
+    "lead": "Światło otoczenia podąża za kolorami YouTube w Safari.",
+    "setup": "Włącz rozszerzenie w Safari i zezwól na dostęp do YouTube.",
+    "compare": "Porównanie oświetlenia",
+    "off": "Bez światła",
+    "on": "Ze światłem",
+    "privacy_blurb": "Przetwarzane na Twoim urządzeniu. Bez analityki.",
+    "mac": "Wymaga macOS 14 lub nowszego oraz Safari 17 lub nowszego. Przeznaczone do obsługiwanych stron filmów YouTube w Safari. Efekt pozostaje na stronie i nie pojawia się nad oknem Obraz w obrazie. YouTube Shorts i natywna aplikacja YouTube nie są obsługiwane. Nie jest wymagane konto u dewelopera aplikacji.",
+    "local_title": "LOKALNE PRZETWARZANIE",
+    "automatic": [
+      "AUTOMATYCZNY START POD TWOJĄ KONTROLĄ",
+      "Włącz rozszerzenie w Safari i zezwól na dostęp do witryny YouTube. Efekt będzie się wtedy uruchamiać automatycznie na obsługiwanych stronach YouTube. Możesz wyłączyć automatyczne uruchamianie w ustawieniach rozszerzenia. Wcześniejszy wybór jego wyłączenia zostaje zachowany. Bez stałego dostępu do YouTube możesz użyć Uruchom na tej karcie, udzielając dostępu do strony, o który może poprosić Safari."
+    ],
+    "controls": [
+      "DOSTOSUJ ŚWIATŁO",
+      "Zmieniaj Zasięg światła i Miękkość w panelu rozszerzenia. Ustawienia mobilne pozwalają też dostosować Jasność i Nasycenie. Wersja mobilna oferuje ograniczony zestaw opcji, a nie wszystkie ustawienia efektu z wersji komputerowej."
+    ],
+    "limits": [
+      "POZOSTAW WIDEO NA STRONIE",
+      "Poświata otacza wideo odtwarzane na stronie. Jest wstrzymywana w systemowym odtwarzaczu pełnoekranowym i trybie Obraz w obrazie. YouTube Shorts i natywna aplikacja YouTube nie są obsługiwane. Niektóre chronione filmy mogą nie obsługiwać efektu."
+    ],
+    "req": "Wymaga iOS 17 lub iPadOS 17 lub nowszego oraz Safari. Nie jest wymagane konto u dewelopera aplikacji."
+  },
+  "pt-BR": {
+    "path": "i18n/pt_BR/index.html",
+    "direction": "ltr",
+    "name": "Português (Brasil)",
+    "support": "Suporte",
+    "privacy": "Política de Privacidade",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari usa o renderizador youtube-ambilight de Wessel Kroos com licença MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licença de código aberto</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Política de Privacidade</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Idioma",
+      "illustration": "Imagem ilustrativa",
+      "captures": "Capturas de tela do iPad",
+      "compare_button": "Comparar",
+      "features": "Recursos"
+    },
+    "title": "As cores do vídeo vão além do player",
+    "lead": "A luz ambiente acompanha as cores do YouTube no Safari.",
+    "setup": "Ative a extensão no Safari e permita o acesso ao YouTube.",
+    "compare": "Comparar iluminação",
+    "off": "Sem luz",
+    "on": "Com luz",
+    "privacy_blurb": "Processado no seu dispositivo. Sem análise de uso.",
+    "mac": "Requer macOS 14 ou posterior e Safari 17 ou posterior. Desenvolvido para páginas de vídeos compatíveis do YouTube no Safari. O efeito fica na página e não aparece sobre Picture in Picture. O YouTube Shorts e o app nativo do YouTube não são compatíveis. Não é necessário ter uma conta com o desenvolvedor do app.",
+    "local_title": "PROCESSAMENTO LOCAL",
+    "automatic": [
+      "INÍCIO AUTOMÁTICO, VOCÊ NO CONTROLE",
+      "Ative a extensão no Safari e permita o acesso ao site do YouTube. O efeito passa a iniciar automaticamente nas páginas compatíveis do YouTube. Você pode desativar «Iniciar automaticamente no YouTube» nos ajustes da extensão. Se você já havia desativado o início automático, essa escolha é mantida. Sem acesso contínuo ao YouTube, você pode usar «Iniciar nesta aba» e conceder as permissões de acesso à página que o Safari solicitar."
+    ],
+    "controls": [
+      "AJUSTE A LUZ",
+      "Altere o alcance e o desfoque pelo painel da extensão. Os ajustes para dispositivos móveis também permitem alterar o brilho e a saturação. A iluminação em dispositivos móveis oferece um conjunto limitado de controles, em vez de todos os ajustes de efeito da versão para computador."
+    ],
+    "limits": [
+      "MANTENHA O VÍDEO NA PÁGINA",
+      "O brilho fica ao redor do vídeo reproduzido dentro da página. Ele pausa no player de tela cheia do sistema e em Picture in Picture. O YouTube Shorts e o app nativo do YouTube não são compatíveis. Alguns vídeos protegidos podem não permitir o efeito."
+    ],
+    "req": "Requer iOS 17 ou iPadOS 17 ou posterior e Safari. Não é necessário ter uma conta com o desenvolvedor do app."
+  },
+  "pt-PT": {
+    "path": "i18n/pt_PT/index.html",
+    "direction": "ltr",
+    "name": "Português (Portugal)",
+    "support": "Suporte",
+    "privacy": "Política de Privacidade",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari usa o renderizador youtube-ambilight de Wessel Kroos com licença MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licença de código aberto</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Política de Privacidade</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Idioma",
+      "illustration": "Imagem ilustrativa",
+      "captures": "Capturas de ecrã do iPad",
+      "compare_button": "Comparar",
+      "features": "Funcionalidades"
+    },
+    "title": "As cores do vídeo vão além do leitor",
+    "lead": "A luz ambiente acompanha as cores do YouTube no Safari.",
+    "setup": "Ative a extensão no Safari e permita o acesso ao YouTube.",
+    "compare": "Comparar iluminação",
+    "off": "Sem luz",
+    "on": "Com luz",
+    "privacy_blurb": "Processado no seu dispositivo. Sem análise de utilização.",
+    "mac": "Requer macOS 14 ou posterior e Safari 17 ou posterior. Concebida para páginas de vídeos do YouTube compatíveis no Safari. O efeito permanece na página web e não aparece sobre o modo Picture-in-Picture. O YouTube Shorts e a app nativa do YouTube não são compatíveis. Não é necessária uma conta junto do programador da app.",
+    "local_title": "PROCESSAMENTO LOCAL",
+    "automatic": [
+      "ARRANQUE AUTOMÁTICO, SOB O SEU CONTROLO",
+      "Ative a extensão no Safari e permita o acesso ao site do YouTube. O efeito inicia-se automaticamente nas páginas compatíveis do YouTube. Pode desativar o arranque automático nas definições da extensão. Se já o tiver desativado, a sua escolha é mantida. Sem acesso permanente ao YouTube, pode usar Iniciar neste separador e conceder as permissões de acesso à página que o Safari pedir."
+    ],
+    "controls": [
+      "AJUSTE A LUZ",
+      "Altere o alcance e o desfoque no painel da extensão. As definições para dispositivos móveis também permitem ajustar o brilho e a saturação. A iluminação móvel oferece um conjunto limitado de controlos, em vez de todas as definições do efeito para computador."
+    ],
+    "limits": [
+      "MANTENHA O VÍDEO NA PÁGINA",
+      "A luz envolve o vídeo reproduzido dentro da página web. É interrompida no leitor em ecrã completo do sistema e no modo Picture-in-Picture. O YouTube Shorts e a app nativa do YouTube não são compatíveis. Alguns vídeos protegidos podem não ser compatíveis com o efeito."
+    ],
+    "req": "Requer iOS 17 ou iPadOS 17 ou posterior e Safari. Não é necessária uma conta junto do programador da app."
+  },
+  "ro": {
+    "path": "i18n/ro/index.html",
+    "direction": "ltr",
+    "name": "Română",
+    "support": "Asistență",
+    "privacy": "Politica de confidențialitate",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari folosește motorul youtube-ambilight al lui Wessel Kroos, sub licență MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licență open-source</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Politica de confidențialitate</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Limbă",
+      "illustration": "Imagine ilustrativă",
+      "captures": "Capturi de ecran de pe iPad",
+      "compare_button": "Compară",
+      "features": "Funcții"
+    },
+    "title": "Culorile videoclipului se extind dincolo de player",
+    "lead": "Lumina ambientală urmează culorile YouTube în Safari.",
+    "setup": "Activează extensia în Safari și permite accesul la YouTube.",
+    "compare": "Compară iluminarea",
+    "off": "Fără lumină",
+    "on": "Cu lumină",
+    "privacy_blurb": "Procesare pe dispozitiv. Fără analiză de utilizare.",
+    "mac": "Necesită macOS 14 sau ulterior și Safari 17 sau ulterior. Concepută pentru pagini video YouTube acceptate în Safari. Efectul rămâne în pagina web și nu apare peste Imagine în imagine. YouTube Shorts și aplicația nativă YouTube nu sunt acceptate. Nu este necesar un cont la dezvoltatorul aplicației.",
+    "local_title": "PROCESARE LOCALĂ",
+    "automatic": [
+      "PORNIRE AUTOMATĂ, SUB CONTROLUL DVS.",
+      "Activați extensia în Safari și permiteți accesul la site-ul YouTube. Efectul pornește apoi automat pe paginile YouTube acceptate. Puteți dezactiva pornirea automată din configurările extensiei; o alegere anterioară de dezactivare este păstrată. Fără acces permanent la YouTube, puteți folosi Pornește în această filă, acordând permisiunea de acces la pagină pe care o solicită Safari."
+    ],
+    "controls": [
+      "AJUSTAȚI LUMINA",
+      "Modificați „Extinderea luminii” și „Estompare” din fereastra pop-up a extensiei. Configurările mobile permit și ajustarea opțiunilor „Luminozitate” și „Saturație”. Iluminarea mobilă oferă un set limitat de comenzi, nu toate configurările efectului pentru computer."
+    ],
+    "limits": [
+      "PĂSTRAȚI VIDEOCLIPUL ÎN PAGINĂ",
+      "Strălucirea înconjoară videoclipul redat în pagina web. Se oprește temporar în playerul de sistem pe tot ecranul și în modul Imagine în imagine. YouTube Shorts și aplicația nativă YouTube nu sunt acceptate. Este posibil ca unele videoclipuri protejate să nu accepte efectul."
+    ],
+    "req": "Necesită iOS 17 sau iPadOS 17 ori ulterior și Safari. Nu este necesar un cont la dezvoltatorul aplicației."
+  },
+  "ru": {
+    "path": "i18n/ru/index.html",
+    "direction": "ltr",
+    "name": "Русский",
+    "support": "Поддержка",
+    "privacy": "Политика конфиденциальности",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari использует движок youtube-ambilight от Wessel Kroos, распространяемый по лицензии MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Лицензия открытого исходного кода</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Политика конфиденциальности</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Язык",
+      "illustration": "Иллюстрация",
+      "captures": "Снимки экрана iPad",
+      "compare_button": "Сравнить",
+      "features": "Возможности"
+    },
+    "title": "Цвета видео выходят за рамки плеера",
+    "lead": "Подсветка подстраивается под цвета YouTube в Safari.",
+    "setup": "Включите расширение в Safari и разрешите доступ к YouTube.",
+    "compare": "Сравнение подсветки",
+    "off": "Без подсветки",
+    "on": "С подсветкой",
+    "privacy_blurb": "Обработка на вашем устройстве. Без аналитики.",
+    "mac": "Требуются macOS 14 или новее и Safari 17 или новее. Предназначено для поддерживаемых страниц видео YouTube в Safari. Эффект остаётся внутри веб-страницы и не отображается поверх режима «Картинка в картинке». YouTube Shorts и нативное приложение YouTube не поддерживаются. Учётная запись у разработчика приложения не нужна.",
+    "local_title": "ЛОКАЛЬНАЯ ОБРАБОТКА",
+    "automatic": [
+      "АВТОЗАПУСК ПОД ВАШИМ КОНТРОЛЕМ",
+      "Включите расширение в Safari и разрешите доступ к сайту YouTube. После этого эффект запускается автоматически на поддерживаемых страницах YouTube. Можно выключить автозапуск в настройках расширения; ранее сделанный выбор выключить его сохраняется. Без постоянного доступа к YouTube можно использовать «Запустить в этой вкладке», предоставив разрешение на доступ к странице, если Safari его запросит."
+    ],
+    "controls": [
+      "НАСТРОЙТЕ СВЕТ",
+      "Меняйте распространение и мягкость во всплывающем окне расширения. Мобильные настройки также позволяют менять яркость и насыщенность. Мобильная подсветка предлагает ограниченный набор параметров, а не полный набор настроек эффекта для компьютера."
+    ],
+    "limits": [
+      "ОСТАВЬТЕ ВИДЕО НА СТРАНИЦЕ",
+      "Свечение окружает видео, воспроизводимое внутри веб-страницы. Оно приостанавливается в системном полноэкранном проигрывателе и режиме «Картинка в картинке». YouTube Shorts и нативное приложение YouTube не поддерживаются. Некоторые защищённые видео могут не поддерживать эффект."
+    ],
+    "req": "Требуются iOS 17 или iPadOS 17 или новее и Safari. Учётная запись у разработчика приложения не нужна."
+  },
+  "sk": {
+    "path": "i18n/sk/index.html",
+    "direction": "ltr",
+    "name": "Slovenčina",
+    "support": "Podpora",
+    "privacy": "Zásady ochrany súkromia",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari používa vykresľovanie youtube-ambilight od Wessel Kroos pod licenciou MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licencia otvoreného zdrojového kódu</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Zásady ochrany súkromia</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Jazyk",
+      "illustration": "Ilustračný obrázok",
+      "captures": "Snímky obrazovky z iPadu",
+      "compare_button": "Porovnať",
+      "features": "Funkcie"
+    },
+    "title": "Farby videa presahujú prehrávač",
+    "lead": "Okolité svetlo sleduje farby YouTube v Safari.",
+    "setup": "Zapnite rozšírenie v Safari a povoľte prístup k YouTube.",
+    "compare": "Porovnanie osvetlenia",
+    "off": "Bez svetla",
+    "on": "So svetlom",
+    "privacy_blurb": "Spracovanie vo vašom zariadení. Bez analytiky.",
+    "mac": "Vyžaduje macOS 14 alebo novší a prehliadač Safari 17 alebo novší. Určené pre podporované stránky s videami YouTube v Safari. Efekt zostáva na webovej stránke a nezobrazuje sa nad režimom Obraz v obraze. YouTube Shorts ani natívna aplikácia YouTube nie sú podporované. Účet u vývojára aplikácie nie je potrebný.",
+    "local_title": "LOKÁLNE SPRACOVANIE",
+    "automatic": [
+      "AUTOMATICKÝ ŠTART POD VAŠOU KONTROLOU",
+      "Zapnite rozšírenie v Safari a povoľte prístup k webovým stránkam YouTube. Efekt sa potom na podporovaných stránkach YouTube spustí automaticky. Automatické spúšťanie môžete vypnúť v nastaveniach rozšírenia; predchádzajúca voľba vypnúť ho zostáva zachovaná. Bez trvalého prístupu k YouTube môžete použiť Spustiť na tomto tabe a udeliť prístup k stránke, o ktorý Safari prípadne požiada."
+    ],
+    "controls": [
+      "UPRAVTE SVETLO",
+      "Vo vyskakovacom okne rozšírenia upravte „Dosah svetla“ a „Rozostrenie“. Mobilné nastavenia umožňujú upraviť aj „Jas“ a „Sýtosť“. Osvetlenie na mobilných zariadeniach ponúka obmedzenú sadu ovládacích prvkov, nie všetky nastavenia efektu pre počítač."
+    ],
+    "limits": [
+      "PONECHAJTE VIDEO NA STRÁNKE",
+      "Žiara obklopuje video prehrávané priamo na webovej stránke. V systémovom prehrávači na celej obrazovke a v režime Obraz v obraze sa pozastaví. YouTube Shorts ani natívna aplikácia YouTube nie sú podporované. Niektoré chránené videá nemusia efekt podporovať."
+    ],
+    "req": "Vyžaduje iOS 17 alebo iPadOS 17 či novší a Safari. Účet u vývojára aplikácie nie je potrebný."
+  },
+  "sv": {
+    "path": "i18n/sv/index.html",
+    "direction": "ltr",
+    "name": "Svenska",
+    "support": "Support",
+    "privacy": "Integritetspolicy",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari använder Wessel Kroos MIT-licensierade renderare youtube-ambilight.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Licens för öppen källkod</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Integritetspolicy</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Språk",
+      "illustration": "Illustration",
+      "captures": "Skärmbilder från iPad",
+      "compare_button": "Jämför",
+      "features": "Funktioner"
+    },
+    "title": "Videons färger sträcker sig utanför spelaren",
+    "lead": "Stämningsbelysning följer färgerna på YouTube i Safari.",
+    "setup": "Slå på tillägget i Safari och ge åtkomst till YouTube.",
+    "compare": "Jämför belysningen",
+    "off": "Utan ljus",
+    "on": "Med ljus",
+    "privacy_blurb": "Bearbetas på din enhet. Ingen analysdata.",
+    "mac": "Kräver macOS 14 eller senare och Safari 17 eller senare. Utformad för YouTube-videosidor som stöds i Safari. Effekten stannar i webbsidan och visas inte ovanpå bild-i-bild. YouTube Shorts och den separata YouTube-appen stöds inte. Inget konto hos apputvecklaren krävs.",
+    "local_title": "LOKAL BEARBETNING",
+    "automatic": [
+      "AUTOMATISK START, DU BESTÄMMER",
+      "Aktivera tillägget i Safari och tillåt åtkomst till YouTubes webbplats. Effekten startar sedan automatiskt på YouTube-sidor som stöds. Du kan stänga av automatisk start i tilläggets inställningar. Ett tidigare val att stänga av den behålls. Utan löpande åtkomst till YouTube kan du använda Starta på den här fliken och bevilja den sidåtkomst som Safari eventuellt begär."
+    ],
+    "controls": [
+      "JUSTERA LJUSET",
+      "Ändra Ljusets räckvidd och Mjukhet i tilläggets popupfönster. Mobilinställningarna låter dig också justera Ljusstyrka och Mättnad. Mobilbelysningen erbjuder ett begränsat urval reglage, inte alla effektinställningar i datorversionen."
+    ],
+    "limits": [
+      "BEHÅLL VIDEON I SIDAN",
+      "Skenet omger videon som spelas upp i webbsidan. Det pausas i systemets helskärmsspelare och i bild-i-bild. YouTube Shorts och den separata YouTube-appen stöds inte. Vissa skyddade videor kanske inte stöder effekten."
+    ],
+    "req": "Kräver iOS 17 eller iPadOS 17 eller senare samt Safari. Inget konto hos apputvecklaren krävs."
+  },
+  "th": {
+    "path": "i18n/th/index.html",
+    "direction": "ltr",
+    "name": "ไทย",
+    "support": "การสนับสนุน",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari ใช้ตัวเรนเดอร์ youtube-ambilight ของ Wessel Kroos ภายใต้สัญญาอนุญาต MIT</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">สัญญาอนุญาตโอเพนซอร์ส</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">นโยบายความเป็นส่วนตัว</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "ภาษา",
+      "illustration": "ภาพประกอบ",
+      "captures": "ภาพหน้าจอจาก iPad",
+      "compare_button": "เปรียบเทียบ",
+      "features": "คุณสมบัติ"
+    },
+    "title": "สีสันจากวิดีโอแผ่ออกนอกกรอบเครื่องเล่น",
+    "lead": "แสงรอบวิดีโอเปลี่ยนตามสีของ YouTube ใน Safari",
+    "setup": "เปิดส่วนขยายใน Safari แล้วอนุญาตให้เข้าถึง YouTube",
+    "compare": "เปรียบเทียบแสง",
+    "off": "ไม่เปิดแสง",
+    "on": "เปิดแสง",
+    "privacy_blurb": "ประมวลผลบนอุปกรณ์ของคุณ ไม่มีการวิเคราะห์การใช้งาน",
+    "mac": "ต้องใช้ macOS 14 ขึ้นไปและ Safari 17 ขึ้นไป ออกแบบมาสำหรับหน้าวิดีโอ YouTube ที่รองรับใน Safari เอฟเฟ็กต์จะแสดงอยู่ในหน้าเว็บเท่านั้น ไม่แสดงทับโหมดภาพซ้อนภาพ ไม่รองรับ YouTube Shorts และแอป YouTube ไม่ต้องมีบัญชีกับผู้พัฒนาแอป",
+    "local_title": "ประมวลผลภายในเครื่อง",
+    "automatic": [
+      "เริ่มอัตโนมัติ โดยคุณเป็นผู้ควบคุม",
+      "เปิดส่วนขยายใน Safari และอนุญาตให้เข้าถึงเว็บไซต์ YouTube จากนั้นเอฟเฟ็กต์จะเริ่มอัตโนมัติบนหน้า YouTube ที่รองรับ คุณปิด “เริ่มอัตโนมัติบน YouTube” ได้ใน “การตั้งค่า” ของส่วนขยาย หากเคยเลือกปิดไว้ ตัวเลือกนั้นจะยังคงอยู่ หากไม่ได้ให้สิทธิ์เข้าถึง YouTube อย่างต่อเนื่อง คุณยังใช้ “เริ่มในแท็บนี้” ได้ โดยอนุญาตการเข้าถึงหน้าตามที่ Safari ขอ"
+    ],
+    "controls": [
+      "ปรับแสง",
+      "เปลี่ยน “ระยะกระจายแสง” และ “ความฟุ้งของแสง” จากป๊อปอัปของส่วนขยาย การตั้งค่าบนมือถือยังให้คุณปรับ “ความสว่าง” และ “ความอิ่มสี” ได้ด้วย แสงบนมือถือมีตัวควบคุมเพียงบางส่วน ไม่ได้มีการตั้งค่าเอฟเฟ็กต์ครบเท่ารุ่นเดสก์ท็อป"
+    ],
+    "limits": [
+      "ให้วิดีโอเล่นอยู่ในหน้าเว็บ",
+      "แสงจะล้อมรอบวิดีโอที่เล่นภายในหน้าเว็บ และหยุดชั่วคราวในตัวเล่นเต็มหน้าจอของระบบและโหมดภาพซ้อนภาพ ไม่รองรับ YouTube Shorts และแอป YouTube วิดีโอที่มีการป้องกันบางรายการอาจไม่รองรับเอฟเฟ็กต์นี้"
+    ],
+    "req": "ต้องใช้ iOS 17 หรือ iPadOS 17 ขึ้นไป และ Safari ไม่ต้องมีบัญชีกับผู้พัฒนาแอป"
+  },
+  "tr": {
+    "path": "i18n/tr/index.html",
+    "direction": "ltr",
+    "name": "Türkçe",
+    "support": "Destek",
+    "privacy": "Gizlilik Politikası",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari, Wessel Kroos tarafından geliştirilen MIT lisanslı youtube-ambilight işleyicisini kullanır.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Açık kaynak lisansı</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Gizlilik Politikası</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Dil",
+      "illustration": "Temsili görsel",
+      "captures": "iPad ekran görüntüleri",
+      "compare_button": "Karşılaştır",
+      "features": "Özellikler"
+    },
+    "title": "Videonun renkleri oynatıcının dışına taşar",
+    "lead": "Ortam ışığı Safari’de YouTube’un renklerini takip eder.",
+    "setup": "Uzantıyı Safari’de etkinleştir ve YouTube erişimine izin ver.",
+    "compare": "Işık karşılaştırması",
+    "off": "Işıksız",
+    "on": "Işıklı",
+    "privacy_blurb": "Cihazınızda işlenir. Analiz yoktur.",
+    "mac": "macOS 14 veya sonrası ve Safari 17 veya sonrası gerekir. Safari’de desteklenen YouTube video sayfaları için tasarlanmıştır. Efekt web sayfasında kalır ve Resim içinde resim üzerinde görünmez. YouTube Shorts ve yerel YouTube uygulaması desteklenmez. Uygulama geliştiricisinde hesap açmanız gerekmez.",
+    "local_title": "YEREL İŞLEME",
+    "automatic": [
+      "OTOMATİK BAŞLATMA, SİZİN KONTROLÜNÜZDE",
+      "Safari’de uzantıyı etkinleştirin ve YouTube sitesine erişime izin verin. Efekt daha sonra desteklenen YouTube sayfalarında otomatik başlar. Uzantı ayarlarından otomatik başlatmayı kapatabilirsiniz; daha önce kapatmayı seçtiyseniz bu tercih korunur. Sürekli YouTube erişimi olmadan, Safari’nin istediği sayfa erişim izinlerini vererek “Bu sekmede başlat”ı kullanabilirsiniz."
+    ],
+    "controls": [
+      "IŞIĞI AYARLAYIN",
+      "Uzantının açılır penceresinden yayılma ve yumuşaklığı değiştirin. Mobil ayarlar parlaklığı ve doygunluğu da ayarlamanızı sağlar. Mobil aydınlatma, masaüstündeki tüm efekt ayarları yerine sınırlı bir denetim grubu sunar."
+    ],
+    "limits": [
+      "VİDEOYU SAYFADA TUTUN",
+      "Parıltı, web sayfası içinde oynatılan videoyu çevreler. Sistemin tam ekran oynatıcısında ve Resim içinde resim modunda duraklar. YouTube Shorts ve yerel YouTube uygulaması desteklenmez. Bazı korumalı videolar efekti desteklemeyebilir."
+    ],
+    "req": "iOS 17 veya iPadOS 17 ya da sonrası ve Safari gerekir. Uygulama geliştiricisinde hesap açmanız gerekmez."
+  },
+  "uk": {
+    "path": "i18n/uk/index.html",
+    "direction": "ltr",
+    "name": "Українська",
+    "support": "Підтримка",
+    "privacy": "Політика приватності",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari використовує рушій youtube-ambilight від Wessel Kroos, що поширюється за ліцензією MIT.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Ліцензія відкритого вихідного коду</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Політика приватності</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Мова",
+      "illustration": "Ілюстрація",
+      "captures": "Знімки екрана з iPad",
+      "compare_button": "Порівняти",
+      "features": "Можливості"
+    },
+    "title": "Кольори відео виходять за межі програвача",
+    "lead": "Підсвічування підлаштовується під кольори YouTube в Safari.",
+    "setup": "Увімкніть розширення в Safari й дозвольте доступ до YouTube.",
+    "compare": "Порівняння підсвічування",
+    "off": "Без підсвічування",
+    "on": "З підсвічуванням",
+    "privacy_blurb": "Обробка на вашому пристрої. Без аналітики.",
+    "mac": "Потрібні macOS 14 або новіша та Safari 17 або новіший. Призначено для підтримуваних сторінок відео YouTube у Safari. Ефект залишається всередині вебсторінки й не відображається поверх режиму «Картинка в картинці». YouTube Shorts і нативний застосунок YouTube не підтримуються. Обліковий запис у розробника застосунку не потрібен.",
+    "local_title": "ЛОКАЛЬНА ОБРОБКА",
+    "automatic": [
+      "АВТОЗАПУСК ПІД ВАШИМ КОНТРОЛЕМ",
+      "Увімкніть розширення в Safari та дозвольте доступ до сайту YouTube. Після цього ефект запускається автоматично на підтримуваних сторінках YouTube. Можна вимкнути автозапуск у параметрах розширення; попередній вибір вимкнути його зберігається. Без постійного доступу до YouTube можна використовувати «Запустити в цій вкладці», надавши дозвіл на доступ до сторінки, якщо Safari його попросить."
+    ],
+    "controls": [
+      "НАЛАШТУЙТЕ СВІТЛО",
+      "Змінюйте поширення й м’якість у спливному вікні розширення. Мобільні параметри також дають змогу змінювати яскравість і насиченість. Мобільне підсвічування пропонує обмежений набір елементів керування, а не повний набір параметрів ефекту для комп’ютера."
+    ],
+    "limits": [
+      "ЗАЛИШТЕ ВІДЕО НА СТОРІНЦІ",
+      "Світіння оточує відео, яке відтворюється всередині вебсторінки. Воно призупиняється в системному повноекранному програвачі та режимі «Картинка в картинці». YouTube Shorts і нативний застосунок YouTube не підтримуються. Деякі захищені відео можуть не підтримувати ефект."
+    ],
+    "req": "Потрібні iOS 17 або iPadOS 17 або новіша та Safari. Обліковий запис у розробника застосунку не потрібен."
+  },
+  "vi": {
+    "path": "i18n/vi/index.html",
+    "direction": "ltr",
+    "name": "Tiếng Việt",
+    "support": "Hỗ trợ",
+    "privacy": "Chính sách quyền riêng tư",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari dùng bộ kết xuất youtube-ambilight theo giấy phép MIT của Wessel Kroos.</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">Giấy phép nguồn mở</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">Chính sách quyền riêng tư</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "Ngôn ngữ",
+      "illustration": "Hình minh họa",
+      "captures": "Ảnh chụp màn hình trên iPad",
+      "compare_button": "So sánh",
+      "features": "Tính năng"
+    },
+    "title": "Màu sắc video lan ra ngoài khung phát",
+    "lead": "Ánh sáng nền thay đổi theo màu YouTube trong Safari.",
+    "setup": "Bật tiện ích trong Safari và cho phép truy cập YouTube.",
+    "compare": "So sánh ánh sáng",
+    "off": "Không có ánh sáng",
+    "on": "Có ánh sáng",
+    "privacy_blurb": "Xử lý trên thiết bị. Không thu thập dữ liệu phân tích.",
+    "mac": "Yêu cầu macOS 14 trở lên và Safari 17 trở lên. Được thiết kế cho các trang video YouTube được hỗ trợ trong Safari. Hiệu ứng nằm trong trang web và không xuất hiện trên Hình trong hình. Không hỗ trợ YouTube Shorts và ứng dụng YouTube. Không cần tài khoản với nhà phát triển ứng dụng.",
+    "local_title": "XỬ LÝ CỤC BỘ",
+    "automatic": [
+      "TỰ ĐỘNG BẮT ĐẦU, BẠN VẪN KIỂM SOÁT",
+      "Bật tiện ích trong Safari và cho phép truy cập trang web YouTube. Hiệu ứng sau đó tự động bắt đầu trên các trang YouTube được hỗ trợ. Bạn có thể tắt tự động bắt đầu trong cài đặt tiện ích; lựa chọn tắt trước đó được giữ nguyên. Khi không có quyền truy cập YouTube lâu dài, bạn có thể dùng Bắt đầu trên tab này và cấp quyền truy cập trang mà Safari yêu cầu."
+    ],
+    "controls": [
+      "ĐIỀU CHỈNH ÁNH SÁNG",
+      "Đổi Độ lan và Độ mềm từ cửa sổ bật lên của tiện ích. Cài đặt trên thiết bị di động cũng cho phép chỉnh Độ sáng và Độ bão hòa. Ánh sáng trên thiết bị di động có các tùy chỉnh giới hạn, không phải toàn bộ cài đặt hiệu ứng trên máy tính."
+    ],
+    "limits": [
+      "GIỮ VIDEO TRONG TRANG",
+      "Ánh sáng bao quanh video đang phát trong trang web. Hiệu ứng tạm dừng trong trình phát toàn màn hình của hệ thống và Hình trong hình. Không hỗ trợ YouTube Shorts và ứng dụng YouTube. Một số video được bảo vệ có thể không hỗ trợ hiệu ứng."
+    ],
+    "req": "Yêu cầu iOS 17 hoặc iPadOS 17 trở lên và Safari. Không cần tài khoản với nhà phát triển ứng dụng."
+  },
+  "zh-Hans": {
+    "path": "i18n/zh_CN/index.html",
+    "direction": "ltr",
+    "name": "简体中文",
+    "support": "支持",
+    "privacy": "隐私政策",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari 使用 Wessel Kroos 以 MIT 许可提供的 youtube-ambilight 渲染器。</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">开源许可证</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">隐私政策</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "语言",
+      "illustration": "效果示意图",
+      "captures": "iPad 实际画面",
+      "compare_button": "对比",
+      "features": "功能"
+    },
+    "title": "让视频的色彩延伸到播放器之外",
+    "lead": "在 Safari 中，环境光晕随 YouTube 视频的色彩变化。",
+    "setup": "在 Safari 中启用扩展，并允许访问 YouTube。",
+    "compare": "光效对比",
+    "off": "无光效",
+    "on": "有光效",
+    "privacy_blurb": "在设备上处理，不收集分析数据。",
+    "mac": "需要 macOS 14 或更高版本，以及 Safari 17 或更高版本。专为 Safari 中受支持的 YouTube 视频页面设计。光效仅显示在网页内，不会叠加在画中画上。不支持 YouTube Shorts 和 YouTube 应用。无需注册应用开发者的账户。",
+    "local_title": "本地处理",
+    "automatic": [
+      "自动启动，由你掌控",
+      "在 Safari 中启用扩展，并允许访问 YouTube 网站。之后，光效会在受支持的 YouTube 页面上自动启动。你可以在扩展的“设置”中关闭“在 YouTube 上自动启动”；如果之前已经选择关闭，该选择会保留。如果没有授予 YouTube 持续访问权限，仍可使用“在此标签页启动”，并按 Safari 的提示授予所需的页面访问权限。"
+    ],
+    "controls": [
+      "调整光效",
+      "在扩展弹出窗口中更改“光照扩散范围”和“柔化”。移动版设置还可调整“亮度”和“饱和度”。移动版照明仅提供部分控制选项，并不具备桌面版的全部光效设置。"
+    ],
+    "limits": [
+      "让视频在页面内播放",
+      "光晕环绕网页内播放的视频。进入系统全屏播放器或画中画时，光效会暂停。不支持 YouTube Shorts 和 YouTube 应用。部分受保护的视频可能无法使用光效。"
+    ],
+    "req": "需要 iOS 17 或 iPadOS 17 或更高版本，以及 Safari。无需注册应用开发者的账户。"
+  },
+  "zh-Hant": {
+    "path": "i18n/zh_TW/index.html",
+    "direction": "ltr",
+    "name": "繁體中文",
+    "support": "支援",
+    "privacy": "隱私權政策",
+    "legal": "<p data-i18n=\"native.codeCredit\">Tube Ambient Lights for Safari 使用 Wessel Kroos 依 MIT 授權提供的 youtube-ambilight 算繪器。</p><p><a data-i18n=\"native.license\" href=\"/tube-ambient-lights/LICENSE.txt\">開放原始碼授權</a> · <a data-i18n=\"native.privacy\" href=\"privacy.html\">隱私權政策</a></p><p>© 2026 CorvusDevs</p>",
+    "localized": {
+      "language": "語言",
+      "illustration": "效果示意圖",
+      "captures": "iPad 實際畫面",
+      "compare_button": "比較",
+      "features": "功能"
+    },
+    "title": "讓影片的色彩延伸到播放器之外",
+    "lead": "在 Safari 中，環境光暈會隨 YouTube 影片的色彩變化。",
+    "setup": "在 Safari 中啟用延伸功能，並允許取用 YouTube。",
+    "compare": "光效對照",
+    "off": "無光效",
+    "on": "有光效",
+    "privacy_blurb": "在裝置上處理，不收集分析資料。",
+    "mac": "需要 macOS 14 或以上版本，以及 Safari 17 或以上版本。專為 Safari 中支援的 YouTube 影片頁面設計。光效只會顯示在網頁內，不會疊加在子母畫面上。不支援 YouTube Shorts 與 YouTube App。不需要應用程式開發者的帳號。",
+    "local_title": "在本機處理",
+    "automatic": [
+      "自動啟動，由你掌握",
+      "在 Safari 中啟用延伸功能，並允許取用 YouTube 網站。之後，光效會在支援的 YouTube 頁面上自動啟動。你可以在延伸功能的「設定」中關閉「在 YouTube 自動啟動」；如果先前選擇關閉，這項選擇會保留。即使沒有持續取用 YouTube 的權限，仍可使用「在此分頁啟動」，並依 Safari 的提示授予所需的頁面取用權限。"
+    ],
+    "controls": [
+      "調整光效",
+      "在延伸功能的彈出式視窗中變更「光線延伸範圍」與「柔化」。行動版設定也可調整「亮度」與「飽和度」。行動版光效只提供部分控制選項，並未提供桌面版的完整光效設定。"
+    ],
+    "limits": [
+      "讓影片留在頁面中播放",
+      "光暈會環繞網頁內播放的影片。進入系統全螢幕播放器或子母畫面時，光效會暫停。不支援 YouTube Shorts 與 YouTube App。部分受保護的影片可能無法使用光效。"
+    ],
+    "req": "需要 iOS 17 或 iPadOS 17 或以上版本，以及 Safari。不需要應用程式開發者的帳號。"
+  },
+  "es": {
+    "path": "index.es.html",
+    "direction": "ltr",
+    "name": "Español (España)",
+    "support": "Asistencia",
+    "privacy": "Política de privacidad",
+    "legal": "<p>© 2026 CorvusDevs. Incluye código de Wessel Kroos bajo <a href=\"/tube-ambient-lights/LICENSE.txt\">licencia MIT (texto original en inglés)</a>.</p>\n  <p>YouTube y Safari son marcas de sus respectivos propietarios. Este producto no está afiliado a YouTube ni a Apple.</p>",
+    "localized": {
+      "language": "Idioma",
+      "illustration": "Vista ilustrativa",
+      "captures": "Capturas reales de iPad",
+      "compare_button": "Comparar",
+      "features": "Funciones"
+    },
+    "title": "El color de tus videos va más allá del reproductor",
+    "lead": "Una luz ambiental que sigue los colores de YouTube en Safari.",
+    "setup": "Activa la extensión en Safari y permite el acceso a YouTube.",
+    "compare": "Comparativa de iluminación",
+    "off": "Sin luz",
+    "on": "Con luz",
+    "privacy_blurb": "Procesamiento en tu dispositivo. Sin análisis de uso.",
+    "mac": "Requiere macOS 14 o posterior y Safari 17 o posterior. Diseñada para páginas de vídeo de YouTube compatibles en Safari. El efecto permanece en la página y no aparece sobre Imagen dentro de imagen. YouTube Shorts y la app de YouTube no son compatibles. No necesitas una cuenta con el desarrollador de la app.",
+    "local_title": "PROCESAMIENTO LOCAL",
+    "automatic": [
+      "INICIO AUTOMÁTICO, BAJO TU CONTROL",
+      "Activa la extensión en Safari y permite el acceso al sitio web de YouTube. El efecto se iniciará automáticamente en las páginas compatibles. Puedes desactivar el inicio automático en los ajustes de la extensión; si ya lo habías desactivado, se respeta tu elección. Si no concedes acceso continuo a YouTube, puedes iniciar el efecto manualmente en la pestaña seleccionada con el permiso de página que solicite Safari."
+    ],
+    "controls": [
+      "AJUSTA LA LUZ",
+      "Cambia la extensión de la luz y el difuminado desde el panel de la extensión. Los ajustes de la versión móvil también permiten cambiar el brillo y la saturación. La iluminación móvil ofrece un conjunto limitado de controles, no todos los ajustes de efectos de la versión para Mac."
+    ],
+    "limits": [
+      "MANTÉN EL VÍDEO EN LA PÁGINA",
+      "La luz rodea el vídeo mientras se reproduce dentro de la página. El efecto se pausa en el reproductor del sistema a pantalla completa y en Imagen dentro de imagen. No es compatible con YouTube Shorts ni con la app de YouTube. Es posible que algunos vídeos protegidos no permitan el efecto."
+    ],
+    "req": "Requiere iOS 17 o iPadOS 17 o posterior y Safari. No necesitas una cuenta con el desarrollador de la app."
+  },
+  "en": {
+    "path": "index.html",
+    "direction": "ltr",
+    "name": "English",
+    "support": "Support",
+    "privacy": "Privacy Policy",
+    "legal": "<p>© 2026 CorvusDevs. Includes code by Wessel Kroos under the <a href=\"/tube-ambient-lights/LICENSE.txt\">MIT license</a>.</p>\n  <p>YouTube and Safari are trademarks of their respective owners. This product is not affiliated with YouTube or Apple.</p>",
+    "localized": {
+      "language": "Language",
+      "illustration": "Illustration",
+      "captures": "Real iPad captures",
+      "compare_button": "Compare",
+      "features": "Features"
+    },
+    "title": "Take your video’s colors beyond the player",
+    "lead": "Ambient light that follows YouTube’s colors in Safari.",
+    "setup": "Turn on the extension in Safari and allow access to YouTube.",
+    "compare": "Lighting comparison",
+    "off": "Without light",
+    "on": "With light",
+    "privacy_blurb": "Processed on your device. No analytics.",
+    "mac": "Requires macOS 14 or later and Safari 17 or later. Designed for supported YouTube video pages in Safari. The effect stays in the webpage and does not appear over Picture in Picture. YouTube Shorts and the native YouTube app are not supported. No account with the app developer is required.",
+    "local_title": "LOCAL PROCESSING",
+    "automatic": [
+      "AUTOMATIC START, YOUR CONTROL",
+      "Enable the extension in Safari and allow YouTube website access. The effect then starts automatically on supported YouTube pages. You can turn automatic startup off in the extension settings; an existing choice to turn it off is kept. Without ongoing YouTube access, you can use Start on this tab with any page-access permission Safari requests."
+    ],
+    "controls": [
+      "ADJUST THE LIGHT",
+      "Change spread and softness from the extension popup. The mobile settings also let you adjust brightness and saturation. Mobile lighting offers a limited set of controls rather than the full desktop effect settings."
+    ],
+    "limits": [
+      "KEEP THE VIDEO IN THE PAGE",
+      "The glow surrounds video playing within the webpage. It pauses in the system fullscreen player and Picture in Picture. YouTube Shorts and the native YouTube app are not supported. Some protected videos may not support the effect."
+    ],
+    "req": "Requires iOS 17 or iPadOS 17 or later and Safari. No account with the app developer is required."
+  }
+}
