@@ -43,3 +43,7 @@ tube-ambient-lights/style.css
 tube-ambient-lights/LICENSE.txt
 tube-ambient-lights/robots.txt
 tube-ambient-lights/i18n/*/*.html
+
+# Public Tube language routing and reproducible landing generator.
+tube-ambient-lights/language-router.js
+build/build-tube.py

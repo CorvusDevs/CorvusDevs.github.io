@@ -29,6 +29,9 @@ parser.add_argument('--check', action='store_true')
 parser.add_argument('--output', type=Path, default=product)
 args = parser.parse_args()
 
+if not (product / 'language-router.js').is_file():
+    parser.error('Missing public Tube language-router.js')
+
 def sent(text, n):
     # CJK punctuation is followed by a new sentence with no spaces.
     return ''.join(re.findall(r'.+?(?:[。।]|[.!?](?=\s|$)|$)\s*', text)[:n]).strip()
@@ -119,6 +122,7 @@ for lang, d in locales.items():
 {alternates}
 <link rel="icon" href="/icons/tube-ambient-lights.png">
 <link rel="stylesheet" href="{base.removeprefix('https://corvusdevs.github.io')}launch.css">
+<script src="/tube-ambient-lights/language-router.js"></script>
 <script defer src="/tube-ambient-lights/launch.js"></script>
 </head>
 <body>'''
